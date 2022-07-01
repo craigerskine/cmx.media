@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" class="bg-gray-900" x-data="{}" hidden x-cloak>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>{% if title %}{{ title +' / '+ site.meta.title }}{% else %}{{ site.meta.title or site.meta.title }}{% endif %}</title>
+    <meta name="description" content="{{ site.meta.description }}" />
+    <meta name="author" content="{{ site.meta.author + ' - '+ site.meta.author_url }}" />
+    <meta name="generator" content="{{ eleventy.generator }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" />
+
+    <meta property="og:title" content="{{ site.meta.title }}" />
+    <meta property="og:description" content="{{ site.meta.description }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://comx.media{{ page.url }}" />
+    <!-- <meta property="og:image" content="https://comx.media/_assets/img/og.png" /> -->
+
+    {% import 'components/logo.njk' as logo %}
+
+  </head>
+
+  <body class="bg-gray-100 text-gray-700">
+
+    <div class="min-h-screen flex(& col) relative">
+      <header class="w-full flex-none"></header>
+      <main class="px-4 w-full text-[calc(5vw)] font-black flex(& 1) items-center justify-center">Coming soon...</main>
+      <footer class="w-full flex-none"></footer>
+    </div>
+
+    <script src="/_assets/js/alpine.js?v={% version %}"></script>
+    <script src="/_assets/js/twind.js?v={% version %}"></script>
+    <script src="https://kit.fontawesome.com/a2bf4ed495.js"></script>
+    <script>
+      twind.setup({
+        mode: "silent",
+        theme: {
+          extend: {
+            colors: {
+              pri: twindColors.red,
+              sec: twindColors.blue,
+            },
+            fontFamily: (theme) => ({
+              sans: 'Inter,' + theme('fontFamily.inter'),
+            }),
+          },
+        },
+        plugins: {
+          ...twindTypography(),
+          'scroll-smooth': { 'scroll-behavior': 'smooth' },
+        },
+      })
+      twind.tw(() => ({
+        '@global': {
+          '.prose h1,.prose h2,.prose h3': { '@apply': 'font-black' },
+          '.prose h4,.prose h5,.prose h6': { '@apply': 'font-bold' },
+          '.prose blockquote': { '@apply': 'border-l-4 font-semibold italic' },
+          '.prose ul': { '@apply': 'ml-4 list-disc' },
+          '.prose ol': { '@apply': 'ml-4 list-decimal' },
+          '.prose ul > li,.prose ol > li': { 'padding-left': '.25rem !important' },
+          '.prose ul > li::marker,.prose ol > li::marker': { '@apply': 'text-pri-900 text-opacity-50' },
+          '.prose table': { '@apply': 'w-full' },
+          '.prose table th': { '@apply': 'text-left' },
+          '.prose code': { '@apply': 'font-bold' },
+          '.prose pre': { '@apply': 'bg-gray-800 text-gray-100 overflow-x-auto' },
+          '[x-cloak]': { '@apply': 'hidden', },
+        }
+      }))
+      twindObserve.observe(document.documentElement);
+      document.documentElement.removeAttribute('hidden');
+    </script>
+
+  </body>
+
+</html>

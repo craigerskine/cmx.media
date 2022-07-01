@@ -1,0 +1,17 @@
+{
+  "name": "comx.media",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [
+    "11ty"
+  ],
+  "author": "craigerskine",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
