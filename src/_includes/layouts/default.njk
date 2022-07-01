@@ -27,7 +27,9 @@
 
     <div class="min-h-screen flex(& col) relative">
       <header class="w-full flex-none"></header>
-      <main class="px-4 w-full text-[calc(5vw)] font-black flex(& 1) items-center justify-center">Coming soon...</main>
+      <main class="flex(& 1) items-center justify-center">
+        {{ content | safe }}
+      </main>
       <footer class="w-full flex-none"></footer>
     </div>
 
