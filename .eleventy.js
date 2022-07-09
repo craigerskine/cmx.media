@@ -14,7 +14,14 @@ module.exports = function(eleventyConfig) {
     });
     return pageArr.slice(0, limit);
   });
+  // for zine in (magazines | flatMap('series') | unique('series'))
+  eleventyConfig.addFilter('flatMap', (list, key) => list.flatMap((x) => x[key]))
+  eleventyConfig.addFilter('unique', (list, key) => {
+    const map = new Map(list.map((x) => [x[key], x]))
+    return [...map.values()]
+  });
   return {
+    jsDataFileSuffix: ".data",
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     dir: {

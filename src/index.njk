@@ -3,5 +3,11 @@ layout: 'layouts/default.njk'
 ---
 
 <section>
-  <h1 class="px-4 text-[calc(5vw)] font-black">Coming soon...</h1>
+  <div class="container mx-auto">
+    <ul class="mb-16 flex justify-center gap-16">
+      <li>{{ series | length }} Series</li>
+      <li><a href="/comics/">{{ comics | length }} Comics</a></li>
+      <li><a href="/magazines/">{{ magazines | length }} Magazines</a></li>
+    </ul>
+  </div>
 </section>

@@ -1,6 +1,6 @@
 .DS_Store
 *.code-workspace
-_.nuxt/
 /node_modules
 /package-lock.json
 /public
+/_dev

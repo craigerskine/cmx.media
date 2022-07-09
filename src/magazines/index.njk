@@ -1,0 +1,28 @@
+---
+layout: 'layouts/default.njk'
+pagination:
+  data: series
+  size: 1
+  alias: series
+permalink: "magazines/{{ series | slugify }}/"
+eleventyComputed:
+  title: "{{ series }}"
+---
+
+<section>
+  <div class="container mx-auto">
+    <h1>{{ title }}</h1>
+    <ul class="grid(& cols-3) gap-16">
+      {%- for zine in magazines %}
+        {%- if zine.series === series %}
+          <li>
+            <figure>
+              <img src="/_assets/img/comics/_comic.jpg" alt="{{ zine.series }}, {{ zine.issue}}" class="w-32" />
+              <figcaption>#{{ zine.issue }} / {{ zine.release_date }}</figcaption>
+            </figure>
+          </li>
+        {%- endif %}
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
