@@ -138,7 +138,7 @@ module.exports = function () {
     },
     {
       series: "The Creech: Out For Blood",
-      issue: 1,
+      issue: "1",
       issue_nr: 1,
       full_title: "Out For Blood",
       subtitle: "",
@@ -155,7 +155,7 @@ module.exports = function () {
     },
     {
       series: "The Creech: Out For Blood",
-      issue: 2,
+      issue: "2",
       issue_nr: 2,
       full_title: "Wake The Dead",
       subtitle: "",

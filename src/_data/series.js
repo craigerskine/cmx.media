@@ -4,7 +4,7 @@ module.exports = function(){
     "The Art of Homage Studios",
     "Cable and The New Mutants",
     "The Creech",
-    "The Creech: Out for Blood",
+    "The Creech: Out For Blood",
     "Cyberforce, Vol. 1",
     "Cyberrad, Vol. 2",
     "Darker Image",
