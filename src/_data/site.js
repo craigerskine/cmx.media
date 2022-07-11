@@ -1,11 +1,12 @@
 module.exports = function() {
   return {
     meta: {
-      title: 'qrayg\'s comic library : comx.media',
+      title: 'comx.media',
+      sub: 'qrayg\'s comic library',
       description: 'qrayg\'s personal comic book collection',
       author: 'qrayg',
       author_url: 'qrayg.com',
-      footer: '...',
+      footer: 'Made with love by',
     },
     nav: [
       { title: 'Nav', url: '#', },

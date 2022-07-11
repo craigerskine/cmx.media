@@ -1,19 +1,19 @@
 ---
 layout: 'layouts/default.njk'
 pagination:
-  data: comics.series
+  data: misc.series
   size: 1
   alias: series
-permalink: "comics/{{ series | slugify }}/"
+permalink: "misc/{{ series | slugify }}/"
 eleventyComputed:
-  title: "{{ series }} : Comics"
+  title: "{{ series }} : Misc"
 ---
 
 <section>
   <div class="container mx-auto">
     <h1>{{ series }}</h1>
     <ul class="grid(& cols-3) gap-16">
-      {%- for item in comics.items %}
+      {%- for item in misc.items %}
         {%- if item.series === series %}
           <li>
             <figure>

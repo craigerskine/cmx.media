@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>{%- if title -%}{{ title +' : '+ site.meta.title }}{%- else -%}{{ site.meta.title }}{%- endif -%}</title>
+    <title>{%- if title -%}{{ title +' : ' }}{%- endif -%} {{ site.meta.title +' : '+ site.meta.sub }}</title>
     <meta name="description" content="{{ site.meta.description }}" />
     <meta name="author" content="{{ site.meta.author + ' - '+ site.meta.author_url }}" />
     <meta name="generator" content="{{ eleventy.generator }}" />
@@ -26,11 +26,19 @@
   <body class="bg-gray-100 text-gray-700">
 
     <div class="min-h-screen flex(& col) gap-16 relative">
-      <header class="w-full flex-none"></header>
+      <header class="w-full flex-none">
+        <a href="/">{{ logo.x(site.meta.title) }}</a>
+      </header>
       <main class="flex(& 1) items-center justify-center">
         {{ content | safe }}
       </main>
-      <footer class="w-full flex-none"></footer>
+      <footer class="w-full flex-none">
+        &copy;{% year %} {{ site.meta.footer }}<br />
+        <a href="https://{{ site.meta.author_url }}/" class="group mx-1 text-sec-600 inline-flex flex-col motion-safe:(transition) hover:(text-sec-900)">
+          {{ site.meta.author }}
+          <b class="h-px w-full flex"><b class="w-0 bg-current motion-safe:(transition-all) group-hover:(w-full)"></b></b>
+        </a>
+      </footer>
     </div>
 
     <script src="/_assets/js/alpine.js?v={% version %}"></script>

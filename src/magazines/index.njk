@@ -1,24 +1,24 @@
 ---
 layout: 'layouts/default.njk'
 pagination:
-  data: series
+  data: magazines.series
   size: 1
   alias: series
 permalink: "magazines/{{ series | slugify }}/"
 eleventyComputed:
-  title: "{{ series }}"
+  title: "{{ series }} : Magazines"
 ---
 
 <section>
   <div class="container mx-auto">
-    <h1>{{ title }}</h1>
+    <h1>{{ series }}</h1>
     <ul class="grid(& cols-3) gap-16">
-      {%- for zine in magazines %}
-        {%- if zine.series === series %}
+      {%- for item in magazines.items %}
+        {%- if item.series === series %}
           <li>
             <figure>
-              <img src="/_assets/img/comics/_comic.jpg" alt="{{ zine.series }}, {{ zine.issue}}" class="w-32" />
-              <figcaption>#{{ zine.issue }} / {{ zine.release_date }}</figcaption>
+              <img src="/_assets/img/_comic.jpg" alt="{{ item.series }}, {{ item.issue}}" class="w-32" />
+              <figcaption>#{{ item.issue }} / {{ item.release_date }}</figcaption>
             </figure>
           </li>
         {%- endif %}
