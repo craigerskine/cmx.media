@@ -4,7 +4,7 @@ layout: 'layouts/default.njk'
 
 <section>
   <div class="container mx-auto">
-    <ul class="mb-16 flex justify-center gap-16">
+    <ul class="grid(& cols-2) gap-4 md:(grid-cols-4 gap-16)">
       <li>{{ (comics.series | length) + (magazines.series | length) + (misc.series | length) }} Series</li>
       <li><a href="/comics/">{{ comics.items | length }} Comics</a></li>
       <li><a href="/magazines/">{{ magazines.items | length }} Magazines</a></li>
