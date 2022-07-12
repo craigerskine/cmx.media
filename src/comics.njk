@@ -1,32 +1,34 @@
 ---
 layout: 'layouts/default.njk'
+eleventyNavigation:
+  key: Comics
+  order: 1
 title: 'Comics'
 ---
 
 <section>
   <div class="container mx-auto">
     <ul class="grid(& cols-3) gap-10 lg:(gap-16)">
-      {% for series in (comics.series) -%}
+      {%- for series in (comics.series) %}
         <li>
-          <a href="/comics/{{ series | slugify }}/" class="mx-auto max-w-xs text-center block">
+          <a href="/comics/{{ series | slugify }}/" class="mx-auto max-w-screen-xs text-center block relative">
             <figure>
-              <img src="/_assets/img/comics/{{ series | slugify }}/series.jpg?v={% version %}" alt="{{ series }}" class="mx-auto w-32" />
+              <img src="/_assets/img/comics/{{ series | slugify }}/series.jpg?v={% version %}" alt="{{ series }}" class="mx-auto w-full" />
               <figcaption>
                 <strong class="truncate">{{ series.series }}</strong>
                 <ul class="text-xs font-mono flex flex-wrap justify-center gap-x-3">
-                  {%- for item in comics.items %}
-                    {%- if item.series === series %}
-                      <li>
-                        {{ item.issue }}
-                      </li>
-                    {%- endif %}
+                  {%- for item in comics.items | pluck(series, 'series') %}
+                    <li>
+                      {{ item.issue }}
+                    </li>
                   {%- endfor %}
                 </ul>
               </figcaption>
             </figure>
+            <b class="w-6 h-6 bg-white flex items-center justify-center absolute -top-3 -right-3 rounded-full">{{ comics.items | pluck(series, 'series') | length }}</b>
           </a>
         </li>
-      {% endfor -%}
+      {%- endfor %}
     </ul>
   </div>
 </section>

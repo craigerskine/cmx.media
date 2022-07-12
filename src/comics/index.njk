@@ -3,25 +3,23 @@ layout: 'layouts/default.njk'
 pagination:
   data: comics.series
   size: 1
-  alias: series
-permalink: "comics/{{ series | slugify }}/"
+  alias: seriesCurr
+permalink: "comics/{{ seriesCurr | slugify }}/"
 eleventyComputed:
-  title: "{{ series }} : Comics"
+  title: "{{ seriesCurr }} : Comics"
 ---
 
 <section>
   <div class="container mx-auto">
-    <h1>{{ series }}</h1>
+    <h1>{{ seriesCurr }}</h1>
     <ul class="grid(& cols-3) gap-16">
-      {%- for item in comics.items %}
-        {%- if item.series === series %}
-          <li>
-            <figure>
-              <img src="/_assets/img/_comic.jpg" alt="{{ item.series }}, {{ item.issue }}" class="w-32" />
-              <figcaption>#{{ item.issue }} / {{ item.release_date }}</figcaption>
-            </figure>
-          </li>
-        {%- endif %}
+      {%- for item in comics.items | pluck(seriesCurr, 'series') %}
+        <li>
+          <figure class="mx-auto w-full max-w-screen-xs">
+            <img src="/_assets/img/_comic.jpg" alt="{{ item.series }}, {{ item.issue }}" class="w-full" />
+            <figcaption>#{{ item.issue }} / {{ item.release_date }}</figcaption>
+          </figure>
+        </li>
       {%- endfor %}
     </ul>
   </div>

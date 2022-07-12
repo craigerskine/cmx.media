@@ -27,20 +27,23 @@
 
   <body class="bg-pri-200 text-pri-700 font-comic">
 
-    <div class="mx-auto p-4 w-full max-w-screen-xl min-h-screen flex(& col)">
+    <div class="mx-auto p-4 w-full max-w-screen-lg min-h-screen flex(& col)">
       <header class="w-full flex-none">
-        <div class="py-4">
-          <nav class="flex items-center">
-            <a href="/">{{ logo.x(site.meta.title) }}</a>
-            <ul class="label ml-auto flex items-center gap-4" data-label="Nav">
-              <li><a href="/comics/">Comics</a></li>
-              <li><a href="/magazines/">Mags</a></li>
-              <li><a href="/misc/">Misc</a></li>
+        <div class="pt-4 pb-6 flex items-end">
+          <div class="label pr-2 flex items-end gap-2" data-label="Site">
+            <a href="/" class="-mb-2">{{ logo.x(site.meta.title) }}</a>
+          </div>
+          <nav class="ml-auto">
+            <ul class="label pr-2 flex items-center gap-4" data-label="Nav">
+              {%- for item in collections.all | eleventyNavigation %}
+                <li><a href="{{ item.url }}" class="text-current {% if item.url == page.url %} active{% endif %}">{{ item.key }}</a></li>
+              {%- endfor %}
             </ul>
           </nav>
         </div>
       </header>
-      <main class="flex(& 1)">
+      <main class="flex(& 1) relative">
+        <b class="border(l-2 dashed pri-300) absolute left-4 -inset-y-3 md:(left-7)"></b>
         {{ bordersY.x() }}
         <section class="py-8 px-4 border(2 pri-300) w-full bg-pri-100 flex(& 1) md:(py-12 px-6)">
           <article class="p-4 border(2 dashed pri-300) flex(& 1) items-center justify-center">
@@ -48,13 +51,16 @@
           </article>
         </section>
         {{ bordersY.x() }}
+        <b class="border(l-2 dashed pri-300) absolute right-4 -inset-y-3 md:(right-7)"></b>
       </main>
-      <footer class="w-full flex-none">
-        <p class="py-4">
-          &copy;{% year %} {{ sep.x(class='py-2') }} {{ site.meta.footer }} {{ sep.x(class='py-2') }} 
-          <a href="https://{{ site.meta.author_url }}/" class="group text-sec-600 inline-flex flex-col motion-safe:(transition) hover:(text-sec-900)">
-            {{ site.meta.author }}
-          </a>
+      <footer class="w-full pt-6 text-xs flex(& none)">
+        <p class="label pr-2 flex items-end gap-2" data-label="Credit">
+          <span>
+            &copy;{% year %} {{ sep.x() }} {{ site.meta.footer }}
+            <a href="https://{{ site.meta.author_url }}/" class="group mx-1 text-sec-600 inline-flex flex-col motion-safe:(transition) hover:(text-sec-900)">
+              {{ site.meta.author }}
+            </a>
+          </span>
         </p>
       </footer>
     </div>
@@ -85,7 +91,7 @@
         '@global': {
           '[x-cloak]': { '@apply': 'hidden', },
           '.label': { '@apply': 'border(b-2 pri-300)' },
-          '.label:before': { '@apply': 'mr-2 text(xs pri-400) font(sans semibold) uppercase', 'content': 'attr(data-label)' },
+          '.label:before': { '@apply': 'mr-2 text([11px] pri-400) font(sans semibold) uppercase', 'content': 'attr(data-label)' },
         }
       }))
       twindObserve.observe(document.documentElement);
