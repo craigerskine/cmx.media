@@ -4,9 +4,9 @@ layout: 'layouts/default.njk'
 
 <article class="w-full flex">
   <ul class="m-auto w-full text-2xl grid(& cols-2) gap-4 md:(text-[calc(4vw)] grid-cols-4 gap-16)">
-    <li class="label flex items-end" data-label="Series:"><span class="mx-auto">{{ (comics.series | length) + (magazines.series | length) + (misc.series | length) }}</span></li>
+    <li class="label flex items-end" data-label="Series:"><span class="mx-auto">{{ (comics.series | length) + (zines.series | length) + (misc.series | length) }}</span></li>
     <li class="label flex items-end" data-label="Comics:"><a href="/comics/" class="mx-auto">{{ comics.items | length }}</a></li>
-    <li class="label flex items-end" data-label="Zines:"><a href="/zines/" class="mx-auto">{{ magazines.items | length }}</a></li>
+    <li class="label flex items-end" data-label="Zines:"><a href="/zines/" class="mx-auto">{{ zines.items | length }}</a></li>
     <li class="label flex items-end" data-label="Misc:"><a href="/misc/" class="mx-auto">{{ misc.items | length }}</a></li>
   </ul>
 </article>

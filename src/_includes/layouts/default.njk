@@ -37,9 +37,9 @@
             <ul class="label pr-2 uppercase flex items-end gap-2 md:(gap-6)" data-label="Nav:">
               {%- for item in collections.all | eleventyNavigation %}
                 <li class="relative">
-                  <a href="{{ item.url }}" class="motion-safe:(transition) hover:(text-sec-900) {% if item.url == page.url %} active text-pri-800 font-bold{% else %} text-pri-500{% endif %}">
+                  <a href="{{ item.url }}" class="motion-safe:(transition) hover:(text-sec-900) {% if item.url == page.url or item.url in page.url %} active text-pri-800 font-bold{% else %} text-pri-500{% endif %}">
                     {{ item.key }}
-                    {% if item.url == page.url %}<b class="h-[2px] bg-current absolute -inset-x-2 -bottom-[2px]"></b>{% endif %}
+                    {% if item.url == page.url or item.url in page.url %}<b class="h-[2px] bg-current absolute -inset-x-2 -bottom-[2px]"></b>{% endif %}
                   </a>
                 </li>
               {%- endfor %}

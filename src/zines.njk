@@ -11,15 +11,15 @@ title: 'Magazines'
 <article class="container mx-auto">
   {{ heading.x(title) }}
   <ul class="grid(& cols-2) gap-4 lg:(grid-cols-3 gap-16)">
-    {%- for series in (magazines.series) %}
+    {%- for series in (zines.series) %}
       <li>
-        <a href="/magazines/{{ series | slugify }}/" class="mx-auto w-full max-w-[250px] text-center block relative">
+        <a href="/zines/{{ series | slugify }}/" class="mx-auto w-full max-w-[250px] text-center block relative">
           <figure>
-            <img src="/_assets/img/magazines/{{ series | slugify }}/series.jpg?v={% version %}" alt="{{ series }}" class="mx-auto w-full" />
+            <img src="/_assets/img/zines/{{ series | slugify }}/series.jpg?v={% version %}" alt="{{ series }}" class="mx-auto w-full" />
             <figcaption>
               <strong class="truncate">{{ series }}</strong>
               <ul class="text-xs font-mono flex flex-wrap justify-center gap-x-3">
-                {%- for item in magazines.items | pluck(series, 'series') %}
+                {%- for item in zines.items | pluck(series, 'series') %}
                   <li>
                     {{ item.issue }}
                   </li>
@@ -27,7 +27,7 @@ title: 'Magazines'
               </ul>
             </figcaption>
           </figure>
-          <b class="w-6 h-6 bg-white flex items-center justify-center absolute -top-3 -right-3 rounded-full">{{ magazines.items | pluck(series, 'series') | length }}</b>
+          <b class="w-6 h-6 bg-white flex items-center justify-center absolute -top-3 -right-3 rounded-full">{{ zines.items | pluck(series, 'series') | length }}</b>
         </a>
       </li>
     {%- endfor %}
