@@ -29,13 +29,17 @@ title: 'Comics'
               <strong x-text="item.series" class="truncate block"></strong>
             </figcaption>
           </figure>
-          <b class="w-6 h-6 bg-white flex items-center justify-center absolute -top-3 -right-3 ring(1 pri-500 opacity-75) rounded-full shadow-lg"><span x-text="item.issue"></span></b>
+          <b class="px-1 min-w-[1.5rem] h-6 bg-white text-sm leading-none flex items-center justify-center absolute -top-3 -right-3 ring(1 pri-500 opacity-75) rounded-full shadow-lg"><span x-text="item.issue"></span></b>
         </a>
       </li>
     </template>
   </ul>
+  <div x-show="!isOpen && search.length" class="alert py-8 text(2xl yellow-600 center)" role="alert">
+    Bang! Zap! Pow!
+    <strong class="py-2 text(sm pri-500) uppercase block">No results</strong>
+  </div>
 
-  <ul x-show="!isOpen" class="grid(& cols-2) gap-4 lg:(grid-cols-3 gap-16)">
+  <ul x-show="!isOpen && !search.length" class="grid(& cols-2) gap-4 lg:(grid-cols-3 gap-16)">
     {%- for series in (comics.series) %}
       <li>
         <a href="/comics/{{ series | slugify }}/" class="mx-auto w-full max-w-[250px] text-center block relative">
@@ -52,7 +56,7 @@ title: 'Comics'
               </ul>
             </figcaption>
           </figure>
-          <b class="w-6 h-6 bg-white flex items-center justify-center absolute -top-3 -right-3 ring(1 pri-500 opacity-75) rounded-full shadow-lg">{{ comics.items | pluck(series, 'series') | length }}</b>
+          <b class="px-1 min-w-[1.5rem] h-6 bg-white text-sm leading-none flex items-center justify-center absolute -top-3 -right-3 ring(1 pri-500 opacity-75) rounded-full shadow-lg">{{ comics.items | pluck(series, 'series') | length }}</b>
         </a>
       </li>
     {%- endfor %}
@@ -77,7 +81,7 @@ title: 'Comics'
         }
       },
       cleanSearch(e) {
-        alert(e.target.innerText)
+        // alert(e.target.innerText)
         this.search = ""
       },
       closeSearch() {

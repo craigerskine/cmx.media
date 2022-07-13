@@ -30,16 +30,16 @@
     <div class="mx-auto p-2 w-full max-w-screen-lg min-h-screen flex(& col) md:(p-4)">
       <header class="w-full flex-none">
         <div class="pb-6 px-2 flex items-end md:(px-4)">
-          <div class="label pr-2 flex items-end gap-2" data-label="Site:">
+          <div class="label flex items-end md:(pr-2)" data-label="Site:">
             <a href="/" class="-mb-2">{{ logo.x(site.meta.title) }}</a>
           </div>
           <nav class="ml-auto">
-            <ul class="label pr-2 uppercase flex items-end gap-2 md:(gap-6)" data-label="Nav:">
+            <ul class="label text-xs uppercase flex items-end gap-2 md:(pr-2 text-base gap-6)" data-label="Nav:">
               {%- for item in collections.all | eleventyNavigation %}
                 <li class="relative">
                   <a href="{{ item.url }}" class="motion-safe:(transition) hover:(text-sec-900) {% if item.url == page.url or item.url in page.url %} active text-pri-800 font-bold{% else %} text-pri-500{% endif %}">
                     {{ item.key }}
-                    {% if item.url == page.url or item.url in page.url %}<b class="h-[2px] bg-current absolute -inset-x-2 -bottom-[2px]"></b>{% endif %}
+                    {% if item.url == page.url or item.url in page.url %}<b class="h-[2px] bg-current absolute inset-x-0 -bottom-[2px] md:(-inset-x-2)"></b>{% endif %}
                   </a>
                 </li>
               {%- endfor %}
@@ -50,13 +50,13 @@
       <main class="flex(& 1) relative">
         {{ bordersY.x() }}
         <div class="py-8 px-4 border(2 pri-300) w-full bg-pri-100 flex(& 1) relative md:(py-12 px-6)">
-          <div class="p-4 border(2 dashed pri-300) flex(& 1)">
+          <div class="flex(& 1) md:(p-4 border(2 dashed pri-300))">
             <section class="w-full flex">{{ content | safe }}</section>
           </div>
         </div>
         {{ bordersY.x() }}
-        <b class="border(l-2 dashed pri-300) absolute left-4 -inset-y-3 md:(left-7)"></b>
-        <b class="border(l-2 dashed pri-300) absolute right-4 -inset-y-3 md:(right-7)"></b>
+        <b class="border(l-2 dashed pri-300) hidden absolute left-4 -inset-y-3 md:(left-7 block)"></b>
+        <b class="border(l-2 dashed pri-300) hidden absolute right-4 -inset-y-3 md:(right-7 block)"></b>
       </main>
       <footer class="w-full pt-6 px-2 text-sm flex(& none) md:(px-4)">
         <p class="label pr-2 flex items-end" data-label="&copy;">{% year %}</p>
@@ -96,7 +96,7 @@
         '@global': {
           '[x-cloak]': { '@apply': 'hidden', },
           '.label': { '@apply': 'border(b-2 pri-300)' },
-          '.label:before': { '@apply': 'mr-2 pb-1 text([11px] pri-400) leading-none font(sans semibold) uppercase', 'content': 'attr(data-label)' },
+          '.label:before': { '@apply': 'mr-2 pb-1 text([11px] pri-400) tracking-normal leading-none font(sans semibold) uppercase', 'content': 'attr(data-label)' },
         }
       }))
       twindObserve.observe(document.documentElement);
