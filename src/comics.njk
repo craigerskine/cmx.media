@@ -24,7 +24,7 @@ title: 'Comics'
       <li>
         <a :href="'/comics/'+ slugify(item.series) +'/'" class="mx-auto w-full max-w-[250px] text-center block relative">
           <figure>
-            <img :src="'/_assets/img/comics/'+ slugify(item.series) +'/series.jpg'" :alt="item.series" class="mx-auto w-full" />
+            <img :src="'/_assets/img/comics/'+ slugify(item.series) +'/'+ item.issue +'.jpg'" :alt="item.series" class="mx-auto w-full" />
             <figcaption>
               <strong x-text="item.series" class="truncate block"></strong>
             </figcaption>
