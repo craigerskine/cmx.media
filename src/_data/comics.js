@@ -699,7 +699,7 @@ module.exports = function () {
         genre: "Adventure",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 0,
       },
       {
         series: "Images of Shadowhawk",
@@ -1005,7 +1005,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 52,
-        price: null,
+        price: 1,
       },
       {
         series: "Pitt",
@@ -1073,7 +1073,7 @@ module.exports = function () {
         genre: "Adventure",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 1.95,
       },
       {
         series: "The Savage Dragon [SP]",
@@ -1090,7 +1090,7 @@ module.exports = function () {
         genre: "",
         format: "Comic",
         pages: 0,
-        price: null,
+        price: 1.95,
       },
       {
         series: "The Savage Dragon [SP]",
@@ -1107,7 +1107,7 @@ module.exports = function () {
         genre: "",
         format: "Comic",
         pages: 0,
-        price: null,
+        price: 2.95,
       },
       {
         series: "The Savage Dragon [SP]",
@@ -1124,7 +1124,7 @@ module.exports = function () {
         genre: "",
         format: "Comic",
         pages: 0,
-        price: null,
+        price: 1.95,
       },
       {
         series: "The Savage Dragon [SP]",
@@ -1141,7 +1141,7 @@ module.exports = function () {
         genre: "",
         format: "Comic",
         pages: 0,
-        price: null,
+        price: 1.95,
       },
       {
         series: "Savage Dragon, Vol. 1",
@@ -1158,7 +1158,7 @@ module.exports = function () {
         genre: "Super-Heroes",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 1.95,
       },
       {
         series: "Savage Dragon, Vol. 1",
@@ -1381,7 +1381,7 @@ module.exports = function () {
         genre: "Action | Adventure | Horror | Super-Heroes",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 1.95,
       },
       {
         series: "Spawn",
@@ -1434,7 +1434,7 @@ module.exports = function () {
           "Action | Adventure | Crime | Fantasy | Horror | Science Fiction | Super-Heroes | Thriller",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 1.95,
       },
       {
         series: "Spawn",
@@ -1818,7 +1818,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 1.75,
       },
       {
         series: "Spider-Man, Vol. 1",
@@ -1852,7 +1852,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 1.75,
       },
       {
         series: "Spider-Man, Vol. 1",
@@ -1869,7 +1869,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 1.75,
       },
       {
         series: "Spider-Man, Vol. 1",
@@ -2245,7 +2245,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 24,
-        price: null,
+        price: 2.5,
       },
       {
         series: "WildC.A.T.s, Vol. 1",
@@ -2262,7 +2262,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 1.95,
       },
       {
         series: "WildC.A.T.s, Vol. 1",
@@ -2636,7 +2636,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 48,
-        price: null,
+        price: 1.75,
       },
       {
         series: "X-Factor, Vol. 1",
@@ -2772,7 +2772,7 @@ module.exports = function () {
         genre: "Adventure | Super-Heroes",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 1.5,
       },
       {
         series: "X-Force, Vol. 1",
@@ -2960,7 +2960,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 1.5,
       },
       {
         series: "X-Men, Vol. 1",
@@ -2977,7 +2977,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 1.5,
       },
       {
         series: "X-Men, Vol. 1",
@@ -2994,7 +2994,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 48,
-        price: null,
+        price: 1.5,
       },
       {
         series: "X-Men, Vol. 1",
@@ -3011,7 +3011,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 1.5,
       },
       {
         series: "X-Men, Vol. 1",
@@ -3028,7 +3028,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 48,
-        price: null,
+        price: 1.5,
       },
       {
         series: "X-Men, Vol. 1",
@@ -3130,7 +3130,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 1.25,
       },
       {
         series: "X-Men, Vol. 1",
@@ -3385,7 +3385,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 2.5,
       },
       {
         series: "Youngblood: Strikefile",
@@ -3402,7 +3402,7 @@ module.exports = function () {
         genre: "Action | Adventure | Super-Heroes",
         format: "Comic",
         pages: 32,
-        price: null,
+        price: 2.5,
       },
       {
         series: "Youngblood: Strikefile",
