@@ -26,14 +26,9 @@
 
   <body class="text-pri-700 font-comic">
 
-    <div class="min-h-screen)">
-      <header class="bg-pri-50 flex(& col) lg:(w-112 flex-row items-start overflow-y-auto fixed inset-y-0 left-0) xl:(w-120)">
-        <div class="py-3 text(pri-500 xs center) flex(& wrap) items-center justify-center gap-4 order-last lg:(py-12 w-16 text-base whitespace-nowrap flex-none order-none sticky top-0 writing-vertical-rl)">
-          <span>by</span>
-          <a href="https://qrayg.com/" class="text-pri-900">{{ site.meta.author }}</a>
-          <span>1992 - {% year %}</span>
-        </div>
-        <div class="p-4 flex relative z-10 sm:(px-6) md:(px-4) lg:(mx-auto py-12 px-8 border(x pri-200) min-h-full block flex-auto) xl:(px-12)">
+    <div class="min-h-screen lg:(flex)">
+      <header class="bg-pri-50 relative lg:(w-112)">
+        <div class="p-4 flex sm:(px-6) md:(px-4) lg:(mx-auto py-12 flex-col sticky inset-x-0 top-0)">
           <a href="/" class="w-12 flex lg:(mx-auto w-full max-w-[10rem])">{{ logo.x() }}</a>
           <nav class="ml-auto flex items-center justify-center lg:(ml-0 pt-16)">
             <ul class="text-sm uppercase flex gap-2 lg:(text-base flex-col)">
@@ -49,9 +44,14 @@
           </nav>
         </div>
       </header>
-      <main class="py-12 border(t pri-200) lg:(ml-112 border-t-0 relative) xl:(ml-120)">
-        <section class="w-full flex">{{ content | safe }}</section>
+      <main class="py-12 border-x-0 w-full lg:(border(x pri-200) relative)">
+        <section class="p-6 w-full flex">{{ content | safe }}</section>
       </main>
+      <footer class="py-3 text(pri-500 xs center) flex(& wrap) items-center justify-start gap-4 lg:(py-12 w-16 text-base whitespace-nowrap flex-none sticky top-0 writing-vertical-rl)">
+        <span>collected by</span>
+        <a href="https://qrayg.com/" class="text-pri-900">{{ site.meta.author }}</a>
+        <span>1992 - {% year %}</span>
+      </footer>
     </div>
 
     <script defer src="/_assets/js/alpine.js?v={% version %}"></script>
