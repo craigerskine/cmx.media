@@ -2,42 +2,35 @@
 layout: 'layouts/default.njk'
 ---
 
-{% set pricesComics = [] %}
-{% for p in comics.items %}
-  {% set pricesComics = (pricesComics.push(p.price), pricesComics) %}
-{% endfor %}
+{%- set pricesComics = [] %}
+{%- for p in comics.items %}
+  {%- set pricesComics = (pricesComics.push(p.price), pricesComics) %}
+{%- endfor %}
 
-{% set pricesZines = [] %}
-{% for p in zines.items %}
-  {% set pricesZines = (pricesZines.push(p.price), pricesZines) %}
-{% endfor %}
+{%- set pricesZines = [] %}
+{%- for p in zines.items %}
+  {%- set pricesZines = (pricesZines.push(p.price), pricesZines) %}
+{%- endfor %}
 
+{%- macro data(name='name', itemsTotal='itemsTotal', seriesTotal='seriesTotal', price='price', bg='/_assets/img/comics/the-creech/series.jpg') %}
+  <a href="/{{ name | slugify }}/" class="group py-32 bg(sec-900 opacity-30) font-semibold block relative overflow-hidden motion-safe:(transition) hover:(bg(pri-900 opacity-50) text-sec-300 opacity-100)">
+    <figure>
+      <img src="{{ bg }}" alt="{{ name }}" class="w-full h-full block absolute inset-0 object-cover opacity-10 transform motion-safe:(transition) group-hover:(opacity-50 scale-110)" />
+      <figcaption class="w-full py-6 px-4 relative transform translate-y-4 motion-safe:(transition) group-hover:(bg(pri-900 opacity-80) translate-y-0)">
+        <div class="mx-auto max-w-[250px]">
+          <p class="label flex items-end" data-label="{{ name }}:"><b class="ml-auto">{{ itemsTotal }}</b></p>
+          <small class="pt-2 text-sm tracking-normal flex opacity-70">
+            <span>{{ seriesTotal }} series</span>
+            <span class="ml-auto">${{ price }}</span>
+          </small>
+        </div>
+      </figcaption>
+    </figure>
+  </a>
+{%- endmacro %}
 
-  <article class="m-auto w-full text-2xl grid(& cols-1) md:(text-[calc(4vw)] leading-none tracking-tighter grid-cols-3)">
-    <a href="/comics/" class="p-8 block motion-safe:(transition) hover:(text-pri-200)">
-      <div class="m-auto max-w-[200px]">
-        <p class="label flex items-end" data-label="Comics:"><b class="ml-auto">{{ comics.items | length }}</b></p>
-        <small class="pt-2 text-xs tracking-normal flex">
-          <span>{{ comics.series | length }} series</span>
-          <span class="ml-auto">${{ pricesComics | sum | round }}</span>
-        </small>
-      </div>
-    </a>
-    <a href="/zines/" class="p-8 block motion-safe:(transition) hover:(text-pri-200)">
-      <div class="m-auto max-w-[200px]">
-        <p class="label flex items-end" data-label="Zines:"><b class="ml-auto">{{ zines.items | length }}</b></p>
-        <small class="pt-2 text-xs tracking-normal flex">
-          <span>{{ zines.series | length }} series</span>
-          <span class="ml-auto">${{ pricesZines | sum | round }}</span>
-        </small>
-      </div>
-    </a>
-    <a href="/misc/" class="p-8 block motion-safe:(transition) hover:(text-pri-200)">
-      <div class="m-auto max-w-[200px]">
-        <p class="label flex items-end" data-label="Misc:"><b class="ml-auto">{{ misc.items | length }}</b></p>
-        <small class="pt-2 text-xs tracking-normal flex">
-          <span>{{ misc.series | length }} series</span>
-        </small>
-      </div>
-    </a>
+  <article class="m-auto w-full text-5xl grid(& cols-1) lg:(text-[calc(4vw)] leading-none tracking-tighter grid-cols-3)">
+    {{ data(name='Comics', itemsTotal=(comics.items | length), seriesTotal=(comics.series | length), price=(pricesComics | sum | round), bg='/_assets/img/comics/the-creech/series.jpg') }}
+    {{ data(name='Zines', itemsTotal=(zines.items | length), seriesTotal=(zines.series | length), price=(pricesZines | sum | round), bg='/_assets/img/zines/wizard-magazine/series.jpg') }}
+    {{ data(name='Misc', itemsTotal=(misc.items | length), seriesTotal=(misc.series | length), price='???', bg='/_assets/img/misc/j-scott-campbell/series.jpg') }}
   </article>

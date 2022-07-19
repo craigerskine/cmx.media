@@ -10,8 +10,9 @@
     <meta name="generator" content="{{ eleventy.generator }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico" /> -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
 
     <meta property="og:title" content="{{ site.meta.title }}" />
     <meta property="og:description" content="{{ site.meta.description }}" />
@@ -27,15 +28,19 @@
   <body class="text-pri-400">
 
     <div class="min-h-screen flex(& col)">
-      <header class="w-full flex-none{% if page.url === '/' %} absolute top-0 inset-x-0{% endif %}">
+      <header class="w-full flex-none">
         <div class="p-4 flex items-center">
-          <a href="/" class="group font-semibold flex items-center motion-safe:(transition) hover:(text-blue-300)"><b class="px-1 py-px bg-white text-pri-800 tracking-widest font-bold motion-safe:(transition) group-hover:(bg-blue-300)">comx</b> <i class="ml-2 not-italic">.media</i></a>
+          <a href="/" class="group font-semibold flex items-center gap-1 motion-safe:(transition) hover:(text-blue-300)">
+            <b class="px-1 py-px bg-white text-pri-800 tracking-widest font-bold motion-safe:(transition) group-hover:(bg-blue-300)">comx</b>
+            <i class="opacity-50">.</i>
+            <i class="not-italic">media</i>
+          </a>
           <nav class="ml-auto" x-data="{menu: false}">
             <ul>
               <li>
                 <a href="#" class="motion-safe:(transition) hover:(text-blue-300)" :class="{'text-blue-300': menu}" @click.prevent="menu = !menu">
-                  <i x-show="!menu" class="fa-light fa-fw fa-bars fa-lg"></i>
-                  <i x-show="menu" class="fa-light fa-fw fa-times fa-lg"></i>
+                  <i x-show="!menu" class="fa-light fa-fw fa-bars"></i>
+                  <i x-show="menu" class="fa-light fa-fw fa-times"></i>
                 </a>
               </li>
               <li class="relative">
@@ -69,20 +74,18 @@
     <script src="/_assets/js/twind.js?v={% version %}"></script>
     <script src="https://kit.fontawesome.com/a2bf4ed495.js"></script>
     <script>
+      var pri = twindColors.coolGray;
+      var sec = twindColors.sky;
       twind.setup({
         mode: "silent",
         theme: {
           extend: {
             colors: {
-              pri: twindColors.coolGray,
-              sec: twindColors.warmGray,
-            },
-            spacing: {
-              18: '4.5rem',
-              112: '28rem',
-              120: '30rem',
+              pri: pri,
+              sec: sec,
             },
             fontFamily: (theme) => ({
+              sans: 'Inter,' + theme('fontFamily.sans'),
               comic: 'Cabin Sketch,' + theme('fontFamily.sans'),
             }),
           },
@@ -96,7 +99,7 @@
         '@global': {
           '[x-cloak]': { '@apply': 'hidden', },
           '.label': { '@apply': 'border(b-2 pri-500 opacity-50)' },
-          '.label:before': { '@apply': 'mr-2 pb-1 text([11px] pri-400) tracking-normal leading-none font(sans semibold) uppercase', 'content': 'attr(data-label)' },
+          '.label:before': { '@apply': 'mr-2 pb-1 text([11px] pri-400) tracking-normal leading-none font-bold uppercase', 'content': 'attr(data-label)' },
         }
       }))
       twindObserve.observe(document.documentElement);
