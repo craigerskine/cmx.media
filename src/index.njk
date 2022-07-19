@@ -12,16 +12,21 @@ layout: 'layouts/default.njk'
   {%- set pricesZines = (pricesZines.push(p.price), pricesZines) %}
 {%- endfor %}
 
-{%- macro data(name='name', itemsTotal='itemsTotal', seriesTotal='seriesTotal', price='price', bg='/_assets/img/comics/the-creech/series.jpg') %}
-  <a href="/{{ name | slugify }}/" class="group py-32 bg(sec-900 opacity-30) font-semibold block relative overflow-hidden motion-safe:(transition) hover:(bg(pri-900 opacity-50) text-sec-300 opacity-100)">
+{%- set pricesMisc = [] %}
+{%- for p in misc.items %}
+  {%- set pricesMisc = (pricesMisc.push(p.price), pricesMisc) %}
+{%- endfor %}
+
+{%- macro data(name='name', itemsTotal='itemsTotal', seriesTotal='seriesTotal', price='price', color='sec-900', bg='/_assets/img/comics/the-creech/series.jpg') %}
+  <a href="/{{ name | slugify }}/" class="group py-32 bg({{ color }}-700 opacity-30) font-semibold block relative overflow-hidden motion-safe:(transition) hover:(text-{{ color }}-200 opacity-100)">
     <figure>
       <img src="{{ bg }}" alt="{{ name }}" class="w-full h-full block absolute inset-0 object-cover opacity-10 transform motion-safe:(transition) group-hover:(opacity-50 scale-110)" />
-      <figcaption class="w-full py-6 px-4 relative transform translate-y-4 motion-safe:(transition) group-hover:(bg(pri-900 opacity-80) translate-y-0)">
+      <figcaption class="w-full py-6 px-4 relative transform translate-y-4 motion-safe:(transition) group-hover:(bg({{ color }}-900 opacity-75) translate-y-0)">
         <div class="mx-auto max-w-[250px]">
           <p class="label flex items-end" data-label="{{ name }}:"><b class="ml-auto">{{ itemsTotal }}</b></p>
-          <small class="pt-2 text-sm tracking-normal flex opacity-70">
+          <small class="pt-1 text-sm tracking-normal flex opacity-75">
             <span>{{ seriesTotal }} series</span>
-            <span class="ml-auto">${{ price }}</span>
+            <span class="ml-auto"><sup class="mr-1">$</sup>{{ price }}</span>
           </small>
         </div>
       </figcaption>
@@ -30,7 +35,7 @@ layout: 'layouts/default.njk'
 {%- endmacro %}
 
   <article class="m-auto w-full text-5xl grid(& cols-1) lg:(text-[calc(4vw)] leading-none tracking-tighter grid-cols-3)">
-    {{ data(name='Comics', itemsTotal=(comics.items | length), seriesTotal=(comics.series | length), price=(pricesComics | sum | round), bg='/_assets/img/data-comics.jpg') }}
-    {{ data(name='Zines', itemsTotal=(zines.items | length), seriesTotal=(zines.series | length), price=(pricesZines | sum | round), bg='/_assets/img/data-zines.jpg') }}
-    {{ data(name='Misc', itemsTotal=(misc.items | length), seriesTotal=(misc.series | length), price='???', bg='/_assets/img/data-misc.jpg') }}
+    {{ data(name='Comics', itemsTotal=(comics.items | length), seriesTotal=(comics.series | length), price=(pricesComics | sum | round), color='red', bg='/_assets/img/data-comics.jpg') }}
+    {{ data(name='Zines', itemsTotal=(zines.items | length), seriesTotal=(zines.series | length), price=(pricesZines | sum | round), color='blue', bg='/_assets/img/data-zines.jpg') }}
+    {{ data(name='Misc', itemsTotal=(misc.items | length), seriesTotal=(misc.series | length), price=(pricesMisc | sum | round), color='gray', bg='/_assets/img/data-misc.jpg') }}
   </article>

@@ -28,7 +28,7 @@ module.exports = function () {
         release_year: 2022,
         format: "Sketchbook",
         pages: 128,
-        price: 175.00,
+        price: 175,
       },
       {
         series: "Rob Liefeld",
@@ -52,7 +52,7 @@ module.exports = function () {
         release_year: 2018,
         format: "Sketchbook",
         pages: 48,
-        price: 20.00,
+        price: 20,
       },
       {
         series: "J. Scott Campbell",
@@ -64,7 +64,7 @@ module.exports = function () {
         release_year: 2018,
         format: "Sketchbook",
         pages: 48,
-        price: 20.00,
+        price: 20,
       },
       {
         series: "J. Scott Campbell",
@@ -76,7 +76,7 @@ module.exports = function () {
         release_year: 2018,
         format: "Sketchbook",
         pages: 48,
-        price: 20.00,
+        price: 20,
       },
       {
         series: "J. Scott Campbell",
@@ -88,7 +88,7 @@ module.exports = function () {
         release_year: 2018,
         format: "Sketchbook",
         pages: 48,
-        price: 20.00,
+        price: 20,
       },
     ],
   };

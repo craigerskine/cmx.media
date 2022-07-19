@@ -17,7 +17,7 @@ eleventyComputed:
     {%- for item in misc.items | pluck(seriesCurr, 'series') %}
       <li>
         <figure class="mx-auto w-full max-w-screen-xs">
-          <img src="/_assets/img/_comic.jpg" alt="{{ item.series }}, {{ item.issue }}" class="w-full" />
+          <img src="/_assets/img/misc/{{ item.series | slugify }}/{{ item.issue | slugify }}.jpg?{% version %}" alt="{{ item.series }}, {{ item.issue }}" class="w-full" />
           <figcaption>#{{ item.issue }} / {{ item.release_date }}</figcaption>
         </figure>
       </li>
