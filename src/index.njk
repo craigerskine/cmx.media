@@ -30,7 +30,7 @@ layout: 'layouts/default.njk'
 {%- endmacro %}
 
   <article class="m-auto w-full text-5xl grid(& cols-1) lg:(text-[calc(4vw)] leading-none tracking-tighter grid-cols-3)">
-    {{ data(name='Comics', itemsTotal=(comics.items | length), seriesTotal=(comics.series | length), price=(pricesComics | sum | round), bg='/_assets/img/comics/the-creech/series.jpg') }}
-    {{ data(name='Zines', itemsTotal=(zines.items | length), seriesTotal=(zines.series | length), price=(pricesZines | sum | round), bg='/_assets/img/zines/wizard-magazine/series.jpg') }}
-    {{ data(name='Misc', itemsTotal=(misc.items | length), seriesTotal=(misc.series | length), price='???', bg='/_assets/img/misc/j-scott-campbell/series.jpg') }}
+    {{ data(name='Comics', itemsTotal=(comics.items | length), seriesTotal=(comics.series | length), price=(pricesComics | sum | round), bg='/_assets/img/data-comics.jpg') }}
+    {{ data(name='Zines', itemsTotal=(zines.items | length), seriesTotal=(zines.series | length), price=(pricesZines | sum | round), bg='/_assets/img/data-zines.jpg') }}
+    {{ data(name='Misc', itemsTotal=(misc.items | length), seriesTotal=(misc.series | length), price='???', bg='/_assets/img/data-misc.jpg') }}
   </article>
