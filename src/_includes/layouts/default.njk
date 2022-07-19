@@ -24,10 +24,6 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://comx.media{{ page.url }}" />
     <meta property="og:image" content="https://comx.media/apple-touch-icon.png" />
-
-    {%- import 'components/logo.njk' as logo %}
-    {%- import 'components/sep.njk' as sep %}
-
   </head>
 
   <body class="text-pri-400">
@@ -47,8 +43,8 @@
                   :aria-expanded="menu"
                   aria-controls="nav-menu"
                 >
-                  <i x-show="!menu" class="fa-light fa-fw fa-bars"></i>
-                  <i x-show="menu" class="fa-light fa-fw fa-times"></i>
+                  <i x-show="!menu" class="fa-light fa-fw fa-bars"><b class="sr-only">Open menu</b></i>
+                  <i x-show="menu" class="fa-light fa-fw fa-times"><b class="sr-only">Close menu</b></i>
                 </a>
               </li>
               <li class="relative">
@@ -82,8 +78,8 @@
           {{ content | safe }}
         </section>
       </main>
-      <footer class="p-4 text(xs center pri-600) uppercase font-semibold w-full flex-none">
-        Collected by {{ site.meta.author }} from 1992 - {% year %}
+      <footer class="p-4 text(sm center sec-300) font-semibold w-full flex-none">
+        Collected by <a href="https://{{ site.meta.author }}/">{{ site.meta.author }}</a> from 1992 - {% year %}
       </footer>
     </div>
             

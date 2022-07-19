@@ -7,6 +7,7 @@ title: 'Comics'
 ---
 
 {%- import 'components/heading.njk' as heading %}
+{%- import 'components/comic-list.njk' as list %}
 
 <article class="container mx-auto p-6" x-data="searchInput">
   
@@ -19,7 +20,7 @@ title: 'Comics'
     </div>
   </div>
 
-  <ul x-show="isOpen" class="grid(& cols-2) gap-4 lg:(grid-cols-3 gap-16)">
+  <ul x-show="isOpen" class="grid(& cols-2) gap-4 lg:(grid-cols-5 gap-16)">
     <template x-for="item in getItems">
       <li>
         <a :href="'/comics/'+ slugify(item.series) +'/'" class="mx-auto w-full max-w-[250px] text-center block relative">
@@ -39,25 +40,10 @@ title: 'Comics'
     <strong class="py-2 text(sm pri-500) uppercase block">No results</strong>
   </div>
 
-  <ul x-show="!isOpen && !search.length" class="grid(& cols-2) gap-4 lg:(grid-cols-3 gap-16)">
+  <ul x-show="!isOpen && !search.length" class="grid(& cols-2) gap-4 lg:(grid-cols-5 gap-16)">
     {%- for series in (comics.series) %}
       <li>
-        <a href="/comics/{{ series | slugify }}/" class="mx-auto w-full max-w-[250px] text-center block relative">
-          <figure>
-            <img src="/_assets/img/comics/{{ series | slugify }}/series.jpg?v={% version %}" alt="{{ series }}" class="mx-auto w-full" />
-            <figcaption>
-              <strong class="truncate block">{{ series }}</strong>
-              <ul class="text-xs font-mono flex flex-wrap justify-center gap-x-3">
-                {%- for item in comics.items | pluck(series, 'series') %}
-                  <li>
-                    {{ item.issue }}
-                  </li>
-                {%- endfor %}
-              </ul>
-            </figcaption>
-          </figure>
-          <b class="px-1 min-w-[1.5rem] h-6 bg-white text-sm leading-none flex items-center justify-center absolute -top-3 -right-3 ring(1 pri-500 opacity-75) rounded-full shadow-lg">{{ comics.items | pluck(series, 'series') | length }}</b>
-        </a>
+        {{ list.x(name=series,sub=comics.items | pluck(series, 'series'),image='/_assets/img/comics/'+ series | slugify +'/series.jpg?v='+ version,url='/comics/'+ series | slugify +'/') }}
       </li>
     {%- endfor %}
   </ul>

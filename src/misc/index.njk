@@ -10,16 +10,14 @@ eleventyComputed:
 ---
 
 {%- import 'components/heading.njk' as heading %}
+{%- import 'components/comic-list.njk' as list %}
 
 <article class="container mx-auto p-6">
   {{ heading.x(seriesCurr) }}
-  <ul class="grid(& cols-2) gap-4 lg:(grid-cols-3 gap-16)">
+  <ul class="grid(& cols-2) gap-4 lg:(grid-cols-5 gap-16)">
     {%- for item in misc.items | pluck(seriesCurr, 'series') %}
       <li>
-        <figure class="mx-auto w-full max-w-screen-xs">
-          <img src="/_assets/img/misc/{{ item.series | slugify }}/{{ item.issue | slugify }}.jpg?{% version %}" alt="{{ item.series }}, {{ item.issue }}" class="w-full" />
-          <figcaption>#{{ item.issue }} / {{ item.release_date }}</figcaption>
-        </figure>
+        {{ list.x(name=item.issue +' / '+ item.release_date,image='/_assets/img/misc/'+ item.series | slugify +'/'+ item.issue | slugify +'.jpg?v='+ version) }}
       </li>
     {%- endfor %}
   </ul>
