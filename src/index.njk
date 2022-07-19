@@ -12,20 +12,32 @@ layout: 'layouts/default.njk'
   {% set pricesZines = (pricesZines.push(p.price), pricesZines) %}
 {% endfor %}
 
-<article class="py-12 w-full flex">
-  <ul class="m-auto w-full max-w-[12rem] text-2xl flex(& col) gap-12 md:(text-[calc(4vw)] tracking-tighter)">
-    <li>
-      <div class="label flex items-end" data-label="Series:"><span class="mx-auto">{{ (comics.series | length) + (zines.series | length) + (misc.series | length) }}</span></div>
-      <small class="pt-2 text(sm right) tracking-normal block">${{ (pricesComics | sum | round) + (pricesZines | sum | round) }}</small>
-    </li>
-    <li>
-      <div class="label flex items-end" data-label="Comics:"><a href="/comics/" class="mx-auto">{{ comics.items | length }}</a></div>
-      <small class="pt-2 text(sm right) tracking-normal block">${{ pricesComics | sum | round }}</small>
-    </li>
-    <li>
-      <div class="label flex items-end" data-label="Zines:"><a href="/zines/" class="mx-auto">{{ zines.items | length }}</a></div>
-      <small class="pt-2 text(sm right) tracking-normal block">${{ pricesZines | sum | round }}</small>
-    </li>
-    <li><div class="label flex items-end" data-label="Misc:"><a href="/misc/" class="mx-auto">{{ misc.items | length }}</a></div></li>
-  </ul>
-</article>
+
+  <article class="m-auto w-full text-2xl grid(& cols-1) md:(text-[calc(4vw)] leading-none tracking-tighter grid-cols-3)">
+    <a href="/comics/" class="p-8 block motion-safe:(transition) hover:(text-pri-200)">
+      <div class="m-auto max-w-[200px]">
+        <p class="label flex items-end" data-label="Comics:"><b class="ml-auto">{{ comics.items | length }}</b></p>
+        <small class="pt-2 text-xs tracking-normal flex">
+          <span>{{ comics.series | length }} series</span>
+          <span class="ml-auto">${{ pricesComics | sum | round }}</span>
+        </small>
+      </div>
+    </a>
+    <a href="/zines/" class="p-8 block motion-safe:(transition) hover:(text-pri-200)">
+      <div class="m-auto max-w-[200px]">
+        <p class="label flex items-end" data-label="Zines:"><b class="ml-auto">{{ zines.items | length }}</b></p>
+        <small class="pt-2 text-xs tracking-normal flex">
+          <span>{{ zines.series | length }} series</span>
+          <span class="ml-auto">${{ pricesZines | sum | round }}</span>
+        </small>
+      </div>
+    </a>
+    <a href="/misc/" class="p-8 block motion-safe:(transition) hover:(text-pri-200)">
+      <div class="m-auto max-w-[200px]">
+        <p class="label flex items-end" data-label="Misc:"><b class="ml-auto">{{ misc.items | length }}</b></p>
+        <small class="pt-2 text-xs tracking-normal flex">
+          <span>{{ misc.series | length }} series</span>
+        </small>
+      </div>
+    </a>
+  </article>

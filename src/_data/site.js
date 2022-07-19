@@ -6,11 +6,7 @@ module.exports = function() {
       description: 'qrayg\'s personal comic book collection',
       author: 'qrayg',
       author_url: 'qrayg.com',
-      footer: 'Made with love by',
     },
-    nav: [
-      { title: 'Nav', url: '#', },
-    ],
     social: [
       // {
       //   title: 'Donate via PayPal',
