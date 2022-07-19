@@ -4,7 +4,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPassthroughCopy('src/_redirects');
   eleventyConfig.addPassthroughCopy('src/_assets');
-  eleventyConfig.addPassthroughCopy('src/favicon.ico');
+  eleventyConfig.addPassthroughCopy('src/*.ico');
+  eleventyConfig.addPassthroughCopy('src/*.png');
+  eleventyConfig.addPassthroughCopy('src/site.webmanifest');
   eleventyConfig.addShortcode('version', function(){
     return String(Date.now())
   });
