@@ -11,7 +11,7 @@ eleventyComputed:
 
 {% import 'components/heading.njk' as heading %}
 
-<article class="container mx-auto">
+<article class="container mx-auto p-6">
   {{ heading.x(seriesCurr) }}
   <ul class="grid(& cols-2) gap-4 lg:(grid-cols-3 gap-16)">
     {%- for item in zines.items | pluck(seriesCurr, 'series') %}

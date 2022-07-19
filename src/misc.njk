@@ -8,7 +8,7 @@ title: 'Misc'
 
 {% import 'components/heading.njk' as heading %}
 
-<article class="container mx-auto">
+<article class="container mx-auto p-6">
   {{ heading.x(title) }}
   <ul class="grid(& cols-2) gap-4 lg:(grid-cols-3 gap-16)">
     {%- for series in (misc.series) %}
