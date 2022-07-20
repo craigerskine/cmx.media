@@ -11,7 +11,7 @@ title: 'Magazines'
 
 <article class="container mx-auto p-6">
   {{ heading.x(title) }}
-  <ul class="grid(& cols-2) gap-4 lg:(grid-cols-5 gap-16)">
+  <ul class="grid(& cols-2) gap-4 lg:(grid-cols-5)">
     {%- for series in (zines.series) %}
       <li>
         {{ list.x(name=series,sub=zines.items | pluck(series, 'series'),image='/_assets/img/zines/'+ series | slugify +'/series.jpg?v='+ version,url='/zines/'+ series | slugify +'/') }}
