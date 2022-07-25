@@ -1,7 +1,8 @@
 module.exports = function() {
   return {
     meta: {
-      title: 'comx.media',
+      title: 'comx',
+      title_short: 'Cx',
       sub: 'qrayg\'s comic library',
       description: 'qrayg\'s personal comic book collection',
       author: 'qrayg',

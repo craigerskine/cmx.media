@@ -12,7 +12,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -29,12 +29,11 @@
   <body class="text-pri-400">
 
     <div class="min-h-screen flex(& col)">
-      <header class="w-full flex-none">
+      <header class="w-full flex-none relative z-20">
         <div class="p-4 flex items-center">
-          <a href="/" class="group font-semibold flex items-center gap-1 motion-safe:(transition) hover:(text-blue-300)">
-            <b class="px-1 py-px bg-white text-pri-800 tracking-widest font-bold motion-safe:(transition) group-hover:(bg-blue-300)">comx</b>
-            <i class="opacity-50">.</i>
-            <i class="not-italic">media</i>
+          <a href="/" class="group font-semibold flex items-center gap-3 motion-safe:(transition) hover:(text-blue-300)">
+            <b class="px-1 py-px bg-white text-pri-800 font-bold motion-safe:(transition) group-hover:(bg-blue-300)">{{ site.meta.title_short }}</b>
+            <i class="not-italic uppercase">{{ site.meta.title }}</i>
           </a>
           <nav class="ml-auto" x-data="{menu: false}">
             <ul>
@@ -73,12 +72,12 @@
           </nav>
         </div>
       </header>
-      <main class="w-full flex(& 1)">
+      <main class="w-full flex(& 1) relative z-10">
         <section class="w-full flex">
           {{ content | safe }}
         </section>
       </main>
-      <footer class="p-4 text(sm center pri-500) font-semibold w-full flex-none">
+      <footer class="p-4 text(sm center pri-500) font-semibold w-full flex-none relative z-10">
         Collected by <a href="https://{{ site.meta.author_url }}/" class="text-pri-400 motion-safe:(transition) hover:(text-sec-400)">{{ site.meta.author }}</a> : 1992 - {% year %}
       </footer>
     </div>
@@ -99,8 +98,8 @@
               sec: sec,
             },
             fontFamily: (theme) => ({
-              sans: 'Inter,' + theme('fontFamily.sans'),
-              comic: 'Cabin Sketch,' + theme('fontFamily.sans'),
+              sans: 'Outfit,' + theme('fontFamily.sans'),
+              //comic: 'Cabin Sketch,' + theme('fontFamily.sans'),
             }),
           },
         },
