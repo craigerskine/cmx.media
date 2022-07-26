@@ -29,8 +29,8 @@
   <body class="text-pri-400">
 
     <div class="min-h-screen flex(& col)">
-      <header class="w-full flex-none relative z-20">
-        <div class="p-4 flex items-center">
+      <header class="w-full bg-gradient-to-b from-pri-800 flex-none relative z-20">
+        <div class="p-6 flex items-center">
           <a href="/" class="group font-semibold flex items-center gap-3 motion-safe:(transition) hover:(text-blue-300)">
             <b class="px-1 py-px bg-white text-pri-800 font-bold motion-safe:(transition) group-hover:(bg-blue-300)">{{ site.meta.title_short }}</b>
             <i class="not-italic uppercase">{{ site.meta.title }}</i>
@@ -77,7 +77,7 @@
           {{ content | safe }}
         </section>
       </main>
-      <footer class="p-4 text(sm center pri-500) font-semibold w-full flex-none relative z-10">
+      <footer class="p-6 bg-gradient-to-t from-pri-800 text(sm center pri-500) font-semibold w-full flex-none relative z-10">
         Collected by <a href="https://{{ site.meta.author_url }}/" class="text-pri-400 motion-safe:(transition) hover:(text-sec-400)">{{ site.meta.author }}</a> : 1992 - {% year %}
       </footer>
     </div>

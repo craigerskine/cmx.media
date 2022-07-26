@@ -20,7 +20,7 @@ layout: 'layouts/default.njk'
 {%- macro data(name='name', itemsTotal='itemsTotal', seriesTotal='seriesTotal', price='price', color='sec-900', bg='/_assets/img/comics/the-creech/series.jpg') %}
   <a href="/{{ name | slugify }}/" class="group py-32 bg({{ color }}-700 opacity-30) font-semibold flex relative overflow-hidden motion-safe:(transition) hover:(text-{{ color }}-200 opacity-100)">
     <figure class="m-auto w-full">
-      <img src="{{ bg }}" alt="{{ name }}" class="w-full h-full block absolute inset-0 object-cover opacity-10 transform motion-safe:(transition) group-hover:(opacity-25 scale-110)" />
+      <img src="{{ bg }}" alt="{{ name }}" class="w-full h-full block absolute inset-0 object-cover opacity-5 transform motion-safe:(transition) group-hover:(opacity-25 scale-110)" />
       <figcaption class="w-full py-6 px-4 relative transform translate-y-4 motion-safe:(transition) group-hover:(bg({{ color }}-900 opacity-75) translate-y-0)">
         <div class="mx-auto max-w-[250px]">
           <p class="label flex items-end" data-label="{{ name }}:"><b class="ml-auto">{{ itemsTotal }}</b></p>
