@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="bg-pri-800 antialiased" x-data hidden x-clock>
+<html lang="en" class="bg-pri-800 antialiased" x-data hidden>
 
   <head>
     <meta charset="utf-8" />
@@ -42,8 +42,8 @@
                   :aria-expanded="menu"
                   aria-controls="nav-menu"
                 >
-                  <i x-show="!menu" class="fa-light fa-fw fa-bars"><b class="sr-only">Open menu</b></i>
-                  <b x-show="menu" class="fixed top-6 right-6"><i class="fa-light fa-fw fa-times"><b class="sr-only">Close menu</b></i></b>
+                  <i x-show="!menu" class="fa-light fa-fw fa-bars" x-cloak><b class="sr-only">Open menu</b></i>
+                  <b x-show="menu" class="fixed top-6 right-6" x-cloak><i class="fa-light fa-fw fa-times"><b class="sr-only">Close menu</b></i></b>
                 </a>
               </li>
               <li class="relative z-10">
@@ -55,6 +55,7 @@
                   x-transition:leave="transition ease-in"
                   x-transition:leave-start="opacity-100 translate-y-0"
                   x-transition:leave-end="opacity-0 translate-x-4"
+                  x-cloak
                 >
                   {%- for item in collections.all | eleventyNavigation %}
                   <li class="py-2 md:(py-4)">

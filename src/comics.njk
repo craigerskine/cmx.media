@@ -22,7 +22,7 @@ title: 'Comics'
     </div>
   </div>
 
-  <ul x-show="isOpen" class="grid(& cols-2) gap-4 lg:(grid-cols-5)">
+  <ul x-show="isOpen" class="grid(& cols-2) gap-4 lg:(grid-cols-5)" x-cloak>
     <template x-for="item in getItems">
       <li>
         <a :href="'/comics/'+ slugify(item.series) +'/'" class="mx-auto w-full max-w-[250px] text-center block relative">
@@ -37,12 +37,12 @@ title: 'Comics'
       </li>
     </template>
   </ul>
-  <div x-show="!isOpen && search.length" class="alert py-8 text(2xl yellow-600 center)" role="alert">
+  <div x-show="!isOpen && search.length" class="alert py-8 text(2xl yellow-600 center)" role="alert" x-cloak>
     Bang! Zap! Pow!
     <strong class="py-2 text(sm pri-500) uppercase block">No results</strong>
   </div>
 
-  <ul x-show="!isOpen && !search.length" class="grid(& cols-2) gap-4 lg:(grid-cols-5)">
+  <ul x-show="!isOpen && !search.length" class="grid(& cols-2) gap-4 lg:(grid-cols-5)" x-cloak>
     {%- for series in (comics.series) %}
       <li>
         {{ list.x(name=series,sub=comics.items | pluck(series, 'series'),image='/_assets/img/comics/'+ series | slugify +'/series.jpg?v='+ version,url='/comics/'+ series | slugify +'/') }}
