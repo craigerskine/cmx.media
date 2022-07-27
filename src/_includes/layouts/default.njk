@@ -37,31 +37,35 @@
           </a>
           <nav class="ml-auto" x-data="{menu: false}">
             <ul>
-              <li>
+              <li class="relative z-20">
                 <a href="#" class="motion-safe:(transition) hover:(text-blue-300)" :class="{'text-blue-300': menu}" @click.prevent="menu = !menu"
                   :aria-expanded="menu"
                   aria-controls="nav-menu"
                 >
                   <i x-show="!menu" class="fa-light fa-fw fa-bars"><b class="sr-only">Open menu</b></i>
-                  <i x-show="menu" class="fa-light fa-fw fa-times"><b class="sr-only">Close menu</b></i>
+                  <b x-show="menu" class="fixed top-6 right-6"><i class="fa-light fa-fw fa-times"><b class="sr-only">Close menu</b></i></b>
                 </a>
               </li>
-              <li class="relative">
-                <ul x-show="menu" @click.outside="menu = false" class="py-2 w-32 border(1 white opacity-10) bg-pri-900 text-sm font-semibold grid(& cols-1) gap-1 absolute top-0 right-0 shadow-lg transform"
+              <li class="relative z-10">
+                <ul x-show="menu" @click.outside="menu = false" class="py-12 w-1/2 bg-pri-900 text-lg font-black fixed inset-y-0 right-0 shadow-lg transform md:(w-full max-w-sm text-2xl)"
                   id="nav-menu"
                   x-transition:enter="transition ease-out"
-                  x-transition:enter-start="opacity-0 translate-y-4"
+                  x-transition:enter-start="opacity-0 translate-x-4"
                   x-transition:enter-end="opacity-100 translate-y-0"
                   x-transition:leave="transition ease-in"
                   x-transition:leave-start="opacity-100 translate-y-0"
-                  x-transition:leave-end="opacity-0 translate-y-4"
+                  x-transition:leave-end="opacity-0 translate-x-4"
                 >
                   {%- for item in collections.all | eleventyNavigation %}
-                  <li>
-                    <a href="{{ item.url }}" class="py-px px-4 block relative motion-safe:(transition) hover:(text-pri-100) {% if item.url == page.url or item.url in page.url %} active text-sec-400 font-bold{% else %} text-pri-400{% endif %}"
+                  <li class="py-2 md:(py-4)">
+                    <a href="{{ item.url }}" class="py-1 px-6 flex items-center gap-4 relative motion-safe:(transition) hover:(text-pri-100) {% if item.url == page.url or item.url in page.url %} active text-sec-400 font-bold{% else %} text-pri-400{% endif %}"
                       {%- if item.url == page.url or item.url in page.url %} aria-current="page"{%- endif %}
                     >
+                    <b><i class="fa-solid fa-{{ item.ico }} opacity-30"></i></b>
+                    <div>
                       {{ item.key }}
+                      <small class="text-xs font-semibold block opacity-70 md:(text-sm)">{{ item.title }}</small>
+                    </div>
                       {%- if item.url == page.url or item.url in page.url %}<b class="w-[2px] bg-current absolute inset-y-0 left-0"></b>{%- endif %}
                     </a>
                   </li>
