@@ -2,7 +2,7 @@
   {%- if url !== '' %}<a href="{{ url }}" class="group block">{%- endif %}
   <figure>
     {%- if svg === '' %}
-    <img src="{{ image }}" alt="{{ name }}" class="mx-auto w-full transform motion-safe:(transition) group-hover:(-translate-y-1)" />
+    <img src="{{ image }}" alt="{{ name }}" class="mx-auto w-full rounded shadow-xl transform motion-safe:(transition) group-hover:(-translate-y-1)" />
     {%- else %}
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" class="p-4 bg-pri-600 text-pri-900 fill-current rounded transform motion-safe:(transition) group-hover:(-translate-y-1)">
       <title>{{ name }} logo</title>
