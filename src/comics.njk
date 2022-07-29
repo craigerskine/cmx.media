@@ -44,9 +44,7 @@ title: 'Comics'
 
   <ul x-show="!isOpen && !search.length" class="grid(& cols-2) gap-16 lg:(grid-cols-5)" x-cloak>
     {%- for series in (comics.series) %}
-      <li>
-        {{ list.x(name=series,sub=comics.items | pluck(series, 'series'),image='/_assets/img/comics/'+ series | slugify +'/series.jpg?v='+ version,url='/comics/'+ series | slugify +'/') }}
-      </li>
+      {{ list.x(name=series,sub=comics.items | pluck(series, 'series'),image='/_assets/img/comics/'+ series | slugify +'/series.jpg?v='+ version,url='/comics/'+ series | slugify +'/',loop=loop) }}
     {%- endfor %}
   </ul>
 </article>

@@ -15,9 +15,7 @@ title: 'Misc'
   {{ heading.x(title) }}
   <ul class="grid(& cols-2) gap-16 lg:(grid-cols-5)">
     {%- for series in (misc.series) %}
-      <li>
-        {{ list.x(name=series,sub=misc.items | pluck(series, 'series'),svg=series | slugify,url='/misc/'+ series | slugify +'/') }}
-      </li>
+      {{ list.x(name=series,sub=misc.items | pluck(series, 'series'),svg=series | slugify,url='/misc/'+ series | slugify +'/') }}
     {%- endfor %}
   </ul>
 </article>

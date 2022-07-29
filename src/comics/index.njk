@@ -16,9 +16,7 @@ eleventyComputed:
   {{ heading.x(seriesCurr) }}
   <ul class="grid(& cols-2) gap-16 lg:(grid-cols-5)">
     {%- for item in comics.items | pluck(seriesCurr, 'series') %}
-      <li>
-        {{ list.x(name=item.issue +' / '+ item.release_date,image='/_assets/img/comics/'+ item.series | slugify +'/'+ item.issue +'.jpg?v='+ version) }}
-      </li>
+      {{ list.x(name=item.issue +' / '+ item.release_date,image='/_assets/img/comics/'+ item.series | slugify +'/'+ item.issue +'.jpg?v='+ version,loop=loop) }}
     {%- endfor %}
   </ul>
 </article>
