@@ -7,9 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/*.ico');
   eleventyConfig.addPassthroughCopy('src/*.png');
   eleventyConfig.addPassthroughCopy('src/site.webmanifest');
-  eleventyConfig.addShortcode('version', function(){
-    return String(Date.now())
-  });
+  eleventyConfig.addShortcode('version', () => `${String(Date.now())}`);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
   // | randomLimit(6, page.url)
   eleventyConfig.addFilter('randomLimit', (arr, limit, currPage) => {

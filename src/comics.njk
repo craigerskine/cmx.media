@@ -12,7 +12,6 @@ title: 'Comics'
 {%- import 'components/item-list.njk' as list %}
 
 <article class="container mx-auto p-6" x-data="searchInput">
-  
   <div class="text-center md:(text-left flex items-end)">
     {{ heading.x(title) }}
     <div class="search mx-auto mb-8 w-full max-w-[250px] md:(mx-0 ml-auto)">
@@ -44,7 +43,7 @@ title: 'Comics'
 
   <ul x-show="!isOpen && !search.length" class="grid(& cols-2) gap-16 lg:(grid-cols-5)" x-cloak>
     {%- for series in (comics.series) %}
-      {{ list.x(name=series,sub=comics.items | pluck(series, 'series'),image='/_assets/img/comics/'+ series | slugify +'/series.jpg?v='+ version,url='/comics/'+ series | slugify +'/',loop=loop) }}
+      {{ list.x(name=series,sub=comics.items | pluck(series, 'series'),image='/_assets/img/comics/'+ series | slugify +'/series.jpg',url='/comics/'+ series | slugify +'/',loop=loop) }}
     {%- endfor %}
   </ul>
 </article>
