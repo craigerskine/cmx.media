@@ -26,7 +26,7 @@ module.exports = function () {
       "Justice League Europe / International",
       "Marvel Swimsuit Special",
       "The Maxx",
-      "New Mutants, Vol. 1",
+      "The New Mutants, Vol. 1",
       "Pitt",
       "Savage Dragon vs. Savage Megaton Man",
       "The Savage Dragon [SP]",
@@ -1163,7 +1163,7 @@ module.exports = function () {
         price: 1.95,
       },
       {
-        series: "New Mutants, Vol. 1",
+        series: "The New Mutants, Vol. 1",
         issue: "87A",
         issue_nr: 87,
         full_title: "A Show Of Power!",
@@ -1180,7 +1180,7 @@ module.exports = function () {
         price: 1,
       },
       {
-        series: "New Mutants, Vol. 1",
+        series: "The New Mutants, Vol. 1",
         issue: "100A",
         issue_nr: 100,
         full_title: "The End Of The Beginning",
