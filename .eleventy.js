@@ -3,8 +3,8 @@ const markdownItAttrs = require("markdown-it-attrs");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
-  let markdownLibrary = markdownIt().use(markdownItAttrs);
-  eleventyConfig.setLibrary("md", markdownLibrary);
+  let markdownLibrary = markdownIt().disable('code').use(markdownItAttrs);
+  eleventyConfig.setLibrary('md', markdownLibrary);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPassthroughCopy('src/_redirects');
   eleventyConfig.addPassthroughCopy('src/_assets');
@@ -13,6 +13,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/site.webmanifest');
   eleventyConfig.addShortcode('version', () => `${String(Date.now())}`);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
+  eleventyConfig.addPairedShortcode('md', function(content) {
+    return content;
+  });
   // | randomLimit(6, page.url)
   eleventyConfig.addFilter('randomLimit', (arr, limit, currPage) => {
     const pageArr = arr.filter((page) => page.url !== currPage);
