@@ -13,8 +13,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/site.webmanifest');
   eleventyConfig.addShortcode('version', () => `${String(Date.now())}`);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
-  eleventyConfig.addPairedShortcode('md', function(content) {
-    return content;
+  eleventyConfig.addPairedShortcode('markdown', (content, inline = null) => {
+    return inline
+      ? markdownIt(content)
+      : markdownIt(content);
   });
   // | randomLimit(6, page.url)
   eleventyConfig.addFilter('randomLimit', (arr, limit, currPage) => {
