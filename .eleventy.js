@@ -6,11 +6,12 @@ module.exports = function(eleventyConfig) {
   let markdownLibrary = markdownIt().disable('code').use(markdownItAttrs);
   eleventyConfig.setLibrary('md', markdownLibrary);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  eleventyConfig.addPassthroughCopy('src/_redirects');
-  eleventyConfig.addPassthroughCopy('src/_assets');
-  eleventyConfig.addPassthroughCopy('src/*.ico');
-  eleventyConfig.addPassthroughCopy('src/*.png');
-  eleventyConfig.addPassthroughCopy('src/site.webmanifest');
+  eleventyConfig.addPassthroughCopy('_site/_admin');
+  eleventyConfig.addPassthroughCopy('_site/_redirects');
+  eleventyConfig.addPassthroughCopy('_site/_assets');
+  eleventyConfig.addPassthroughCopy('_site/*.ico');
+  eleventyConfig.addPassthroughCopy('_site/*.png');
+  eleventyConfig.addPassthroughCopy('_site/site.webmanifest');
   eleventyConfig.addShortcode('version', () => `${String(Date.now())}`);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
   eleventyConfig.addPairedShortcode('markdown', (content, inline = null) => {
@@ -40,7 +41,7 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     dir: {
-      input: 'src',
+      input: '_site',
       output: 'public',
     },
   };
