@@ -1,11 +1,11 @@
-const yaml = require("js-yaml");
+const yml = require("js-yaml");
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require("markdown-it-attrs");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
-  // .yaml extension in _data
-  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+  // .yml extension in _data
+  eleventyConfig.addDataExtension("yml", (contents) => yml.load(contents));
 
   let markdownLibrary = markdownIt().disable('code').use(markdownItAttrs);
   eleventyConfig.setLibrary('md', markdownLibrary);

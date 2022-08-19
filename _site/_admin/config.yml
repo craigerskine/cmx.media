@@ -4,19 +4,20 @@ backend:
 
 media_folder: '_site/_assets/img'
 public_folder: '/_assets/img'
+
 collections:
-  - label: 'Comics'
-    name: 'comics'
+  - label: Collection
+    name: collection
     editor:
       preview: false
     files:
-      - label: 'Items'
-        name: 'items'
-        file: '_site/_data/comics.yaml'
+      - label: Items
+        name: items
+        file: '_site/_data/comics.yml'
         fields:
-          - label: 'Series'
-            name: series
-            widget: string
-          - label: 'Issue'
-            name: issue
-            widget: string
+          - label: Comics
+            name: comics
+            widget: list
+            fields:
+              - { label: Series, name: series, widget: string }
+              - { label: Issue, name: issue, widget: string }
