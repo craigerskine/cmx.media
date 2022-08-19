@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  branch: main
 
 media_folder: '_site/_assets/img'
 public_folder: '/_assets/img'
