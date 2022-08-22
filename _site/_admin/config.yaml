@@ -13,7 +13,7 @@ collections:
     files:
       - label: Comics
         name: comics
-        file: '_site/_data/comics.yml'
+        file: '_site/_data/comics.yaml'
         fields:
           - label: Issues
             name: items
