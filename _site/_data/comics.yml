@@ -895,6 +895,36 @@ items:
     format: Comic
     pages: 32
     price: 3.99
+  - series: 'Jim Henson''s Power of The Dark Crystal'
+    issue: TP
+    issue_nr: 
+    full_title: 
+    subtitle: 
+    story_arc: 
+    crossover: 
+    variant: TP
+    publisher: Boom! Studios
+    release_date: Jan 02, 2019
+    release_year: 2019
+    genre: Fantasy
+    format: Trade Paperback
+    pages: 0
+    price: 16.99
+  - series: 'Jim Henson''s Power of The Dark Crystal'
+    issue: TP-2
+    issue_nr: 
+    full_title: 
+    subtitle: 
+    story_arc: 
+    crossover: 
+    variant: TP-2
+    publisher: Boom! Studios
+    release_date: Oct 23, 2019
+    release_year: 2019
+    genre: Fantasy
+    format: Trade Paperback
+    pages: 0
+    price: 16.99
   - series: Justice League Europe / International
     issue: 15A
     issue_nr: 15
