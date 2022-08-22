@@ -6,52 +6,52 @@ series:
   - Cable and The New Mutants
   - The Creech
   - "The Creech: Out For Blood"
-  - "Cyberforce, Vol. 1"
-  - "Cyberrad, Vol. 2"
+  - Cyberforce, Vol. 1
+  - Cyberrad, Vol. 2
   - Darker Image
-  - "Deathblow, Vol. 1"
+  - Deathblow, Vol. 1
   - Divine Right
   - DV8 vs. BlackOps
-  - "Fantastic Four, Vol. 2"
-  - "Gen 13, Vol. 1 (1994)"
-  - "Ghost Rider, Vol. 2"
+  - Fantastic Four, Vol. 2
+  - Gen 13, Vol. 1 (1994)
+  - Ghost Rider, Vol. 2
   - "Grifter: One Shot"
   - Image Plus
   - Image Zero
   - Images of Shadowhawk
-  - "The Incredible Hulk, Vol. 1"
-  - "Iron Man, Vol. 2"
+  - The Incredible Hulk, Vol. 1
+  - Iron Man, Vol. 2
   - Jim Henson's Power of The Dark Crystal
   - Justice League Europe / International
   - Marvel Swimsuit Special
   - The Maxx
-  - "The New Mutants, Vol. 1"
+  - New Mutants, Vol. 1
   - Pitt
   - Savage Dragon vs. Savage Megaton Man
-  - "The Savage Dragon [SP]"
-  - "Savage Dragon, Vol. 1"
-  - "Shadowhawk, Vol. 1"
-  - "Shadowhawk, Vol. 2"
+  - The Savage Dragon [SP]
+  - Savage Dragon, Vol. 1
+  - Shadowhawk, Vol. 1
+  - Shadowhawk, Vol. 2
   - Spawn
-  - "Spider-Man, Vol. 1"
+  - Spider-Man, Vol. 1
   - Spider-Man vs. Venom
   - "Spider-Man: Torment"
   - "Star Wars: Episode 1 - Phantom Menace"
-  - "Stormwatch, Vol. 1"
-  - "Strange Adventures, Vol. 3"
+  - Stormwatch, Vol. 1
+  - Strange Adventures, Vol. 3
   - Tribe
   - "WildC.A.T.s / X-Men: The Golden Age"
   - "WildC.A.T.s / X-Men: The Silver Age"
-  - "WildC.A.T.s, Vol. 1"
+  - WildC.A.T.s, Vol. 1
   - WildC.A.T.S. Trilogy
   - "WildC.A.T.s: Sourcebook"
-  - "Wildcats, Vol. 2"
+  - Wildcats, Vol. 2
   - Wildcore
-  - "X-Factor, Vol. 1"
-  - "X-Force, Vol. 1"
-  - "X-Men, Vol. 1"
+  - X-Factor, Vol. 1
+  - X-Force, Vol. 1
+  - X-Men, Vol. 1
   - "X-Men: Shattershot"
-  - "Youngblood, Vol. 1"
+  - Youngblood, Vol. 1
   - "Youngblood: Battlezone"
   - "Youngblood: Strikefile"
 items:
@@ -64,11 +64,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Neil Gaiman | Greg Capullo
     release_date: Dec 1994
     release_year: 1994
     genre: Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.25
   - series: Angela
     issue: 2A
@@ -79,11 +81,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Neil Gaiman | Greg Capullo | Mark Pennington
     release_date: Jan 1995
     release_year: 1995
     genre: Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.25
   - series: Angela
     issue: "3"
@@ -94,11 +98,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Neil Gaiman | Greg Capullo | Mark Pennington
     release_date: Feb 1995
     release_year: 1995
     genre: Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.25
   - series: The Art of Homage Studios
     issue: "1"
@@ -109,11 +115,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Jeff Mariotte | David Wohl | Joe Benitez
     release_date: Dec 1993
     release_year: 1993
     genre: ""
     format: Squarebound
     pages: 48
+    signed_by: ""
     price: 4.95
   - series: Bloodpool
     issue: 1A
@@ -124,11 +132,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Mary Jo Duffy | Pat Lee | Jaime Mendoza
     release_date: Aug 1995
     release_year: 1995
     genre: Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: Bloodpool
     issue: "2"
@@ -139,11 +149,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Mary Jo Duffy | Pat Lee | Jaime Mendoza
     release_date: Sep 1995
     release_year: 1995
     genre: Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: Bloodpool
     issue: "3"
@@ -154,11 +166,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Mary Jo Duffy | Pat Lee | Sean Parsons
     release_date: Oct 1995
     release_year: 1995
     genre: Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: Bloodpool
     issue: "4"
@@ -169,11 +183,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Mary Jo Duffy | Pat Lee | Marlo Alquiza
     release_date: Nov 1995
     release_year: 1995
     genre: Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: Cable and The New Mutants
     issue: TP
@@ -184,11 +200,13 @@ items:
     crossover: ""
     variant: TP
     publisher: Marvel Comics
+    creators: Louise Simonson | Rob Liefeld | Hilary Barta
     release_date: Jun 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Trade Paperback
     pages: 176
+    signed_by: ""
     price: 15.95
   - series: The Creech
     issue: 1A
@@ -199,11 +217,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Greg Capullo | Danny Miki
     release_date: Oct 1997
     release_year: 1997
-    genre: Adventure
+    genre: Action
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: The Creech
     issue: 1B
@@ -214,11 +234,13 @@ items:
     crossover: ""
     variant: B
     publisher: Image Comics
+    creators: Greg Capullo | Danny Miki
     release_date: Oct 1997
     release_year: 1997
-    genre: Adventure
+    genre: Action
     format: Comic
     pages: 24
+    signed_by: Greg Capullo
     price: 2.5
   - series: The Creech
     issue: "2"
@@ -229,11 +251,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Greg Capullo | Danny Miki
     release_date: Nov 1997
     release_year: 1997
-    genre: Adventure
+    genre: Action
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: The Creech
     issue: "3"
@@ -244,11 +268,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Greg Capullo | Danny Miki
     release_date: Dec 1997
     release_year: 1997
-    genre: ""
+    genre: Adventure
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "The Creech: Out For Blood"
     issue: "1"
@@ -259,11 +285,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Greg Capullo
     release_date: Jun 2001
     release_year: 2001
     genre: Action
     format: Comic
     pages: 48
+    signed_by: Greg Capullo
     price: 4.95
   - series: "The Creech: Out For Blood"
     issue: "2"
@@ -274,11 +302,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Greg Capullo
     release_date: Sep 2001
     release_year: 2001
     genre: Action
     format: Comic
     pages: 48
+    signed_by: Greg Capullo
     price: 4.95
   - series: "The Creech: Out For Blood"
     issue: 3
@@ -289,11 +319,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Greg Capullo
     release_date: Nov 2001
     release_year: 2001
     genre: Action
     format: Comic
     pages: 48
+    signed_by: ""
     price: 4.95
   - series: "Cyberforce, Vol. 1"
     issue: 0A
@@ -304,11 +336,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Eric Silvestri | Marc Silvestri | Walter Simonson
     release_date: Sep 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 36
+    signed_by: ""
     price: 1.95
   - series: "Cyberforce, Vol. 1"
     issue: 1A
@@ -319,11 +353,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Eric Silvestri | Marc Silvestri | Scott Williams
     release_date: Oct 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Cyberforce, Vol. 1"
     issue: 2A
@@ -334,11 +370,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Eric Silvestri | Marc Silvestri | John Tighe
     release_date: Mar 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Cyberforce, Vol. 1"
     issue: 3A
@@ -349,11 +387,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Eric Silvestri | Marc Silvestri | John Tighe
     release_date: May 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Cyberforce, Vol. 1"
     issue: 4A
@@ -364,11 +404,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Marc Silvestri | Scott Williams
     release_date: Jul 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Cyberrad, Vol. 2"
     issue: 1B
@@ -379,11 +421,13 @@ items:
     crossover: ""
     variant: B
     publisher: Continuity Comics
+    creators: Peter Stone | Frank Quitely | Richard Bennett
     release_date: Nov 1992
     release_year: 1992
     genre: Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.95
   - series: Darker Image
     issue: 1A
@@ -394,11 +438,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Jim Lee | Sam Kieth | William Messner-Loebs
     release_date: Mar 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Deathblow, Vol. 1"
     issue: 1A
@@ -409,11 +455,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Brandon Choi | Jim Lee | Trevor Scott
     release_date: Apr 1993
     release_year: 1993
     genre: Adventure | Super-Heroes | War
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Deathblow, Vol. 1"
     issue: 2A
@@ -424,11 +472,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Jim Lee | Steve Gerber | Brandon Choi
     release_date: Aug 1993
     release_year: 1993
     genre: Action | Adventure | Science Fiction | Super-Heroes | War
     format: Comic
     pages: 36
+    signed_by: ""
     price: 1.75
   - series: "Deathblow, Vol. 1"
     issue: "8"
@@ -439,11 +489,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Steve Gerber | Brandon Choi | Jim Lee
     release_date: Aug 1994
     release_year: 1994
     genre: Action | Adventure | War
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Deathblow, Vol. 1"
     issue: "10"
@@ -454,11 +506,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Brandon Choi | Jim Lee | Tim Sale
     release_date: Nov 1994
     release_year: 1994
     genre: Action | Adventure | War
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Deathblow, Vol. 1"
     issue: "11"
@@ -469,11 +523,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Brandon Choi | Jim Lee | Tim Sale
     release_date: Dec 1994
     release_year: 1994
     genre: Action | Adventure | War
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Deathblow, Vol. 1"
     issue: "12"
@@ -484,11 +540,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Brandon Choi | Jim Lee | Tim Sale
     release_date: Jan 1995
     release_year: 1995
     genre: Action | Adventure | War
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: Divine Right
     issue: 2A
@@ -499,11 +557,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Brandon Choi | Jim Lee | Tim Sale
     release_date: Oct 1997
     release_year: 1997
     genre: Fantasy
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: Divine Right
     issue: 3A
@@ -514,11 +574,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Jim Lee | Scott Williams | Sal Regla
     release_date: Nov 1997
     release_year: 1997
     genre: ""
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: DV8 vs. BlackOps
     issue: "1"
@@ -529,11 +591,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Jim Lee | Scott Williams | Alex Garner
     release_date: Oct 1997
     release_year: 1997
     genre: Action | Adventure | Super-Heroes | War
     format: Comic
     pages: 40
+    signed_by: ""
     price: 2.5
   - series: "Fantastic Four, Vol. 2"
     issue: 1A
@@ -544,11 +608,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Shon C. Bury | Dan Norton | Sandra Hope
     release_date: "Sep 04, 1996"
     release_year: 1996
     genre: ""
     format: Comic
     pages: 56
+    signed_by: ""
     price: 2.95
   - series: "Fantastic Four, Vol. 2"
     issue: 2A
@@ -559,11 +625,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Jim Lee | Scott Williams
     release_date: Dec 1996
     release_year: 1996
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 40
+    signed_by: ""
     price: 1.95
   - series: "Fantastic Four, Vol. 2"
     issue: 3A
@@ -574,11 +642,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Jim Lee | Scott Williams
     release_date: "Nov 06, 1996"
     release_year: 1996
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 40
+    signed_by: ""
     price: 1.95
   - series: "Fantastic Four, Vol. 2"
     issue: 4C
@@ -589,11 +659,13 @@ items:
     crossover: ""
     variant: C
     publisher: Marvel Comics
+    creators: Jim Lee | Scott Williams | Alex Garner
     release_date: Feb 1997
     release_year: 1997
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 40
+    signed_by: ""
     price: 1.99
   - series: "Fantastic Four, Vol. 2"
     issue: 5A
@@ -604,11 +676,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: "Jim Lee | John 'JD' Dickenson | Scott Williams"
     release_date: Mar 1997
     release_year: 1997
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 40
+    signed_by: ""
     price: 1.95
   - series: "Fantastic Four, Vol. 2"
     issue: 6A
@@ -619,11 +693,13 @@ items:
     crossover: Industrial Revolution
     variant: A
     publisher: Marvel Comics
+    creators: Jim Lee | Scott Williams | Alex Garner
     release_date: Apr 1997
     release_year: 1997
     genre: Action | Adventure | Science Fiction
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Fantastic Four, Vol. 2"
     issue: 7A
@@ -634,11 +710,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: "Jim Lee | Scott Williams | John 'JD' Dickenson"
     release_date: May 1997
     release_year: 1997
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Fantastic Four, Vol. 2"
     issue: 8A
@@ -649,11 +727,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Brett Booth | Tom McWeeney
     release_date: Jun 1997
     release_year: 1997
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Fantastic Four, Vol. 2"
     issue: 9A
@@ -664,11 +744,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Brett Booth | Tom McWeeney
     release_date: Jul 1997
     release_year: 1997
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Gen 13, Vol. 1 (1994)"
     issue: TP
@@ -679,11 +761,13 @@ items:
     crossover: ""
     variant: TP
     publisher: Image Comics
+    creators: Brett Booth | Scott Williams | Mark Irwin
     release_date: Dec 1994
     release_year: 1994
     genre: Action | Adventure | Super-Heroes
     format: Trade Paperback
     pages: 144
+    signed_by: ""
     price: 12.95
   - series: "Gen 13, Vol. 1 (1994)"
     issue: 0A
@@ -694,11 +778,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Jeff Mariotte | Brandon Choi | Jim Lee
     release_date: Sep 1994
     release_year: 1994
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Gen 13, Vol. 1 (1994)"
     issue: 1A
@@ -709,11 +795,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Brandon Choi | Richard Johnson | Travis Charest
     release_date: Feb 1994
     release_year: 1994
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Gen 13, Vol. 1 (1994)"
     issue: "3"
@@ -724,11 +812,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Brandon Choi | Jim Lee | J. Scott Campbell
     release_date: Jul 1995
     release_year: 1995
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Ghost Rider, Vol. 2"
     issue: 26A
@@ -739,11 +829,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: J. Scott Campbell | Brandon Choi | Jim Lee
     release_date: "Apr 14, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Ghost Rider, Vol. 2"
     issue: 27A
@@ -754,11 +846,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Howard Mackie | Ron Wagner | Mike Witherby
     release_date: "May 12, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Grifter: One Shot"
     issue: "1"
@@ -769,11 +863,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Howard Mackie | Ron Wagner | Mike Witherby
     release_date: Jan 1995
     release_year: 1995
     genre: Action | Adventure | Super-Heroes
     format: Squarebound
     pages: 48
+    signed_by: ""
     price: 4.95
   - series: Image Plus
     issue: "1"
@@ -784,11 +880,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Steven T. Seagle | Dan Norton | Chuck Gibson
     release_date: May 1993
     release_year: 1993
     genre: Reference
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.25
   - series: Image Zero
     issue: "0"
@@ -799,11 +897,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: J. Scott Campbell
     release_date: "Oct 12, 1993"
     release_year: 1993
     genre: Adventure
     format: Comic
     pages: 32
+    signed_by: ""
     price: 0
   - series: Images of Shadowhawk
     issue: "1"
@@ -814,11 +914,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Jim Lee | Marc Silvestri | Jim Valentino
     release_date: Sep 1993
     release_year: 1993
     genre: Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "The Incredible Hulk, Vol. 1"
     issue: 391A
@@ -829,11 +931,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Alan Grant | Keith Giffen | Don Simpson
     release_date: "Jan 21, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "The Incredible Hulk, Vol. 1"
     issue: 391B
@@ -844,11 +948,13 @@ items:
     crossover: ""
     variant: B
     publisher: Marvel Comics
+    creators: Peter David | Dale Keown | Mark Farmer
     release_date: "Jan 21, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "The Incredible Hulk, Vol. 1"
     issue: 392A
@@ -859,11 +965,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Peter David | Dale Keown | Mark Farmer
     release_date: "Feb 18, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "Iron Man, Vol. 2"
     issue: 1A
@@ -874,11 +982,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Peter David | Dale Keown | Mark Farmer
     release_date: "Sep 18, 1996"
     release_year: 1996
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 56
+    signed_by: ""
     price: 2.95
   - series: Jim Henson's Power of The Dark Crystal
     issue: 1B
@@ -889,11 +999,13 @@ items:
     crossover: ""
     variant: B
     publisher: Boom! Studios
+    creators: Scott Lobdell | Jim Lee | Whilce Portacio
     release_date: "Feb 22, 2017"
     release_year: 2017
     genre: Fantasy
     format: Comic
     pages: 32
+    signed_by: ""
     price: 3.99
   - series: "Jim Henson's Power of The Dark Crystal"
     issue: TP
@@ -904,11 +1016,13 @@ items:
     crossover:
     variant: TP
     publisher: Boom! Studios
+    creators:
     release_date: Jan 02, 2019
     release_year: 2019
     genre: Fantasy
     format: Trade Paperback
     pages: 0
+    signed_by: ""
     price: 16.99
   - series: "Jim Henson's Power of The Dark Crystal"
     issue: TP-2
@@ -919,11 +1033,13 @@ items:
     crossover:
     variant: TP-2
     publisher: Boom! Studios
+    creators:
     release_date: Oct 23, 2019
     release_year: 2019
     genre: Fantasy
     format: Trade Paperback
     pages: 0
+    signed_by: ""
     price: 16.99
   - series: Justice League Europe / International
     issue: 15A
@@ -934,11 +1050,13 @@ items:
     crossover: ""
     variant: A
     publisher: DC Comics
+    creators: Simon Spurrier | Nichole Matthews
     release_date: Jun 1990
     release_year: 1990
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: Justice League Europe / International
     issue: 16A
@@ -949,11 +1067,13 @@ items:
     crossover: ""
     variant: A
     publisher: DC Comics
+    creators: Keith Giffen | Gerard Jones | Bart Sears
     release_date: Jul 1990
     release_year: 1990
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: Justice League Europe / International
     issue: 17A
@@ -964,11 +1084,13 @@ items:
     crossover: ""
     variant: A
     publisher: DC Comics
+    creators: J.M. DeMatteis | Keith Giffen | Gerard Jones
     release_date: Aug 1990
     release_year: 1990
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: Justice League Europe / International
     issue: 18A
@@ -979,11 +1101,13 @@ items:
     crossover: ""
     variant: A
     publisher: DC Comics
+    creators: Keith Giffen | Gerard Jones | Bart Sears
     release_date: Sep 1990
     release_year: 1990
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: Justice League Europe / International
     issue: 19A
@@ -994,11 +1118,13 @@ items:
     crossover: ""
     variant: A
     publisher: DC Comics
+    creators: Keith Giffen | Gerard Jones | Bart Sears
     release_date: Oct 1990
     release_year: 1990
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: Marvel Swimsuit Special
     issue: "1"
@@ -1009,11 +1135,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Marvel Comics
+    creators: Keith Giffen | Gerard Jones | Bart Sears
     release_date: "Jun 23, 1992"
     release_year: 1992
     genre: Art / Pin-up | Hobby
     format: Magazine
     pages: 48
+    signed_by: ""
     price: 3.95
   - series: The Maxx
     issue: 1A
@@ -1024,11 +1152,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: John Rozum | Mindy Newell | Bob Washington
     release_date: Mar 1993
     release_year: 1993
     genre: Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: The Maxx
     issue: 2A
@@ -1039,11 +1169,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Sam Kieth | William Messner-Loebs | James Sinclair
     release_date: Apr 1993
     release_year: 1993
     genre: Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: The Maxx
     issue: 3A
@@ -1054,11 +1186,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Sam Kieth | William Messner-Loebs | James Sinclair
     release_date: May 1993
     release_year: 1993
     genre: Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: The Maxx
     issue: 4A
@@ -1069,11 +1203,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Sam Kieth | William Messner-Loebs | James Sinclair
     release_date: Apr 1993
     release_year: 1993
     genre: Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "The New Mutants, Vol. 1"
     issue: 87A
@@ -1084,11 +1220,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Sam Kieth | William Messner-Loebs | James Sinclair
     release_date: "Jan 09, 1990"
     release_year: 1990
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: "The New Mutants, Vol. 1"
     issue: 100A
@@ -1099,11 +1237,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Louise Simonson | Rob Liefeld | Bob Wiacek
     release_date: "Feb 13, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 52
+    signed_by: ""
     price: 1
   - series: Pitt
     issue: 1A
@@ -1114,11 +1254,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Fabian Nicieza | Rob Liefeld
     release_date: Jan 1993
     release_year: 1993
     genre: Action | Adventure | Horror | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Pitt
     issue: 2A
@@ -1129,11 +1271,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Brian Hotton | Jim Somerville | Sam Kieth
     release_date: Jul 1993
     release_year: 1993
     genre: Action | Adventure | Horror | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Pitt
     issue: 3A
@@ -1144,11 +1288,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Dale Keown | Scott Williams | Joe Rubinstein
     release_date: Feb 1994
     release_year: 1994
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Savage Dragon vs. Savage Megaton Man
     issue: 1A
@@ -1159,11 +1305,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Dale Keown | Brian Hotton | Jim Somerville
     release_date: Mar 1993
     release_year: 1993
     genre: Adventure
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "The Savage Dragon [SP]"
     issue: "1"
@@ -1174,11 +1322,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Don Simpson | Erik Larsen
     release_date: Jun 1993
     release_year: 1993
     genre: ""
     format: Comic
     pages: 0
+    signed_by: ""
     price: 1.95
   - series: "The Savage Dragon [SP]"
     issue: "2"
@@ -1189,11 +1339,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Erik Larsen
     release_date: Jul 1993
     release_year: 1993
     genre: ""
     format: Comic
     pages: 0
+    signed_by: ""
     price: 2.95
   - series: "The Savage Dragon [SP]"
     issue: "3"
@@ -1204,11 +1356,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Erik Larsen
     release_date: Aug 1993
     release_year: 1993
     genre: ""
     format: Comic
     pages: 0
+    signed_by: ""
     price: 1.95
   - series: "The Savage Dragon [SP]"
     issue: "4"
@@ -1219,11 +1373,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Erik Larsen
     release_date: Sep 1993
     release_year: 1993
     genre: ""
     format: Comic
     pages: 0
+    signed_by: ""
     price: 1.95
   - series: "Savage Dragon, Vol. 1"
     issue: 1A
@@ -1234,11 +1390,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Erik Larsen
     release_date: Jul 1992
     release_year: 1992
     genre: Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Savage Dragon, Vol. 1"
     issue: 2A
@@ -1249,11 +1407,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Erik Larsen
     release_date: Oct 1992
     release_year: 1992
     genre: Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Savage Dragon, Vol. 1"
     issue: 3A
@@ -1264,11 +1424,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Erik Larsen
     release_date: Dec 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Shadowhawk, Vol. 1"
     issue: 1A
@@ -1279,11 +1441,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Erik Larsen
     release_date: Aug 1992
     release_year: 1992
     genre: Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Shadowhawk, Vol. 1"
     issue: 2A
@@ -1294,11 +1458,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Jim Valentino
     release_date: Oct 1992
     release_year: 1992
     genre: Action | Adventure
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Shadowhawk, Vol. 1"
     issue: 3A
@@ -1309,11 +1475,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Jim Valentino
     release_date: Dec 1992
     release_year: 1992
     genre: Adventure
     format: Comic
     pages: 28
+    signed_by: ""
     price: 2.5
   - series: "Shadowhawk, Vol. 1"
     issue: 4A
@@ -1324,11 +1492,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: "Jim Valentino | Chance Wolf | Phil D'Moss"
     release_date: Mar 1993
     release_year: 1993
     genre: Action | Adventure
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Shadowhawk, Vol. 2"
     issue: "1"
@@ -1339,11 +1509,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Jim Valentino | Chance Wolf
     release_date: May 1993
     release_year: 1993
     genre: Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 3.5
   - series: "Shadowhawk, Vol. 2"
     issue: 2A
@@ -1354,11 +1526,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Jim Valentino | Chance Wolf
     release_date: Jul 1993
     release_year: 1993
     genre: Adventure
     format: Comic
     pages: 36
+    signed_by: ""
     price: 1.95
   - series: "Shadowhawk, Vol. 2"
     issue: "3"
@@ -1369,11 +1543,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Jim Valentino | Brad W. Foster | Chance Wolf
     release_date: Aug 1993
     release_year: 1993
     genre: Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.95
   - series: Spawn
     issue: 1A
@@ -1384,6 +1560,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane
     release_date: May 1992
     release_year: 1992
     genre: >-
@@ -1391,6 +1568,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 32
+    signed_by: Todd McFarlane
     price: 1.95
   - series: Spawn
     issue: 2A
@@ -1401,6 +1579,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane
     release_date: Jun 1992
     release_year: 1992
     genre: >-
@@ -1408,6 +1587,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 3A
@@ -1418,11 +1598,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane
     release_date: Jul 1992
     release_year: 1992
     genre: Action | Adventure | Horror | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 4A
@@ -1433,11 +1615,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane
     release_date: Sep 1992
     release_year: 1992
     genre: Action | Adventure | Horror | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 5A
@@ -1448,6 +1632,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane
     release_date: Oct 1992
     release_year: 1992
     genre: >-
@@ -1455,6 +1640,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 6A
@@ -1465,11 +1651,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane
     release_date: Nov 1992
     release_year: 1992
     genre: Action | Adventure | Horror | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 7A
@@ -1480,6 +1668,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane
     release_date: Jan 1993
     release_year: 1993
     genre: >-
@@ -1487,6 +1676,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 8A
@@ -1497,6 +1687,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane
     release_date: Feb 1993
     release_year: 1993
     genre: >-
@@ -1504,6 +1695,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 36
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 9A
@@ -1514,6 +1706,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Alan Moore | Todd McFarlane
     release_date: Mar 1993
     release_year: 1993
     genre: >-
@@ -1521,6 +1714,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 36
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 10A
@@ -1531,11 +1725,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Neil Gaiman | Todd McFarlane
     release_date: May 1993
     release_year: 1993
     genre: Action | Adventure | Horror | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 11A
@@ -1546,6 +1742,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Dave Sim | Todd McFarlane
     release_date: Jun 1993
     release_year: 1993
     genre: >-
@@ -1553,6 +1750,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 12A
@@ -1563,6 +1761,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Frank Miller | Todd McFarlane
     release_date: Jul 1993
     release_year: 1993
     genre: >-
@@ -1570,6 +1769,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 13A
@@ -1580,6 +1780,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane
     release_date: Aug 1993
     release_year: 1993
     genre: >-
@@ -1587,6 +1788,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 15A
@@ -1597,6 +1799,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane
     release_date: Nov 1993
     release_year: 1993
     genre: >-
@@ -1604,6 +1807,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 59A
@@ -1614,6 +1818,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane
     release_date: Mar 1997
     release_year: 1997
     genre: >-
@@ -1621,6 +1826,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 60A
@@ -1631,11 +1837,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane | Greg Capullo | Chance Wolf
     release_date: Apr 1997
     release_year: 1997
     genre: Action | Adventure | Horror | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 61A
@@ -1646,6 +1854,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane | Greg Capullo | Chance Wolf
     release_date: May 1997
     release_year: 1997
     genre: >-
@@ -1653,6 +1862,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 68A
@@ -1663,11 +1873,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane | Greg Capullo | Chance Wolf
     release_date: Jan 1998
     release_year: 1998
     genre: Action | Adventure | Horror | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 69A
@@ -1678,6 +1890,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane | Greg Capullo | Chance Wolf
     release_date: Jan 1998
     release_year: 1998
     genre: >-
@@ -1685,6 +1898,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 77A
@@ -1695,11 +1909,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane | Greg Capullo
     release_date: Oct 1998
     release_year: 1998
     genre: Action | Adventure | Horror | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: Spawn
     issue: 78A
@@ -1710,6 +1926,7 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Todd McFarlane | Brian Holguin | Dwayne Turner
     release_date: Nov 1999
     release_year: 1999
     genre: >-
@@ -1717,6 +1934,7 @@ items:
       Super-Heroes | Thriller
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Spider-Man, Vol. 1"
     issue: 6A
@@ -1727,11 +1945,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Brian Holguin | Greg Capullo | Danny Miki
     release_date: "Nov 20, 1990"
     release_year: 1990
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 7A
@@ -1742,11 +1962,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Todd McFarlane
     release_date: "Dec 18, 1990"
     release_year: 1990
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 8A
@@ -1757,11 +1979,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Todd McFarlane
     release_date: "Jan 15, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 9A
@@ -1772,11 +1996,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Todd McFarlane
     release_date: "Feb 19, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 10A
@@ -1787,11 +2013,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Todd McFarlane
     release_date: "Mar 19, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 11A
@@ -1802,11 +2030,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Todd McFarlane | Rick Magyar | Jim Lee
     release_date: "Apr 16, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 12A
@@ -1817,11 +2047,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Todd McFarlane | Rick Magyar
     release_date: "May 21, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 13A
@@ -1832,11 +2064,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Todd McFarlane
     release_date: "Jun 18, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 14A
@@ -1847,11 +2081,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Todd McFarlane
     release_date: "Jul 16, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 15A
@@ -1862,11 +2098,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Todd McFarlane
     release_date: Oct 1991
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 16A
@@ -1877,11 +2115,13 @@ items:
     crossover: Sabotage
     variant: A
     publisher: Marvel Comics
+    creators: Erik Larsen
     release_date: "Sep 17, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 18A
@@ -1892,11 +2132,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Todd McFarlane
     release_date: "Nov 19, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 19A
@@ -1907,11 +2149,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Erik Larsen
     release_date: Feb 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 20A
@@ -1922,11 +2166,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Erik Larsen | Terry Kavanagh | Scott McDaniel
     release_date: Mar 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 21A
@@ -1937,11 +2183,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Erik Larsen | Terry Kavanagh | Scott McDaniel
     release_date: Apr 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 22A
@@ -1952,11 +2200,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Erik Larsen
     release_date: "Mar 17, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 23A
@@ -1967,11 +2217,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Erik Larsen
     release_date: "Apr 21, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.75
   - series: "Spider-Man, Vol. 1"
     issue: 26A
@@ -1982,11 +2234,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Erik Larsen
     release_date: Sep 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 48
+    signed_by: ""
     price: 3.5
   - series: Spider-Man vs. Venom
     issue: A
@@ -1997,11 +2251,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Ron Frenz | Tom DeFalco | Mark Bagley
     release_date: "1990"
     release_year: 1990
     genre: Action | Super-Heroes
     format: Softcover
     pages: 112
+    signed_by: ""
     price: 12.95
   - series: "Spider-Man: Torment"
     issue: TP-A
@@ -2012,11 +2268,13 @@ items:
     crossover: ""
     variant: TP-A
     publisher: Marvel Comics
+    creators: David Michelinie | Todd McFarlane | Bob McLeod
     release_date: Jan 1992
     release_year: 1992
     genre: Action | Super-Heroes
     format: Trade Paperback
     pages: 0
+    signed_by: ""
     price: 12.95
   - series: "Star Wars: Episode 1 - Phantom Menace"
     issue: 1B
@@ -2027,11 +2285,13 @@ items:
     crossover: ""
     variant: B
     publisher: Dark Horse Comics
+    creators: Todd McFarlane
     release_date: May 1999
     release_year: 1999
     genre: Action | Adventure | Science Fiction
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.95
   - series: "Star Wars: Episode 1 - Phantom Menace"
     issue: 2B
@@ -2042,11 +2302,13 @@ items:
     crossover: ""
     variant: B
     publisher: Dark Horse Comics
+    creators: Rodolfo DaMaggio | Al Williamson
     release_date: May 1999
     release_year: 1999
     genre: Action | Adventure | Science Fiction
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.95
   - series: "Star Wars: Episode 1 - Phantom Menace"
     issue: 3B
@@ -2057,11 +2319,13 @@ items:
     crossover: ""
     variant: B
     publisher: Dark Horse Comics
+    creators: Rodolfo DaMaggio | Al Williamson
     release_date: May 1999
     release_year: 1999
     genre: Action | Adventure | Science Fiction
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.95
   - series: "Star Wars: Episode 1 - Phantom Menace"
     issue: 4B
@@ -2072,11 +2336,13 @@ items:
     crossover: ""
     variant: B
     publisher: Dark Horse Comics
+    creators: Rodolfo DaMaggio | Al Williamson
     release_date: May 1999
     release_year: 1999
     genre: Action | Adventure | Science Fiction
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.95
   - series: "Stormwatch, Vol. 1"
     issue: "0"
@@ -2087,11 +2353,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Rodolfo DaMaggio | Al Williamson
     release_date: Aug 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Stormwatch, Vol. 1"
     issue: 1A
@@ -2102,11 +2370,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Brandon Choi | Jim Lee | Scott Clark
     release_date: Mar 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Stormwatch, Vol. 1"
     issue: "2"
@@ -2117,11 +2387,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Brandon Choi | Jim Lee | Scott Clark
     release_date: May 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Stormwatch, Vol. 1"
     issue: "3"
@@ -2132,11 +2404,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Brandon Choi | Jim Lee | Scott Clark
     release_date: Jul 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Strange Adventures, Vol. 3"
     issue: TP
@@ -2147,11 +2421,13 @@ items:
     crossover: ""
     variant: TP
     publisher: DC Comics
+    creators: Brandon Choi | Scott Clark | Trevor Scott
     release_date: "Mar 31, 2010"
     release_year: 2010
     genre: Action | Adventure | Science Fiction | Super-Heroes
     format: Trade Paperback
     pages: 256
+    signed_by: ""
     price: 19.99
   - series: Tribe
     issue: 1A
@@ -2162,11 +2438,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Jim Starlin | Manuel Garcia | Al Milgrom
     release_date: Mar 1993
     release_year: 1993
     genre: Super-Heroes
     format: Comic
     pages: 28
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s / X-Men: The Golden Age"
     issue: 1B
@@ -2177,11 +2455,13 @@ items:
     crossover: ""
     variant: B
     publisher: Marvel Comics and Image Comics
+    creators: Larry Stroman | Todd Johnson
     release_date: Feb 1997
     release_year: 1997
     genre: Action | Adventure | Historic | Super-Heroes | War
     format: Comic
     pages: 48
+    signed_by: ""
     price: 4.5
   - series: "WildC.A.T.s / X-Men: The Silver Age"
     issue: 1B
@@ -2192,11 +2472,13 @@ items:
     crossover: ""
     variant: B
     publisher: Marvel Comics and Image Comics
+    creators: Scott Lobdell | Homage Studios | Travis Charest
     release_date: Jun 1997
     release_year: 1997
     genre: ""
     format: Comic
     pages: 0
+    signed_by: ""
     price: 4.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: 0A
@@ -2207,11 +2489,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Scott Lobdell | Jim Lee | Scott Williams
     release_date: "Jun 29, 1993"
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 24
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: 1A
@@ -2222,11 +2506,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Brandon Choi | Jim Lee | Brett Booth
     release_date: Aug 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "WildC.A.T.s, Vol. 1"
     issue: 2B
@@ -2237,11 +2523,13 @@ items:
     crossover: ""
     variant: B
     publisher: Image Comics
+    creators: Jim Lee | Brandon Choi | Scott Williams
     release_date: Oct 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: 3A
@@ -2252,11 +2540,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Brandon Choi | Whilce Portacio | Jim Lee
     release_date: Dec 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "WildC.A.T.s, Vol. 1"
     issue: 4A
@@ -2267,11 +2557,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Jim Lee | Brandon Choi | Scott Williams
     release_date: Mar 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: 6A
@@ -2282,11 +2574,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Brandon Choi | Jim Lee | Scott Williams
     release_date: Dec 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "WildC.A.T.s, Vol. 1"
     issue: 7A
@@ -2297,11 +2591,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Jim Lee | Brandon Choi | Scott Williams
     release_date: Jan 1994
     release_year: 1994
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "WildC.A.T.s, Vol. 1"
     issue: 8A
@@ -2312,11 +2608,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Brandon Choi | Jim Lee | John Tighe
     release_date: Feb 1994
     release_year: 1994
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: "10"
@@ -2327,11 +2625,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Steven T. Seagle | Brandon Choi | Jim Lee
     release_date: Apr 1994
     release_year: 1994
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: 12A
@@ -2342,11 +2642,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: H.K. Proger | Chris Claremont | Jim Lee
     release_date: "Aug 08, 1994"
     release_year: 1994
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 36
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: 13A
@@ -2357,11 +2659,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Chris Claremont | Jim Lee | Scott Williams
     release_date: Sep 1994
     release_year: 1994
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: "17"
@@ -2372,11 +2676,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Chris Claremont | Dan Norton | Richard Johnson
     release_date: Jan 1995
     release_year: 1995
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: "23"
@@ -2387,11 +2693,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: James Robinson | Travis Charest | Salvador Larroca
     release_date: Sep 1995
     release_year: 1995
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: "26"
@@ -2402,11 +2710,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Alan Moore | Jason Johnson | Jeff Rebner
     release_date: Feb 1996
     release_year: 1996
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: 31A
@@ -2417,11 +2727,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Alan Moore | Dave Johnson | Travis Charest
     release_date: Sep 1996
     release_year: 1996
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: "33"
@@ -2432,11 +2744,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Alan Moore | Travis Charest | Jim Lee
     release_date: Feb 1997
     release_year: 1997
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: "34"
@@ -2447,11 +2761,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Alan Moore | Mat Broome | Troy Hubbs
     release_date: Feb 1997
     release_year: 1997
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "WildC.A.T.s, Vol. 1"
     issue: "35"
@@ -2462,11 +2778,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Alan Moore | Rob Stotz | Mat Broome
     release_date: Mar 1997
     release_year: 1997
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: WildC.A.T.S. Trilogy
     issue: 1A
@@ -2477,11 +2795,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: "Barbara Kesel | Rich Johnson | Carlos D'Anda"
     release_date: Jun 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: WildC.A.T.S. Trilogy
     issue: 2A
@@ -2492,11 +2812,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Brandon Choi | Daffyd Wyn | Jae Lee
     release_date: Sep 1993
     release_year: 1993
     genre: Action | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "WildC.A.T.s: Sourcebook"
     issue: "1"
@@ -2507,11 +2829,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Brandon Choi | Daffyd Wyn | Jae Lee
     release_date: Sep 1993
     release_year: 1993
     genre: Reference
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Wildcats, Vol. 2"
     issue: "2"
@@ -2522,11 +2846,13 @@ items:
     crossover: ""
     variant: ""
     publisher: DC Comics
+    creators: Jeff Mariotte | Brandon Choi | Jim Lee
     release_date: May 1999
     release_year: 1999
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Wildcats, Vol. 2"
     issue: "4"
@@ -2537,11 +2863,13 @@ items:
     crossover: ""
     variant: ""
     publisher: DC Comics
+    creators: Scott Lobdell | Travis Charest | Richard Friend
     release_date: Sep 1999
     release_year: 1999
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Wildcats, Vol. 2"
     issue: 5A
@@ -2552,11 +2880,13 @@ items:
     crossover: ""
     variant: A
     publisher: DC Comics
+    creators: Scott Lobdell | Travis Charest | Richard Friend
     release_date: Nov 1999
     release_year: 1999
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Wildcats, Vol. 2"
     issue: "6"
@@ -2567,11 +2897,13 @@ items:
     crossover: ""
     variant: ""
     publisher: DC Comics
+    creators: Bryan Hitch | Paul Neary
     release_date: Jan 2000
     release_year: 2000
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Wildcats, Vol. 2"
     issue: "23"
@@ -2582,11 +2914,13 @@ items:
     crossover: ""
     variant: ""
     publisher: DC Comics
+    creators: Scott Lobdell | Joe Casey | Travis Charest
     release_date: Jul 2001
     release_year: 2001
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Wildcats, Vol. 2"
     issue: "26"
@@ -2597,11 +2931,13 @@ items:
     crossover: ""
     variant: ""
     publisher: DC Comics
+    creators: Joe Casey | Sean Phillips
     release_date: Oct 2001
     release_year: 2001
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: Wildcore
     issue: 1A
@@ -2612,11 +2948,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Joe Casey | Sean Phillips
     release_date: Nov 1997
     release_year: 1997
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 3.5
   - series: "X-Factor, Vol. 1"
     issue: 71A
@@ -2627,11 +2965,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Brett Booth | Sean Ruffner | Tom McWeeney
     release_date: "Aug 20, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: "X-Factor, Vol. 1"
     issue: 72A
@@ -2642,11 +2982,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Peter David | Larry Stroman | Al Milgrom
     release_date: "Sep 17, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: "X-Factor, Vol. 1"
     issue: 73A
@@ -2657,11 +2999,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Peter David | Larry Stroman | Al Milgrom
     release_date: "Oct 15, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: "X-Factor, Vol. 1"
     issue: 74A
@@ -2672,11 +3016,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Peter David | Larry Stroman | Al Milgrom
     release_date: "Nov 19, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: "X-Factor, Vol. 1"
     issue: 75A
@@ -2687,11 +3033,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Peter David | Larry Stroman | Al Milgrom
     release_date: "Dec 17, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 48
+    signed_by: ""
     price: 1.75
   - series: "X-Factor, Vol. 1"
     issue: 76A
@@ -2702,11 +3050,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Peter David | Tom Raney | Larry Stroman
     release_date: "Jan 21, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Factor, Vol. 1"
     issue: 77A
@@ -2717,11 +3067,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Peter David | Kevin J. West | Tom Raney
     release_date: "Feb 18, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Factor, Vol. 1"
     issue: 78A
@@ -2732,11 +3084,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Peter David | Larry Stroman | Al Milgrom
     release_date: "Mar 17, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Factor, Vol. 1"
     issue: 79A
@@ -2747,11 +3101,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Peter David | Larry Stroman | Brandon Peterson
     release_date: "Apr 21, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Factor, Vol. 1"
     issue: 80A
@@ -2762,11 +3118,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Peter David | Jim Fern | Al Milgrom
     release_date: "May 19, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Factor, Vol. 1"
     issue: 81A
@@ -2777,11 +3135,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Peter David | Larry Stroman | Al Milgrom
     release_date: "Jun 16, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Force, Vol. 1"
     issue: 1B
@@ -2792,11 +3152,13 @@ items:
     crossover: ""
     variant: B
     publisher: Marvel Comics
+    creators: Peter David | Larry Stroman | Al Milgrom
     release_date: Aug 1991
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.5
   - series: "X-Force, Vol. 1"
     issue: 1C-1
@@ -2807,11 +3169,13 @@ items:
     crossover: ""
     variant: C-1
     publisher: Marvel Comics
+    creators: Fabian Nicieza | Rob Liefeld
     release_date: Aug 1991
     release_year: 1991
     genre: Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.5
   - series: "X-Force, Vol. 1"
     issue: 2A
@@ -2822,11 +3186,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators:
     release_date: "Jul 30, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: "X-Force, Vol. 1"
     issue: 3A
@@ -2837,11 +3203,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Rob Liefeld | Fabian Nicieza
     release_date: "Aug 28, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: "X-Force, Vol. 1"
     issue: 4A
@@ -2852,11 +3220,13 @@ items:
     crossover: Sabotage
     variant: A
     publisher: Marvel Comics
+    creators: Rob Liefeld | Fabian Nicieza
     release_date: "Sep 24, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: "X-Force, Vol. 1"
     issue: 5A
@@ -2867,11 +3237,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Rob Liefeld | Fabian Nicieza
     release_date: "Oct 22, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: "X-Force, Vol. 1"
     issue: 6A
@@ -2882,11 +3254,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Rob Liefeld | Fabian Nicieza | Marat Mychaels
     release_date: "Nov 26, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: "X-Force, Vol. 1"
     issue: 7A
@@ -2897,11 +3271,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Rob Liefeld | Fabian Nicieza
     release_date: "Dec 30, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Force, Vol. 1"
     issue: 8A
@@ -2912,11 +3288,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Rob Liefeld | Fabian Nicieza
     release_date: "Jan 28, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Force, Vol. 1"
     issue: 9A
@@ -2927,11 +3305,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Fabian Nicieza | Rob Liefeld | Mike Mignola
     release_date: "Feb 25, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Force, Vol. 1"
     issue: 10A
@@ -2942,11 +3322,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Fabian Nicieza | Rob Liefeld | Dan Panosian
     release_date: May 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Force, Vol. 1"
     issue: 11A
@@ -2957,11 +3339,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Rob Liefeld | Fabian Nicieza | Marc Pacella
     release_date: "Apr 28, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Men, Vol. 1"
     issue: 1A
@@ -2972,11 +3356,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Fabian Nicieza | Rob Liefeld | Marc Pacella
     release_date: "Aug 20, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.5
   - series: "X-Men, Vol. 1"
     issue: 1B
@@ -2987,11 +3373,13 @@ items:
     crossover: ""
     variant: B
     publisher: Marvel Comics
+    creators: Jim Lee | Chris Claremont | Scott Williams
     release_date: "Aug 20, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.5
   - series: "X-Men, Vol. 1"
     issue: 1C
@@ -3002,11 +3390,13 @@ items:
     crossover: ""
     variant: C
     publisher: Marvel Comics
+    creators: Chris Claremont | Jim Lee | Scott Williams
     release_date: "Aug 20, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 48
+    signed_by: ""
     price: 1.5
   - series: "X-Men, Vol. 1"
     issue: 1D
@@ -3017,11 +3407,13 @@ items:
     crossover: ""
     variant: D
     publisher: Marvel Comics
+    creators: Jim Lee | Chris Claremont | Scott Williams
     release_date: "Aug 20, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.5
   - series: "X-Men, Vol. 1"
     issue: 1E
@@ -3032,11 +3424,13 @@ items:
     crossover: ""
     variant: E
     publisher: Marvel Comics
+    creators: Chris Claremont | Jim Lee | Scott Williams
     release_date: "Aug 20, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 48
+    signed_by: ""
     price: 1.5
   - series: "X-Men, Vol. 1"
     issue: 2A
@@ -3047,11 +3441,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Chris Claremont | Jim Lee | Scott Williams
     release_date: "Sep 03, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: "X-Men, Vol. 1"
     issue: 3A
@@ -3062,11 +3458,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Chris Claremont | Jim Lee | Scott Williams
     release_date: Dec 1991
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: "X-Men, Vol. 1"
     issue: 4A
@@ -3077,11 +3475,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Chris Claremont | Jim Lee | Scott Williams
     release_date: Jan 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1
   - series: "X-Men, Vol. 1"
     issue: 5A
@@ -3092,11 +3492,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: John Byrne | Jim Lee | Scott Williams
     release_date: Feb 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Men, Vol. 1"
     issue: 6A
@@ -3107,11 +3509,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: John Byrne | Joe Rubinstein | Jim Lee
     release_date: Mar 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Men, Vol. 1"
     issue: 7A
@@ -3122,11 +3526,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Scott Lobdell | Jim Lee | Art Thibert
     release_date: Apr 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Men, Vol. 1"
     issue: 8A
@@ -3137,11 +3543,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Scott Lobdell | Jim Lee | Art Thibert
     release_date: "Mar 17, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Men, Vol. 1"
     issue: 9A
@@ -3152,11 +3560,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Scott Lobdell | Jim Lee | Art Thibert
     release_date: "Apr 21, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Men, Vol. 1"
     issue: 10A
@@ -3167,11 +3577,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Scott Lobdell | Jim Lee | Art Thibert
     release_date: Jul 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Men, Vol. 1"
     issue: 11A
@@ -3182,11 +3594,13 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
+    creators: Scott Lobdell | Jim Lee | Mark Texeira
     release_date: Aug 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.25
   - series: "X-Men: Shattershot"
     issue: HC
@@ -3197,11 +3611,13 @@ items:
     crossover: ""
     variant: HC
     publisher: Marvel Comics
+    creators: Scott Lobdell | Jim Lee | Mark Texeira
     release_date: "Dec 11, 2019"
     release_year: 2019
     genre: Action | Adventure | Super-Heroes
     format: Hardcover
     pages: 616
+    signed_by: ""
     price: 75
   - series: "Youngblood, Vol. 1"
     issue: 0A
@@ -3212,11 +3628,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Dan Slott | Chris Cooper | Fabian Nicieza
     release_date: Dec 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Youngblood, Vol. 1"
     issue: 0B
@@ -3227,11 +3645,13 @@ items:
     crossover: ""
     variant: B
     publisher: Image Comics
+    creators: Rob Liefeld | Dan Fraga | Danny Miki
     release_date: Dec 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Youngblood, Vol. 1"
     issue: 1B
@@ -3242,11 +3662,13 @@ items:
     crossover: ""
     variant: B
     publisher: Image Comics
+    creators: Rob Liefeld | Dan Fraga | Danny Miki
     release_date: May 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Youngblood, Vol. 1"
     issue: 1D
@@ -3257,11 +3679,13 @@ items:
     crossover: ""
     variant: D
     publisher: Marvel Comics
+    creators: Rob Liefeld | Jim Valentino | Danny Miki
     release_date: May 1992
     release_year: null
     genre: Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Youngblood, Vol. 1"
     issue: 2A
@@ -3272,11 +3696,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Rob Liefeld | Jim Valentino | Richard Horie
     release_date: Jul 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Youngblood, Vol. 1"
     issue: 2B
@@ -3287,11 +3713,13 @@ items:
     crossover: ""
     variant: B
     publisher: Image Comics
+    creators: Eric Stephenson | Jim Valentino | Rob Liefeld
     release_date: Jul 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Youngblood, Vol. 1"
     issue: "3"
@@ -3302,11 +3730,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Rob Liefeld | Danny Miki
     release_date: Aug 1992
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 40
+    signed_by: ""
     price: 2.5
   - series: "Youngblood, Vol. 1"
     issue: "4"
@@ -3317,11 +3747,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Dale Keown | Brian Hotton | Rob Liefeld
     release_date: Feb 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Youngblood: Battlezone"
     issue: "1"
@@ -3332,11 +3764,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Eric Stephenson | Richard Horie | Norm Rapmund
     release_date: May 1993
     release_year: 1993
     genre: Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 1.95
   - series: "Youngblood: Strikefile"
     issue: 1A
@@ -3347,11 +3781,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Rob Liefeld | Eric Stephenson | Jae Lee
     release_date: Apr 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Youngblood: Strikefile"
     issue: 1B
@@ -3362,11 +3798,13 @@ items:
     crossover: ""
     variant: B
     publisher: Image Comics
+    creators: Eric Stephenson | Rob Liefeld | Jae Lee
     release_date: "Apr 01, 1993"
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Youngblood: Strikefile"
     issue: 2A
@@ -3377,11 +3815,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
+    creators: Rob Liefeld | Eric Stephenson | Jae Lee
     release_date: Jul 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
   - series: "Youngblood: Strikefile"
     issue: "3"
@@ -3392,9 +3832,11 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
+    creators: Rob Liefeld | Eric Stephenson | Jae Lee
     release_date: Sep 1993
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
+    signed_by: ""
     price: 2.5
