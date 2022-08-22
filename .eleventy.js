@@ -7,7 +7,7 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 module.exports = function(eleventyConfig) {
 
   // .yaml extension in _data
-  eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
+  eleventyConfig.addDataExtension('yml', (contents) => yaml.load(contents));
 
   let markdownLibrary = markdownIt().disable('code').use(markdownItAttrs);
   eleventyConfig.setLibrary('md', markdownLibrary);

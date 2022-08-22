@@ -13,7 +13,7 @@ collections:
     files:
       - label: Comics
         name: comics
-        file: '_site/_data/comics.yaml'
+        file: '_site/_data/comics.yml'
         fields:
           - label: Issues
             name: items
@@ -21,3 +21,16 @@ collections:
             fields:
               - { label: Series, name: series, widget: string }
               - { label: Issue, name: issue, widget: string }
+              - { label: Issue Nr, name: issue_nr, widget: number, value_type: 'int' }
+              - { label: Full Title, name: full_title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Story Arc, name: story_arc, widget: string }
+              - { label: Crossover, name: crossover, widget: string }
+              - { label: Variant, name: variant, widget: string }
+              - { label: Publisher, name: publisher, widget: string }
+              - { label: Release Date, name: release_date, widget: string }
+              - { label: Release Year, name: release_year, widget: date, format: 'YYYY' }
+              - { label: Genre, name: genre, widget: string }
+              - { label: Format, name: format, widget: string }
+              - { label: Pages, name: pages, widget: number, value_type: 'int' }
+              - { label: Price, name: price, widget: number, value_type: 'float' }
