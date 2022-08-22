@@ -7,8 +7,8 @@ items:
   - series: Jim Lee
     issue: 60 for 60
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
+    full_title: ""
+    subtitle: ""
     release_date: July 2022
     release_year: 2022
     format: Sketchbook
@@ -17,8 +17,8 @@ items:
   - series: Jim Lee
     issue: Just Draw Sketchbook
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
+    full_title: ""
+    subtitle: ""
     release_date: July 2022
     release_year: 2022
     format: Sketchbook
@@ -37,7 +37,7 @@ items:
   - series: J. Scott Campbell
     issue: The Ruff Stuff 1
     issue_nr: 1
-    full_title: ''
+    full_title: ""
     subtitle: Signed
     release_date: June 2018
     release_year: 2018
@@ -47,7 +47,7 @@ items:
   - series: J. Scott Campbell
     issue: The Ruff Stuff 2
     issue_nr: 2
-    full_title: ''
+    full_title: ""
     subtitle: Signed
     release_date: June 2018
     release_year: 2018
@@ -57,7 +57,7 @@ items:
   - series: J. Scott Campbell
     issue: The Ruff Stuff 3
     issue_nr: 3
-    full_title: ''
+    full_title: ""
     subtitle: Signed
     release_date: June 2018
     release_year: 2018
@@ -67,7 +67,7 @@ items:
   - series: J. Scott Campbell
     issue: The Ruff Stuff 4
     issue_nr: 4
-    full_title: ''
+    full_title: ""
     subtitle: Signed
     release_date: June 2018
     release_year: 2018

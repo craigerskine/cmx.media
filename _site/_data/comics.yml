@@ -5,63 +5,63 @@ series:
   - Bloodpool
   - Cable and The New Mutants
   - The Creech
-  - 'The Creech: Out For Blood'
-  - 'Cyberforce, Vol. 1'
-  - 'Cyberrad, Vol. 2'
+  - "The Creech: Out For Blood"
+  - "Cyberforce, Vol. 1"
+  - "Cyberrad, Vol. 2"
   - Darker Image
-  - 'Deathblow, Vol. 1'
+  - "Deathblow, Vol. 1"
   - Divine Right
   - DV8 vs. BlackOps
-  - 'Fantastic Four, Vol. 2'
-  - 'Gen 13, Vol. 1 (1994)'
-  - 'Ghost Rider, Vol. 2'
-  - 'Grifter: One Shot'
+  - "Fantastic Four, Vol. 2"
+  - "Gen 13, Vol. 1 (1994)"
+  - "Ghost Rider, Vol. 2"
+  - "Grifter: One Shot"
   - Image Plus
   - Image Zero
   - Images of Shadowhawk
-  - 'The Incredible Hulk, Vol. 1'
-  - 'Iron Man, Vol. 2'
+  - "The Incredible Hulk, Vol. 1"
+  - "Iron Man, Vol. 2"
   - Jim Henson's Power of The Dark Crystal
   - Justice League Europe / International
   - Marvel Swimsuit Special
   - The Maxx
-  - 'The New Mutants, Vol. 1'
+  - "The New Mutants, Vol. 1"
   - Pitt
   - Savage Dragon vs. Savage Megaton Man
-  - 'The Savage Dragon [SP]'
-  - 'Savage Dragon, Vol. 1'
-  - 'Shadowhawk, Vol. 1'
-  - 'Shadowhawk, Vol. 2'
+  - "The Savage Dragon [SP]"
+  - "Savage Dragon, Vol. 1"
+  - "Shadowhawk, Vol. 1"
+  - "Shadowhawk, Vol. 2"
   - Spawn
-  - 'Spider-Man, Vol. 1'
+  - "Spider-Man, Vol. 1"
   - Spider-Man vs. Venom
-  - 'Spider-Man: Torment'
-  - 'Star Wars: Episode 1 - Phantom Menace'
-  - 'Stormwatch, Vol. 1'
-  - 'Strange Adventures, Vol. 3'
+  - "Spider-Man: Torment"
+  - "Star Wars: Episode 1 - Phantom Menace"
+  - "Stormwatch, Vol. 1"
+  - "Strange Adventures, Vol. 3"
   - Tribe
-  - 'WildC.A.T.s / X-Men: The Golden Age'
-  - 'WildC.A.T.s / X-Men: The Silver Age'
-  - 'WildC.A.T.s, Vol. 1'
+  - "WildC.A.T.s / X-Men: The Golden Age"
+  - "WildC.A.T.s / X-Men: The Silver Age"
+  - "WildC.A.T.s, Vol. 1"
   - WildC.A.T.S. Trilogy
-  - 'WildC.A.T.s: Sourcebook'
-  - 'Wildcats, Vol. 2'
+  - "WildC.A.T.s: Sourcebook"
+  - "Wildcats, Vol. 2"
   - Wildcore
-  - 'X-Factor, Vol. 1'
-  - 'X-Force, Vol. 1'
-  - 'X-Men, Vol. 1'
-  - 'X-Men: Shattershot'
-  - 'Youngblood, Vol. 1'
-  - 'Youngblood: Battlezone'
-  - 'Youngblood: Strikefile'
+  - "X-Factor, Vol. 1"
+  - "X-Force, Vol. 1"
+  - "X-Men, Vol. 1"
+  - "X-Men: Shattershot"
+  - "Youngblood, Vol. 1"
+  - "Youngblood: Battlezone"
+  - "Youngblood: Strikefile"
 items:
   - series: Angela
     issue: 1A
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Dec 1994
@@ -73,10 +73,10 @@ items:
   - series: Angela
     issue: 2A
     issue_nr: 2
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jan 1995
@@ -86,13 +86,13 @@ items:
     pages: 32
     price: 2.25
   - series: Angela
-    issue: '3'
+    issue: "3"
     issue_nr: 3
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Feb 1995
     release_year: 1995
@@ -101,17 +101,17 @@ items:
     pages: 32
     price: 2.25
   - series: The Art of Homage Studios
-    issue: '1'
+    issue: "1"
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Dec 1993
     release_year: 1993
-    genre: ''
+    genre: ""
     format: Squarebound
     pages: 48
     price: 4.95
@@ -119,9 +119,9 @@ items:
     issue: 1A
     issue_nr: 1
     full_title: Discharged
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Aug 1995
@@ -131,13 +131,13 @@ items:
     pages: 32
     price: 2.5
   - series: Bloodpool
-    issue: '2'
+    issue: "2"
     issue_nr: 2
     full_title: The Hills Are Alive
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Sep 1995
     release_year: 1995
@@ -146,13 +146,13 @@ items:
     pages: 32
     price: 2.5
   - series: Bloodpool
-    issue: '3'
+    issue: "3"
     issue_nr: 3
     full_title: Walk Like An Egyptian
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Oct 1995
     release_year: 1995
@@ -161,13 +161,13 @@ items:
     pages: 32
     price: 2.5
   - series: Bloodpool
-    issue: '4'
+    issue: "4"
     issue_nr: 4
     full_title: Mummy's Boy
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Nov 1995
     release_year: 1995
@@ -178,10 +178,10 @@ items:
   - series: Cable and The New Mutants
     issue: TP
     issue_nr: null
-    full_title: 'New Mutants, Vol. 1 #87-94'
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: "New Mutants, Vol. 1 #87-94"
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: TP
     publisher: Marvel Comics
     release_date: Jun 1992
@@ -194,9 +194,9 @@ items:
     issue: 1A
     issue_nr: 1
     full_title: A Vision Of Death
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Oct 1997
@@ -209,9 +209,9 @@ items:
     issue: 1B
     issue_nr: 1
     full_title: A Vision Of Death
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Image Comics
     release_date: Oct 1997
@@ -221,13 +221,13 @@ items:
     pages: 24
     price: 2.5
   - series: The Creech
-    issue: '2'
+    issue: "2"
     issue_nr: 2
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Nov 1997
     release_year: 1997
@@ -236,28 +236,28 @@ items:
     pages: 32
     price: 2.5
   - series: The Creech
-    issue: '3'
+    issue: "3"
     issue_nr: 3
     full_title: The Resurrection
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Dec 1997
     release_year: 1997
-    genre: ''
+    genre: ""
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'The Creech: Out For Blood'
-    issue: '1'
+  - series: "The Creech: Out For Blood"
+    issue: "1"
     issue_nr: 1
     full_title: Out For Blood
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Jun 2001
     release_year: 2001
@@ -265,14 +265,14 @@ items:
     format: Comic
     pages: 48
     price: 4.95
-  - series: 'The Creech: Out For Blood'
-    issue: '2'
+  - series: "The Creech: Out For Blood"
+    issue: "2"
     issue_nr: 2
     full_title: Wake The Dead
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Sep 2001
     release_year: 2001
@@ -280,14 +280,14 @@ items:
     format: Comic
     pages: 48
     price: 4.95
-  - series: 'The Creech: Out For Blood'
+  - series: "The Creech: Out For Blood"
     issue: 3
     issue_nr: 3
     full_title: Out For Blood
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Nov 2001
     release_year: 2001
@@ -295,13 +295,13 @@ items:
     format: Comic
     pages: 48
     price: 4.95
-  - series: 'Cyberforce, Vol. 1'
+  - series: "Cyberforce, Vol. 1"
     issue: 0A
     issue_nr: 0
     full_title: Mindgames
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Sep 1993
@@ -310,13 +310,13 @@ items:
     format: Comic
     pages: 36
     price: 1.95
-  - series: 'Cyberforce, Vol. 1'
+  - series: "Cyberforce, Vol. 1"
     issue: 1A
     issue_nr: 1
-    full_title: 'The Tin Men Of War, Part 1'
-    subtitle: ''
+    full_title: "The Tin Men Of War, Part 1"
+    subtitle: ""
     story_arc: The Tin Men Of War
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Oct 1992
@@ -325,13 +325,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Cyberforce, Vol. 1'
+  - series: "Cyberforce, Vol. 1"
     issue: 2A
     issue_nr: 2
-    full_title: 'The Tin Men Of War, Part 2'
-    subtitle: ''
+    full_title: "The Tin Men Of War, Part 2"
+    subtitle: ""
     story_arc: The Tin Men Of War
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Mar 1993
@@ -340,13 +340,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Cyberforce, Vol. 1'
+  - series: "Cyberforce, Vol. 1"
     issue: 3A
     issue_nr: 3
-    full_title: 'The Tin Men Of War, Part 3'
-    subtitle: ''
+    full_title: "The Tin Men Of War, Part 3"
+    subtitle: ""
     story_arc: The Tin Men Of War
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: May 1993
@@ -355,13 +355,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Cyberforce, Vol. 1'
+  - series: "Cyberforce, Vol. 1"
     issue: 4A
     issue_nr: 4
-    full_title: 'The Tin Men Of War, Part 4'
-    subtitle: ''
+    full_title: "The Tin Men Of War, Part 4"
+    subtitle: ""
     story_arc: The Tin Men Of War
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jul 1993
@@ -370,13 +370,13 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Cyberrad, Vol. 2'
+  - series: "Cyberrad, Vol. 2"
     issue: 1B
     issue_nr: 1
     full_title: Just Say No
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Continuity Comics
     release_date: Nov 1992
@@ -388,10 +388,10 @@ items:
   - series: Darker Image
     issue: 1A
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Mar 1993
@@ -400,13 +400,13 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Deathblow, Vol. 1'
+  - series: "Deathblow, Vol. 1"
     issue: 1A
     issue_nr: 1
     full_title: Confessions
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Apr 1993
@@ -415,13 +415,13 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Deathblow, Vol. 1'
+  - series: "Deathblow, Vol. 1"
     issue: 2A
     issue_nr: 2
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Aug 1993
@@ -430,14 +430,14 @@ items:
     format: Comic
     pages: 36
     price: 1.75
-  - series: 'Deathblow, Vol. 1'
-    issue: '8'
+  - series: "Deathblow, Vol. 1"
+    issue: "8"
     issue_nr: 8
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Aug 1994
     release_year: 1994
@@ -445,14 +445,14 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Deathblow, Vol. 1'
-    issue: '10'
+  - series: "Deathblow, Vol. 1"
+    issue: "10"
     issue_nr: 10
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Nov 1994
     release_year: 1994
@@ -460,14 +460,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Deathblow, Vol. 1'
-    issue: '11'
+  - series: "Deathblow, Vol. 1"
+    issue: "11"
     issue_nr: 11
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Dec 1994
     release_year: 1994
@@ -475,14 +475,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Deathblow, Vol. 1'
-    issue: '12'
+  - series: "Deathblow, Vol. 1"
+    issue: "12"
     issue_nr: 12
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Jan 1995
     release_year: 1995
@@ -494,9 +494,9 @@ items:
     issue: 2A
     issue_nr: 2
     full_title: Disco Inferno
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Oct 1997
@@ -509,25 +509,25 @@ items:
     issue: 3A
     issue_nr: 3
     full_title: Enemies Of The State
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Nov 1997
     release_year: 1997
-    genre: ''
+    genre: ""
     format: Comic
     pages: 32
     price: 2.5
   - series: DV8 vs. BlackOps
-    issue: '1'
+    issue: "1"
     issue_nr: 1
-    full_title: 'The Techtromis Design, Part 1'
-    subtitle: ''
+    full_title: "The Techtromis Design, Part 1"
+    subtitle: ""
     story_arc: The Techtromis Design
-    crossover: ''
-    variant: ''
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Oct 1997
     release_year: 1997
@@ -535,28 +535,28 @@ items:
     format: Comic
     pages: 40
     price: 2.5
-  - series: 'Fantastic Four, Vol. 2'
+  - series: "Fantastic Four, Vol. 2"
     issue: 1A
     issue_nr: 1
     full_title: Renaissance
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Sep 04, 1996'
+    release_date: "Sep 04, 1996"
     release_year: 1996
-    genre: ''
+    genre: ""
     format: Comic
     pages: 56
     price: 2.95
-  - series: 'Fantastic Four, Vol. 2'
+  - series: "Fantastic Four, Vol. 2"
     issue: 2A
     issue_nr: 2
     full_title: Repercussions
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Dec 1996
@@ -565,28 +565,28 @@ items:
     format: Comic
     pages: 40
     price: 1.95
-  - series: 'Fantastic Four, Vol. 2'
+  - series: "Fantastic Four, Vol. 2"
     issue: 3A
     issue_nr: 3
     full_title: Revelations
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Nov 06, 1996'
+    release_date: "Nov 06, 1996"
     release_year: 1996
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 40
     price: 1.95
-  - series: 'Fantastic Four, Vol. 2'
+  - series: "Fantastic Four, Vol. 2"
     issue: 4C
     issue_nr: 4
     full_title: The Heart of Darkness
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: C
     publisher: Marvel Comics
     release_date: Feb 1997
@@ -595,13 +595,13 @@ items:
     format: Comic
     pages: 40
     price: 1.99
-  - series: 'Fantastic Four, Vol. 2'
+  - series: "Fantastic Four, Vol. 2"
     issue: 5A
     issue_nr: 5
     full_title: Auld Acquaintance
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Mar 1997
@@ -610,12 +610,12 @@ items:
     format: Comic
     pages: 40
     price: 1.95
-  - series: 'Fantastic Four, Vol. 2'
+  - series: "Fantastic Four, Vol. 2"
     issue: 6A
     issue_nr: 6
     full_title: Industrial Revolution - Retribution
-    subtitle: 'Industrial Revolution: Prologue for Heroes Reborn'
-    story_arc: ''
+    subtitle: "Industrial Revolution: Prologue for Heroes Reborn"
+    story_arc: ""
     crossover: Industrial Revolution
     variant: A
     publisher: Marvel Comics
@@ -625,13 +625,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Fantastic Four, Vol. 2'
+  - series: "Fantastic Four, Vol. 2"
     issue: 7A
     issue_nr: 7
     full_title: Into the Negative Zone!
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: May 1997
@@ -640,13 +640,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Fantastic Four, Vol. 2'
+  - series: "Fantastic Four, Vol. 2"
     issue: 8A
     issue_nr: 8
     full_title: The Ties That Bind
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Jun 1997
@@ -655,13 +655,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Fantastic Four, Vol. 2'
+  - series: "Fantastic Four, Vol. 2"
     issue: 9A
     issue_nr: 9
     full_title: Legacy
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Jul 1997
@@ -670,13 +670,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Gen 13, Vol. 1 (1994)'
+  - series: "Gen 13, Vol. 1 (1994)"
     issue: TP
     issue_nr: null
     full_title: Gen 13
     subtitle: Collected Edition
-    story_arc: ''
-    crossover: ''
+    story_arc: ""
+    crossover: ""
     variant: TP
     publisher: Image Comics
     release_date: Dec 1994
@@ -685,13 +685,13 @@ items:
     format: Trade Paperback
     pages: 144
     price: 12.95
-  - series: 'Gen 13, Vol. 1 (1994)'
+  - series: "Gen 13, Vol. 1 (1994)"
     issue: 0A
     issue_nr: 0
     full_title: Coming Home / Desert Bloom / The Big Deal / Things Change
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Sep 1994
@@ -700,13 +700,13 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Gen 13, Vol. 1 (1994)'
+  - series: "Gen 13, Vol. 1 (1994)"
     issue: 1A
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Feb 1994
@@ -715,14 +715,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Gen 13, Vol. 1 (1994)'
-    issue: '3'
+  - series: "Gen 13, Vol. 1 (1994)"
+    issue: "3"
     issue_nr: 3
     full_title: Payback
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Jul 1995
     release_year: 1995
@@ -730,44 +730,44 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Ghost Rider, Vol. 2'
+  - series: "Ghost Rider, Vol. 2"
     issue: 26A
     issue_nr: 26
-    full_title: 'Blood Feud!, Part 2'
-    subtitle: ''
+    full_title: "Blood Feud!, Part 2"
+    subtitle: ""
     story_arc: Blood Feud!
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Apr 14, 1992'
+    release_date: "Apr 14, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Ghost Rider, Vol. 2'
+  - series: "Ghost Rider, Vol. 2"
     issue: 27A
     issue_nr: 27
-    full_title: 'Part 4: Vengeance. Pure and Simple.'
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: "Part 4: Vengeance. Pure and Simple."
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'May 12, 1992'
+    release_date: "May 12, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Grifter: One Shot'
-    issue: '1'
+  - series: "Grifter: One Shot"
+    issue: "1"
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Jan 1995
     release_year: 1995
@@ -776,13 +776,13 @@ items:
     pages: 48
     price: 4.95
   - series: Image Plus
-    issue: '1'
+    issue: "1"
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: May 1993
     release_year: 1993
@@ -791,28 +791,28 @@ items:
     pages: 32
     price: 2.25
   - series: Image Zero
-    issue: '0'
+    issue: "0"
     issue_nr: 0
     full_title: Prey
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
-    release_date: 'Oct 12, 1993'
+    release_date: "Oct 12, 1993"
     release_year: 1993
     genre: Adventure
     format: Comic
     pages: 32
     price: 0
   - series: Images of Shadowhawk
-    issue: '1'
+    issue: "1"
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Sep 1993
     release_year: 1993
@@ -820,61 +820,61 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'The Incredible Hulk, Vol. 1'
+  - series: "The Incredible Hulk, Vol. 1"
     issue: 391A
     issue_nr: 391
-    full_title: 'War & Pieces, Part 2: X-Calation'
-    subtitle: ''
+    full_title: "War & Pieces, Part 2: X-Calation"
+    subtitle: ""
     story_arc: War & Pieces
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Jan 21, 1992'
+    release_date: "Jan 21, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'The Incredible Hulk, Vol. 1'
+  - series: "The Incredible Hulk, Vol. 1"
     issue: 391B
     issue_nr: 391
-    full_title: 'War & Pieces, Part 2: X-Calation'
-    subtitle: ''
+    full_title: "War & Pieces, Part 2: X-Calation"
+    subtitle: ""
     story_arc: War & Pieces
-    crossover: ''
+    crossover: ""
     variant: B
     publisher: Marvel Comics
-    release_date: 'Jan 21, 1992'
+    release_date: "Jan 21, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'The Incredible Hulk, Vol. 1'
+  - series: "The Incredible Hulk, Vol. 1"
     issue: 392A
     issue_nr: 392
-    full_title: 'War & Pieces, Part 3: Fortunes of War'
-    subtitle: ''
+    full_title: "War & Pieces, Part 3: Fortunes of War"
+    subtitle: ""
     story_arc: War & Pieces
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Feb 18, 1992'
+    release_date: "Feb 18, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'Iron Man, Vol. 2'
+  - series: "Iron Man, Vol. 2"
     issue: 1A
     issue_nr: 1
     full_title: Heart of the Matter
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Sep 18, 1996'
+    release_date: "Sep 18, 1996"
     release_year: 1996
     genre: Action | Adventure | Super-Heroes
     format: Comic
@@ -883,25 +883,25 @@ items:
   - series: Jim Henson's Power of The Dark Crystal
     issue: 1B
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Boom! Studios
-    release_date: 'Feb 22, 2017'
+    release_date: "Feb 22, 2017"
     release_year: 2017
     genre: Fantasy
     format: Comic
     pages: 32
     price: 3.99
-  - series: 'Jim Henson''s Power of The Dark Crystal'
+  - series: "Jim Henson's Power of The Dark Crystal"
     issue: TP
-    issue_nr: 
-    full_title: 
-    subtitle: 
-    story_arc: 
-    crossover: 
+    issue_nr:
+    full_title:
+    subtitle:
+    story_arc:
+    crossover:
     variant: TP
     publisher: Boom! Studios
     release_date: Jan 02, 2019
@@ -910,13 +910,13 @@ items:
     format: Trade Paperback
     pages: 0
     price: 16.99
-  - series: 'Jim Henson''s Power of The Dark Crystal'
+  - series: "Jim Henson's Power of The Dark Crystal"
     issue: TP-2
-    issue_nr: 
-    full_title: 
-    subtitle: 
-    story_arc: 
-    crossover: 
+    issue_nr:
+    full_title:
+    subtitle:
+    story_arc:
+    crossover:
     variant: TP-2
     publisher: Boom! Studios
     release_date: Oct 23, 2019
@@ -928,10 +928,10 @@ items:
   - series: Justice League Europe / International
     issue: 15A
     issue_nr: 15
-    full_title: 'The Extremist Vector, Part 1: Kings of the Dust'
-    subtitle: ''
+    full_title: "The Extremist Vector, Part 1: Kings of the Dust"
+    subtitle: ""
     story_arc: The Extremist Vector
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: DC Comics
     release_date: Jun 1990
@@ -943,10 +943,10 @@ items:
   - series: Justice League Europe / International
     issue: 16A
     issue_nr: 16
-    full_title: 'The Extremist Vector, Part 2: Conquest'
-    subtitle: ''
+    full_title: "The Extremist Vector, Part 2: Conquest"
+    subtitle: ""
     story_arc: The Extremist Vector
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: DC Comics
     release_date: Jul 1990
@@ -958,10 +958,10 @@ items:
   - series: Justice League Europe / International
     issue: 17A
     issue_nr: 17
-    full_title: 'The Extremist Vector, Part 3: On The Brink!'
-    subtitle: ''
+    full_title: "The Extremist Vector, Part 3: On The Brink!"
+    subtitle: ""
     story_arc: The Extremist Vector
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: DC Comics
     release_date: Aug 1990
@@ -973,10 +973,10 @@ items:
   - series: Justice League Europe / International
     issue: 18A
     issue_nr: 18
-    full_title: 'The Extremist Vector, Part 4: The Happy Place'
-    subtitle: ''
+    full_title: "The Extremist Vector, Part 4: The Happy Place"
+    subtitle: ""
     story_arc: The Extremist Vector
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: DC Comics
     release_date: Sep 1990
@@ -988,10 +988,10 @@ items:
   - series: Justice League Europe / International
     issue: 19A
     issue_nr: 19
-    full_title: 'The Extremist Vector, Part 5: Pushing The Buttons'
-    subtitle: ''
+    full_title: "The Extremist Vector, Part 5: Pushing The Buttons"
+    subtitle: ""
     story_arc: The Extremist Vector
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: DC Comics
     release_date: Oct 1990
@@ -1001,15 +1001,15 @@ items:
     pages: 32
     price: 1
   - series: Marvel Swimsuit Special
-    issue: '1'
+    issue: "1"
     issue_nr: 1
     full_title: Take A Wakanda Wild Side
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Marvel Comics
-    release_date: 'Jun 23, 1992'
+    release_date: "Jun 23, 1992"
     release_year: 1992
     genre: Art / Pin-up | Hobby
     format: Magazine
@@ -1018,10 +1018,10 @@ items:
   - series: The Maxx
     issue: 1A
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Mar 1993
@@ -1033,10 +1033,10 @@ items:
   - series: The Maxx
     issue: 2A
     issue_nr: 2
-    full_title: 'Stained Teeth, Deadly Teeth'
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: "Stained Teeth, Deadly Teeth"
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Apr 1993
@@ -1049,9 +1049,9 @@ items:
     issue: 3A
     issue_nr: 3
     full_title: Jungle Flowers Grown in Blood
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: May 1993
@@ -1064,9 +1064,9 @@ items:
     issue: 4A
     issue_nr: 4
     full_title: Maxx!
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Apr 1993
@@ -1075,31 +1075,31 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'The New Mutants, Vol. 1'
+  - series: "The New Mutants, Vol. 1"
     issue: 87A
     issue_nr: 87
     full_title: A Show Of Power!
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Jan 09, 1990'
+    release_date: "Jan 09, 1990"
     release_year: 1990
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1
-  - series: 'The New Mutants, Vol. 1'
+  - series: "The New Mutants, Vol. 1"
     issue: 100A
     issue_nr: 100
     full_title: The End Of The Beginning
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Feb 13, 1991'
+    release_date: "Feb 13, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
@@ -1109,9 +1109,9 @@ items:
     issue: 1A
     issue_nr: 1
     full_title: Fight & Flight!
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jan 1993
@@ -1124,9 +1124,9 @@ items:
     issue: 2A
     issue_nr: 2
     full_title: Dead or Alive
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jul 1993
@@ -1139,9 +1139,9 @@ items:
     issue: 3A
     issue_nr: 3
     full_title: The Killing Gate / Crash Of Souls
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Feb 1994
@@ -1154,9 +1154,9 @@ items:
     issue: 1A
     issue_nr: 1
     full_title: Savage Brawl
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Mar 1993
@@ -1165,73 +1165,73 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'The Savage Dragon [SP]'
-    issue: '1'
+  - series: "The Savage Dragon [SP]"
+    issue: "1"
     issue_nr: 1
     full_title: Un dÃ­a duro
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Jun 1993
     release_year: 1993
-    genre: ''
+    genre: ""
     format: Comic
     pages: 0
     price: 1.95
-  - series: 'The Savage Dragon [SP]'
-    issue: '2'
+  - series: "The Savage Dragon [SP]"
+    issue: "2"
     issue_nr: 2
     full_title: I love NY
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Jul 1993
     release_year: 1993
-    genre: ''
+    genre: ""
     format: Comic
     pages: 0
     price: 2.95
-  - series: 'The Savage Dragon [SP]'
-    issue: '3'
+  - series: "The Savage Dragon [SP]"
+    issue: "3"
     issue_nr: 3
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Aug 1993
     release_year: 1993
-    genre: ''
+    genre: ""
     format: Comic
     pages: 0
     price: 1.95
-  - series: 'The Savage Dragon [SP]'
-    issue: '4'
+  - series: "The Savage Dragon [SP]"
+    issue: "4"
     issue_nr: 4
     full_title: Nuevos reclutas
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Sep 1993
     release_year: 1993
-    genre: ''
+    genre: ""
     format: Comic
     pages: 0
     price: 1.95
-  - series: 'Savage Dragon, Vol. 1'
+  - series: "Savage Dragon, Vol. 1"
     issue: 1A
     issue_nr: 1
     full_title: Baptism Of Fire
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jul 1992
@@ -1240,13 +1240,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Savage Dragon, Vol. 1'
+  - series: "Savage Dragon, Vol. 1"
     issue: 2A
     issue_nr: 2
     full_title: Born Again Patriot
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Oct 1992
@@ -1255,13 +1255,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Savage Dragon, Vol. 1'
+  - series: "Savage Dragon, Vol. 1"
     issue: 3A
     issue_nr: 3
     full_title: Rock This Town
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Dec 1992
@@ -1270,13 +1270,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Shadowhawk, Vol. 1'
+  - series: "Shadowhawk, Vol. 1"
     issue: 1A
     issue_nr: 1
     full_title: A Nightmare Walking
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Aug 1992
@@ -1285,13 +1285,13 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Shadowhawk, Vol. 1'
+  - series: "Shadowhawk, Vol. 1"
     issue: 2A
     issue_nr: 2
     full_title: A Good Night For Arson
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Oct 1992
@@ -1300,13 +1300,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Shadowhawk, Vol. 1'
+  - series: "Shadowhawk, Vol. 1"
     issue: 3A
     issue_nr: 3
     full_title: Liquid Fire
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Dec 1992
@@ -1315,13 +1315,13 @@ items:
     format: Comic
     pages: 28
     price: 2.5
-  - series: 'Shadowhawk, Vol. 1'
+  - series: "Shadowhawk, Vol. 1"
     issue: 4A
     issue_nr: 4
-    full_title: 'Enter: The Dragon'
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: "Enter: The Dragon"
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Mar 1993
@@ -1330,14 +1330,14 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Shadowhawk, Vol. 2'
-    issue: '1'
+  - series: "Shadowhawk, Vol. 2"
+    issue: "1"
     issue_nr: 1
     full_title: The Shadow of the Hawk
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: May 1993
     release_year: 1993
@@ -1345,13 +1345,13 @@ items:
     format: Comic
     pages: 32
     price: 3.5
-  - series: 'Shadowhawk, Vol. 2'
+  - series: "Shadowhawk, Vol. 2"
     issue: 2A
     issue_nr: 2
     full_title: The Secret Revealed
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jul 1993
@@ -1360,14 +1360,14 @@ items:
     format: Comic
     pages: 36
     price: 1.95
-  - series: 'Shadowhawk, Vol. 2'
-    issue: '3'
+  - series: "Shadowhawk, Vol. 2"
+    issue: "3"
     issue_nr: 3
     full_title: Like Lambs to the...
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Aug 1993
     release_year: 1993
@@ -1378,10 +1378,10 @@ items:
   - series: Spawn
     issue: 1A
     issue_nr: 1
-    full_title: 'Questions, Part 1'
-    subtitle: ''
+    full_title: "Questions, Part 1"
+    subtitle: ""
     story_arc: Questions
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: May 1992
@@ -1395,10 +1395,10 @@ items:
   - series: Spawn
     issue: 2A
     issue_nr: 2
-    full_title: 'Questions, Part 2'
-    subtitle: ''
+    full_title: "Questions, Part 2"
+    subtitle: ""
     story_arc: Questions
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jun 1992
@@ -1412,10 +1412,10 @@ items:
   - series: Spawn
     issue: 3A
     issue_nr: 3
-    full_title: 'Questions, Part 3'
-    subtitle: ''
+    full_title: "Questions, Part 3"
+    subtitle: ""
     story_arc: Questions
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jul 1992
@@ -1427,10 +1427,10 @@ items:
   - series: Spawn
     issue: 4A
     issue_nr: 4
-    full_title: 'Questions, Part 4'
-    subtitle: ''
+    full_title: "Questions, Part 4"
+    subtitle: ""
     story_arc: Questions
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Sep 1992
@@ -1443,9 +1443,9 @@ items:
     issue: 5A
     issue_nr: 5
     full_title: Justice
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Oct 1992
@@ -1459,10 +1459,10 @@ items:
   - series: Spawn
     issue: 6A
     issue_nr: 6
-    full_title: 'Payback, Part 1'
-    subtitle: ''
+    full_title: "Payback, Part 1"
+    subtitle: ""
     story_arc: Payback
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Nov 1992
@@ -1474,10 +1474,10 @@ items:
   - series: Spawn
     issue: 7A
     issue_nr: 7
-    full_title: 'Payback, Part 2'
-    subtitle: ''
+    full_title: "Payback, Part 2"
+    subtitle: ""
     story_arc: Payback
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jan 1993
@@ -1492,9 +1492,9 @@ items:
     issue: 8A
     issue_nr: 8
     full_title: In Heaven (Everything Is Fine)
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Feb 1993
@@ -1509,9 +1509,9 @@ items:
     issue: 9A
     issue_nr: 9
     full_title: Angela
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Mar 1993
@@ -1526,9 +1526,9 @@ items:
     issue: 10A
     issue_nr: 10
     full_title: Crossing Over
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: May 1993
@@ -1541,9 +1541,9 @@ items:
     issue: 11A
     issue_nr: 11
     full_title: Home Story
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jun 1993
@@ -1557,10 +1557,10 @@ items:
   - series: Spawn
     issue: 12A
     issue_nr: 12
-    full_title: 'Flashback, Part 1'
-    subtitle: ''
+    full_title: "Flashback, Part 1"
+    subtitle: ""
     story_arc: Flashback
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jul 1993
@@ -1574,10 +1574,10 @@ items:
   - series: Spawn
     issue: 13A
     issue_nr: 13
-    full_title: 'Flashback, Part 2'
-    subtitle: ''
+    full_title: "Flashback, Part 2"
+    subtitle: ""
     story_arc: Flashback
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Aug 1993
@@ -1591,10 +1591,10 @@ items:
   - series: Spawn
     issue: 15A
     issue_nr: 15
-    full_title: 'Myths, Part 2'
-    subtitle: ''
+    full_title: "Myths, Part 2"
+    subtitle: ""
     story_arc: Myths
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Nov 1993
@@ -1609,9 +1609,9 @@ items:
     issue: 59A
     issue_nr: 59
     full_title: Vanished
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Mar 1997
@@ -1626,9 +1626,9 @@ items:
     issue: 60A
     issue_nr: 60
     full_title: Dwarfed
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Apr 1997
@@ -1641,9 +1641,9 @@ items:
     issue: 61A
     issue_nr: 61
     full_title: Sanctuary
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: May 1997
@@ -1658,9 +1658,9 @@ items:
     issue: 68A
     issue_nr: 68
     full_title: Intersection
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jan 1998
@@ -1673,9 +1673,9 @@ items:
     issue: 69A
     issue_nr: 69
     full_title: Freaky
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jan 1998
@@ -1690,9 +1690,9 @@ items:
     issue: 77A
     issue_nr: 77
     full_title: Relics
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Oct 1998
@@ -1705,9 +1705,9 @@ items:
     issue: 78A
     issue_nr: 78
     full_title: Bloodstains
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Nov 1999
@@ -1718,148 +1718,148 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 6A
     issue_nr: 6
-    full_title: 'Masques, Part 1'
-    subtitle: ''
+    full_title: "Masques, Part 1"
+    subtitle: ""
     story_arc: Masques
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Nov 20, 1990'
+    release_date: "Nov 20, 1990"
     release_year: 1990
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 7A
     issue_nr: 7
-    full_title: 'Masques, Part 2'
-    subtitle: ''
+    full_title: "Masques, Part 2"
+    subtitle: ""
     story_arc: Masques
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Dec 18, 1990'
+    release_date: "Dec 18, 1990"
     release_year: 1990
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 8A
     issue_nr: 8
-    full_title: 'Perceptions, Part 1'
-    subtitle: ''
+    full_title: "Perceptions, Part 1"
+    subtitle: ""
     story_arc: Perceptions
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Jan 15, 1991'
+    release_date: "Jan 15, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 9A
     issue_nr: 9
-    full_title: 'Perceptions, Part 2'
-    subtitle: ''
+    full_title: "Perceptions, Part 2"
+    subtitle: ""
     story_arc: Perceptions
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Feb 19, 1991'
+    release_date: "Feb 19, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 10A
     issue_nr: 10
-    full_title: 'Perceptions, Part 3'
-    subtitle: ''
+    full_title: "Perceptions, Part 3"
+    subtitle: ""
     story_arc: Perceptions
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Mar 19, 1991'
+    release_date: "Mar 19, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 11A
     issue_nr: 11
-    full_title: 'Perceptions, Part 4'
-    subtitle: ''
+    full_title: "Perceptions, Part 4"
+    subtitle: ""
     story_arc: Perceptions
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Apr 16, 1991'
+    release_date: "Apr 16, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 12A
     issue_nr: 12
-    full_title: 'Perceptions, Perceptions, Part 5 of 5'
-    subtitle: ''
+    full_title: "Perceptions, Perceptions, Part 5 of 5"
+    subtitle: ""
     story_arc: Perceptions
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'May 21, 1991'
+    release_date: "May 21, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 13A
     issue_nr: 13
-    full_title: 'Sub-City, Part One'
-    subtitle: ''
+    full_title: "Sub-City, Part One"
+    subtitle: ""
     story_arc: Sub-City
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Jun 18, 1991'
+    release_date: "Jun 18, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 14A
     issue_nr: 14
-    full_title: 'Sub-City, Part Two'
-    subtitle: ''
+    full_title: "Sub-City, Part Two"
+    subtitle: ""
     story_arc: Sub-City
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Jul 16, 1991'
+    release_date: "Jul 16, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 15A
     issue_nr: 15
     full_title: The Mutant Factor!
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Oct 1991
@@ -1868,43 +1868,43 @@ items:
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 16A
     issue_nr: 16
     full_title: Sabotage - Part 1
-    subtitle: ''
-    story_arc: ''
+    subtitle: ""
+    story_arc: ""
     crossover: Sabotage
     variant: A
     publisher: Marvel Comics
-    release_date: 'Sep 17, 1991'
+    release_date: "Sep 17, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 18A
     issue_nr: 18
-    full_title: 'Revenge of the Sinister Six, Part One: Revenge'
-    subtitle: ''
+    full_title: "Revenge of the Sinister Six, Part One: Revenge"
+    subtitle: ""
     story_arc: Revenge of the Sinister Six
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Nov 19, 1991'
+    release_date: "Nov 19, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 19A
     issue_nr: 19
-    full_title: 'Revenge of the Sinister Six, Part Two: Slugfest / Diabolique Part 1'
-    subtitle: ''
+    full_title: "Revenge of the Sinister Six, Part Two: Slugfest / Diabolique Part 1"
+    subtitle: ""
     story_arc: Revenge of the Sinister Six
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Feb 1992
@@ -1913,13 +1913,13 @@ items:
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 20A
     issue_nr: 20
-    full_title: 'Revenge of the Sinister Six, Part Three: Showdown / Diabolique Part 2'
-    subtitle: ''
+    full_title: "Revenge of the Sinister Six, Part Three: Showdown / Diabolique Part 2"
+    subtitle: ""
     story_arc: Revenge of the Sinister Six
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Mar 1992
@@ -1928,13 +1928,13 @@ items:
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 21A
     issue_nr: 21
-    full_title: 'Revenge of the Sinister Six, Part Four: Dealing Arms'
-    subtitle: ''
+    full_title: "Revenge of the Sinister Six, Part Four: Dealing Arms"
+    subtitle: ""
     story_arc: Revenge of the Sinister Six
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Apr 1992
@@ -1943,43 +1943,43 @@ items:
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 22A
     issue_nr: 22
-    full_title: 'Revenge of the Sinister Six, Part Five: The Sixth Member'
-    subtitle: ''
+    full_title: "Revenge of the Sinister Six, Part Five: The Sixth Member"
+    subtitle: ""
     story_arc: Revenge of the Sinister Six
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Mar 17, 1992'
+    release_date: "Mar 17, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 23A
     issue_nr: 23
-    full_title: 'Revenge of the Sinister Six, Part Six: Confrontation'
-    subtitle: ''
+    full_title: "Revenge of the Sinister Six, Part Six: Confrontation"
+    subtitle: ""
     story_arc: Revenge of the Sinister Six
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Apr 21, 1992'
+    release_date: "Apr 21, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.75
-  - series: 'Spider-Man, Vol. 1'
+  - series: "Spider-Man, Vol. 1"
     issue: 26A
     issue_nr: 26
     full_title: With Great Responsibility -- !
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Sep 1992
@@ -1991,25 +1991,25 @@ items:
   - series: Spider-Man vs. Venom
     issue: A
     issue_nr: null
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: '1990'
+    release_date: "1990"
     release_year: 1990
     genre: Action | Super-Heroes
     format: Softcover
     pages: 112
     price: 12.95
-  - series: 'Spider-Man: Torment'
+  - series: "Spider-Man: Torment"
     issue: TP-A
     issue_nr: null
     full_title: Torment
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: TP-A
     publisher: Marvel Comics
     release_date: Jan 1992
@@ -2018,13 +2018,13 @@ items:
     format: Trade Paperback
     pages: 0
     price: 12.95
-  - series: 'Star Wars: Episode 1 - Phantom Menace'
+  - series: "Star Wars: Episode 1 - Phantom Menace"
     issue: 1B
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Dark Horse Comics
     release_date: May 1999
@@ -2033,13 +2033,13 @@ items:
     format: Comic
     pages: 32
     price: 2.95
-  - series: 'Star Wars: Episode 1 - Phantom Menace'
+  - series: "Star Wars: Episode 1 - Phantom Menace"
     issue: 2B
     issue_nr: 2
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Dark Horse Comics
     release_date: May 1999
@@ -2048,13 +2048,13 @@ items:
     format: Comic
     pages: 32
     price: 2.95
-  - series: 'Star Wars: Episode 1 - Phantom Menace'
+  - series: "Star Wars: Episode 1 - Phantom Menace"
     issue: 3B
     issue_nr: 3
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Dark Horse Comics
     release_date: May 1999
@@ -2063,13 +2063,13 @@ items:
     format: Comic
     pages: 32
     price: 2.95
-  - series: 'Star Wars: Episode 1 - Phantom Menace'
+  - series: "Star Wars: Episode 1 - Phantom Menace"
     issue: 4B
     issue_nr: 4
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Dark Horse Comics
     release_date: May 1999
@@ -2078,14 +2078,14 @@ items:
     format: Comic
     pages: 32
     price: 2.95
-  - series: 'Stormwatch, Vol. 1'
-    issue: '0'
+  - series: "Stormwatch, Vol. 1"
+    issue: "0"
     issue_nr: 0
     full_title: StormWatch
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Aug 1993
     release_year: 1993
@@ -2093,13 +2093,13 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Stormwatch, Vol. 1'
+  - series: "Stormwatch, Vol. 1"
     issue: 1A
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Mar 1993
@@ -2108,14 +2108,14 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Stormwatch, Vol. 1'
-    issue: '2'
+  - series: "Stormwatch, Vol. 1"
+    issue: "2"
     issue_nr: 2
     full_title: Once More Unto The Breach...
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: May 1993
     release_year: 1993
@@ -2123,14 +2123,14 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Stormwatch, Vol. 1'
-    issue: '3'
+  - series: "Stormwatch, Vol. 1"
+    issue: "3"
     issue_nr: 3
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Jul 1993
     release_year: 1993
@@ -2138,16 +2138,16 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Strange Adventures, Vol. 3'
+  - series: "Strange Adventures, Vol. 3"
     issue: TP
     issue_nr: null
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: TP
     publisher: DC Comics
-    release_date: 'Mar 31, 2010'
+    release_date: "Mar 31, 2010"
     release_year: 2010
     genre: Action | Adventure | Science Fiction | Super-Heroes
     format: Trade Paperback
@@ -2157,9 +2157,9 @@ items:
     issue: 1A
     issue_nr: 1
     full_title: Tribe
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Mar 1993
@@ -2168,13 +2168,13 @@ items:
     format: Comic
     pages: 28
     price: 2.5
-  - series: 'WildC.A.T.s / X-Men: The Golden Age'
+  - series: "WildC.A.T.s / X-Men: The Golden Age"
     issue: 1B
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Marvel Comics and Image Comics
     release_date: Feb 1997
@@ -2183,43 +2183,43 @@ items:
     format: Comic
     pages: 48
     price: 4.5
-  - series: 'WildC.A.T.s / X-Men: The Silver Age'
+  - series: "WildC.A.T.s / X-Men: The Silver Age"
     issue: 1B
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Marvel Comics and Image Comics
     release_date: Jun 1997
     release_year: 1997
-    genre: ''
+    genre: ""
     format: Comic
     pages: 0
     price: 4.5
-  - series: 'WildC.A.T.s, Vol. 1'
+  - series: "WildC.A.T.s, Vol. 1"
     issue: 0A
     issue_nr: 0
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
-    release_date: 'Jun 29, 1993'
+    release_date: "Jun 29, 1993"
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 24
     price: 2.5
-  - series: 'WildC.A.T.s, Vol. 1'
+  - series: "WildC.A.T.s, Vol. 1"
     issue: 1A
     issue_nr: 1
     full_title: Resurrection Day
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Aug 1992
@@ -2228,13 +2228,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'WildC.A.T.s, Vol. 1'
+  - series: "WildC.A.T.s, Vol. 1"
     issue: 2B
     issue_nr: 2
     full_title: Revelations
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Image Comics
     release_date: Oct 1992
@@ -2243,13 +2243,13 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'WildC.A.T.s, Vol. 1'
+  - series: "WildC.A.T.s, Vol. 1"
     issue: 3A
     issue_nr: 3
     full_title: Reunification
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Dec 1992
@@ -2258,13 +2258,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'WildC.A.T.s, Vol. 1'
+  - series: "WildC.A.T.s, Vol. 1"
     issue: 4A
     issue_nr: 4
     full_title: Resolution
     subtitle: For Whom the Bell Tolls. . .
-    story_arc: ''
-    crossover: ''
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Mar 1993
@@ -2273,13 +2273,13 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'WildC.A.T.s, Vol. 1'
+  - series: "WildC.A.T.s, Vol. 1"
     issue: 6A
     issue_nr: 6
-    full_title: 'Killer Instinct, Chapter One'
-    subtitle: ''
+    full_title: "Killer Instinct, Chapter One"
+    subtitle: ""
     story_arc: Killer Instinct
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Dec 1993
@@ -2288,13 +2288,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'WildC.A.T.s, Vol. 1'
+  - series: "WildC.A.T.s, Vol. 1"
     issue: 7A
     issue_nr: 7
-    full_title: 'Killer Instinct, Chapter Three: Showdown'
-    subtitle: ''
+    full_title: "Killer Instinct, Chapter Three: Showdown"
+    subtitle: ""
     story_arc: Killer Instinct
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jan 1994
@@ -2303,13 +2303,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'WildC.A.T.s, Vol. 1'
+  - series: "WildC.A.T.s, Vol. 1"
     issue: 8A
     issue_nr: 8
     full_title: Down Time / Passed Lives
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Feb 1994
@@ -2318,14 +2318,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'WildC.A.T.s, Vol. 1'
-    issue: '10'
+  - series: "WildC.A.T.s, Vol. 1"
+    issue: "10"
     issue_nr: 10
-    full_title: 'Gateway, Part 1'
-    subtitle: ''
+    full_title: "Gateway, Part 1"
+    subtitle: ""
     story_arc: Gateway
-    crossover: ''
-    variant: ''
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Apr 1994
     release_year: 1994
@@ -2333,28 +2333,28 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'WildC.A.T.s, Vol. 1'
+  - series: "WildC.A.T.s, Vol. 1"
     issue: 12A
     issue_nr: 12
     full_title: A Gathering Of Eagles
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
-    release_date: 'Aug 08, 1994'
+    release_date: "Aug 08, 1994"
     release_year: 1994
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 36
     price: 2.5
-  - series: 'WildC.A.T.s, Vol. 1'
+  - series: "WildC.A.T.s, Vol. 1"
     issue: 13A
     issue_nr: 13
     full_title: HellC.A.T.S.
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Sep 1994
@@ -2363,14 +2363,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'WildC.A.T.s, Vol. 1'
-    issue: '17'
+  - series: "WildC.A.T.s, Vol. 1"
+    issue: "17"
     issue_nr: 17
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Jan 1995
     release_year: 1995
@@ -2378,14 +2378,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'WildC.A.T.s, Vol. 1'
-    issue: '23'
+  - series: "WildC.A.T.s, Vol. 1"
+    issue: "23"
     issue_nr: 23
     full_title: Spaceside / Earthside
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Sep 1995
     release_year: 1995
@@ -2393,14 +2393,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'WildC.A.T.s, Vol. 1'
-    issue: '26'
+  - series: "WildC.A.T.s, Vol. 1"
+    issue: "26"
     issue_nr: 26
     full_title: Khera / Earth
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Feb 1996
     release_year: 1996
@@ -2408,13 +2408,13 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'WildC.A.T.s, Vol. 1'
+  - series: "WildC.A.T.s, Vol. 1"
     issue: 31A
     issue_nr: 31
     full_title: Cats And Dogs
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Sep 1996
@@ -2423,14 +2423,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'WildC.A.T.s, Vol. 1'
-    issue: '33'
+  - series: "WildC.A.T.s, Vol. 1"
+    issue: "33"
     issue_nr: 33
     full_title: Belling the Cat
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Feb 1997
     release_year: 1997
@@ -2438,14 +2438,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'WildC.A.T.s, Vol. 1'
-    issue: '34'
+  - series: "WildC.A.T.s, Vol. 1"
+    issue: "34"
     issue_nr: 34
     full_title: Catechism
     subtitle: For Whom the Bell Tolls. . .
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Feb 1997
     release_year: 1997
@@ -2453,14 +2453,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'WildC.A.T.s, Vol. 1'
-    issue: '35'
+  - series: "WildC.A.T.s, Vol. 1"
+    issue: "35"
     issue_nr: 35
-    full_title: 'Taking Leave, Part 1'
-    subtitle: ''
+    full_title: "Taking Leave, Part 1"
+    subtitle: ""
     story_arc: Taking Leave
-    crossover: ''
-    variant: ''
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Mar 1997
     release_year: 1997
@@ -2471,10 +2471,10 @@ items:
   - series: WildC.A.T.S. Trilogy
     issue: 1A
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jun 1993
@@ -2487,9 +2487,9 @@ items:
     issue: 2A
     issue_nr: 2
     full_title: Hell Hath No Fury...
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Sep 1993
@@ -2498,14 +2498,14 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'WildC.A.T.s: Sourcebook'
-    issue: '1'
+  - series: "WildC.A.T.s: Sourcebook"
+    issue: "1"
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Sep 1993
     release_year: 1993
@@ -2513,14 +2513,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Wildcats, Vol. 2'
-    issue: '2'
+  - series: "Wildcats, Vol. 2"
+    issue: "2"
     issue_nr: 2
     full_title: Voodoo
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: DC Comics
     release_date: May 1999
     release_year: 1999
@@ -2528,14 +2528,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Wildcats, Vol. 2'
-    issue: '4'
+  - series: "Wildcats, Vol. 2"
+    issue: "4"
     issue_nr: 4
     full_title: Firefight
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: DC Comics
     release_date: Sep 1999
     release_year: 1999
@@ -2543,13 +2543,13 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Wildcats, Vol. 2'
+  - series: "Wildcats, Vol. 2"
     issue: 5A
     issue_nr: 5
     full_title: Coda-fied
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: DC Comics
     release_date: Nov 1999
@@ -2558,14 +2558,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Wildcats, Vol. 2'
-    issue: '6'
+  - series: "Wildcats, Vol. 2"
+    issue: "6"
     issue_nr: 6
     full_title: The Chase
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: DC Comics
     release_date: Jan 2000
     release_year: 2000
@@ -2573,14 +2573,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Wildcats, Vol. 2'
-    issue: '23'
+  - series: "Wildcats, Vol. 2"
+    issue: "23"
     issue_nr: 23
     full_title: Turn Around
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: DC Comics
     release_date: Jul 2001
     release_year: 2001
@@ -2588,14 +2588,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Wildcats, Vol. 2'
-    issue: '26'
+  - series: "Wildcats, Vol. 2"
+    issue: "26"
     issue_nr: 26
     full_title: Battery Park
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: DC Comics
     release_date: Oct 2001
     release_year: 2001
@@ -2606,10 +2606,10 @@ items:
   - series: Wildcore
     issue: 1A
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Nov 1997
@@ -2618,178 +2618,178 @@ items:
     format: Comic
     pages: 32
     price: 3.5
-  - series: 'X-Factor, Vol. 1'
+  - series: "X-Factor, Vol. 1"
     issue: 71A
     issue_nr: 71
     full_title: Cutting the Mustard
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Aug 20, 1991'
+    release_date: "Aug 20, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1
-  - series: 'X-Factor, Vol. 1'
+  - series: "X-Factor, Vol. 1"
     issue: 72A
     issue_nr: 72
     full_title: Multiple Homicide
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Sep 17, 1991'
+    release_date: "Sep 17, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1
-  - series: 'X-Factor, Vol. 1'
+  - series: "X-Factor, Vol. 1"
     issue: 73A
     issue_nr: 73
     full_title: Crowd Control
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Oct 15, 1991'
+    release_date: "Oct 15, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1
-  - series: 'X-Factor, Vol. 1'
+  - series: "X-Factor, Vol. 1"
     issue: 74A
     issue_nr: 74
     full_title: Politically Incorrect
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Nov 19, 1991'
+    release_date: "Nov 19, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1
-  - series: 'X-Factor, Vol. 1'
+  - series: "X-Factor, Vol. 1"
     issue: 75A
     issue_nr: 75
     full_title: The Nasty Boys
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Dec 17, 1991'
+    release_date: "Dec 17, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 48
     price: 1.75
-  - series: 'X-Factor, Vol. 1'
+  - series: "X-Factor, Vol. 1"
     issue: 76A
     issue_nr: 76
     full_title: X-Communication
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Jan 21, 1992'
+    release_date: "Jan 21, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Factor, Vol. 1'
+  - series: "X-Factor, Vol. 1"
     issue: 77A
     issue_nr: 77
     full_title: Great X-Pectations
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Feb 18, 1992'
+    release_date: "Feb 18, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Factor, Vol. 1'
+  - series: "X-Factor, Vol. 1"
     issue: 78A
     issue_nr: 78
     full_title: Playing With Fire!
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Mar 17, 1992'
+    release_date: "Mar 17, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Factor, Vol. 1'
+  - series: "X-Factor, Vol. 1"
     issue: 79A
     issue_nr: 79
     full_title: Rhapsody In Blue
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Apr 21, 1992'
+    release_date: "Apr 21, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Factor, Vol. 1'
+  - series: "X-Factor, Vol. 1"
     issue: 80A
     issue_nr: 80
     full_title: Belles Whistles
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'May 19, 1992'
+    release_date: "May 19, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Factor, Vol. 1'
+  - series: "X-Factor, Vol. 1"
     issue: 81A
     issue_nr: 81
     full_title: Belles of the Ball
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Jun 16, 1992'
+    release_date: "Jun 16, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Force, Vol. 1'
+  - series: "X-Force, Vol. 1"
     issue: 1B
     issue_nr: 1
     full_title: A Force to be Reckoned With
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Marvel Comics
     release_date: Aug 1991
@@ -2798,13 +2798,13 @@ items:
     format: Comic
     pages: 32
     price: 1.5
-  - series: 'X-Force, Vol. 1'
+  - series: "X-Force, Vol. 1"
     issue: 1C-1
     issue_nr: 1
     full_title: A Force To Be Reckoned With
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: C-1
     publisher: Marvel Comics
     release_date: Aug 1991
@@ -2813,133 +2813,133 @@ items:
     format: Comic
     pages: 32
     price: 1.5
-  - series: 'X-Force, Vol. 1'
+  - series: "X-Force, Vol. 1"
     issue: 2A
     issue_nr: 2
     full_title: The Blood Hunters
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Jul 30, 1991'
+    release_date: "Jul 30, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1
-  - series: 'X-Force, Vol. 1'
+  - series: "X-Force, Vol. 1"
     issue: 3A
     issue_nr: 3
     full_title: Battle Cry
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Aug 28, 1991'
+    release_date: "Aug 28, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1
-  - series: 'X-Force, Vol. 1'
+  - series: "X-Force, Vol. 1"
     issue: 4A
     issue_nr: 4
     full_title: Sabotage - Part 2
-    subtitle: ''
-    story_arc: ''
+    subtitle: ""
+    story_arc: ""
     crossover: Sabotage
     variant: A
     publisher: Marvel Comics
-    release_date: 'Sep 24, 1991'
+    release_date: "Sep 24, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1
-  - series: 'X-Force, Vol. 1'
+  - series: "X-Force, Vol. 1"
     issue: 5A
     issue_nr: 5
     full_title: Under the Magnifying Glass
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Oct 22, 1991'
+    release_date: "Oct 22, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1
-  - series: 'X-Force, Vol. 1'
+  - series: "X-Force, Vol. 1"
     issue: 6A
     issue_nr: 6
     full_title: Under the Gun
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Nov 26, 1991'
+    release_date: "Nov 26, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1
-  - series: 'X-Force, Vol. 1'
+  - series: "X-Force, Vol. 1"
     issue: 7A
     issue_nr: 7
     full_title: Under the Knife
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Dec 30, 1991'
+    release_date: "Dec 30, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Force, Vol. 1'
+  - series: "X-Force, Vol. 1"
     issue: 8A
     issue_nr: 8
-    full_title: 'X-Tenuating Circumstances, Part 1: Flashed Before My Eyes'
-    subtitle: ''
+    full_title: "X-Tenuating Circumstances, Part 1: Flashed Before My Eyes"
+    subtitle: ""
     story_arc: X-Tenuating Circumstances
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Jan 28, 1992'
+    release_date: "Jan 28, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Force, Vol. 1'
+  - series: "X-Force, Vol. 1"
     issue: 9A
     issue_nr: 9
-    full_title: 'X-Tenuating Circumstances, Part 2: Underground and Over the Top'
-    subtitle: ''
+    full_title: "X-Tenuating Circumstances, Part 2: Underground and Over the Top"
+    subtitle: ""
     story_arc: X-Tenuating Circumstances
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Feb 25, 1992'
+    release_date: "Feb 25, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Force, Vol. 1'
+  - series: "X-Force, Vol. 1"
     issue: 10A
     issue_nr: 10
-    full_title: 'X-Tenuating Circumstances, Part 3: Answers (And Questions)'
-    subtitle: ''
+    full_title: "X-Tenuating Circumstances, Part 3: Answers (And Questions)"
+    subtitle: ""
     story_arc: X-Tenuating Circumstances
-    crossover: ''
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: May 1992
@@ -2948,118 +2948,118 @@ items:
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Force, Vol. 1'
+  - series: "X-Force, Vol. 1"
     issue: 11A
     issue_nr: 11
     full_title: Friendly Reminders
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Apr 28, 1992'
+    release_date: "Apr 28, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 1A
     issue_nr: 1
     full_title: Rubicon
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Aug 20, 1991'
+    release_date: "Aug 20, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.5
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 1B
     issue_nr: 1
     full_title: Rubicon
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Marvel Comics
-    release_date: 'Aug 20, 1991'
+    release_date: "Aug 20, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.5
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 1C
     issue_nr: 1
     full_title: Rubicon
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: C
     publisher: Marvel Comics
-    release_date: 'Aug 20, 1991'
+    release_date: "Aug 20, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 48
     price: 1.5
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 1D
     issue_nr: 1
     full_title: Rubicon
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: D
     publisher: Marvel Comics
-    release_date: 'Aug 20, 1991'
+    release_date: "Aug 20, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.5
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 1E
     issue_nr: 1
     full_title: Rubicon
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: E
     publisher: Marvel Comics
-    release_date: 'Aug 20, 1991'
+    release_date: "Aug 20, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 48
     price: 1.5
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 2A
     issue_nr: 2
     full_title: Firestorm
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Sep 03, 1991'
+    release_date: "Sep 03, 1991"
     release_year: 1991
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 3A
     issue_nr: 3
     full_title: Fallout!
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Dec 1991
@@ -3068,13 +3068,13 @@ items:
     format: Comic
     pages: 32
     price: 1
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 4A
     issue_nr: 4
     full_title: The Resurrection and the Flesh
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Jan 1992
@@ -3083,13 +3083,13 @@ items:
     format: Comic
     pages: 32
     price: 1
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 5A
     issue_nr: 5
     full_title: Blowback
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Feb 1992
@@ -3098,13 +3098,13 @@ items:
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 6A
     issue_nr: 6
     full_title: Farther Still
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Mar 1992
@@ -3113,13 +3113,13 @@ items:
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 7A
     issue_nr: 7
     full_title: Inside ... Out!
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Apr 1992
@@ -3128,43 +3128,43 @@ items:
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 8A
     issue_nr: 8
     full_title: Tooth and Claw
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Mar 17, 1992'
+    release_date: "Mar 17, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 9A
     issue_nr: 9
     full_title: The Not So Big Easy
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
-    release_date: 'Apr 21, 1992'
+    release_date: "Apr 21, 1992"
     release_year: 1992
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 10A
     issue_nr: 10
     full_title: Where Happy Little Bluebirds Fly..
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Jul 1992
@@ -3173,13 +3173,13 @@ items:
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Men, Vol. 1'
+  - series: "X-Men, Vol. 1"
     issue: 11A
     issue_nr: 11
     full_title: The X-Men Vs. The X-Men! (Again)
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Marvel Comics
     release_date: Aug 1992
@@ -3188,28 +3188,28 @@ items:
     format: Comic
     pages: 32
     price: 1.25
-  - series: 'X-Men: Shattershot'
+  - series: "X-Men: Shattershot"
     issue: HC
     issue_nr: null
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: HC
     publisher: Marvel Comics
-    release_date: 'Dec 11, 2019'
+    release_date: "Dec 11, 2019"
     release_year: 2019
     genre: Action | Adventure | Super-Heroes
     format: Hardcover
     pages: 616
     price: 75
-  - series: 'Youngblood, Vol. 1'
+  - series: "Youngblood, Vol. 1"
     issue: 0A
     issue_nr: 0
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Dec 1992
@@ -3218,13 +3218,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Youngblood, Vol. 1'
+  - series: "Youngblood, Vol. 1"
     issue: 0B
     issue_nr: 0
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Image Comics
     release_date: Dec 1992
@@ -3233,13 +3233,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Youngblood, Vol. 1'
+  - series: "Youngblood, Vol. 1"
     issue: 1B
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Image Comics
     release_date: May 1992
@@ -3248,13 +3248,13 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Youngblood, Vol. 1'
+  - series: "Youngblood, Vol. 1"
     issue: 1D
     issue_nr: 1
     full_title: Youngblood
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: D
     publisher: Marvel Comics
     release_date: May 1992
@@ -3263,13 +3263,13 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Youngblood, Vol. 1'
+  - series: "Youngblood, Vol. 1"
     issue: 2A
     issue_nr: 2
     full_title: Prophecy
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jul 1992
@@ -3278,13 +3278,13 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Youngblood, Vol. 1'
+  - series: "Youngblood, Vol. 1"
     issue: 2B
     issue_nr: 2
     full_title: Prophecy
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Image Comics
     release_date: Jul 1992
@@ -3293,14 +3293,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Youngblood, Vol. 1'
-    issue: '3'
+  - series: "Youngblood, Vol. 1"
+    issue: "3"
     issue_nr: 3
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Aug 1992
     release_year: 1992
@@ -3308,14 +3308,14 @@ items:
     format: Comic
     pages: 40
     price: 2.5
-  - series: 'Youngblood, Vol. 1'
-    issue: '4'
+  - series: "Youngblood, Vol. 1"
+    issue: "4"
     issue_nr: 4
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Feb 1993
     release_year: 1993
@@ -3323,14 +3323,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Youngblood: Battlezone'
-    issue: '1'
+  - series: "Youngblood: Battlezone"
+    issue: "1"
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: May 1993
     release_year: 1993
@@ -3338,13 +3338,13 @@ items:
     format: Comic
     pages: 32
     price: 1.95
-  - series: 'Youngblood: Strikefile'
+  - series: "Youngblood: Strikefile"
     issue: 1A
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Apr 1993
@@ -3353,28 +3353,28 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Youngblood: Strikefile'
+  - series: "Youngblood: Strikefile"
     issue: 1B
     issue_nr: 1
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: B
     publisher: Image Comics
-    release_date: 'Apr 01, 1993'
+    release_date: "Apr 01, 1993"
     release_year: 1993
     genre: Action | Adventure | Super-Heroes
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Youngblood: Strikefile'
+  - series: "Youngblood: Strikefile"
     issue: 2A
     issue_nr: 2
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
     variant: A
     publisher: Image Comics
     release_date: Jul 1993
@@ -3383,14 +3383,14 @@ items:
     format: Comic
     pages: 32
     price: 2.5
-  - series: 'Youngblood: Strikefile'
-    issue: '3'
+  - series: "Youngblood: Strikefile"
+    issue: "3"
     issue_nr: 3
-    full_title: ''
-    subtitle: ''
-    story_arc: ''
-    crossover: ''
-    variant: ''
+    full_title: ""
+    subtitle: ""
+    story_arc: ""
+    crossover: ""
+    variant: ""
     publisher: Image Comics
     release_date: Sep 1993
     release_year: 1993
