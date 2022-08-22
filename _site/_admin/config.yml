@@ -6,16 +6,16 @@ media_folder: '_site/_assets/img'
 public_folder: '/_assets/img'
 
 collections:
-  - label: Collection
-    name: collection
+  - label: Comics
+    name: comics
     editor:
       preview: false
     files:
-      - label: Comics
-        name: comics
+      - label: Issues
+        name: issues
         file: '_site/_data/comics.yml'
         fields:
-          - label: Issues
+          - label: Items
             name: items
             widget: list
             fields:
@@ -29,7 +29,7 @@ collections:
               - { label: Variant, name: variant, widget: string }
               - { label: Publisher, name: publisher, widget: string }
               - { label: Release Date, name: release_date, widget: string }
-              - { label: Release Year, name: release_year, widget: date, format: 'YYYY' }
+              - { label: Release Year, name: release_year, widget: number, value_type: 'int' }
               - { label: Genre, name: genre, widget: string }
               - { label: Format, name: format, widget: string }
               - { label: Pages, name: pages, widget: number, value_type: 'int' }
