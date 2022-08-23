@@ -1,4 +1,4 @@
-{%- macro x(name='Name',sub=[],image='/_assets/img/_comic.jpg',svg='',url='',loop='') -%}
+{%- macro x(name='Name',sub=[],signed='',image='/_assets/img/_comic.jpg',svg='',url='',loop='') -%}
   <li>
     {%- if url !== '' %}<a href="{{ url }}" class="group block">{%- endif %}
     <figure>
@@ -20,10 +20,13 @@
       {%- endif %}
       <figcaption class="pt-1">
         <p class="text-center font-bold truncate">{{ name }}</p>
+        {%- if signed !== '' %}
+          <small class="truncate text-center block opacity-60">Signed: <i>{{ signed }}</i></small>
+        {%- endif %}
         {%- if sub.length %}
         <ul class="text-xs font-mono flex flex-wrap justify-center gap-x-3">
           {%- for item in sub %}
-          <li>{{ item.issue }}</li>
+            <li>{{ item.issue }}</li>
           {%- endfor %}
         </ul>
         {%- endif %}

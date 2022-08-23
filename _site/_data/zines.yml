@@ -17,6 +17,7 @@ items:
     genre: Hobby
     format: Magazine
     pages: 128
+    signed_by: ""
     price: 3.95
   - series: "Wizard: Magazine"
     issue: 11
@@ -32,6 +33,7 @@ items:
     genre: Hobby
     format: Magazine
     pages: 166
+    signed_by: ""
     price: 3.95
   - series: "Wizard: Magazine"
     issue: 12
@@ -47,6 +49,7 @@ items:
     genre: Hobby
     format: Magazine
     pages: 174
+    signed_by: ""
     price: 3.95
   - series: "Wizard: Magazine"
     issue: 15
@@ -62,6 +65,7 @@ items:
     genre: Hobby
     format: Magazine
     pages: 182
+    signed_by: ""
     price: 3.95
   - series: "Wizard: Magazine"
     issue: 16
@@ -77,6 +81,7 @@ items:
     genre: Hobby
     format: Magazine
     pages: 190
+    signed_by: ""
     price: 3.95
   - series: "Wizard: Magazine"
     issue: 17
@@ -92,6 +97,7 @@ items:
     genre: Hobby
     format: Magazine
     pages: 188
+    signed_by: ""
     price: 3.95
   - series: "Wizard: Magazine"
     issue: 18
@@ -107,6 +113,7 @@ items:
     genre: Hobby
     format: Magazine
     pages: 180
+    signed_by: ""
     price: 3.95
   - series: "Wizard: Magazine"
     issue: 19
@@ -122,6 +129,7 @@ items:
     genre: Hobby
     format: Magazine
     pages: 196
+    signed_by: ""
     price: 3.95
   - series: "Wizard: Magazine"
     issue: 20
@@ -137,6 +145,7 @@ items:
     genre: Hobby
     format: Magazine
     pages: 196
+    signed_by: ""
     price: 3.95
   - series: "Wizard: Magazine"
     issue: 21
@@ -152,6 +161,7 @@ items:
     genre: Hobby
     format: Magazine
     pages: 196
+    signed_by: ""
     price: 3.95
   - series: "Wizard: Magazine"
     issue: 22
@@ -167,6 +177,7 @@ items:
     genre: Hobby
     format: Magazine
     pages: 212
+    signed_by: ""
     price: 3.95
   - series: "Wizard: Magazine"
     issue: 23
@@ -182,6 +193,7 @@ items:
     genre: Hobby
     format: Magazine
     pages: 228
+    signed_by: ""
     price: 3.95
   - series: "Wizard: Magazine"
     issue: 25
@@ -197,6 +209,7 @@ items:
     genre: Hobby
     format: Magazine
     pages: 228
+    signed_by: ""
     price: 3.95
   - series: "Wizard: Magazine"
     issue: 27
@@ -212,4 +225,5 @@ items:
     genre: Hobby
     format: Magazine
     pages: 228
+    signed_by: ""
     price: 3.95

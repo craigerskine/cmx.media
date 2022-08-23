@@ -13,6 +13,7 @@ items:
     release_year: 2022
     format: Sketchbook
     pages: 128
+    signed_by: ""
     price: 108
   - series: Jim Lee
     issue: Just Draw Sketchbook
@@ -23,6 +24,7 @@ items:
     release_year: 2022
     format: Sketchbook
     pages: 128
+    signed_by: Jim Lee
     price: 175
   - series: Rob Liefeld
     issue: New Deadpool
@@ -33,6 +35,7 @@ items:
     release_year: 2018
     format: Misc
     pages: 128
+    signed_by: Rob Liefeld
     price: 69.99
   - series: J. Scott Campbell
     issue: The Ruff Stuff 1
@@ -43,6 +46,7 @@ items:
     release_year: 2018
     format: Sketchbook
     pages: 48
+    signed_by: J. Scott Campbell
     price: 20
   - series: J. Scott Campbell
     issue: The Ruff Stuff 2
@@ -53,6 +57,7 @@ items:
     release_year: 2018
     format: Sketchbook
     pages: 48
+    signed_by: J. Scott Campbell
     price: 20
   - series: J. Scott Campbell
     issue: The Ruff Stuff 3
@@ -63,6 +68,7 @@ items:
     release_year: 2018
     format: Sketchbook
     pages: 48
+    signed_by: J. Scott Campbell
     price: 20
   - series: J. Scott Campbell
     issue: The Ruff Stuff 4

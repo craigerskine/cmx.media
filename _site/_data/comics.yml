@@ -64,10 +64,14 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Neil Gaiman | Greg Capullo
+    creators: 
+      - Neil Gaiman
+      - Greg Capullo
     release_date: Dec 1994
     release_year: 1994
-    genre: Adventure | Super-Heroes
+    genre:
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -81,10 +85,15 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Neil Gaiman | Greg Capullo | Mark Pennington
+    creators: 
+      - Neil Gaiman
+      - Greg Capullo
+      - Mark Pennington
     release_date: Jan 1995
     release_year: 1995
-    genre: Adventure | Super-Heroes
+    genre:
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -98,10 +107,15 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Neil Gaiman | Greg Capullo | Mark Pennington
+    creators: 
+      - Neil Gaiman
+      - Greg Capullo
+      - Mark Pennington
     release_date: Feb 1995
     release_year: 1995
-    genre: Adventure | Super-Heroes
+    genre:
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -115,10 +129,14 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Jeff Mariotte | David Wohl | Joe Benitez
+    creators: 
+      - Jeff Mariotte
+      - David Wohl
+      - Joe Benitez
     release_date: Dec 1993
     release_year: 1993
-    genre: ""
+    genre:
+      - ""
     format: Squarebound
     pages: 48
     signed_by: ""
@@ -132,10 +150,15 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Mary Jo Duffy | Pat Lee | Jaime Mendoza
+    creators: 
+      - Mary Jo Duffy
+      - Pat Lee
+      - Jaime Mendoza
     release_date: Aug 1995
     release_year: 1995
-    genre: Adventure | Super-Heroes
+    genre:
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -149,10 +172,15 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Mary Jo Duffy | Pat Lee | Jaime Mendoza
+    creators: 
+      - Mary Jo Duffy
+      - Pat Lee
+      - Jaime Mendoza
     release_date: Sep 1995
     release_year: 1995
-    genre: Adventure | Super-Heroes
+    genre:
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -166,10 +194,15 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Mary Jo Duffy | Pat Lee | Sean Parsons
+    creators: 
+      - Mary Jo Duffy
+      - Pat Lee
+      - Sean Parsons
     release_date: Oct 1995
     release_year: 1995
-    genre: Adventure | Super-Heroes
+    genre:
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -183,10 +216,15 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Mary Jo Duffy | Pat Lee | Marlo Alquiza
+    creators: 
+      - Mary Jo Duffy
+      - Pat Lee
+      - Marlo Alquiza
     release_date: Nov 1995
     release_year: 1995
-    genre: Adventure | Super-Heroes
+    genre:
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -200,10 +238,16 @@ items:
     crossover: ""
     variant: TP
     publisher: Marvel Comics
-    creators: Louise Simonson | Rob Liefeld | Hilary Barta
+    creators: 
+      - Louise Simonson
+      - Rob Liefeld
+      - Hilary Barta
     release_date: Jun 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Trade Paperback
     pages: 176
     signed_by: ""
@@ -217,10 +261,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Greg Capullo | Danny Miki
+    creators: 
+      - Greg Capullo
+      - Danny Miki
     release_date: Oct 1997
     release_year: 1997
-    genre: Action
+    genre:
+      - Action
     format: Comic
     pages: 32
     signed_by: ""
@@ -234,10 +281,13 @@ items:
     crossover: ""
     variant: B
     publisher: Image Comics
-    creators: Greg Capullo | Danny Miki
+    creators: 
+      - Greg Capullo
+      - Danny Miki
     release_date: Oct 1997
     release_year: 1997
-    genre: Action
+    genre:
+      - Action
     format: Comic
     pages: 24
     signed_by: Greg Capullo
@@ -251,10 +301,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Greg Capullo | Danny Miki
+    creators: 
+      - Greg Capullo
+      - Danny Miki
     release_date: Nov 1997
     release_year: 1997
-    genre: Action
+    genre:
+      - Action
     format: Comic
     pages: 32
     signed_by: ""
@@ -268,10 +321,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Greg Capullo | Danny Miki
+    creators: 
+      - Greg Capullo
+      - Danny Miki
     release_date: Dec 1997
     release_year: 1997
-    genre: Adventure
+    genre:
+      - Adventure
     format: Comic
     pages: 32
     signed_by: ""
@@ -285,10 +341,12 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Greg Capullo
+    creators: 
+      - Greg Capullo
     release_date: Jun 2001
     release_year: 2001
-    genre: Action
+    genre:
+      - Action
     format: Comic
     pages: 48
     signed_by: Greg Capullo
@@ -302,10 +360,12 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Greg Capullo
+    creators: 
+      - Greg Capullo
     release_date: Sep 2001
     release_year: 2001
-    genre: Action
+    genre:
+      - Action
     format: Comic
     pages: 48
     signed_by: Greg Capullo
@@ -319,10 +379,12 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Greg Capullo
+    creators: 
+      - Greg Capullo
     release_date: Nov 2001
     release_year: 2001
-    genre: Action
+    genre:
+      - Action
     format: Comic
     pages: 48
     signed_by: ""
@@ -336,10 +398,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Eric Silvestri | Marc Silvestri | Walter Simonson
+    creators: 
+      - Eric Silvestri
+      - Marc Silvestri
+      - Walter Simonson
     release_date: Sep 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 36
     signed_by: ""
@@ -353,10 +421,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Eric Silvestri | Marc Silvestri | Scott Williams
+    creators: 
+      - Eric Silvestri
+      - Marc Silvestri
+      - Scott Williams
     release_date: Oct 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -370,10 +444,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Eric Silvestri | Marc Silvestri | John Tighe
+    creators: 
+      - Eric Silvestri
+      - Marc Silvestri
+      - John Tighe
     release_date: Mar 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -387,10 +467,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Eric Silvestri | Marc Silvestri | John Tighe
+    creators: 
+      - Eric Silvestri
+      - Marc Silvestri
+      - John Tighe
     release_date: May 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -404,10 +490,15 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Marc Silvestri | Scott Williams
+    creators: 
+      - Marc Silvestri
+      - Scott Williams
     release_date: Jul 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -421,10 +512,14 @@ items:
     crossover: ""
     variant: B
     publisher: Continuity Comics
-    creators: Peter Stone | Frank Quitely | Richard Bennett
+    creators: 
+      - Peter Stone
+      - Frank Quitely
+      - Richard Bennett
     release_date: Nov 1992
     release_year: 1992
-    genre: Super-Heroes
+    genre:
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -438,10 +533,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Jim Lee | Sam Kieth | William Messner-Loebs
+    creators: 
+      - Jim Lee
+      - Sam Kieth
+      - William Messner-Loebs
     release_date: Mar 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -455,10 +556,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Brandon Choi | Jim Lee | Trevor Scott
+    creators: 
+      - Brandon Choi
+      - Jim Lee
+      - Trevor Scott
     release_date: Apr 1993
     release_year: 1993
-    genre: Adventure | Super-Heroes | War
+    genre:
+      - Adventure
+      - Super-Heroes
+      - War
     format: Comic
     pages: 32
     signed_by: ""
@@ -472,10 +579,18 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Jim Lee | Steve Gerber | Brandon Choi
+    creators: 
+      - Jim Lee
+      - Steve Gerber
+      - Brandon Choi
     release_date: Aug 1993
     release_year: 1993
-    genre: Action | Adventure | Science Fiction | Super-Heroes | War
+    genre:
+      - Action
+      - Adventure
+      - Science Fiction
+      - Super-Heroes
+      - War
     format: Comic
     pages: 36
     signed_by: ""
@@ -489,10 +604,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Steve Gerber | Brandon Choi | Jim Lee
+    creators: 
+      - Steve Gerber
+      - Brandon Choi
+      - Jim Lee
     release_date: Aug 1994
     release_year: 1994
-    genre: Action | Adventure | War
+    genre:
+      - Action
+      - Adventure
+      - War
     format: Comic
     pages: 32
     signed_by: ""
@@ -506,10 +627,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Brandon Choi | Jim Lee | Tim Sale
+    creators: 
+      - Brandon Choi
+      - Jim Lee
+      - Tim Sale
     release_date: Nov 1994
     release_year: 1994
-    genre: Action | Adventure | War
+    genre:
+      - Action
+      - Adventure
+      - War
     format: Comic
     pages: 32
     signed_by: ""
@@ -523,10 +650,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Brandon Choi | Jim Lee | Tim Sale
+    creators: 
+      - Brandon Choi
+      - Jim Lee
+      - Tim Sale
     release_date: Dec 1994
     release_year: 1994
-    genre: Action | Adventure | War
+    genre:
+      - Action
+      - Adventure
+      - War
     format: Comic
     pages: 32
     signed_by: ""
@@ -540,10 +673,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Brandon Choi | Jim Lee | Tim Sale
+    creators: 
+      - Brandon Choi
+      - Jim Lee
+      - Tim Sale
     release_date: Jan 1995
     release_year: 1995
-    genre: Action | Adventure | War
+    genre:
+      - Action
+      - Adventure
+      - War
     format: Comic
     pages: 32
     signed_by: ""
@@ -557,10 +696,14 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Brandon Choi | Jim Lee | Tim Sale
+    creators: 
+      - Brandon Choi
+      - Jim Lee
+      - Tim Sale
     release_date: Oct 1997
     release_year: 1997
-    genre: Fantasy
+    genre:
+      - Fantasy
     format: Comic
     pages: 32
     signed_by: ""
@@ -574,10 +717,14 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Jim Lee | Scott Williams | Sal Regla
+    creators: 
+      - Jim Lee
+      - Scott Williams
+      - Sal Regla
     release_date: Nov 1997
     release_year: 1997
-    genre: ""
+    genre:
+      - ""
     format: Comic
     pages: 32
     signed_by: ""
@@ -591,10 +738,17 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Jim Lee | Scott Williams | Alex Garner
+    creators: 
+      - Jim Lee
+      - Scott Williams
+      - Alex Garner
     release_date: Oct 1997
     release_year: 1997
-    genre: Action | Adventure | Super-Heroes | War
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
+      - War
     format: Comic
     pages: 40
     signed_by: ""
@@ -608,10 +762,14 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Shon C. Bury | Dan Norton | Sandra Hope
+    creators: 
+      - Shon C. Bury
+      - Dan Norton
+      - Sandra Hope
     release_date: "Sep 04, 1996"
     release_year: 1996
-    genre: ""
+    genre:
+      - ""
     format: Comic
     pages: 56
     signed_by: ""
@@ -625,10 +783,15 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Jim Lee | Scott Williams
+    creators: 
+      - Jim Lee
+      - Scott Williams
     release_date: Dec 1996
     release_year: 1996
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 40
     signed_by: ""
@@ -642,10 +805,15 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Jim Lee | Scott Williams
+    creators: 
+      - Jim Lee
+      - Scott Williams
     release_date: "Nov 06, 1996"
     release_year: 1996
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 40
     signed_by: ""
@@ -659,10 +827,16 @@ items:
     crossover: ""
     variant: C
     publisher: Marvel Comics
-    creators: Jim Lee | Scott Williams | Alex Garner
+    creators: 
+      - Jim Lee
+      - Scott Williams
+      - Alex Garner
     release_date: Feb 1997
     release_year: 1997
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 40
     signed_by: ""
@@ -676,10 +850,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: "Jim Lee | John 'JD' Dickenson | Scott Williams"
+    creators:
+      - Jim Lee
+      - "John 'JD' Dickenson"
+      - Scott Williams"
     release_date: Mar 1997
     release_year: 1997
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 40
     signed_by: ""
@@ -693,10 +873,16 @@ items:
     crossover: Industrial Revolution
     variant: A
     publisher: Marvel Comics
-    creators: Jim Lee | Scott Williams | Alex Garner
+    creators: 
+      - Jim Lee
+      - Scott Williams
+      - Alex Garner
     release_date: Apr 1997
     release_year: 1997
-    genre: Action | Adventure | Science Fiction
+    genre:
+      - Action
+      - Adventure
+      - Science Fiction
     format: Comic
     pages: 32
     signed_by: ""
@@ -710,10 +896,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: "Jim Lee | Scott Williams | John 'JD' Dickenson"
+    creators:
+      - Jim Lee
+      - Scott Williams
+      - "John 'JD' Dickenson"
     release_date: May 1997
     release_year: 1997
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -727,10 +919,15 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Brett Booth | Tom McWeeney
+    creators: 
+      - Brett Booth
+      - Tom McWeeney
     release_date: Jun 1997
     release_year: 1997
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -744,10 +941,15 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Brett Booth | Tom McWeeney
+    creators: 
+      - Brett Booth
+      - Tom McWeeney
     release_date: Jul 1997
     release_year: 1997
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -761,10 +963,16 @@ items:
     crossover: ""
     variant: TP
     publisher: Image Comics
-    creators: Brett Booth | Scott Williams | Mark Irwin
+    creators: 
+      - Brett Booth
+      - Scott Williams
+      - Mark Irwin
     release_date: Dec 1994
     release_year: 1994
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Trade Paperback
     pages: 144
     signed_by: ""
@@ -778,10 +986,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Jeff Mariotte | Brandon Choi | Jim Lee
+    creators: 
+      - Jeff Mariotte
+      - Brandon Choi
+      - Jim Lee
     release_date: Sep 1994
     release_year: 1994
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -795,10 +1009,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Brandon Choi | Richard Johnson | Travis Charest
+    creators: 
+      - Brandon Choi
+      - Richard Johnson
+      - Travis Charest
     release_date: Feb 1994
     release_year: 1994
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -812,10 +1032,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Brandon Choi | Jim Lee | J. Scott Campbell
+    creators: 
+      - Brandon Choi
+      - Jim Lee
+      - J. Scott Campbell
     release_date: Jul 1995
     release_year: 1995
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -829,10 +1055,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: J. Scott Campbell | Brandon Choi | Jim Lee
+    creators: 
+      - J. Scott Campbell
+      - Brandon Choi
+      - Jim Lee
     release_date: "Apr 14, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -846,10 +1078,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Howard Mackie | Ron Wagner | Mike Witherby
+    creators: 
+      - Howard Mackie
+      - Ron Wagner
+      - Mike Witherby
     release_date: "May 12, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -863,10 +1101,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Howard Mackie | Ron Wagner | Mike Witherby
+    creators: 
+      - Howard Mackie
+      - Ron Wagner
+      - Mike Witherby
     release_date: Jan 1995
     release_year: 1995
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Squarebound
     pages: 48
     signed_by: ""
@@ -880,10 +1124,14 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Steven T. Seagle | Dan Norton | Chuck Gibson
+    creators: 
+      - Steven T. Seagle
+      - Dan Norton
+      - Chuck Gibson
     release_date: May 1993
     release_year: 1993
-    genre: Reference
+    genre:
+      - Reference
     format: Comic
     pages: 32
     signed_by: ""
@@ -897,10 +1145,12 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: J. Scott Campbell
+    creators: 
+      - J. Scott Campbell
     release_date: "Oct 12, 1993"
     release_year: 1993
-    genre: Adventure
+    genre:
+      - Adventure
     format: Comic
     pages: 32
     signed_by: ""
@@ -914,10 +1164,14 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Jim Lee | Marc Silvestri | Jim Valentino
+    creators: 
+      - Jim Lee
+      - Marc Silvestri
+      - Jim Valentino
     release_date: Sep 1993
     release_year: 1993
-    genre: Super-Heroes
+    genre:
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -931,10 +1185,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Alan Grant | Keith Giffen | Don Simpson
+    creators: 
+      - Alan Grant
+      - Keith Giffen
+      - Don Simpson
     release_date: "Jan 21, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -948,10 +1208,16 @@ items:
     crossover: ""
     variant: B
     publisher: Marvel Comics
-    creators: Peter David | Dale Keown | Mark Farmer
+    creators: 
+      - Peter David
+      - Dale Keown
+      - Mark Farmer
     release_date: "Jan 21, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -965,10 +1231,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Peter David | Dale Keown | Mark Farmer
+    creators: 
+      - Peter David
+      - Dale Keown
+      - Mark Farmer
     release_date: "Feb 18, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -982,10 +1254,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Peter David | Dale Keown | Mark Farmer
+    creators: 
+      - Peter David
+      - Dale Keown
+      - Mark Farmer
     release_date: "Sep 18, 1996"
     release_year: 1996
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 56
     signed_by: ""
@@ -999,10 +1277,14 @@ items:
     crossover: ""
     variant: B
     publisher: Boom! Studios
-    creators: Scott Lobdell | Jim Lee | Whilce Portacio
+    creators: 
+      - Scott Lobdell
+      - Jim Lee
+      - Whilce Portacio
     release_date: "Feb 22, 2017"
     release_year: 2017
-    genre: Fantasy
+    genre:
+      - Fantasy
     format: Comic
     pages: 32
     signed_by: ""
@@ -1019,7 +1301,8 @@ items:
     creators:
     release_date: Jan 02, 2019
     release_year: 2019
-    genre: Fantasy
+    genre:
+      - Fantasy
     format: Trade Paperback
     pages: 0
     signed_by: ""
@@ -1036,7 +1319,8 @@ items:
     creators:
     release_date: Oct 23, 2019
     release_year: 2019
-    genre: Fantasy
+    genre:
+      - Fantasy
     format: Trade Paperback
     pages: 0
     signed_by: ""
@@ -1050,10 +1334,15 @@ items:
     crossover: ""
     variant: A
     publisher: DC Comics
-    creators: Simon Spurrier | Nichole Matthews
+    creators: 
+      - Simon Spurrier
+      - Nichole Matthews
     release_date: Jun 1990
     release_year: 1990
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1067,10 +1356,16 @@ items:
     crossover: ""
     variant: A
     publisher: DC Comics
-    creators: Keith Giffen | Gerard Jones | Bart Sears
+    creators: 
+      - Keith Giffen
+      - Gerard Jones
+      - Bart Sears
     release_date: Jul 1990
     release_year: 1990
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1084,10 +1379,16 @@ items:
     crossover: ""
     variant: A
     publisher: DC Comics
-    creators: J.M. DeMatteis | Keith Giffen | Gerard Jones
+    creators: 
+      - J.M. DeMatteis
+      - Keith Giffen
+      - Gerard Jones
     release_date: Aug 1990
     release_year: 1990
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1101,10 +1402,16 @@ items:
     crossover: ""
     variant: A
     publisher: DC Comics
-    creators: Keith Giffen | Gerard Jones | Bart Sears
+    creators: 
+      - Keith Giffen
+      - Gerard Jones
+      - Bart Sears
     release_date: Sep 1990
     release_year: 1990
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1118,10 +1425,16 @@ items:
     crossover: ""
     variant: A
     publisher: DC Comics
-    creators: Keith Giffen | Gerard Jones | Bart Sears
+    creators: 
+      - Keith Giffen
+      - Gerard Jones
+      - Bart Sears
     release_date: Oct 1990
     release_year: 1990
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1135,10 +1448,15 @@ items:
     crossover: ""
     variant: ""
     publisher: Marvel Comics
-    creators: Keith Giffen | Gerard Jones | Bart Sears
+    creators: 
+      - Keith Giffen
+      - Gerard Jones
+      - Bart Sears
     release_date: "Jun 23, 1992"
     release_year: 1992
-    genre: Art / Pin-up | Hobby
+    genre:
+      - Art / Pin-up
+      - Hobby
     format: Magazine
     pages: 48
     signed_by: ""
@@ -1152,10 +1470,14 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: John Rozum | Mindy Newell | Bob Washington
+    creators: 
+      - John Rozum
+      - Mindy Newell
+      - Bob Washington
     release_date: Mar 1993
     release_year: 1993
-    genre: Super-Heroes
+    genre:
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1169,10 +1491,14 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Sam Kieth | William Messner-Loebs | James Sinclair
+    creators: 
+      - Sam Kieth
+      - William Messner-Loebs
+      - James Sinclair
     release_date: Apr 1993
     release_year: 1993
-    genre: Super-Heroes
+    genre:
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1186,10 +1512,14 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Sam Kieth | William Messner-Loebs | James Sinclair
+    creators: 
+      - Sam Kieth
+      - William Messner-Loebs
+      - James Sinclair
     release_date: May 1993
     release_year: 1993
-    genre: Super-Heroes
+    genre:
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1203,10 +1533,14 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Sam Kieth | William Messner-Loebs | James Sinclair
+    creators: 
+      - Sam Kieth
+      - William Messner-Loebs
+      - James Sinclair
     release_date: Apr 1993
     release_year: 1993
-    genre: Super-Heroes
+    genre:
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1220,10 +1554,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Sam Kieth | William Messner-Loebs | James Sinclair
+    creators: 
+      - Sam Kieth
+      - William Messner-Loebs
+      - James Sinclair
     release_date: "Jan 09, 1990"
     release_year: 1990
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1237,10 +1577,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Louise Simonson | Rob Liefeld | Bob Wiacek
+    creators: 
+      - Louise Simonson
+      - Rob Liefeld
+      - Bob Wiacek
     release_date: "Feb 13, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 52
     signed_by: ""
@@ -1254,10 +1600,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Fabian Nicieza | Rob Liefeld
+    creators: 
+      - Fabian Nicieza
+      - Rob Liefeld
     release_date: Jan 1993
     release_year: 1993
-    genre: Action | Adventure | Horror | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Horror
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1271,10 +1623,17 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Brian Hotton | Jim Somerville | Sam Kieth
+    creators: 
+      - Brian Hotton
+      - Jim Somerville
+      - Sam Kieth
     release_date: Jul 1993
     release_year: 1993
-    genre: Action | Adventure | Horror | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Horror
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1288,10 +1647,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Dale Keown | Scott Williams | Joe Rubinstein
+    creators: 
+      - Dale Keown
+      - Scott Williams
+      - Joe Rubinstein
     release_date: Feb 1994
     release_year: 1994
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1305,10 +1670,14 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Dale Keown | Brian Hotton | Jim Somerville
+    creators: 
+      - Dale Keown
+      - Brian Hotton
+      - Jim Somerville
     release_date: Mar 1993
     release_year: 1993
-    genre: Adventure
+    genre:
+      - Adventure
     format: Comic
     pages: 32
     signed_by: ""
@@ -1322,10 +1691,13 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Don Simpson | Erik Larsen
+    creators: 
+      - Don Simpson
+      - Erik Larsen
     release_date: Jun 1993
     release_year: 1993
-    genre: ""
+    genre:
+      - ""
     format: Comic
     pages: 0
     signed_by: ""
@@ -1339,10 +1711,12 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Erik Larsen
+    creators: 
+      - Erik Larsen
     release_date: Jul 1993
     release_year: 1993
-    genre: ""
+    genre:
+      - ""
     format: Comic
     pages: 0
     signed_by: ""
@@ -1356,10 +1730,12 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Erik Larsen
+    creators: 
+      - Erik Larsen
     release_date: Aug 1993
     release_year: 1993
-    genre: ""
+    genre:
+      - ""
     format: Comic
     pages: 0
     signed_by: ""
@@ -1373,10 +1749,12 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Erik Larsen
+    creators: 
+      - Erik Larsen
     release_date: Sep 1993
     release_year: 1993
-    genre: ""
+    genre:
+      - ""
     format: Comic
     pages: 0
     signed_by: ""
@@ -1390,10 +1768,12 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Erik Larsen
+    creators: 
+      - Erik Larsen
     release_date: Jul 1992
     release_year: 1992
-    genre: Super-Heroes
+    genre:
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1407,10 +1787,12 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Erik Larsen
+    creators: 
+      - Erik Larsen
     release_date: Oct 1992
     release_year: 1992
-    genre: Super-Heroes
+    genre:
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1424,10 +1806,14 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Erik Larsen
+    creators: 
+      - Erik Larsen
     release_date: Dec 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1441,10 +1827,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Erik Larsen
+    creators: 
+      - Erik Larsen
     release_date: Aug 1992
     release_year: 1992
-    genre: Adventure | Super-Heroes
+    genre:
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1458,10 +1847,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Jim Valentino
+    creators: 
+      - Jim Valentino
     release_date: Oct 1992
     release_year: 1992
-    genre: Action | Adventure
+    genre:
+      - Action
+      - Adventure
     format: Comic
     pages: 32
     signed_by: ""
@@ -1475,10 +1867,12 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Jim Valentino
+    creators: 
+      - Jim Valentino
     release_date: Dec 1992
     release_year: 1992
-    genre: Adventure
+    genre:
+      - Adventure
     format: Comic
     pages: 28
     signed_by: ""
@@ -1492,10 +1886,15 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: "Jim Valentino | Chance Wolf | Phil D'Moss"
+    creators:
+      - Jim Valentino
+      - Chance Wolf
+      - "Phil D'Moss"
     release_date: Mar 1993
     release_year: 1993
-    genre: Action | Adventure
+    genre:
+      - Action
+      - Adventure
     format: Comic
     pages: 32
     signed_by: ""
@@ -1509,10 +1908,14 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Jim Valentino | Chance Wolf
+    creators: 
+      - Jim Valentino
+      - Chance Wolf
     release_date: May 1993
     release_year: 1993
-    genre: Adventure | Super-Heroes
+    genre:
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1526,10 +1929,13 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Jim Valentino | Chance Wolf
+    creators: 
+      - Jim Valentino
+      - Chance Wolf
     release_date: Jul 1993
     release_year: 1993
-    genre: Adventure
+    genre:
+      - Adventure
     format: Comic
     pages: 36
     signed_by: ""
@@ -1543,10 +1949,15 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Jim Valentino | Brad W. Foster | Chance Wolf
+    creators: 
+      - Jim Valentino
+      - Brad W. Foster
+      - Chance Wolf
     release_date: Aug 1993
     release_year: 1993
-    genre: Adventure | Super-Heroes
+    genre:
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1560,12 +1971,19 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: May 1992
     release_year: 1992
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 32
     signed_by: Todd McFarlane
@@ -1579,12 +1997,19 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: Jun 1992
     release_year: 1992
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 32
     signed_by: ""
@@ -1598,10 +2023,15 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: Jul 1992
     release_year: 1992
-    genre: Action | Adventure | Horror | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Horror
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1615,10 +2045,15 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: Sep 1992
     release_year: 1992
-    genre: Action | Adventure | Horror | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Horror
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1632,12 +2067,19 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: Oct 1992
     release_year: 1992
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 32
     signed_by: ""
@@ -1651,10 +2093,15 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: Nov 1992
     release_year: 1992
-    genre: Action | Adventure | Horror | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Horror
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1668,12 +2115,19 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: Jan 1993
     release_year: 1993
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 32
     signed_by: ""
@@ -1687,12 +2141,19 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: Feb 1993
     release_year: 1993
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 36
     signed_by: ""
@@ -1706,12 +2167,20 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Alan Moore | Todd McFarlane
+    creators: 
+      - Alan Moore
+      - Todd McFarlane
     release_date: Mar 1993
     release_year: 1993
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 36
     signed_by: ""
@@ -1725,10 +2194,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Neil Gaiman | Todd McFarlane
+    creators: 
+      - Neil Gaiman
+      - Todd McFarlane
     release_date: May 1993
     release_year: 1993
-    genre: Action | Adventure | Horror | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Horror
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1742,12 +2217,20 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Dave Sim | Todd McFarlane
+    creators: 
+      - Dave Sim
+      - Todd McFarlane
     release_date: Jun 1993
     release_year: 1993
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 32
     signed_by: ""
@@ -1761,12 +2244,20 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Frank Miller | Todd McFarlane
+    creators: 
+      - Frank Miller
+      - Todd McFarlane
     release_date: Jul 1993
     release_year: 1993
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 32
     signed_by: ""
@@ -1780,12 +2271,19 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: Aug 1993
     release_year: 1993
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 32
     signed_by: ""
@@ -1799,12 +2297,19 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: Nov 1993
     release_year: 1993
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 32
     signed_by: ""
@@ -1818,12 +2323,19 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: Mar 1997
     release_year: 1997
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 32
     signed_by: ""
@@ -1837,10 +2349,17 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane | Greg Capullo | Chance Wolf
+    creators: 
+      - Todd McFarlane
+      - Greg Capullo
+      - Chance Wolf
     release_date: Apr 1997
     release_year: 1997
-    genre: Action | Adventure | Horror | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Horror
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1854,12 +2373,21 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane | Greg Capullo | Chance Wolf
+    creators: 
+      - Todd McFarlane
+      - Greg Capullo
+      - Chance Wolf
     release_date: May 1997
     release_year: 1997
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 32
     signed_by: ""
@@ -1873,10 +2401,17 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane | Greg Capullo | Chance Wolf
+    creators: 
+      - Todd McFarlane
+      - Greg Capullo
+      - Chance Wolf
     release_date: Jan 1998
     release_year: 1998
-    genre: Action | Adventure | Horror | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Horror
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1890,12 +2425,21 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane | Greg Capullo | Chance Wolf
+    creators: 
+      - Todd McFarlane
+      - Greg Capullo
+      - Chance Wolf
     release_date: Jan 1998
     release_year: 1998
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 32
     signed_by: ""
@@ -1909,10 +2453,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane | Greg Capullo
+    creators: 
+      - Todd McFarlane
+      - Greg Capullo
     release_date: Oct 1998
     release_year: 1998
-    genre: Action | Adventure | Horror | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Horror
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1926,12 +2476,21 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Todd McFarlane | Brian Holguin | Dwayne Turner
+    creators: 
+      - Todd McFarlane
+      - Brian Holguin
+      - Dwayne Turner
     release_date: Nov 1999
     release_year: 1999
-    genre: >-
-      Action | Adventure | Crime | Fantasy | Horror | Science Fiction |
-      Super-Heroes | Thriller
+    genre:
+      - Action
+      - Adventure
+      - Crime
+      - Fantasy
+      - Horror
+      - Science Fiction
+      - Super-Heroes
+      - Thriller
     format: Comic
     pages: 32
     signed_by: ""
@@ -1945,10 +2504,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Brian Holguin | Greg Capullo | Danny Miki
+    creators: 
+      - Brian Holguin
+      - Greg Capullo
+      - Danny Miki
     release_date: "Nov 20, 1990"
     release_year: 1990
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1962,10 +2527,14 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: "Dec 18, 1990"
     release_year: 1990
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1979,10 +2548,14 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: "Jan 15, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -1996,10 +2569,14 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: "Feb 19, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2013,10 +2590,14 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: "Mar 19, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2030,10 +2611,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Todd McFarlane | Rick Magyar | Jim Lee
+    creators: 
+      - Todd McFarlane
+      - Rick Magyar
+      - Jim Lee
     release_date: "Apr 16, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2047,10 +2634,15 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Todd McFarlane | Rick Magyar
+    creators: 
+      - Todd McFarlane
+      - Rick Magyar
     release_date: "May 21, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2064,10 +2656,14 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: "Jun 18, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2081,10 +2677,14 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: "Jul 16, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2098,10 +2698,14 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: Oct 1991
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2115,10 +2719,14 @@ items:
     crossover: Sabotage
     variant: A
     publisher: Marvel Comics
-    creators: Erik Larsen
+    creators: 
+      - Erik Larsen
     release_date: "Sep 17, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2132,10 +2740,14 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: "Nov 19, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2149,10 +2761,14 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Erik Larsen
+    creators: 
+      - Erik Larsen
     release_date: Feb 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2166,10 +2782,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Erik Larsen | Terry Kavanagh | Scott McDaniel
+    creators: 
+      - Erik Larsen
+      - Terry Kavanagh
+      - Scott McDaniel
     release_date: Mar 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2183,10 +2805,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Erik Larsen | Terry Kavanagh | Scott McDaniel
+    creators: 
+      - Erik Larsen
+      - Terry Kavanagh
+      - Scott McDaniel
     release_date: Apr 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2200,10 +2828,14 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Erik Larsen
+    creators: 
+      - Erik Larsen
     release_date: "Mar 17, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2217,10 +2849,14 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Erik Larsen
+    creators: 
+      - Erik Larsen
     release_date: "Apr 21, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2234,10 +2870,14 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Erik Larsen
+    creators: 
+      - Erik Larsen
     release_date: Sep 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 48
     signed_by: ""
@@ -2251,10 +2891,15 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Ron Frenz | Tom DeFalco | Mark Bagley
+    creators: 
+      - Ron Frenz
+      - Tom DeFalco
+      - Mark Bagley
     release_date: "1990"
     release_year: 1990
-    genre: Action | Super-Heroes
+    genre:
+      - Action
+      - Super-Heroes
     format: Softcover
     pages: 112
     signed_by: ""
@@ -2268,10 +2913,15 @@ items:
     crossover: ""
     variant: TP-A
     publisher: Marvel Comics
-    creators: David Michelinie | Todd McFarlane | Bob McLeod
+    creators: 
+      - David Michelinie
+      - Todd McFarlane
+      - Bob McLeod
     release_date: Jan 1992
     release_year: 1992
-    genre: Action | Super-Heroes
+    genre:
+      - Action
+      - Super-Heroes
     format: Trade Paperback
     pages: 0
     signed_by: ""
@@ -2285,10 +2935,14 @@ items:
     crossover: ""
     variant: B
     publisher: Dark Horse Comics
-    creators: Todd McFarlane
+    creators: 
+      - Todd McFarlane
     release_date: May 1999
     release_year: 1999
-    genre: Action | Adventure | Science Fiction
+    genre:
+      - Action
+      - Adventure
+      - Science Fiction
     format: Comic
     pages: 32
     signed_by: ""
@@ -2302,10 +2956,15 @@ items:
     crossover: ""
     variant: B
     publisher: Dark Horse Comics
-    creators: Rodolfo DaMaggio | Al Williamson
+    creators: 
+      - Rodolfo DaMaggio
+      - Al Williamson
     release_date: May 1999
     release_year: 1999
-    genre: Action | Adventure | Science Fiction
+    genre:
+      - Action
+      - Adventure
+      - Science Fiction
     format: Comic
     pages: 32
     signed_by: ""
@@ -2319,10 +2978,15 @@ items:
     crossover: ""
     variant: B
     publisher: Dark Horse Comics
-    creators: Rodolfo DaMaggio | Al Williamson
+    creators: 
+      - Rodolfo DaMaggio
+      - Al Williamson
     release_date: May 1999
     release_year: 1999
-    genre: Action | Adventure | Science Fiction
+    genre:
+      - Action
+      - Adventure
+      - Science Fiction
     format: Comic
     pages: 32
     signed_by: ""
@@ -2336,10 +3000,15 @@ items:
     crossover: ""
     variant: B
     publisher: Dark Horse Comics
-    creators: Rodolfo DaMaggio | Al Williamson
+    creators: 
+      - Rodolfo DaMaggio
+      - Al Williamson
     release_date: May 1999
     release_year: 1999
-    genre: Action | Adventure | Science Fiction
+    genre:
+      - Action
+      - Adventure
+      - Science Fiction
     format: Comic
     pages: 32
     signed_by: ""
@@ -2353,10 +3022,15 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Rodolfo DaMaggio | Al Williamson
+    creators: 
+      - Rodolfo DaMaggio
+      - Al Williamson
     release_date: Aug 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2370,10 +3044,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Brandon Choi | Jim Lee | Scott Clark
+    creators: 
+      - Brandon Choi
+      - Jim Lee
+      - Scott Clark
     release_date: Mar 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2387,10 +3067,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Brandon Choi | Jim Lee | Scott Clark
+    creators: 
+      - Brandon Choi
+      - Jim Lee
+      - Scott Clark
     release_date: May 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2404,10 +3090,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Brandon Choi | Jim Lee | Scott Clark
+    creators: 
+      - Brandon Choi
+      - Jim Lee
+      - Scott Clark
     release_date: Jul 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2421,10 +3113,17 @@ items:
     crossover: ""
     variant: TP
     publisher: DC Comics
-    creators: Brandon Choi | Scott Clark | Trevor Scott
+    creators: 
+      - Brandon Choi
+      - Scott Clark
+      - Trevor Scott
     release_date: "Mar 31, 2010"
     release_year: 2010
-    genre: Action | Adventure | Science Fiction | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Science Fiction
+      - Super-Heroes
     format: Trade Paperback
     pages: 256
     signed_by: ""
@@ -2438,10 +3137,14 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Jim Starlin | Manuel Garcia | Al Milgrom
+    creators: 
+      - Jim Starlin
+      - Manuel Garcia
+      - Al Milgrom
     release_date: Mar 1993
     release_year: 1993
-    genre: Super-Heroes
+    genre:
+      - Super-Heroes
     format: Comic
     pages: 28
     signed_by: ""
@@ -2455,10 +3158,17 @@ items:
     crossover: ""
     variant: B
     publisher: Marvel Comics and Image Comics
-    creators: Larry Stroman | Todd Johnson
+    creators: 
+      - Larry Stroman
+      - Todd Johnson
     release_date: Feb 1997
     release_year: 1997
-    genre: Action | Adventure | Historic | Super-Heroes | War
+    genre:
+      - Action
+      - Adventure
+      - Historic
+      - Super-Heroes
+      - War
     format: Comic
     pages: 48
     signed_by: ""
@@ -2472,10 +3182,14 @@ items:
     crossover: ""
     variant: B
     publisher: Marvel Comics and Image Comics
-    creators: Scott Lobdell | Homage Studios | Travis Charest
+    creators: 
+      - Scott Lobdell
+      - Homage Studios
+      - Travis Charest
     release_date: Jun 1997
     release_year: 1997
-    genre: ""
+    genre:
+      - ""
     format: Comic
     pages: 0
     signed_by: ""
@@ -2489,10 +3203,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Scott Lobdell | Jim Lee | Scott Williams
+    creators: 
+      - Scott Lobdell
+      - Jim Lee
+      - Scott Williams
     release_date: "Jun 29, 1993"
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 24
     signed_by: ""
@@ -2506,10 +3226,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Brandon Choi | Jim Lee | Brett Booth
+    creators: 
+      - Brandon Choi
+      - Jim Lee
+      - Brett Booth
     release_date: Aug 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2523,10 +3249,16 @@ items:
     crossover: ""
     variant: B
     publisher: Image Comics
-    creators: Jim Lee | Brandon Choi | Scott Williams
+    creators: 
+      - Jim Lee
+      - Brandon Choi
+      - Scott Williams
     release_date: Oct 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2540,10 +3272,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Brandon Choi | Whilce Portacio | Jim Lee
+    creators: 
+      - Brandon Choi
+      - Whilce Portacio
+      - Jim Lee
     release_date: Dec 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2557,10 +3295,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Jim Lee | Brandon Choi | Scott Williams
+    creators: 
+      - Jim Lee
+      - Brandon Choi
+      - Scott Williams
     release_date: Mar 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2574,10 +3318,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Brandon Choi | Jim Lee | Scott Williams
+    creators: 
+      - Brandon Choi
+      - Jim Lee
+      - Scott Williams
     release_date: Dec 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2591,10 +3341,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Jim Lee | Brandon Choi | Scott Williams
+    creators: 
+      - Jim Lee
+      - Brandon Choi
+      - Scott Williams
     release_date: Jan 1994
     release_year: 1994
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2608,10 +3364,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Brandon Choi | Jim Lee | John Tighe
+    creators: 
+      - Brandon Choi
+      - Jim Lee
+      - John Tighe
     release_date: Feb 1994
     release_year: 1994
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2625,10 +3387,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Steven T. Seagle | Brandon Choi | Jim Lee
+    creators: 
+      - Steven T. Seagle
+      - Brandon Choi
+      - Jim Lee
     release_date: Apr 1994
     release_year: 1994
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2642,10 +3410,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: H.K. Proger | Chris Claremont | Jim Lee
+    creators: 
+      - H.K. Proger
+      - Chris Claremont
+      - Jim Lee
     release_date: "Aug 08, 1994"
     release_year: 1994
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 36
     signed_by: ""
@@ -2659,10 +3433,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Chris Claremont | Jim Lee | Scott Williams
+    creators: 
+      - Chris Claremont
+      - Jim Lee
+      - Scott Williams
     release_date: Sep 1994
     release_year: 1994
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2676,10 +3456,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Chris Claremont | Dan Norton | Richard Johnson
+    creators: 
+      - Chris Claremont
+      - Dan Norton
+      - Richard Johnson
     release_date: Jan 1995
     release_year: 1995
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2693,10 +3479,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: James Robinson | Travis Charest | Salvador Larroca
+    creators: 
+      - James Robinson
+      - Travis Charest
+      - Salvador Larroca
     release_date: Sep 1995
     release_year: 1995
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2710,10 +3502,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Alan Moore | Jason Johnson | Jeff Rebner
+    creators: 
+      - Alan Moore
+      - Jason Johnson
+      - Jeff Rebner
     release_date: Feb 1996
     release_year: 1996
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2727,10 +3525,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Alan Moore | Dave Johnson | Travis Charest
+    creators: 
+      - Alan Moore
+      - Dave Johnson
+      - Travis Charest
     release_date: Sep 1996
     release_year: 1996
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2744,10 +3548,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Alan Moore | Travis Charest | Jim Lee
+    creators: 
+      - Alan Moore
+      - Travis Charest
+      - Jim Lee
     release_date: Feb 1997
     release_year: 1997
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2761,10 +3571,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Alan Moore | Mat Broome | Troy Hubbs
+    creators: 
+      - Alan Moore
+      - Mat Broome
+      - Troy Hubbs
     release_date: Feb 1997
     release_year: 1997
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2778,10 +3594,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Alan Moore | Rob Stotz | Mat Broome
+    creators: 
+      - Alan Moore
+      - Rob Stotz
+      - Mat Broome
     release_date: Mar 1997
     release_year: 1997
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2795,10 +3617,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: "Barbara Kesel | Rich Johnson | Carlos D'Anda"
+    creators:
+      - Barbara Kesel
+      - Rich Johnson
+      - "Carlos D'Anda"
     release_date: Jun 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2812,10 +3640,15 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Brandon Choi | Daffyd Wyn | Jae Lee
+    creators: 
+      - Brandon Choi
+      - Daffyd Wyn
+      - Jae Lee
     release_date: Sep 1993
     release_year: 1993
-    genre: Action | Super-Heroes
+    genre:
+      - Action
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2829,10 +3662,14 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Brandon Choi | Daffyd Wyn | Jae Lee
+    creators: 
+      - Brandon Choi
+      - Daffyd Wyn
+      - Jae Lee
     release_date: Sep 1993
     release_year: 1993
-    genre: Reference
+    genre:
+      - Reference
     format: Comic
     pages: 32
     signed_by: ""
@@ -2846,10 +3683,16 @@ items:
     crossover: ""
     variant: ""
     publisher: DC Comics
-    creators: Jeff Mariotte | Brandon Choi | Jim Lee
+    creators: 
+      - Jeff Mariotte
+      - Brandon Choi
+      - Jim Lee
     release_date: May 1999
     release_year: 1999
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2863,10 +3706,16 @@ items:
     crossover: ""
     variant: ""
     publisher: DC Comics
-    creators: Scott Lobdell | Travis Charest | Richard Friend
+    creators: 
+      - Scott Lobdell
+      - Travis Charest
+      - Richard Friend
     release_date: Sep 1999
     release_year: 1999
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2880,10 +3729,16 @@ items:
     crossover: ""
     variant: A
     publisher: DC Comics
-    creators: Scott Lobdell | Travis Charest | Richard Friend
+    creators: 
+      - Scott Lobdell
+      - Travis Charest
+      - Richard Friend
     release_date: Nov 1999
     release_year: 1999
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2897,10 +3752,15 @@ items:
     crossover: ""
     variant: ""
     publisher: DC Comics
-    creators: Bryan Hitch | Paul Neary
+    creators: 
+      - Bryan Hitch
+      - Paul Neary
     release_date: Jan 2000
     release_year: 2000
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2914,10 +3774,16 @@ items:
     crossover: ""
     variant: ""
     publisher: DC Comics
-    creators: Scott Lobdell | Joe Casey | Travis Charest
+    creators: 
+      - Scott Lobdell
+      - Joe Casey
+      - Travis Charest
     release_date: Jul 2001
     release_year: 2001
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2931,10 +3797,15 @@ items:
     crossover: ""
     variant: ""
     publisher: DC Comics
-    creators: Joe Casey | Sean Phillips
+    creators: 
+      - Joe Casey
+      - Sean Phillips
     release_date: Oct 2001
     release_year: 2001
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2948,10 +3819,15 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Joe Casey | Sean Phillips
+    creators: 
+      - Joe Casey
+      - Sean Phillips
     release_date: Nov 1997
     release_year: 1997
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2965,10 +3841,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Brett Booth | Sean Ruffner | Tom McWeeney
+    creators: 
+      - Brett Booth
+      - Sean Ruffner
+      - Tom McWeeney
     release_date: "Aug 20, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2982,10 +3864,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Peter David | Larry Stroman | Al Milgrom
+    creators: 
+      - Peter David
+      - Larry Stroman
+      - Al Milgrom
     release_date: "Sep 17, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -2999,10 +3887,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Peter David | Larry Stroman | Al Milgrom
+    creators: 
+      - Peter David
+      - Larry Stroman
+      - Al Milgrom
     release_date: "Oct 15, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3016,10 +3910,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Peter David | Larry Stroman | Al Milgrom
+    creators: 
+      - Peter David
+      - Larry Stroman
+      - Al Milgrom
     release_date: "Nov 19, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3033,10 +3933,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Peter David | Larry Stroman | Al Milgrom
+    creators: 
+      - Peter David
+      - Larry Stroman
+      - Al Milgrom
     release_date: "Dec 17, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 48
     signed_by: ""
@@ -3050,10 +3956,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Peter David | Tom Raney | Larry Stroman
+    creators: 
+      - Peter David
+      - Tom Raney
+      - Larry Stroman
     release_date: "Jan 21, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3067,10 +3979,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Peter David | Kevin J. West | Tom Raney
+    creators: 
+      - Peter David
+      - Kevin J. West
+      - Tom Raney
     release_date: "Feb 18, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3084,10 +4002,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Peter David | Larry Stroman | Al Milgrom
+    creators: 
+      - Peter David
+      - Larry Stroman
+      - Al Milgrom
     release_date: "Mar 17, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3101,10 +4025,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Peter David | Larry Stroman | Brandon Peterson
+    creators: 
+      - Peter David
+      - Larry Stroman
+      - Brandon Peterson
     release_date: "Apr 21, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3118,10 +4048,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Peter David | Jim Fern | Al Milgrom
+    creators: 
+      - Peter David
+      - Jim Fern
+      - Al Milgrom
     release_date: "May 19, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3135,10 +4071,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Peter David | Larry Stroman | Al Milgrom
+    creators: 
+      - Peter David
+      - Larry Stroman
+      - Al Milgrom
     release_date: "Jun 16, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3152,10 +4094,16 @@ items:
     crossover: ""
     variant: B
     publisher: Marvel Comics
-    creators: Peter David | Larry Stroman | Al Milgrom
+    creators: 
+      - Peter David
+      - Larry Stroman
+      - Al Milgrom
     release_date: Aug 1991
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3169,10 +4117,14 @@ items:
     crossover: ""
     variant: C-1
     publisher: Marvel Comics
-    creators: Fabian Nicieza | Rob Liefeld
+    creators: 
+      - Fabian Nicieza
+      - Rob Liefeld
     release_date: Aug 1991
     release_year: 1991
-    genre: Adventure | Super-Heroes
+    genre:
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3189,7 +4141,10 @@ items:
     creators:
     release_date: "Jul 30, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3203,10 +4158,15 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Rob Liefeld | Fabian Nicieza
+    creators: 
+      - Rob Liefeld
+      - Fabian Nicieza
     release_date: "Aug 28, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3220,10 +4180,15 @@ items:
     crossover: Sabotage
     variant: A
     publisher: Marvel Comics
-    creators: Rob Liefeld | Fabian Nicieza
+    creators: 
+      - Rob Liefeld
+      - Fabian Nicieza
     release_date: "Sep 24, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3237,10 +4202,15 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Rob Liefeld | Fabian Nicieza
+    creators: 
+      - Rob Liefeld
+      - Fabian Nicieza
     release_date: "Oct 22, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3254,10 +4224,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Rob Liefeld | Fabian Nicieza | Marat Mychaels
+    creators: 
+      - Rob Liefeld
+      - Fabian Nicieza
+      - Marat Mychaels
     release_date: "Nov 26, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3271,10 +4247,15 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Rob Liefeld | Fabian Nicieza
+    creators: 
+      - Rob Liefeld
+      - Fabian Nicieza
     release_date: "Dec 30, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3288,10 +4269,15 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Rob Liefeld | Fabian Nicieza
+    creators: 
+      - Rob Liefeld
+      - Fabian Nicieza
     release_date: "Jan 28, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3305,10 +4291,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Fabian Nicieza | Rob Liefeld | Mike Mignola
+    creators: 
+      - Fabian Nicieza
+      - Rob Liefeld
+      - Mike Mignola
     release_date: "Feb 25, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3322,10 +4314,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Fabian Nicieza | Rob Liefeld | Dan Panosian
+    creators: 
+      - Fabian Nicieza
+      - Rob Liefeld
+      - Dan Panosian
     release_date: May 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3339,10 +4337,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Rob Liefeld | Fabian Nicieza | Marc Pacella
+    creators: 
+      - Rob Liefeld
+      - Fabian Nicieza
+      - Marc Pacella
     release_date: "Apr 28, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3356,10 +4360,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Fabian Nicieza | Rob Liefeld | Marc Pacella
+    creators: 
+      - Fabian Nicieza
+      - Rob Liefeld
+      - Marc Pacella
     release_date: "Aug 20, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3373,10 +4383,16 @@ items:
     crossover: ""
     variant: B
     publisher: Marvel Comics
-    creators: Jim Lee | Chris Claremont | Scott Williams
+    creators: 
+      - Jim Lee
+      - Chris Claremont
+      - Scott Williams
     release_date: "Aug 20, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3390,10 +4406,16 @@ items:
     crossover: ""
     variant: C
     publisher: Marvel Comics
-    creators: Chris Claremont | Jim Lee | Scott Williams
+    creators: 
+      - Chris Claremont
+      - Jim Lee
+      - Scott Williams
     release_date: "Aug 20, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 48
     signed_by: ""
@@ -3407,10 +4429,16 @@ items:
     crossover: ""
     variant: D
     publisher: Marvel Comics
-    creators: Jim Lee | Chris Claremont | Scott Williams
+    creators: 
+      - Jim Lee
+      - Chris Claremont
+      - Scott Williams
     release_date: "Aug 20, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3424,10 +4452,16 @@ items:
     crossover: ""
     variant: E
     publisher: Marvel Comics
-    creators: Chris Claremont | Jim Lee | Scott Williams
+    creators: 
+      - Chris Claremont
+      - Jim Lee
+      - Scott Williams
     release_date: "Aug 20, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 48
     signed_by: ""
@@ -3441,10 +4475,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Chris Claremont | Jim Lee | Scott Williams
+    creators: 
+      - Chris Claremont
+      - Jim Lee
+      - Scott Williams
     release_date: "Sep 03, 1991"
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3458,10 +4498,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Chris Claremont | Jim Lee | Scott Williams
+    creators: 
+      - Chris Claremont
+      - Jim Lee
+      - Scott Williams
     release_date: Dec 1991
     release_year: 1991
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3475,10 +4521,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Chris Claremont | Jim Lee | Scott Williams
+    creators: 
+      - Chris Claremont
+      - Jim Lee
+      - Scott Williams
     release_date: Jan 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3492,10 +4544,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: John Byrne | Jim Lee | Scott Williams
+    creators: 
+      - John Byrne
+      - Jim Lee
+      - Scott Williams
     release_date: Feb 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3509,10 +4567,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: John Byrne | Joe Rubinstein | Jim Lee
+    creators: 
+      - John Byrne
+      - Joe Rubinstein
+      - Jim Lee
     release_date: Mar 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3526,10 +4590,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Scott Lobdell | Jim Lee | Art Thibert
+    creators: 
+      - Scott Lobdell
+      - Jim Lee
+      - Art Thibert
     release_date: Apr 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3543,10 +4613,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Scott Lobdell | Jim Lee | Art Thibert
+    creators: 
+      - Scott Lobdell
+      - Jim Lee
+      - Art Thibert
     release_date: "Mar 17, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3560,10 +4636,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Scott Lobdell | Jim Lee | Art Thibert
+    creators: 
+      - Scott Lobdell
+      - Jim Lee
+      - Art Thibert
     release_date: "Apr 21, 1992"
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3577,10 +4659,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Scott Lobdell | Jim Lee | Art Thibert
+    creators: 
+      - Scott Lobdell
+      - Jim Lee
+      - Art Thibert
     release_date: Jul 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3594,10 +4682,16 @@ items:
     crossover: ""
     variant: A
     publisher: Marvel Comics
-    creators: Scott Lobdell | Jim Lee | Mark Texeira
+    creators: 
+      - Scott Lobdell
+      - Jim Lee
+      - Mark Texeira
     release_date: Aug 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3611,10 +4705,16 @@ items:
     crossover: ""
     variant: HC
     publisher: Marvel Comics
-    creators: Scott Lobdell | Jim Lee | Mark Texeira
+    creators: 
+      - Scott Lobdell
+      - Jim Lee
+      - Mark Texeira
     release_date: "Dec 11, 2019"
     release_year: 2019
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Hardcover
     pages: 616
     signed_by: ""
@@ -3628,10 +4728,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Dan Slott | Chris Cooper | Fabian Nicieza
+    creators: 
+      - Dan Slott
+      - Chris Cooper
+      - Fabian Nicieza
     release_date: Dec 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3645,10 +4751,16 @@ items:
     crossover: ""
     variant: B
     publisher: Image Comics
-    creators: Rob Liefeld | Dan Fraga | Danny Miki
+    creators: 
+      - Rob Liefeld
+      - Dan Fraga
+      - Danny Miki
     release_date: Dec 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3662,10 +4774,16 @@ items:
     crossover: ""
     variant: B
     publisher: Image Comics
-    creators: Rob Liefeld | Dan Fraga | Danny Miki
+    creators: 
+      - Rob Liefeld
+      - Dan Fraga
+      - Danny Miki
     release_date: May 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3679,10 +4797,14 @@ items:
     crossover: ""
     variant: D
     publisher: Marvel Comics
-    creators: Rob Liefeld | Jim Valentino | Danny Miki
+    creators: 
+      - Rob Liefeld
+      - Jim Valentino
+      - Danny Miki
     release_date: May 1992
     release_year: null
-    genre: Super-Heroes
+    genre:
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3696,10 +4818,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Rob Liefeld | Jim Valentino | Richard Horie
+    creators: 
+      - Rob Liefeld
+      - Jim Valentino
+      - Richard Horie
     release_date: Jul 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3713,10 +4841,16 @@ items:
     crossover: ""
     variant: B
     publisher: Image Comics
-    creators: Eric Stephenson | Jim Valentino | Rob Liefeld
+    creators: 
+      - Eric Stephenson
+      - Jim Valentino
+      - Rob Liefeld
     release_date: Jul 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3730,10 +4864,15 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Rob Liefeld | Danny Miki
+    creators: 
+      - Rob Liefeld
+      - Danny Miki
     release_date: Aug 1992
     release_year: 1992
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 40
     signed_by: ""
@@ -3747,10 +4886,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Dale Keown | Brian Hotton | Rob Liefeld
+    creators: 
+      - Dale Keown
+      - Brian Hotton
+      - Rob Liefeld
     release_date: Feb 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3764,10 +4909,15 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Eric Stephenson | Richard Horie | Norm Rapmund
+    creators: 
+      - Eric Stephenson
+      - Richard Horie
+      - Norm Rapmund
     release_date: May 1993
     release_year: 1993
-    genre: Adventure | Super-Heroes
+    genre:
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3781,10 +4931,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Rob Liefeld | Eric Stephenson | Jae Lee
+    creators: 
+      - Rob Liefeld
+      - Eric Stephenson
+      - Jae Lee
     release_date: Apr 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3798,10 +4954,16 @@ items:
     crossover: ""
     variant: B
     publisher: Image Comics
-    creators: Eric Stephenson | Rob Liefeld | Jae Lee
+    creators: 
+      - Eric Stephenson
+      - Rob Liefeld
+      - Jae Lee
     release_date: "Apr 01, 1993"
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3815,10 +4977,16 @@ items:
     crossover: ""
     variant: A
     publisher: Image Comics
-    creators: Rob Liefeld | Eric Stephenson | Jae Lee
+    creators: 
+      - Rob Liefeld
+      - Eric Stephenson
+      - Jae Lee
     release_date: Jul 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
@@ -3832,10 +5000,16 @@ items:
     crossover: ""
     variant: ""
     publisher: Image Comics
-    creators: Rob Liefeld | Eric Stephenson | Jae Lee
+    creators: 
+      - Rob Liefeld
+      - Eric Stephenson
+      - Jae Lee
     release_date: Sep 1993
     release_year: 1993
-    genre: Action | Adventure | Super-Heroes
+    genre:
+      - Action
+      - Adventure
+      - Super-Heroes
     format: Comic
     pages: 32
     signed_by: ""
