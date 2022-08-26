@@ -20,10 +20,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('_site/site.webmanifest');
   eleventyConfig.addShortcode('version', () => `${String(Date.now())}`);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
-  eleventyConfig.addPairedShortcode('markdown', (content, inline = null) => {
-    return inline
-      ? markdownIt(content)
-      : markdownIt(content);
+  eleventyConfig.addPairedShortcode('md', function(content) {
+    return markdownLibrary.render(content)
   });
   // | randomLimit(6, page.url)
   eleventyConfig.addFilter('randomLimit', (arr, limit, currPage) => {
@@ -33,7 +31,7 @@ module.exports = function(eleventyConfig) {
     });
     return pageArr.slice(0, limit);
   });
-  eleventyConfig.addFilter("pluck", function (arr, value, attr) {
+  eleventyConfig.addFilter('pluck', function (arr, value, attr) {
     return arr.filter((item) => item[attr] === value);
   });
   // for zine in (magazines | flatMap('series') | unique('series'))
@@ -43,7 +41,7 @@ module.exports = function(eleventyConfig) {
     return [...map.values()]
   });
   return {
-    jsDataFileSuffix: ".data",
+    jsDataFileSuffix: '.data',
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     dir: {
