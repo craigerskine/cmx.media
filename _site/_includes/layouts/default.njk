@@ -81,8 +81,9 @@
           {{ content | safe }}
         </section>
       </main>
-      <footer class="p-6 text(sm center pri-500) font-semibold w-full flex-none relative z-10{%- if page.url === '/' %} bg-gradient-to-t from-pri-800{%- endif %}">
-        Collected by <a href="https://{{ site.meta.author_url }}/" class="text-pri-400 motion-safe:(transition) hover:(text-sec-400)">{{ site.meta.author }}</a> : 1992 - {% year %}
+      <footer class="p-6 text(sm center pri-500) font-semibold w-full flex-none relative z-10{%- if page.url === '/' %} bg-gradient-to-t from-pri-800{%- endif %} md:(flex items-center justify-between)">
+        <p>Collected by <a href="https://{{ site.meta.author_url }}/" class="text-pri-400 motion-safe:(transition) hover:(text-sec-400)">{{ site.meta.author }}</a> : 1992 - {% year %}</p>
+        <small class="py-1 block opacity-75">Updated: <time datetime="{{ build.time.raw }}">{{ build.time.formatted }}</time></small>
       </footer>
     </div>
 
