@@ -74,7 +74,7 @@ items:
       - Super-Heroes
     format: Comic
     pages: 32
-    signed_by: ""
+    signed_by: Greg Capullo
     price: 2.25
   - series: Angela
     issue: 2A
@@ -96,7 +96,7 @@ items:
       - Super-Heroes
     format: Comic
     pages: 32
-    signed_by: ""
+    signed_by: Greg Capullo
     price: 2.25
   - series: Angela
     issue: "3"
@@ -118,7 +118,7 @@ items:
       - Super-Heroes
     format: Comic
     pages: 32
-    signed_by: ""
+    signed_by: Greg Capullo
     price: 2.25
   - series: The Art of Homage Studios
     issue: "1"
