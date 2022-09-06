@@ -1,8 +1,9 @@
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const yaml = require("js-yaml");
 
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require("markdown-it-attrs");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
 
@@ -12,6 +13,7 @@ module.exports = function(eleventyConfig) {
   let markdownLibrary = markdownIt().disable('code').use(markdownItAttrs);
   eleventyConfig.setLibrary('md', markdownLibrary);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPassthroughCopy('_site/_admin');
   eleventyConfig.addPassthroughCopy('_site/_redirects');
   eleventyConfig.addPassthroughCopy('_site/_assets');
