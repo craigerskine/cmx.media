@@ -13,10 +13,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('_site/*.png');
   eleventyConfig.addPassthroughCopy('_site/site.webmanifest');
   
-  // .yaml extension in _data
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   
+  //{% renderTemplate "md" %}
+  //# Blah{.text-center}
+  //{% endrenderTemplate %}
   let markdownLibrary = markdownIt().disable('code').use(markdownItAttrs);
   eleventyConfig.setLibrary('md', markdownLibrary);
 
@@ -36,7 +38,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('pluck', function (arr, value, attr) {
     return arr.filter((item) => item[attr] === value);
   });
-  // for zine in (magazines | flatMap('series') | unique('series'))
+  // for item in (items | flatMap('category') | unique('category'))
   eleventyConfig.addFilter('flatMap', (list, key) => list.flatMap((x) => x[key]));
   eleventyConfig.addFilter('unique', (list, key) => {
     const map = new Map(list.map((x) => [x[key], x]))
