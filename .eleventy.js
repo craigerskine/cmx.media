@@ -1,30 +1,30 @@
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
-const yaml = require("js-yaml");
-
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require("markdown-it-attrs");
+const yaml = require("js-yaml");
 
 module.exports = function(eleventyConfig) {
 
-  // .yaml extension in _data
-  eleventyConfig.addDataExtension('yml', (contents) => yaml.load(contents));
-
-  let markdownLibrary = markdownIt().disable('code').use(markdownItAttrs);
-  eleventyConfig.setLibrary('md', markdownLibrary);
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPassthroughCopy('_site/_admin');
   eleventyConfig.addPassthroughCopy('_site/_redirects');
   eleventyConfig.addPassthroughCopy('_site/_assets');
   eleventyConfig.addPassthroughCopy('_site/*.ico');
   eleventyConfig.addPassthroughCopy('_site/*.png');
   eleventyConfig.addPassthroughCopy('_site/site.webmanifest');
+  
+  // .yaml extension in _data
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  
+  let markdownLibrary = markdownIt().disable('code').use(markdownItAttrs);
+  eleventyConfig.setLibrary('md', markdownLibrary);
+
+  eleventyConfig.addDataExtension('yml', (contents) => yaml.load(contents));
+
   eleventyConfig.addShortcode('version', () => `${String(Date.now())}`);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
-  eleventyConfig.addPairedShortcode('md', function(content) {
-    return markdownLibrary.render(content)
-  });
+  
   // | randomLimit(6, page.url)
   eleventyConfig.addFilter('randomLimit', (arr, limit, currPage) => {
     const pageArr = arr.filter((page) => page.url !== currPage);
