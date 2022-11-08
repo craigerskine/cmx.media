@@ -3,7 +3,7 @@
     {%- if url !== '' %}<a href="{{ url }}" class="group block">{%- endif %}
     <figure>
       {%- if svg === '' %}
-      <img src="{{ image }}?v={% version %}" alt="{{ name }}" class="mx-auto w-full rounded shadow-xl transform motion-safe:(transition) group-hover:(-translate-y-1 rotate-0) {% if loop.index % 2 === 0 %} rotate-3{% elseif loop.index % 3 === 0 %} -rotate-3{% endif %}" />
+      <img src="{{ image }}" alt="{{ name }}" class="mx-auto w-full rounded shadow-xl transform motion-safe:(transition) group-hover:(-translate-y-1 rotate-0) {% if loop.index % 2 === 0 %} rotate-3{% elseif loop.index % 3 === 0 %} -rotate-3{% endif %}" />
       {%- else %}
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" class="p-4 text-pri-600 fill-current rounded transform motion-safe:(transition) group-hover:(text-pri-400 scale-105)">
         <title>{{ name }}</title>
