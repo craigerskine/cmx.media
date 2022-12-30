@@ -55,11 +55,11 @@
                   x-transition:leave-end="opacity-0 translate-x-4"
                   x-cloak
                 >
-                  <div class="bg(black opacity-10) absolute inset-0"></div>
+                  <div class="bg(black opacity-30) absolute inset-0"></div>
                   <ul class="mt-4 py-12 text-lg font-black relative md:(text-2xl)" id="nav-menu">
                     {%- for item in collections.all | eleventyNavigation %}
                     <li>
-                      <a href="{{ item.url }}" class="group py-3 px-6 flex items-center gap-4 relative motion-safe:(transition) hover:(bg(black opacity-25) text-pri-100) md:(py-6) {% if item.url == page.url or item.url in page.url %} active text-sec-400 font-bold{% else %} text-pri-400{% endif %}"
+                      <a href="{{ item.url }}" class="group py-3 px-6 flex items-center gap-4 relative motion-safe:(transition) hover:(bg(pri-500 opacity-10) text-pri-100) md:(py-6) {% if item.url == page.url or item.url in page.url %} active text-sec-400 font-bold{% else %} text-pri-400{% endif %}"
                         {%- if item.url == page.url or item.url in page.url %} aria-current="page"{%- endif %}
                       >
                         <b class="text(pri-500 opacity-50)"><i class="fa-solid fa-fw fa-{{ item.ico }}"></i></b>
