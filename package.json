@@ -7,7 +7,9 @@
     "build": "eleventy"
   },
   "keywords": [
-    "11ty"
+    "11ty",
+    "Alpine.js",
+    "Twind"
   ],
   "author": "craigerskine",
   "license": "ISC",
