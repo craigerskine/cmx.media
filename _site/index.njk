@@ -18,10 +18,10 @@ layout: 'layouts/default.njk'
 {%- endfor %}
 
 {%- macro data(name='name', itemsTotal='itemsTotal', seriesTotal='seriesTotal', price='price', color='sec-900', bg='/_assets/img/comics/the-creech/series.jpg') %}
-  <a href="/{{ name | slugify }}/" class="group py-3 bg({{ color }}-700 opacity-30) font-semibold flex relative overflow-hidden motion-safe:(transition) hover:(text-{{ color }}-200 opacity-100) md:(py-32)">
+  <a href="/{{ name | slugify }}/" class="group py-3 bg-{{ color }}-700/30 font-semibold flex relative overflow-hidden motion-safe:(transition) hover:(text-{{ color }}-200 opacity-100) md:(py-32)">
     <figure class="m-auto w-full">
       <img src="{{ bg }}" alt="{{ name }}" class="w-full h-full block absolute inset-0 object-cover opacity-5 transform motion-safe:(transition) group-hover:(opacity-25 scale-110)" />
-      <figcaption class="w-full py-6 px-4 relative transform translate-y-4 motion-safe:(transition) group-hover:(bg({{ color }}-900 opacity-75) translate-y-0)">
+      <figcaption class="w-full py-6 px-4 relative transform translate-y-4 motion-safe:(transition) group-hover:(bg-{{ color }}-900/75 translate-y-0)">
         <div class="mx-auto max-w-[250px]">
           <p class="label flex items-end" data-label="{{ name }}:"><b class="ml-auto">{{ itemsTotal }}</b></p>
           <small class="pt-1 text-sm flex opacity-75">
@@ -34,7 +34,7 @@ layout: 'layouts/default.njk'
   </a>
 {%- endmacro %}
 
-  <article class="m-auto w-full h-full text-5xl grid(& cols-1) lg:(text-[calc(4vw)] leading-none grid-cols-3 fixed inset-0)">
+  <article class="m-auto w-full h-full text-5xl grid-(& cols-1) lg:(text-[calc(4vw)] leading-none grid-cols-3 fixed inset-0)">
     {{ data(name='Comics', itemsTotal=(comics.items | length), seriesTotal=(comics.series | length), price=(pricesComics | sum | round), color='gray', bg='/_assets/img/data-comics.jpg') }}
     {{ data(name='Zines', itemsTotal=(zines.items | length), seriesTotal=(zines.series | length), price=(pricesZines | sum | round), color='gray', bg='/_assets/img/data-zines.jpg') }}
     {{ data(name='Misc', itemsTotal=(misc.items | length), seriesTotal=(misc.series | length), price=(pricesMisc | sum | round), color='gray', bg='/_assets/img/data-misc.jpg') }}

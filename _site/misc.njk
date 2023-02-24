@@ -13,7 +13,7 @@ title: 'Misc'
 
 <article class="container mx-auto p-6">
   {{ heading.x(title) }}
-  <ul class="grid(& cols-2) gap-16 lg:(grid-cols-5)">
+  <ul class="grid-(& cols-2) gap-16 lg:(grid-cols-5)">
     {%- for series in (misc.series) %}
       {{ list.x(name=series,sub=misc.items | pluck(series, 'series'),svg=series | slugify,url='/misc/'+ series | slugify +'/') }}
     {%- endfor %}
