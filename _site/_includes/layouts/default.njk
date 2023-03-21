@@ -41,8 +41,8 @@
                   :aria-expanded="menu"
                   aria-controls="nav-menu"
                 >
-                  <i x-show="!menu" class="fa-light fa-fw fa-bars" x-cloak><b class="sr-only">Open menu</b></i>
-                  <b x-show="menu" class="fixed top-6 right-6" x-cloak><i class="fa-light fa-fw fa-times"><b class="sr-only">Close menu</b></i></b>
+                  <i x-show="!menu" x-cloak><iconify-icon icon="fa6-solid:bars" inline="false"></iconify-icon><b class="sr-only">Open menu</b></i>
+                  <b x-show="menu" class="fixed top-6 right-6" x-cloak><iconify-icon icon="fa6-solid:xmark" inline="false"></iconify-icon><b class="sr-only">Close menu</b></b>
                 </a>
               </li>
               <li class="relative z-10">
@@ -62,7 +62,7 @@
                       <a href="{{ item.url }}" class="group py-3 px-6 flex items-center gap-4 relative motion-safe:(transition) hover:(bg-pri-500/10) text-pri-100) md:(py-6) {% if item.url == page.url or item.url in page.url %} active text-sec-400 font-bold{% else %} text-pri-400{% endif %}"
                         {%- if item.url == page.url or item.url in page.url %} aria-current="page"{%- endif %}
                       >
-                        <b class="text-pri-500/50"><i class="fa-solid fa-fw fa-{{ item.ico }}"></i></b>
+                        <b class="text-pri-500/50"><iconify-icon icon="{{ item.ico }}" inline="false"></iconify-icon></b>
                         <div>
                           {{ item.key }}
                           <small class="text-(xs sec-700) font-semibold block md:(text-sm)">{{ item.title }}</small>
@@ -94,7 +94,6 @@
     <div class="w-full h-[50vh] bg-gradient-to-t from-gray-900 fixed bottom-0 inset-x-0 md:(via-transparent)" aria-hidden="true"></div>
 
     <script src="/_assets/js/_app.js?v={% bust %}"></script>
-    <script src="https://kit.fontawesome.com/a2bf4ed495.js"></script>
   </body>
 
 </html>

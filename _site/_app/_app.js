@@ -1,5 +1,7 @@
 import 'instant.page';
 
+import 'iconify-icon';
+
 import { install, injectGlobal } from '@twind/core';
 import presetAutoprefix from '@twind/preset-autoprefix';
 import presetTailwind from '@twind/preset-tailwind';
