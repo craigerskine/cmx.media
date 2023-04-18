@@ -24,6 +24,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://comx.media{{ page.url }}" />
     <meta property="og:image" content="https://comx.media/apple-touch-icon.png" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
   </head>
 
   <body class="text-pri-400 !block" style="display: none;" data-instant-intensity="mousedown">
@@ -72,6 +74,7 @@
                     </li>
                     {%- endfor %}
                   </ul>
+                  <div id="search" class="p-8"></div>
                 </div>
               </li>
             </ul>
@@ -93,6 +96,16 @@
     <div class="w-full h-[50vh] bg-gradient-to-b from-gray-900 fixed top-0 inset-x-0 md:(via-transparent)" aria-hidden="true"></div>
     <div class="w-full h-[50vh] bg-gradient-to-t from-gray-900 fixed bottom-0 inset-x-0 md:(via-transparent)" aria-hidden="true"></div>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+    <script type="text/javascript">
+      algoliasearchNetlify({
+        appId: 'VQQIGN2XJZ',
+        apiKey: 'b09b73541f84f48c93d90c9231845764',
+        siteId: '8b519fe1-da2a-4b2f-93fa-e69519371cd3',
+        branch: 'main',
+        selector: 'div#search',
+      });
+    </script>
     <script src="/_assets/js/_app.js?v={% bust %}"></script>
   </body>
 
