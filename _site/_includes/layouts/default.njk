@@ -30,7 +30,7 @@
 
   <body class="text-pri-400 !block" style="display: none;" data-instant-intensity="mousedown">
     <div class="min-h-screen flex-(& col) relative">
-      <header class="w-full flex-none relative z-20{%- if page.url === '/' %} bg-gradient-to-b from-pri-800{%- endif %}">
+      <header class="w-full flex-none relative z-[2]{%- if page.url === '/' %} bg-gradient-to-b from-pri-800{%- endif %}">
         <div class="p-6 flex items-center">
           <a href="/" class="group font-semibold flex items-center gap-3 motion-safe:(transition) hover:(text-blue-300)">
             <b class="px-1 py-px bg-white text-pri-800 font-bold motion-safe:(transition) group-hover:(bg-blue-300)">{{ site.meta.title_short }}</b>
@@ -74,19 +74,18 @@
                     </li>
                     {%- endfor %}
                   </ul>
-                  <div id="search" class="p-8"></div>
                 </div>
               </li>
             </ul>
           </nav>
         </div>
       </header>
-      <main class="w-full flex-(& 1) relative z-10">
+      <main class="w-full flex-(& 1) relative z-[1]">
         <section class="w-full flex">
           {{ content | safe }}
         </section>
       </main>
-      <footer class="p-6 text-(sm center pri-500) font-semibold w-full flex-none relative z-10{%- if page.url === '/' %} bg-gradient-to-t from-pri-800{%- endif %} md:(flex items-center justify-between)">
+      <footer class="p-6 text-(sm center pri-500) font-semibold w-full flex-none relative z-[1]{%- if page.url === '/' %} bg-gradient-to-t from-pri-800{%- endif %} md:(flex items-center justify-between)">
         <p>Collected by <a href="https://{{ site.meta.author_url }}/" class="text-pri-400 motion-safe:(transition) hover:(text-sec-400)">{{ site.meta.author }}</a> : 1992 - {% year %}</p>
         <small class="py-1 block opacity-75">Updated: <time datetime="{{ build.time.raw }}">{{ build.time.formatted }}</time></small>
       </footer>
@@ -96,16 +95,6 @@
     <div class="w-full h-[50vh] bg-gradient-to-b from-gray-900 fixed top-0 inset-x-0 md:(via-transparent)" aria-hidden="true"></div>
     <div class="w-full h-[50vh] bg-gradient-to-t from-gray-900 fixed bottom-0 inset-x-0 md:(via-transparent)" aria-hidden="true"></div>
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
-    <script type="text/javascript">
-      algoliasearchNetlify({
-        appId: 'VQQIGN2XJZ',
-        apiKey: 'b09b73541f84f48c93d90c9231845764',
-        siteId: '8b519fe1-da2a-4b2f-93fa-e69519371cd3',
-        branch: 'main',
-        selector: 'div#search',
-      });
-    </script>
     <script src="/_assets/js/_app.js?v={% bust %}"></script>
   </body>
 
