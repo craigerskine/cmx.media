@@ -3,7 +3,7 @@
     {%- if url !== '' %}<a href="{{ url }}" class="group block">{%- endif %}
     <figure>
       {%- if svg === '' %}
-      <img src="{{ image }}" alt="{{ name }}" class="mx-auto w-full ring-(& white/0) rounded shadow-lg transform motion-safe:(transition) group-hover:(ring-opacity-80 -translate-y-1 rotate-0){% if not url %} hover:(ring-opacity-80){% endif %} {% if loop.index % 2 === 0 %} rotate-3{% elseif loop.index % 3 === 0 %} -rotate-3{% endif %}" />
+      <img src="{{ image }}" alt="{{ name }}" class="mx-auto w-full ring-(& sec-400/0) rounded shadow-lg transform motion-safe:(transition) group-hover:(ring-opacity-80 -translate-y-1 rotate-0){% if not url %} hover:(ring-opacity-80){% endif %} {% if loop.index % 2 === 0 %} rotate-3{% elseif loop.index % 3 === 0 %} -rotate-3{% endif %}" />
       {%- else %}
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" class="p-4 text-pri-600 fill-current rounded transform motion-safe:(transition) group-hover:(text-pri-400 scale-105)">
         <title>{{ name }}</title>
@@ -26,9 +26,9 @@
           <small class="truncate text-center block opacity-60">Signed: <i>{{ signed }}</i></small>
         {%- endif %}
         {%- if sub.length %}
-        <ul class="text-(xs center) font-mono flex flex-wrap justify-center gap-x-3">
+        <ul class="pt-1 text-xs font-mono flex-(& wrap) items-center justify-center -space-x-[2px]">
           {%- for item in sub %}
-            <li>{{ item.issue }}</li>
+            <li class="my-1.5{% if item.issue.length > 2 %} px-1.5{% else %} w-7{% endif %} h-7 bg-pri-800 truncate flex items-center justify-center ring-(2 pri-600/100) rounded-full shadow-md" title="{{ item.issue }}">{{ item.issue }}</li>
           {%- endfor %}
         </ul>
         {%- endif %}

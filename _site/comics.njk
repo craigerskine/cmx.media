@@ -27,11 +27,11 @@ title: 'Comics'
         <a :href="'/comics/'+ slugify(item.series) +'/'" class="mx-auto w-full max-w-[250px] text-center block relative">
           <figure>
             <img :src="'/_assets/img/comics/'+ slugify(item.series) +'/'+ item.issue +'.jpg'" :alt="item.series" class="mx-auto w-full" />
-            <figcaption>
+            <figcaption class="pt-1">
               <strong x-text="item.series" class="truncate block"></strong>
             </figcaption>
           </figure>
-          <b class="px-1 min-w-[1.5rem] h-6 bg-white text-sm leading-none flex items-center justify-center absolute -top-3 -right-3 ring(1 pri-500/75) rounded-full shadow-lg"><span x-text="item.issue"></span></b>
+          <b class="px-1 min-w-[1.5rem] h-6 bg-white text-(sm pri-700) leading-none flex items-center justify-center absolute -top-3 -right-3 ring-(4 sec-500/75) rounded-full shadow-lg"><span x-text="item.issue"></span></b>
         </a>
       </li>
     </template>
