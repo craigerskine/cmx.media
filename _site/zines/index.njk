@@ -7,6 +7,7 @@ pagination:
 permalink: "zines/{{ seriesCurr | slugify }}/"
 eleventyComputed:
   title: "{{ seriesCurr }} : Magazines"
+  cover: "/_assets/img/zines/{{ seriesCurr | slugify }}/series.jpg"
 ---
 
 {%- import 'components/heading.njk' as heading %}
