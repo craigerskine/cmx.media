@@ -4,7 +4,7 @@ issue: Brigade Remastered GOLD FOIL Variant
 issue_nr: 1
 full_title: ""
 subtitle: Signed Variant
-release_date: September 2022
+release_date: Sep 2022
 release_year: 2022
 format: Misc
 pages: 32

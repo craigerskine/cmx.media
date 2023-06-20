@@ -4,7 +4,7 @@ issue: Deadpool - Captain America Variant
 issue_nr: 6
 full_title: ""
 subtitle: Signed Virgin Variant + Dropshadow Chisel
-release_date: September 2023
+release_date: Sep 2023
 release_year: 2023
 format: Misc
 pages: 32

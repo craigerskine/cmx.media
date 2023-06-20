@@ -10,8 +10,8 @@ title: Magazines
 
 {%- import 'components/el.njk' as el -%}
 
-{% call el.list() %}
-  {%- for item in collections.magazinesByTitle %}
-  {{ el.listitem(title=item,image='/_assets/img/magazines/'+ item | slugify +'/series.jpg',url='/magazines/'+ item | slugify +'/',loop=loop) }}
-  {%- endfor %}
-{% endcall %}
+{%- call el.list() %}
+{%- for type, items in collections.magazines | groupby('data.title') %}
+  {{ el.listitem(title=type,sub=items.length,image='/_assets/img/magazines/'+ type | slugify +'/series.jpg',url='/magazines/'+ type | slugify +'/') }}
+{%- endfor %}
+{%- endcall %}

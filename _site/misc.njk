@@ -10,8 +10,8 @@ title: Misc
 
 {%- import 'components/el.njk' as el -%}
 
-{% call el.list() %}
-  {%- for item in collections.miscByTitle %}
-  {{ el.listitem(title=item,svg=item | slugify,url='/misc/'+ item | slugify +'/',loop=loop) }}
-  {%- endfor %}
-{% endcall %}
+{%- call el.list() %}
+{%- for type, items in collections.misc | groupby('data.title') %}
+  {{ el.listitem(title=type,sub=items.length,svg=type | slugify,url='/misc/'+ type | slugify +'/') }}
+{%- endfor %}
+{%- endcall %}

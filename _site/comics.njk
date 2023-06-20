@@ -10,8 +10,8 @@ title: Comics
 
 {%- import 'components/el.njk' as el -%}
 
-{% call el.list() %}
-  {%- for item in collections.comicsByTitle %}
-    {{ el.listitem(title=item,image='/_assets/img/comics/'+ item | slugify +'/series.jpg',url='/comics/'+ item | slugify +'/',loop=loop) }}
-  {%- endfor %}
-{% endcall %}
+{%- call el.list() %}
+{%- for type, items in collections.comics | groupby('data.title') %}
+  {{ el.listitem(title=type,sub=items.length,image='/_assets/img/comics/'+ type | slugify +'/series.jpg',url='/comics/'+ type | slugify +'/') }}
+{%- endfor %}
+{%- endcall %}

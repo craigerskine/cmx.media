@@ -16,7 +16,7 @@ eleventyComputed:
   {%- for type, items in collections.misc | groupby('data.title') %}
     {% if type == misc %}
       {% for item in items %}
-      {{ el.listitem(title=item.data.issue,signed=item.data.signed_by,image='/_assets/img/misc/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',loop=loop) }}
+      {{ el.listitem(title=item.data.issue,sub=item.data.release_date,signed=item.data.signed_by,image='/_assets/img/misc/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',loop=loop) }}
       {% endfor %}
     {% endif %}
   {%- endfor %}
