@@ -3,28 +3,28 @@ layout: 'layouts/default.njk'
 ---
 
 {%- set pricesComics = [] %}
-{%- for p in comics.items %}
-  {%- set pricesComics = (pricesComics.push(p.price), pricesComics) %}
+{%- for p in collections.comics %}
+  {%- set pricesComics = (pricesComics.push(p.data.price), pricesComics) %}
 {%- endfor %}
 
 {%- set pricesZines = [] %}
-{%- for p in zines.items %}
-  {%- set pricesZines = (pricesZines.push(p.price), pricesZines) %}
+{%- for p in collections.magazines %}
+  {%- set pricesZines = (pricesZines.push(p.data.price), pricesZines) %}
 {%- endfor %}
 
 {%- set pricesMisc = [] %}
-{%- for p in misc.items %}
-  {%- set pricesMisc = (pricesMisc.push(p.price), pricesMisc) %}
+{%- for p in collections.misc %}
+  {%- set pricesMisc = (pricesMisc.push(p.data.price), pricesMisc) %}
 {%- endfor %}
 
-{%- macro data(name='name', itemsTotal='itemsTotal', seriesTotal='seriesTotal', price='price', color='sec-900', bg='/_assets/img/comics/the-creech/series.jpg') %}
-  <a href="/{{ name | slugify }}/" class="group py-3 bg-{{ color }}-700/30 font-semibold flex relative overflow-hidden motion-safe:(transition) hover:(text-{{ color }}-200 opacity-100) md:(py-32)">
+{%- macro data(name='name', itemsTotal='itemsTotal', seriesTotal='seriesTotal', price='price', color='pri-50', bg='/_assets/img/comics/the-creech/series.jpg') %}
+  <a href="/{{ name | slugify }}/" class="group py-3 bg-{{ color }}-100/30 font-semibold flex relative overflow-hidden motion-safe:(transition) hover:(text-{{ color }}-800 opacity-100) lg:(py-32)">
     <figure class="m-auto w-full">
       <img src="{{ bg }}" alt="{{ name }}" class="w-full h-full block absolute inset-0 object-cover opacity-5 transform motion-safe:(transition) group-hover:(opacity-25 scale-110)" />
-      <figcaption class="w-full py-6 px-4 relative transform translate-y-4 motion-safe:(transition) group-hover:(bg-{{ color }}-900/75 translate-y-0)">
+      <figcaption class="w-full py-6 px-4 relative transform translate-y-4 motion-safe:(transition) group-hover:(bg-{{ color }}-50/75 translate-y-0)">
         <div class="mx-auto max-w-[250px]">
-          <p class="label flex items-end" data-label="{{ name }}:"><b class="ml-auto">{{ itemsTotal }}</b></p>
-          <small class="pt-1 text-sm flex opacity-75">
+          <p class="pb-2 border-(b-2 pri-500/20) flex items-end before:(mr-2 pb-1 text-([11px] current) tracking-normal leading-none font-bold uppercase content-[attr(data-label)])" data-label="{{ name }}:"><b class="ml-auto">{{ itemsTotal }}</b></p>
+          <small class="pt-3 text-sm flex opacity-75">
             <span>{{ seriesTotal }} series</span>
             <span class="ml-auto"><sup class="mr-1">$</sup>{{ price }}</span>
           </small>
@@ -34,8 +34,8 @@ layout: 'layouts/default.njk'
   </a>
 {%- endmacro %}
 
-  <article class="m-auto w-full h-full text-5xl grid-(& cols-1) lg:(text-[calc(4vw)] leading-none grid-cols-3 fixed inset-0)">
-    {{ data(name='Comics', itemsTotal=(comics.items | length), seriesTotal=(comics.series | length), price=(pricesComics | sum | round), color='gray', bg='/_assets/img/data-comics.jpg') }}
-    {{ data(name='Zines', itemsTotal=(zines.items | length), seriesTotal=(zines.series | length), price=(pricesZines | sum | round), color='gray', bg='/_assets/img/data-zines.jpg') }}
-    {{ data(name='Misc', itemsTotal=(misc.items | length), seriesTotal=(misc.series | length), price=(pricesMisc | sum | round), color='gray', bg='/_assets/img/data-misc.jpg') }}
+  <article class="divide-(y pri-500/20) w-full h-full text-(5xl pri-500) grid-(& cols-1) lg:(divide-x text-[calc(4vw)] leading-none grid-cols-3)">
+    {{ data(name='Comics', itemsTotal=(collections.comics | length), seriesTotal=(collections.comicsByTitle | length), price=(pricesComics | sum | round), color='pri', bg='/_assets/img/data-comics.jpg') }}
+    {{ data(name='Magazines', itemsTotal=(collections.magazines | length), seriesTotal=(collections.magazinesByTitle | length), price=(pricesZines | sum | round), color='pri', bg='/_assets/img/data-zines.jpg') }}
+    {{ data(name='Misc', itemsTotal=(collections.misc | length), seriesTotal=(collections.miscByTitle | length), price=(pricesMisc | sum | round), color='pri', bg='/_assets/img/data-misc.jpg') }}
   </article>

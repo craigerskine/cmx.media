@@ -1,0 +1,23 @@
+---
+layout: 'layouts/default.njk'
+pagination:
+  data: collections.magazinesByTitle
+  size: 1
+  alias: magazine
+permalink: 'magazines/{{ magazine | slugify }}/'
+eleventyComputed:
+  title: '{{ magazine | safe }}'
+  cover: '/_assets/img/magazines/{{ magazine | slugify }}/series.jpg'
+---
+
+{%- import 'components/el.njk' as el -%}
+
+{% call el.list() %}
+  {%- for type, items in collections.magazines | groupby('data.title') %}
+    {% if type == magazine %}
+      {% for item in items %}
+      {{ el.listitem(title=item.data.issue,signed=item.data.signed_by,image='/_assets/img/magazines/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',loop=loop) }}
+      {% endfor %}
+    {% endif %}
+  {%- endfor %}
+{% endcall %}

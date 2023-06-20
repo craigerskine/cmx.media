@@ -1,0 +1,17 @@
+---
+layout: 'layouts/default.njk'
+eleventyNavigation:
+  key: Mags
+  title: Magazines
+  ico: mdi:newspaper
+  order: 2
+title: Magazines
+---
+
+{%- import 'components/el.njk' as el -%}
+
+{% call el.list() %}
+  {%- for item in collections.magazinesByTitle %}
+  {{ el.listitem(title=item,image='/_assets/img/magazines/'+ item | slugify +'/series.jpg',url='/magazines/'+ item | slugify +'/',loop=loop) }}
+  {%- endfor %}
+{% endcall %}

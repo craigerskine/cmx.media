@@ -2,89 +2,16 @@
 layout: 'layouts/default.njk'
 eleventyNavigation:
   key: Comics
-  title: 'Issues / TP'
-  ico: fa6-regular:address-book
+  title: Issues / TP
+  ico: mdi:bookshelf
   order: 1
-title: 'Comics'
+title: Comics
 ---
 
-{%- import 'components/heading.njk' as heading %}
-{%- import 'components/item-list.njk' as list %}
+{%- import 'components/el.njk' as el -%}
 
-<article class="container mx-auto p-6" x-data="searchInput">
-  <div class="text-center md:(text-left flex items-end)">
-    {{ heading.x(title) }}
-    <div class="search mx-auto mb-8 w-full max-w-[250px] md:(mx-0 ml-auto)">
-      <label class="label flex items-end" data-label="Search:" @click.outside="closeSearch">
-        <input type="search" class="py-0.5 px-1.5 w-full bg-transparent text-sm font-sans block" @input="getItems" x-model="search" />
-      </label>
-    </div>
-  </div>
-
-  <ul x-show="isOpen" class="grid-(& cols-2) gap-16 lg:(grid-cols-5)" x-cloak>
-    <template x-for="item in getItems">
-      <li>
-        <a :href="'/comics/'+ slugify(item.series) +'/'" class="mx-auto w-full max-w-[250px] text-center block relative">
-          <figure>
-            <img :src="'/_assets/img/comics/'+ slugify(item.series) +'/'+ item.issue +'.jpg'" :alt="item.series" class="mx-auto w-full" />
-            <figcaption class="pt-1">
-              <strong x-text="item.series" class="truncate block"></strong>
-            </figcaption>
-          </figure>
-          <b class="px-1 min-w-[1.5rem] h-6 bg-white text-(sm pri-700) leading-none flex items-center justify-center absolute -top-3 -right-3 ring-(4 sec-500/75) rounded-full shadow-lg"><span x-text="item.issue"></span></b>
-        </a>
-      </li>
-    </template>
-  </ul>
-  <div x-show="!isOpen && search.length" class="alert py-8 text-(2xl yellow-600 center)" role="alert" x-cloak>
-    Bang! Zap! Pow!
-    <strong class="py-2 text-(sm pri-500) uppercase block">No results</strong>
-  </div>
-
-  <ul x-show="!isOpen && !search.length" class="grid-(& cols-2) gap-16 lg:(grid-cols-5)" x-cloak>
-    {%- for series in (comics.series) %}
-      {{ list.x(name=series,sub=comics.items | pluck(series, 'series'),image='/_assets/img/comics/'+ series | slugify +'/series.jpg',url='/comics/'+ series | slugify +'/',loop=loop) }}
-    {%- endfor %}
-  </ul>
-</article>
-
-<script>
-  document.addEventListener('alpine:init', () => {
-    Alpine.data('searchInput', () => ({
-      isOpen: false,
-      search: "",
-      get getItems() {
-        const filterItems = this.sourceData.filter((item) => {
-          //return item.series.toLowerCase().startsWith(this.search.toLowerCase())
-          return item.series.toLowerCase().includes(this.search.toLowerCase())
-        })
-        if(filterItems.length < this.sourceData.length && filterItems.length > 0) {
-          this.isOpen = true
-          return filterItems
-        } else {
-          this.isOpen = false
-        }
-      },
-      cleanSearch(e) {
-        // alert(e.target.innerText)
-        this.search = ""
-      },
-      closeSearch() {
-        this.search = ""
-        this.isOpen = false
-      },
-      slugify(text) {
-        return text
-          .toString()
-          .replace(/\.+/g, '-')
-          .normalize('NFKD')
-          .toLowerCase()
-          .trim()
-          .replace(/\s+/g, '-')
-          .replace(/[^\w\-]+/g, '')
-          .replace(/\-\-+/g, '-')
-      },
-      sourceData: {{ comics.items | dump | safe }},
-    }))
-  })
-</script>
+{% call el.list() %}
+  {%- for item in collections.comicsByTitle %}
+    {{ el.listitem(title=item,image='/_assets/img/comics/'+ item | slugify +'/series.jpg',url='/comics/'+ item | slugify +'/',loop=loop) }}
+  {%- endfor %}
+{% endcall %}

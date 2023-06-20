@@ -1,18 +1,26 @@
+{%- macro nav(url='',class='',pos='') -%}
+<li class="w-12 h-12 text-xl flex items-center justify-center {{ pos }}">
+  <{% if url %}a href="{{ url }}"{% else %}button{% endif %} class="{{ class }} group w-full h-full flex items-center justify-center relative motion-safe:(transition) hover:(opacity-50)">
+    {{ caller() }}
+  </{% if url %}a{% else %}button{% endif %}>
+</li>
+{%- endmacro -%}
+
 <!doctype html>
-<html lang="en" class="bg-pri-800 antialiased" x-data>
+<html lang="en" class="bg-transparent antialiased" x-data>
 
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>{%- if title -%}{{ title +' : ' }}{%- endif -%} {{ site.meta.title +' : '+ site.meta.sub }}</title>
+    <title>{%- if title -%}{{ title +' // ' }}{%- endif -%} {{ site.meta.title +' // '+ site.meta.sub }}</title>
     <meta name="description" content="{{ site.meta.description }}" />
-    <meta name="author" content="{{ site.meta.author + ' - '+ site.meta.author_url }}" />
+    <meta name="author" content="{{ site.meta.author +' - '+ site.meta.author_url }}" />
     <meta name="generator" content="{{ eleventy.generator }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Asap:wght@100..900&display=swap" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -22,78 +30,55 @@
     <meta property="og:title" content="{{ site.meta.title }}" />
     <meta property="og:description" content="{{ site.meta.description }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://comx.media{{ page.url }}" />
-    <meta property="og:image" content="https://comx.media/apple-touch-icon.png" />
+    <meta property="og:url" content="{{ site.meta.url }}{{ page.url }}" />
+    <meta property="og:image" content="{{ site.meta.url }}/apple-touch-icon.png" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+    <script>
+      if (localStorage.getItem('color-mode') === 'dark' || (window.matchMedia('(prefers-color-scheme: dark)').matches && !localStorage.getItem('color-mode'))) {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+
   </head>
 
-  <body class="text-pri-400 !block" style="display: none;" data-instant-intensity="mousedown">
+  <body class="bg-pri-50 text-pri-700 !block" style="display: none;" data-instant-intensity="mousedown">
+    <div class="bg-grid fixed inset-0 opacity-20" aria-hidden="true"></div>
     <div class="min-h-screen flex-(& col) relative">
-      <header class="w-full flex-none relative z-[2]{%- if page.url === '/' %} bg-gradient-to-b from-pri-800{%- endif %}">
-        <div class="p-6 flex items-center">
-          <a href="/" class="group font-semibold flex items-center gap-3 motion-safe:(transition) hover:(text-blue-300)">
-            <b class="px-1 py-px bg-white text-pri-800 font-bold motion-safe:(transition) group-hover:(bg-blue-300)">{{ site.meta.title_short }}</b>
-            <i class="not-italic uppercase">{{ site.meta.title }}</i>
-          </a>
-          <nav class="ml-auto" x-data="{menu: false}">
-            <ul>
-              <li class="relative z-20">
-                <a href="#" class="motion-safe:(transition) hover:(text-blue-300)" :class="{'text-blue-300': menu}" @click.prevent="menu = !menu"
-                  :aria-expanded="menu"
-                  aria-controls="nav-menu"
-                >
-                  <i x-show="!menu" x-cloak><iconify-icon icon="fa6-solid:bars" inline="false"></iconify-icon><b class="sr-only">Open menu</b></i>
-                  <b x-show="menu" class="fixed top-6 right-6" x-cloak><iconify-icon icon="fa6-solid:xmark" inline="false"></iconify-icon><b class="sr-only">Close menu</b></b>
-                </a>
-              </li>
-              <li class="relative z-10">
-                <div x-show="menu" class="fixed inset-0 bg-black/80" aria-hidden="true"></div>
-                <div x-show="menu" @click.outside="menu = false" class="w-1/2 bg-pri-800 fixed inset-y-0 right-0 shadow-2xl transform md:(w-full max-w-sm)"
-                x-transition:enter="transition ease-out"
-                x-transition:enter-start="opacity-0 translate-x-4"
-                x-transition:enter-end="opacity-100 translate-y-0"
-                x-transition:leave="transition ease-in"
-                x-transition:leave-start="opacity-100 translate-y-0"
-                x-transition:leave-end="opacity-0 translate-x-4"
-                x-cloak
-                >
-                  <ul class="mt-4 py-12 text-lg font-black relative md:(text-2xl)" id="nav-menu">
-                    {%- for item in collections.all | eleventyNavigation %}
-                    <li>
-                      <a href="{{ item.url }}" class="group py-3 px-6 flex items-center gap-4 relative motion-safe:(transition) hover:(bg-sec-500/10) text-pri-100) md:(py-6) {% if item.url == page.url or item.url in page.url %} active bg-sec-400/20 text-sec-400 font-bold{% else %} text-pri-400{% endif %}"
-                        {%- if item.url == page.url or item.url in page.url %} aria-current="page"{%- endif %}
-                      >
-                        <b class="text-pri-500/50"><iconify-icon icon="{{ item.ico }}" inline="false"></iconify-icon></b>
-                        <div>
-                          {{ item.key }}
-                          <small class="text-(xs sec-600) font-semibold block md:(text-sm)">{{ item.title }}</small>
-                        </div>
-                        {%- if item.url == page.url or item.url in page.url %}<b class="w-[2px] bg-current absolute inset-y-0 left-0"></b>{%- endif %}
-                      </a>
-                    </li>
-                    {%- endfor %}
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </nav>
-        </div>
+      <header class="py-6 border-(b pri-500/20) text-sm flex-(& none) justify-center gap-2 lg:(py-12 border-(b-0 r) w-16 fixed inset-y-0 left-0)">
+        <nav class="h-full">
+          <ul class="flex-(& row) items-center gap-1 lg:(h-full flex-col)">
+            {%- call nav(url='/') %}
+              <b class="border-(1 sec-500/20) w-4/5 h-4/5 bg-sec-500/20 flex items-center justify-center motion-safe:(transition) group-hover:(bg-opacity-50)">{{ site.meta.title_short }}</b>
+            {%- endcall %}
+            {%- for item in collections.all | eleventyNavigation %}
+              {%- call nav(url=item.url) %}
+                <iconify-icon icon="{{ item.ico }}" class="iconify"></iconify-icon>
+                {%- if item.url == page.url or item.url in page.url %}<b class="h-1 bg-sec-500 absolute bottom-0 inset-x-0 lg:(w-1 h-auto inset-x-auto inset-y-0 -right-2)" aria-hidden="true"></b>{%- endif %}
+              {%- endcall %}
+            {%- endfor %}
+            {%- call nav(class='color-mode',pos='lg:(mt-auto)') %}
+              <span class="block dark:(hidden)"><iconify-icon icon="mdi:weather-sunny" class="iconify"></iconify-icon> <span class="sr-only">Switch to dark mode</span></span>
+              <span class="hidden dark:(block)"><iconify-icon icon="mdi:weather-night" class="iconify"></iconify-icon> <span class="sr-only">Switch to light mode</span></span>
+            {%- endcall %}
+          </ul>
+        </nav>
       </header>
-      <main class="w-full flex-(& 1) relative z-[1]">
-        <section class="w-full flex">
+      <main class="flex-(& 1) lg:(mx-16)">
+        <section class="w-full">
+          {%- if title %}
+          <h1 class="mx-auto p-4 max-w-7xl text-2xl font-black md:(p-8) lg:(p-12 text-[calc(2.5vw)])">{{ title }}</h1>
+          {%- endif %}
           {{ content | safe }}
         </section>
       </main>
-      <footer class="p-6 text-(sm center pri-500) font-semibold w-full flex-none relative z-[1]{%- if page.url === '/' %} bg-gradient-to-t from-pri-800{%- endif %} md:(flex items-center justify-between)">
-        <p>Collected by <a href="https://{{ site.meta.author_url }}/" class="text-pri-400 motion-safe:(transition) hover:(text-sec-400)">{{ site.meta.author }}</a> : 1992 - {% year %}</p>
-        <small class="py-1 block opacity-75">Updated: <time datetime="{{ build.time.raw }}">{{ build.time.formatted }}</time></small>
+      <footer class="mt-auto py-6 border-(t pri-500/20) text-xs uppercase flex-(& none) items-center justify-center gap-2 lg:(py-12 border-(t-0 l) w-16 [writing-mode:vertical-rl] justify-end fixed inset-y-0 right-0)">
+        <span class="text-pri-500">Collected by</span>
+        <span class="inline-flex gap-4 font-bold">
+          <a href="https://{{ site.meta.author_url }}">{{ site.meta.author }}</a>
+          <span aria-hidden="true" class="text-pri-400">/</span>
+          1992 - {% year %}
+        </span>
       </footer>
-    </div>
-
-    <div class="bg-grid fixed inset-0" aria-hidden="true">
-      <div class="w-full h-[50vh] bg-gradient-to-b from-gray-900 fixed top-0 inset-x-0 md:(via-transparent)" aria-hidden="true"></div>
-      <div class="w-full h-[50vh] bg-gradient-to-t from-gray-900 fixed bottom-0 inset-x-0 md:(via-transparent)" aria-hidden="true"></div>
     </div>
 
     <script src="/_assets/js/_app.js?v={% bust %}"></script>

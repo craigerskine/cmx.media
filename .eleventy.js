@@ -28,6 +28,44 @@ module.exports = function(eleventyConfig) {
   // yaml
   eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
 
+  // collections
+  eleventyConfig.addCollection('comicsByTitle', (collection) => {
+    const items = collection.getFilteredByTag('comics');
+    const series = items.map(item => item.data.title);
+    const uniqueTitle = [...new Set(series)];
+    const itemsByTitle = uniqueTitle.reduce((prev, title) => {
+      return [
+        ...prev,
+        [title]
+      ]
+    }, []);
+    return itemsByTitle;
+  });
+  eleventyConfig.addCollection('magazinesByTitle', (collection) => {
+    const items = collection.getFilteredByTag('magazines');
+    const series = items.map(item => item.data.title);
+    const uniqueTitle = [...new Set(series)];
+    const itemsByTitle = uniqueTitle.reduce((prev, title) => {
+      return [
+        ...prev,
+        [title]
+      ]
+    }, []);
+    return itemsByTitle;
+  });
+  eleventyConfig.addCollection('miscByTitle', (collection) => {
+    const items = collection.getFilteredByTag('misc');
+    const series = items.map(item => item.data.title);
+    const uniqueTitle = [...new Set(series)];
+    const itemsByTitle = uniqueTitle.reduce((prev, title) => {
+      return [
+        ...prev,
+        [title]
+      ]
+    }, []);
+    return itemsByTitle;
+  });
+
   // shortcodes
   eleventyConfig.addShortcode('bust', () => `${new Date().getFullYear()}${new Date().getMonth()}${new Date().getDate()}${new Date().getHours()}`);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
@@ -50,8 +88,8 @@ module.exports = function(eleventyConfig) {
   });
 
   // pluck
-  eleventyConfig.addFilter('pluck', function (arr, value, attr) {
-    return arr.filter((item) => item[attr] === value);
+  eleventyConfig.addFilter("pluck", function (arr, selections, attr) {
+    return arr.filter((item) => selections.includes(item.data[attr]));
   });
 
   // for item in (items | flatMap('category') | unique('category'))
