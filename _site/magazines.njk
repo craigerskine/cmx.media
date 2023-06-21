@@ -1,11 +1,11 @@
 ---
 layout: 'layouts/default.njk'
-eleventyNavigation:
-  key: Mags
-  title: Magazines
-  ico: mdi:newspaper
-  order: 2
 title: Magazines
+eleventyComputed:
+  eleventyNavigation:
+    key: "{{ title }}"
+    ico: mdi:newspaper
+    order: 2
 ---
 
 {%- import 'components/el.njk' as el -%}

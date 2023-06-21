@@ -1,11 +1,11 @@
 ---
 layout: 'layouts/default.njk'
-eleventyNavigation:
-  key: Comics
-  title: Issues / TP
-  ico: mdi:bookshelf
-  order: 1
 title: Comics
+eleventyComputed:
+  eleventyNavigation:
+    key: "{{ title }}"
+    ico: mdi:bookshelf
+    order: 1
 ---
 
 {%- import 'components/el.njk' as el -%}

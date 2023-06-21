@@ -1,11 +1,11 @@
 ---
 layout: 'layouts/default.njk'
-eleventyNavigation:
-  key: Misc
-  title: Collectables
-  ico: mdi:signature-freehand
-  order: 3
 title: Misc
+eleventyComputed:
+  eleventyNavigation:
+    key: "{{ title }}"
+    ico: mdi:signature-freehand
+    order: 3
 ---
 
 {%- import 'components/el.njk' as el -%}

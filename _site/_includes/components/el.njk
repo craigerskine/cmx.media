@@ -1,8 +1,14 @@
-{% macro list() %}
+{%- macro tooltip(tip='',tag='b',nav=false) -%}
+<{{ tag }} class="{% if nav %}lg:(mt-0 ml-10 top-1/2 left-full translate-x-0 -translate-y-1/2 group-hover:(ml-0)){% endif %} mt-10 ml-0 top-full left-1/2 translate-y-0 -translate-x-1/2 px-2 py-1 max-w-[130px] bg(pri-900) text(xs pri-300) truncate pointer-events-none absolute rounded opacity-0 shadow-xl transform scale-50 motion-safe:(transition-all) group-hover:(mt-0 opacity-100 scale-100)">
+  {{ tip }}
+</{{ tag }}>
+{%- endmacro -%}
+
+{%- macro list() -%}
 <ul class="mx-auto px-4 pb-12 w-full max-w-7xl grid-(& cols-2) gap-x-6 gap-y-12 md:(px-8 grid-cols-3 gap-x-12) lg:(px-12 grid-cols-4 gap-x-16)">
   {{ caller() }}
-</ul>  
-{% endmacro %}
+</ul>
+{%- endmacro -%}
 
 {%- macro listitem(title='Title',sub='',signed='',image='/_assets/img/_comic.jpg',svg='',url='',loop='') -%}
   <li>

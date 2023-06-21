@@ -1,7 +1,11 @@
-{%- macro nav(url='',class='',pos='') -%}
+{%- import 'components/el.njk' as el -%}
+{%- macro nav(url='',class='',pos='',tip='') -%}
 <li class="w-12 h-12 text-xl flex items-center justify-center {{ pos }}">
   <{% if url %}a href="{{ url }}"{% else %}button{% endif %} class="{{ class }} group w-full h-full flex items-center justify-center relative motion-safe:(transition) hover:(opacity-50)">
     {{ caller() }}
+    {%- if tip %}
+      {{ el.tooltip(tip=tip,nav=true) }}
+    {%- endif %}
   </{% if url %}a{% else %}button{% endif %}>
 </li>
 {%- endmacro -%}
@@ -44,26 +48,26 @@
   <body class="bg-pri-50 text-pri-700 !block" style="display: none;" data-instant-intensity="mousedown">
     <div class="bg-grid fixed inset-0 opacity-20" aria-hidden="true"></div>
     <div class="min-h-screen flex-(& col) relative">
-      <header class="py-4 border-(b pri-500/20) text-sm flex-(& none) justify-center gap-2 lg:(py-12 border-(b-0 r) w-16 fixed inset-y-0 left-0)">
+      <header class="py-4 border-(b pri-500/20) text-sm flex-(& none) justify-center gap-2 relative z-20 lg:(py-12 border-(b-0 r) w-16 fixed inset-y-0 left-0)">
         <nav class="h-full">
           <ul class="flex-(& row) items-center gap-1 lg:(h-full flex-col)">
             {%- call nav(url='/') %}
               <b class="border-(1 sec-500/20) w-4/5 h-4/5 bg-sec-500/20 flex items-center justify-center motion-safe:(transition) group-hover:(bg-opacity-50)">{{ site.meta.title_short }}</b>
             {%- endcall %}
             {%- for item in collections.all | eleventyNavigation %}
-              {%- call nav(url=item.url) %}
+              {%- call nav(url=item.url,tip=item.key) %}
                 <iconify-icon icon="{{ item.ico }}" class="iconify"></iconify-icon>
                 {%- if item.url == page.url or item.url in page.url %}<b class="h-1 bg-sec-500 absolute bottom-0 inset-x-0 lg:(w-1 h-auto inset-x-auto inset-y-0 -right-2)" aria-hidden="true"></b>{%- endif %}
               {%- endcall %}
             {%- endfor %}
-            {%- call nav(class='color-mode',pos='lg:(mt-auto)') %}
+            {%- call nav(class='color-mode',pos='lg:(mt-auto)',tip='Color mode') %}
               <span class="block dark:(hidden)"><iconify-icon icon="mdi:weather-sunny" class="iconify"></iconify-icon> <span class="sr-only">Switch to dark mode</span></span>
               <span class="hidden dark:(block)"><iconify-icon icon="mdi:weather-night" class="iconify"></iconify-icon> <span class="sr-only">Switch to light mode</span></span>
             {%- endcall %}
           </ul>
         </nav>
       </header>
-      <main class="flex-(& 1) lg:(mx-16)">
+      <main class="flex-(& 1) relative z-10 lg:(mx-16)">
         <section class="w-full">
           {%- if title %}
           <h1 class="mx-auto px-4 py-12 max-w-7xl leading-none text-2xl font-black md:(px-8) lg:(px-12 text-[calc(2.5vw)] leading-none)">{{ title }}</h1>
@@ -71,7 +75,7 @@
           {{ content | safe }}
         </section>
       </main>
-      <footer class="mt-auto py-6 border-(t pri-500/20) text-xs uppercase flex-(& none) items-center justify-center gap-2 lg:(py-12 border-(t-0 l) w-16 [writing-mode:vertical-rl] justify-end fixed inset-y-0 right-0)">
+      <footer class="mt-auto py-6 border-(t pri-500/20) text-xs uppercase flex-(& none) items-center justify-center gap-2 relative z-20 lg:(py-12 border-(t-0 l) w-16 [writing-mode:vertical-rl] justify-end fixed inset-y-0 right-0)">
         <span class="text-pri-500">Collected by</span>
         <span class="inline-flex gap-4 font-bold">
           <a href="https://{{ site.meta.author_url }}">{{ site.meta.author }}</a>
