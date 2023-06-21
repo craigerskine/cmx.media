@@ -13,9 +13,11 @@
 {%- macro listitem(title='Title',sub='',signed='',image='/_assets/img/_comic.jpg',svg='',url='',loop='') -%}
   <li>
     {%- if url !== '' %}<a href="{{ url }}" class="group block">{%- endif %}
-    <figure>
-      {%- if svg === '' %}
-      <img src="{{ image }}" alt="{{ title }}" class="mx-auto w-full ring-(1 pri-500/50) shadow-(lg black/25) transform motion-safe:(transition) group-hover:(ring-(4 sec-400/100) -translate-y-2 -rotate-2)" />
+    <div>
+      {%- if not svg %}
+      <picture class="border-(1 black/70) block relative after:(h-px bg-white/25 content-[''] absolute inset-x-0 top-px) transform motion-safe:(transition) group-hover:(-translate-y-2 -rotate-2)">
+        <img src="{{ image }}" alt="{{ title }}" class="w-full shadow-(lg black/25)" />
+      </picture>
       {%- else %}
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" class="px-2 pb-4 border-(b-2 gray-500/20) text-pri-500 fill-current motion-safe:(transition) group-hover:(text-pri-700 -translate-y-2 -rotate-2)">
         <title>{{ title }}</title>
@@ -32,7 +34,7 @@
         </g>
       </svg>
       {%- endif %}
-      <figcaption class="pt-4 flex justify-between gap-2">
+      <div class="pt-4 flex justify-between gap-2">
         <div class="flex-1 min-w-0">
           <p class="leading-6 font-medium truncate">
             {{ title }}
@@ -46,8 +48,8 @@
         {% if sub %}
         <b class="text-(pri-500 xs) leading-6 font-semibold flex-none">{{ sub }}</b>
       {% endif %}
-      </figcaption>
-    </figure>
+      </div>
+    </div>
     {%- if url !== '' %}</a>{%- endif %}
   </li>
 {%- endmacro -%}

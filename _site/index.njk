@@ -19,9 +19,9 @@ layout: 'layouts/default.njk'
 
 {%- macro data(name='name', itemsTotal='itemsTotal', seriesTotal='seriesTotal', price='price', color='pri-50', bg='/_assets/img/comics/the-creech/series.jpg') %}
   <a href="/{{ name | slugify }}/" class="group py-3 bg-{{ color }}-100/30 font-semibold flex relative overflow-hidden motion-safe:(transition) hover:(text-{{ color }}-800 opacity-100) lg:(py-32)">
-    <figure class="m-auto w-full">
+    <div class="m-auto w-full">
       <img src="{{ bg }}" alt="{{ name }}" class="w-full h-full block absolute inset-0 object-cover opacity-5 transform motion-safe:(transition) group-hover:(opacity-25 scale-110)" />
-      <figcaption class="w-full py-6 px-4 relative transform translate-y-4 motion-safe:(transition) group-hover:(bg-{{ color }}-50/75 translate-y-0)">
+      <div class="w-full py-6 px-4 relative transform translate-y-4 motion-safe:(transition) group-hover:(bg-{{ color }}-50/75 translate-y-0)">
         <div class="mx-auto max-w-[250px]">
           <p class="pb-2 border-(b-2 pri-500/20) flex items-end before:(mr-2 pb-1 text-([11px] current) tracking-normal leading-none font-bold uppercase content-[attr(data-label)])" data-label="{{ name }}:"><b class="ml-auto">{{ itemsTotal }}</b></p>
           <small class="pt-3 text-sm flex opacity-75">
@@ -29,8 +29,8 @@ layout: 'layouts/default.njk'
             <span class="ml-auto"><sup class="mr-1">$</sup>{{ price }}</span>
           </small>
         </div>
-      </figcaption>
-    </figure>
+      </div>
+    </div>
   </a>
 {%- endmacro %}
 
