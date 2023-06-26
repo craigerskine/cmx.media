@@ -8,6 +8,6 @@ release_date: Sep 2023
 release_year: 2023
 format: Misc
 pages: 32
-signed_by: Rob Liefeld
+signed_by: Rob Liefeld + Dropshadow Chisel
 price: 99.00
 ---
