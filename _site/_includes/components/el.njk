@@ -35,19 +35,15 @@
       </svg>
       {%- endif %}
       <div class="pt-4 flex justify-between gap-2">
-        <div class="flex-1 min-w-0">
-          <p class="leading-6 font-medium truncate" title="{{ title }}">
-            {{ title }}
-          </p>
-          {% if signed %}
-          <small class="mt-1 text-(pri-500 sm) truncate">
-            Signed: {{ signed }}
-          </small>
-          {% endif %}
+        <div class="min-w-0 flex-1">
+          <p class="leading-6 font-medium truncate" title="{{ title }}">{{ title }}</p>
+          {%- if signed %}
+          <small class="mt-1 text-(pri-500 sm) block truncate" title="{{ signed }}">Signed: {{ signed }}</small>
+          {%- endif %}
         </div>
-        {% if sub %}
+        {%- if sub %}
         <b class="text-(pri-500 xs) leading-6 font-semibold flex-none">{{ sub }}</b>
-      {% endif %}
+        {%- endif %}
       </div>
     </div>
     {%- if url !== '' %}</a>{%- endif %}
