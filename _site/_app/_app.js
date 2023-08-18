@@ -38,7 +38,7 @@ install({
         sec: theme('colors.sky'),
       }),
       fontFamily: ({ theme }) => ({
-        sans: 'Asap,'+ theme('fontFamily.sans'),
+        sans: 'Grandstander,'+ theme('fontFamily.sans'),
       }),
       spacing: {
         18: '4.5rem',

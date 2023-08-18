@@ -34,7 +34,7 @@
         </g>
       </svg>
       {%- endif %}
-      <div class="pt-4 flex justify-between gap-2">
+      <div class="pt-4 flex items-center justify-between gap-2">
         <div class="min-w-0 flex-1">
           <p class="leading-6 font-medium truncate" title="{{ title }}">{{ title }}</p>
           {%- if signed %}
@@ -42,7 +42,7 @@
           {%- endif %}
         </div>
         {%- if sub %}
-        <b class="text-(pri-500 xs) leading-6 font-semibold flex-none">{{ sub }}</b>
+        <b class="border-(l dashed pri-500/50) pl-3 text-(pri-500 sm) leading-none font-semibold flex-none">{{ sub }}</b>
         {%- endif %}
       </div>
     </div>

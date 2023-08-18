@@ -24,7 +24,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Asap:wght@100..900&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100..900&display=swap" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -48,7 +48,7 @@
   <body class="bg-pri-50 text-pri-700 !block" style="display: none;" data-instant-intensity="mousedown">
     <div class="bg-grid fixed inset-0 opacity-20" aria-hidden="true"></div>
     <div class="min-h-screen flex-(& col) relative">
-      <header class="py-4 border-(b pri-500/20) text-sm flex-(& none) justify-center gap-2 relative z-20 lg:(py-12 border-(b-0 r) w-16 fixed inset-y-0 left-0)">
+      <header class="py-4 border-(b dashed pri-500/20) text-sm flex-(& none) justify-center gap-2 relative z-20 lg:(py-12 border-(b-0 r) w-16 fixed inset-y-0 left-0)">
         <nav class="w-full h-full">
           <ul class="flex-(& row) items-center justify-center gap-1 lg:(h-full flex-col)">
             {%- call nav(url='/',pos='w-full justify-start lg:(justify-center)') %}
@@ -75,7 +75,7 @@
           {{ content | safe }}
         </section>
       </main>
-      <footer class="mt-auto py-6 border-(t pri-500/20) text-xs uppercase flex-(& none) items-center justify-center gap-2 relative z-20 lg:(py-12 border-(t-0 l) w-16 [writing-mode:vertical-rl] justify-end fixed inset-y-0 right-0)">
+      <footer class="mt-auto py-6 border-(t dashed pri-500/20) text-sm uppercase flex-(& none) items-center justify-center gap-2 relative z-20 lg:(py-12 border-(t-0 l) w-16 [writing-mode:vertical-rl] justify-end fixed inset-y-0 right-0)">
         <span class="text-pri-500">Collected by</span>
         <span class="inline-flex gap-4 font-bold">
           <a href="https://{{ site.meta.author_url }}">{{ site.meta.author }}</a>
