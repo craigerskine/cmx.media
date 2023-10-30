@@ -34,11 +34,11 @@ install({
   theme: {
     extend: {
       colors: ({ theme }) => ({
-        pri: theme('colors.gray'),
-        sec: theme('colors.sky'),
+        pri: theme('colors.zinc'),
+        sec: theme('colors.stone'),
       }),
       fontFamily: ({ theme }) => ({
-        sans: 'Grandstander,'+ theme('fontFamily.sans'),
+        sans: ['Grandstander', ...theme('fontFamily.sans')],
       }),
       spacing: {
         18: '4.5rem',
