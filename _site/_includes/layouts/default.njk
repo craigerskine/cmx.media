@@ -30,6 +30,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#18181B" />
 
     <meta property="og:title" content="{{ site.meta.title }}" />
     <meta property="og:description" content="{{ site.meta.description }}" />
@@ -52,7 +53,10 @@
         <nav class="w-full h-full">
           <ul class="flex-(& row) items-center justify-center gap-1 lg:(h-full flex-col)">
             {%- call nav(url='/',pos='w-full justify-start lg:(justify-center)') %}
-              <b class="border-(1 sec-500/20) w-2/3 h-2/3 bg-sec-500/20 flex items-center justify-center motion-safe:(transition) group-hover:(bg-opacity-50)">{{ site.meta.title_short }}</b>
+              <p class="text-lg leading-none font-black flex-(& col) items-center justify-center motion-safe:(transition) group-hover:(bg-opacity-50)">
+                <b>cmx</b>
+                <small class="text-xs leading-none tracking-wider uppercase opacity-50">media</small>
+              </p>
             {%- endcall %}
             {%- for item in collections.all | eleventyNavigation %}
               {%- call nav(url=item.url,tip=item.key) %}
