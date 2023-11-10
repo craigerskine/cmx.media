@@ -36,8 +36,13 @@ layout: 'layouts/default.njk'
   </a>
 {%- endmacro %}
 
-  <article class="divide-(y dashed pri-500/20) w-full h-full text-pri-500 grid-(& cols-1) lg:(divide-x grid-cols-3)">
-    {{ data(name='Comics', itemsTotal=(collections.comics | length), seriesTotal=(collections.comicsByTitle | length), price=(pricesComics | sum | round), color='pri', bg='/_assets/img/data-comics.jpg') }}
-    {{ data(name='Magazines', itemsTotal=(collections.magazines | length), seriesTotal=(collections.magazinesByTitle | length), price=(pricesZines | sum | round), color='pri', bg='/_assets/img/data-zines.jpg') }}
-    {{ data(name='Misc', itemsTotal=(collections.misc | length), seriesTotal=(collections.miscByTitle | length), price=(pricesMisc | sum | round), color='pri', bg='/_assets/img/data-misc.jpg') }}
-  </article>
+
+<article class="divide-(y dashed pri-500/20) w-full h-full text-pri-500 grid-(& cols-1) lg:(divide-x grid-cols-3)">
+  <h1 class="w-28 h-28 bg-gray-500/20 text-6xl leading-none font-black hidden items-center justify-center absolute top-10 left-1/2 z-20 pointer-events-none rounded-full shadow-2xl -translate-x-1/2 lg:(flex-(& col))">
+    <b>cmx</b>
+    <small class="text-4xl leading-none tracking-wider uppercase opacity-50">media</small>
+  </h1>
+  {{ data(name='Comics', itemsTotal=(collections.comics | length), seriesTotal=(collections.comicsByTitle | length), price=(pricesComics | sum | round), color='pri', bg='/_assets/img/data-comics.jpg') }}
+  {{ data(name='Magazines', itemsTotal=(collections.magazines | length), seriesTotal=(collections.magazinesByTitle | length), price=(pricesZines | sum | round), color='pri', bg='/_assets/img/data-zines.jpg') }}
+  {{ data(name='Misc', itemsTotal=(collections.misc | length), seriesTotal=(collections.miscByTitle | length), price=(pricesMisc | sum | round), color='pri', bg='/_assets/img/data-misc.jpg') }}
+</article>

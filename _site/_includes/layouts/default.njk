@@ -73,7 +73,7 @@
       <main class="flex-(& 1) relative z-10 lg:(mx-16)">
         <section class="w-full">
           {%- if page.filePathStem === '/misc/index' %}
-          {%- set svg %}{{ title | slugify }}{%- endset %}
+          {%- set svg -%}{{ title | slugify }}{%- endset -%}
           <h1 class="mx-auto px-4 py-12 max-w-7xl md:(px-8) lg:(px-12)">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" class="w-full max-w-[200px] fill-current">
               <title>{{ title }}</title>
