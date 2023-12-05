@@ -36,6 +36,7 @@ install({
       colors: ({ theme }) => ({
         pri: theme('colors.zinc'),
         sec: theme('colors.stone'),
+        acc: theme('colors.sky'),
       }),
       fontFamily: ({ theme }) => ({
         sans: ['Grandstander', ...theme('fontFamily.sans')],
@@ -48,7 +49,7 @@ install({
     },
   },
   rules: [
-    [ 'bg-grid', { 'background-image': 'url("data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 6 6\' width=\'6\' height=\'6\' fill=\'rgb(128,128,128)\'><path d=\'m6 5v1h-1v-1zm-4 0v1h-1v-1zm3-1v1h-1v-1zm-2 0v1h-1v-1zm1-1v1h-1v-1zm-1-1v1h-1v-1zm2 0v1h-1v-1zm-3-1v1h-1v-1zm4 0v1h-1v-1zm-5-1v1h-1v-1z\' /></svg>")', } ],
+    [ 'bg-grid', { 'background-image': 'url("data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 6 6\' width=\'6\' height=\'6\' fill=\'rgba(128,128,128,.5)\'><path d=\'m0 0h1v1h1v1h1v1h1v-1h1v-1h1v1h-1v1h-1v1h1v1h1v1h-1v-1h-1v-1h-1v1h-1v1h-1v-1h1v-1h1v-1h-1v-1h-1v-1h-1z\' /></svg>")', } ],
   ],
 });
 

@@ -60,7 +60,7 @@
             {%- for item in collections.all | eleventyNavigation %}
               {%- call nav(url=item.url,tip=item.key) %}
                 <iconify-icon icon="{{ item.ico }}" class="iconify"></iconify-icon>
-                {%- if item.url == page.url or item.url in page.url %}<b class="h-1 bg-sec-500 absolute bottom-0 inset-x-0 lg:(w-1 h-auto inset-x-auto inset-y-0 -right-2)" aria-hidden="true"></b>{%- endif %}
+                {%- if item.url == page.url or item.url in page.url %}<b class="h-1 bg-acc-500 absolute bottom-0 inset-x-0 lg:(w-1 h-auto inset-x-auto inset-y-0 -right-2)" aria-hidden="true"></b>{%- endif %}
               {%- endcall %}
             {%- endfor %}
             {%- call nav(class='color-mode',pos='w-full justify-end lg:(mt-auto justify-center)') %}
