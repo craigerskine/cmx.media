@@ -16,7 +16,7 @@
     <div>
       {%- if not svg %}
       <picture class="border-(1 black/70) block relative after:(h-px bg-white/25 content-[''] absolute inset-x-0 top-px) transform motion-safe:(transition) group-hover:(-translate-y-2 -rotate-2)">
-        <img src="{{ image }}" width="420" height="640" alt="{{ title }}" class="w-full shadow-(lg black/25)" />
+        <img src="{{ image }}" width="420" height="640" alt="{{ title }} comic cover art" class="w-full shadow-(lg black/25)" />
       </picture>
       {%- else %}
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" class="px-2 pb-4 border-(b-2 dashed gray-500/20) text-pri-500 fill-current motion-safe:(transition) group-hover:(text-pri-700 -translate-y-2 -rotate-2)">
@@ -35,7 +35,7 @@
       </svg>
       {%- endif %}
       <div class="pt-3 flex-(& wrap) justify-between gap-2">
-        <p class="pt-1 min-w-0 font-medium truncate flex-1" title="{{ title }}">{{ title }}</p>
+        <p class="pt-1 min-w-0 font-medium truncate flex-1" title="{{ title }}...">{{ title }}</p>
         {%- if sub %}
         <b class="pt-1 border-(1 dashed pri-500/50) px-2 text-(pri-500 sm) leading-none font-normal flex-(& none) items-center">{{ sub }}</b>
         {%- endif %}
