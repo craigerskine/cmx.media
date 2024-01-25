@@ -3,7 +3,7 @@ title: Last Blood
 issue: 1V
 issue_nr: 1
 full_title: Last Blood
-subtitle: ""
+subtitle: Bloody Trade Dress
 story_arc: ""
 crossover: ""
 variant: A
