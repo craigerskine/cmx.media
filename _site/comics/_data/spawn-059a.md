@@ -23,6 +23,6 @@ genre:
   - Thriller
 format: Comic
 pages: 32
-signed_by: ""
-price: 1.95
+signed_by: Greg Capullo
+price: 7.50
 ---
