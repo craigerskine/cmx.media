@@ -1,11 +1,11 @@
 ---
 title: Greg Capullo
-issue: Spawn 16 Art
+issue: Angela Promo Art
 issue_nr: 1
 full_title: ""
 subtitle: Signed
-release_date: Feb 2024
-release_year: 2024
+release_date: Jul 2022
+release_year: 2022
 format: Art
 pages: 1
 signed_by: Greg Capullo

@@ -11,7 +11,7 @@ publisher: Image Comics
 creators: 
   - Greg Capullo
   - Mark Millar
-release_date: Oct 12, 2016
+release_date: Oct 2016
 release_year: 2016
 genre:
   - Science Fiction
