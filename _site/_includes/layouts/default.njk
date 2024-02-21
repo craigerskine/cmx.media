@@ -74,8 +74,8 @@
         <section class="w-full">
           {%- if page.filePathStem === '/misc/index' %}
           {%- set svg -%}{{ title | slugify }}{%- endset -%}
-          <h1 class="mx-auto px-4 py-12 max-w-7xl md:(px-8) lg:(px-12)">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" class="w-full max-w-[200px] fill-current">
+          <h1 class="mx-auto px-4 py-12 max-w-7xl md:(px-8) lg:(px-12)" aria-label="{{ title }}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" class="w-full max-w-[200px] fill-current" role="img">
               <title>{{ title }}</title>
               <g fill-rule="evenodd">
               {%- if svg === 'jim-lee' %}
@@ -89,7 +89,6 @@
               {%- endif %}
               </g>
             </svg>
-            <span class="sr-only">{{ title }}</span>
           </h1>
           {%- elseif title %}
           <h1 class="mx-auto px-4 py-12 max-w-7xl leading-none text-2xl font-black md:(px-8) lg:(px-12 text-[calc(2.5vw)] leading-none)">{{ title }}</h1>
