@@ -9,5 +9,5 @@ release_year: 2024
 format: Art
 pages: 1
 signed_by: Greg Capullo
-price: FREE
+price: 0
 ---
