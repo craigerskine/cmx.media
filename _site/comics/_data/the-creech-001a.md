@@ -17,6 +17,6 @@ genre:
   - Action
 format: Comic
 pages: 32
-signed_by: ""
+signed_by: Greg Capullo
 price: 1.95
 ---
