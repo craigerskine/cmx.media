@@ -21,7 +21,7 @@
     "@twind/preset-tailwind": "^1.1.4",
     "alpinejs": "^3.12.2",
     "esbuild": "^0.17.19",
-    "iconify-icon": "^1.0.7",
+    "iconify-icon": "^2.0.0",
     "instant.page": "^5.2.0",
     "js-yaml": "^4.1.0",
     "markdown-it-attrs": "^4.1.6"
