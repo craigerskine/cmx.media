@@ -39,7 +39,7 @@ install({
         acc: theme('colors.sky'),
       }),
       fontFamily: ({ theme }) => ({
-        sans: ['Grandstander', ...theme('fontFamily.sans')],
+        comic: ['Grandstander', ...theme('fontFamily.sans')],
       }),
       spacing: {
         18: '4.5rem',
