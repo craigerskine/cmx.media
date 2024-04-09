@@ -87,10 +87,10 @@ x-init="commandItemsReorganize();
   });"
   @keydown.down="event.preventDefault(); commandItemActiveNext();" 
   @keydown.up="event.preventDefault(); commandItemActivePrevious()" 
-  @keydown.enter="commandItemSelected=commandItemActive;"
+  @keydown.enter="commandItemSelected=commandItemActive; window.location.href='/comics/'+ commandItemSelected.value +'/'"
 >
   <label class="w-8 h-8 flex cursor-pointer motion-safe:(transition-all) focus-within:(w-96 max-w-xs)" aria-label="Search comics collection">
-    <input type="search" x-ref="commandInput" x-model="commandSearch" class="peer w-0 bg-gray-500/10 text-(current sm) leading-none font-sans opacity-0 rounded-full placeholder:(italic) motion-safe:(transition) focus:(px-3 w-full opacity-100)" placeholder="Search" />
+    <input type="search" x-ref="commandInput" x-model="commandSearch" class="peer w-0 bg-gray-500/10 text-(current sm) leading-none font-sans opacity-0 rounded-full placeholder:(italic) [&::-webkit-search-cancel-button]:(ml-2 w-3 h-6 appearance-none bg-(close center no-repeat) block) motion-safe:(transition) focus:(px-3 w-full opacity-100)" placeholder="Search" />
     <span class="w-8 flex items-center justify-center pointer-events-none absolute inset-y-0 right-0 peer-focus:(hidden)">
       <iconify-icon icon="mdi:magnify" inline class="iconify text-[24px]"></iconify-icon>
     </span>
