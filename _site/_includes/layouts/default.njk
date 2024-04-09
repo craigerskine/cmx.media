@@ -72,6 +72,7 @@
       </header>
       <main class="flex-(& 1) relative z-10 lg:(mx-16)">
         <section class="w-full">
+          {%- if page.url !== '/' %}
           <div class="mx-auto px-4 py-12 max-w-7xl flex items-center justify-between md:(px-8) lg:(px-12)">
             {%- if page.filePathStem === '/misc/index' %}
             {%- set svg -%}{{ title | slugify }}{%- endset -%}
@@ -94,31 +95,11 @@
             {%- elseif title %}
             <h1 class="text-2xl leading-none font-black lg:(text-[calc(2.5vw)] leading-none)">{{ title }}</h1>
             {%- if page.filePathStem === '/comics' %}
-            {%- set comicsTitles = [] %}
-            {%- for type, items in collections.comics | groupby('data.title') %}
-              {%- set comicsTitles = (comicsTitles.push(type), comicsTitles) %}
-            {%- endfor %}
-            <div class="relative z-50" x-data="{ open: false, series: {{ comicsTitles | dump }} }">
-              <label class="w-8 h-8 flex cursor-pointer motion-safe:(transition-all) focus-within:(w-96 max-w-xs)" aria-label="Search comics collection">
-                <input type="search" @focus="open = true" @blur="open = false" class="peer w-0 bg-gray-500/10 text-(current sm) leading-none font-sans opacity-0 rounded-full placeholder:(italic) motion-safe:(transition) focus:(px-3 w-full opacity-100)" placeholder="Search" />
-                <span class="w-8 flex items-center justify-center pointer-events-none absolute inset-y-0 right-0 peer-focus:(hidden)">
-                  <iconify-icon icon="mdi:magnify" inline class="iconify text-[24px]"></iconify-icon>
-                </span>
-              </label>
-              <div x-show="open" :class="{ 'translate-y-1': open }" class="p-4 w-96 max-w-xs bg-pri-500 text-pri-900 absolute top-full right-0 rounded motion-safe:(transition) dark:(bg-pri-500 text-pri-900)"
-                x-transition:enter="transition ease-out duration-300"
-                x-transition:enter-start="opacity-0 scale-110 blur-lg"
-                x-transition:enter-end="opacity-100 scale-100"
-                x-transition:leave="transition ease-in duration-300"
-                x-transition:leave-start="opacity-100 scale-100"
-                x-transition:leave-end="opacity-0 scale-110 blur-lg"
-              >
-                Coming soon...
-              </div>
-            </div>
+            {%- include 'search.njk' -%}
             {%- endif %}
           {%- endif %}
           </div>
+          {%- endif %}
           {{ content | safe }}
         </section>
       </main>

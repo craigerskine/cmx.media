@@ -1,0 +1,119 @@
+{%- set comicSeries = [] %}
+{%- for type, items in collections.comics | groupby('data.title') %}
+  {%- set comicID = type | slugify -%}
+  {%- set comicSeries = comicSeries.concat([{ title: type, value: comicID, total: items.length, default: false }]) %}
+{%- endfor %}
+<div class="relative z-50" x-data="{ 
+  commandItems: { series: {{ comicSeries | dump }} },
+  commandItemsFiltered: [],
+  commandItemActive: null,
+  commandItemSelected: null,
+  commandId: $id('command'),
+  commandSearch: '',
+  commandSearchIsEmpty() {
+    return this.commandSearch.length == 0;
+  },
+  commandItemIsActive(item) {
+    return this.commandItemActive && this.commandItemActive.value==item.value;
+  },
+  commandItemActiveNext(){
+    let index = this.commandItemsFiltered.indexOf(this.commandItemActive);
+    if(index < this.commandItemsFiltered.length-1){
+      this.commandItemActive = this.commandItemsFiltered[index+1];
+      this.commandScrollToActiveItem();
+    }
+  },
+  commandItemActivePrevious(){
+    let index = this.commandItemsFiltered.indexOf(this.commandItemActive);
+    if(index > 0){
+      this.commandItemActive = this.commandItemsFiltered[index-1];
+      this.commandScrollToActiveItem();
+    }
+  },
+  commandItemActiveAction(){
+    console.log('Yo');
+  },
+  commandScrollToActiveItem(){
+    if(this.commandItemActive){
+      activeElement = document.getElementById(this.commandItemActive.value + '-' + this.commandId)
+      if(!activeElement) return;
+      newScrollPos = (activeElement.offsetTop + activeElement.offsetHeight) - this.$refs.commandItemsList.offsetHeight;
+      if(newScrollPos > 0){
+        this.$refs.commandItemsList.scrollTop=newScrollPos;
+      } else {
+        this.$refs.commandItemsList.scrollTop=0;
+      }
+    }
+  },
+  commandSearchItems() {
+    if(!this.commandSearchIsEmpty()){
+      searchTerm = this.commandSearch.replace(/\*/g, '').toLowerCase();
+      this.commandItemsFiltered = this.commandItems.filter(item => item.title.toLowerCase().includes(searchTerm));
+      this.commandScrollToActiveItem();
+    } else {
+      this.commandItemsFiltered = this.commandItems.filter(item => item.default);
+    }
+    this.commandItemActive = this.commandItemsFiltered[0];
+  },
+  commandItemsReorganize(){
+    commandItemsOriginal = this.commandItems;
+    keys = Object.keys(this.commandItems);
+    this.commandItems = [];
+    keys.forEach((key, index) => {
+      for(i=0; i<commandItemsOriginal[key].length; i++){
+        commandItemsOriginal[key][i].category = key;
+        this.commandItems.push( commandItemsOriginal[key][i] );
+      }
+    });
+  },
+  slugify(text) {
+    return text?.toString()
+      .toLowerCase()
+      .normalize('NFKD')
+      .trim()
+      .toLowerCase()
+      .replace(/[^\w\-]+/g, '-')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+  },
+}"
+x-init="commandItemsReorganize();
+  commandSearchItems();
+  $watch('commandSearch', value => commandSearchItems());
+  $watch('commandItemSelected', function(item){
+    if(item){
+      console.log('item:', item);
+    }
+  });"
+  @keydown.down="event.preventDefault(); commandItemActiveNext();" 
+  @keydown.up="event.preventDefault(); commandItemActivePrevious()" 
+  @keydown.enter="commandItemSelected=commandItemActive;"
+>
+  <label class="w-8 h-8 flex cursor-pointer motion-safe:(transition-all) focus-within:(w-96 max-w-xs)" aria-label="Search comics collection">
+    <input type="search" x-ref="commandInput" x-model="commandSearch" class="peer w-0 bg-gray-500/10 text-(current sm) leading-none font-sans opacity-0 rounded-full placeholder:(italic) motion-safe:(transition) focus:(px-3 w-full opacity-100)" placeholder="Search" />
+    <span class="w-8 flex items-center justify-center pointer-events-none absolute inset-y-0 right-0 peer-focus:(hidden)">
+      <iconify-icon icon="mdi:magnify" inline class="iconify text-[24px]"></iconify-icon>
+    </span>
+  </label>
+  <div x-ref="commandItemsList" x-show="commandItemsFiltered.length" class="p-2 w-96 max-w-xs bg-pri-500 text-pri-900 absolute top-full right-0 rounded motion-safe:(transition) dark:(bg-pri-500 text-pri-900)"
+    x-transition:enter="transition ease-out duration-300"
+    x-transition:enter-start="opacity-0 scale-110 blur-lg"
+    x-transition:enter-end="opacity-100 scale-100"
+    x-transition:leave="transition ease-in duration-300"
+    x-transition:leave-start="opacity-100 scale-100"
+    x-transition:leave-end="opacity-0 scale-110 blur-lg"
+  >
+    <template x-for="(item, index) in commandItemsFiltered" :key="'item-' + index" hidden>
+      <ul class="space-y-1">
+        <template x-if="(item.default && commandSearchIsEmpty()) || !commandSearchIsEmpty()" hidden>
+          <li>
+            <a :href="'/comics/'+ slugify(item.title) +'/'" :id="item.value + '-' + commandId" @mousemove="commandItemActive=item" :class="{ 'bg-neutral-100 text-gray-900' : commandItemIsActive(item) }" class="py-1.5 px-2 text-sm flex items-center rounded">
+              <span x-text="item.title"></span>
+              <span class="ml-auto text-xs tracking-widest text-muted-foreground" x-text="item.total"></span>
+            </a>
+          </li>
+        </template>
+      </ul>
+    </template>
+  </div>
+</div>
