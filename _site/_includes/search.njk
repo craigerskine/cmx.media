@@ -78,7 +78,7 @@ x-init="commandItemsReorganize();
   $watch('commandSearch', value => commandSearchItems());
   $watch('commandItemSelected', function(item){
     if(item){
-      console.log('item:', item);
+      // console.log('item:', item);
     }
   });"
   @keydown.down="event.preventDefault(); commandItemActiveNext();" 
@@ -95,10 +95,6 @@ x-init="commandItemsReorganize();
       class="peer w-0 bg-pri-500/10 text-(current sm) leading-none font-sans opacity-0 rounded-full placeholder:(italic) [&::-webkit-search-cancel-button]:(ml-2 w-3 h-6 appearance-none bg-(close center no-repeat) block) motion-safe:(transition) focus:(px-3 w-full opacity-100)"
       placeholder="Search"
     />
-    {# <kbd class="px-1 h-4 text-(gray-400 xs) font-sans ring-(1 gray-400/50) flex items-center justify-center gap-px pointer-events-none absolute top-1/2 right-2 -translate-y-1/2 rounded-sm peer-focus:(hidden)">
-      <kbd>⌘</kbd>
-      <kbd>K</kbd>
-    </kbd> #}
     <span class="w-8 flex items-center justify-center pointer-events-none absolute inset-y-0 right-0 peer-focus:(hidden)">
       <iconify-icon icon="mdi:magnify" inline class="iconify text-[24px]"></iconify-icon>
     </span>
