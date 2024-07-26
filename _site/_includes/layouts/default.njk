@@ -108,7 +108,7 @@
         <span class="inline-flex gap-4 font-bold">
           <a href="https://{{ site.meta.author_url }}">{{ site.meta.author }}</a>
           <span aria-hidden="true" class="text-pri-500">/</span>
-          1992 - {% year %}
+          <span>1992</span> - <span x-text="new Date().getFullYear()"></span>
         </span>
       </footer>
     </div>

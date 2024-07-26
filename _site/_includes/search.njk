@@ -1,10 +1,6 @@
-{%- set comicSeries = [] %}
-{%- for type, items in collections.comics | groupby('data.title') %}
-  {%- set comicID = type | slugify -%}
-  {%- set comicSeries = comicSeries.concat([{ title: type, value: comicID, total: items.length, default: false }]) %}
-{%- endfor %}
-<div class="relative z-50" x-data="{ 
-  commandItems: { series: {{ comicSeries | dump }} },
+<div class="relative z-50" x-data="{ commandItems: { series: [{% for type, items in collections.comics | groupby('data.title') %}
+  { title: '{{ type | replace("'", "’") }}', value: '{{ type | slugify }}', total: {{ items.length }}, default: false },
+  {%- endfor %}] },
   commandItemsFiltered: [],
   commandItemActive: null,
   commandItemSelected: null,
@@ -31,7 +27,7 @@
     }
   },
   commandItemActiveAction(){
-    console.log('Yo');
+    // console.log('Yo');
   },
   commandScrollToActiveItem(){
     if(this.commandItemActive){
