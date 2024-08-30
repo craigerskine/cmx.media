@@ -6,7 +6,7 @@ full_title: Belles of the Ball
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Peter David

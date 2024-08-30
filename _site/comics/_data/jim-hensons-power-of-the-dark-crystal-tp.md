@@ -6,7 +6,7 @@ full_title:
 subtitle:
 story_arc:
 crossover:
-variant: TP
+variant: ""
 publisher: Boom! Studios
 creators:
 release_date: Jan 02, 2019

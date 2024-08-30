@@ -6,7 +6,7 @@ full_title: Jungle Flowers Grown in Blood
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Sam Kieth

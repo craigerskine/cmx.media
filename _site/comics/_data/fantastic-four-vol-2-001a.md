@@ -6,7 +6,7 @@ full_title: Renaissance
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Shon C. Bury

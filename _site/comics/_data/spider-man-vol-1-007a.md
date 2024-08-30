@@ -6,7 +6,7 @@ full_title: "Masques, Part 2"
 subtitle: ""
 story_arc: Masques
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Todd McFarlane

@@ -6,7 +6,7 @@ full_title: Great X-Pectations
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Peter David

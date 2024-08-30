@@ -6,7 +6,7 @@ full_title: A Nightmare Walking
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Erik Larsen

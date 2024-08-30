@@ -6,7 +6,7 @@ full_title: "Questions, Part 2"
 subtitle: ""
 story_arc: Questions
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Todd McFarlane

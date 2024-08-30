@@ -6,7 +6,7 @@ full_title: "X-Tenuating Circumstances, Part 2: Underground and Over the Top"
 subtitle: ""
 story_arc: X-Tenuating Circumstances
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Fabian Nicieza

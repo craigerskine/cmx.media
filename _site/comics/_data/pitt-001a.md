@@ -6,7 +6,7 @@ full_title: Fight & Flight!
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Fabian Nicieza

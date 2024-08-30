@@ -6,7 +6,7 @@ full_title: "Killer Instinct, Chapter One"
 subtitle: ""
 story_arc: Killer Instinct
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Brandon Choi

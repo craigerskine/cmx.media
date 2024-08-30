@@ -6,7 +6,7 @@ full_title: Prophecy
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Rob Liefeld

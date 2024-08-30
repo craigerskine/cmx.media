@@ -6,7 +6,7 @@ full_title: The Heart of Darkness
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: C
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Jim Lee

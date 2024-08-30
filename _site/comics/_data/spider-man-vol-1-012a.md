@@ -6,7 +6,7 @@ full_title: "Perceptions, Perceptions, Part 5 of 5"
 subtitle: ""
 story_arc: Perceptions
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Todd McFarlane

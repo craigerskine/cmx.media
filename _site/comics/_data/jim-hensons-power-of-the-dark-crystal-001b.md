@@ -6,7 +6,7 @@ full_title: ""
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: B
+variant: ""
 publisher: Boom! Studios
 creators: 
   - Scott Lobdell

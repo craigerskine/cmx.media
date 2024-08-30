@@ -6,7 +6,7 @@ full_title: NYCC Exclusive Sketch Variant
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: L
+variant: ""
 publisher: Image Comics
 creators: 
   - Greg Capullo

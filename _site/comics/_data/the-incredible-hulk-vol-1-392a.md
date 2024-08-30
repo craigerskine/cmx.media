@@ -6,7 +6,7 @@ full_title: "War & Pieces, Part 3: Fortunes of War"
 subtitle: ""
 story_arc: War & Pieces
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Peter David

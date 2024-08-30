@@ -6,7 +6,7 @@ full_title: "Revenge of the Sinister Six, Part Three: Showdown / Diabolique Part
 subtitle: ""
 story_arc: Revenge of the Sinister Six
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Erik Larsen

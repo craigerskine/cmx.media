@@ -6,7 +6,7 @@ full_title: Reflections, Part 2
 subtitle: ''
 story_arc: Reflections
 crossover: ''
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Todd McFarlane

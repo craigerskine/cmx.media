@@ -6,7 +6,7 @@ full_title: Reunification
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Brandon Choi

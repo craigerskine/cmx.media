@@ -6,7 +6,7 @@ full_title: Resolution
 subtitle: For Whom the Bell Tolls. . .
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Jim Lee

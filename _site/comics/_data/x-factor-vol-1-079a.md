@@ -6,7 +6,7 @@ full_title: Rhapsody In Blue
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Peter David

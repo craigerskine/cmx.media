@@ -6,7 +6,7 @@ full_title: "The Extremist Vector, Part 3: On The Brink!"
 subtitle: ""
 story_arc: The Extremist Vector
 crossover: ""
-variant: A
+variant: ""
 publisher: DC Comics
 creators: 
   - J.M. DeMatteis

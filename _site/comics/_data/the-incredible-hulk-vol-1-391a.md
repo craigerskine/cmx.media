@@ -6,7 +6,7 @@ full_title: "War & Pieces, Part 2: X-Calation"
 subtitle: ""
 story_arc: War & Pieces
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Alan Grant

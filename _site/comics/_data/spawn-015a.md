@@ -6,7 +6,7 @@ full_title: "Myths, Part 2"
 subtitle: ""
 story_arc: Myths
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Todd McFarlane

@@ -6,7 +6,7 @@ full_title: "Payback, Part 1"
 subtitle: ""
 story_arc: Payback
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Todd McFarlane

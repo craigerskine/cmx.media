@@ -6,7 +6,7 @@ full_title: "Flashback, Part 2"
 subtitle: ""
 story_arc: Flashback
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Todd McFarlane

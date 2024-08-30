@@ -6,7 +6,7 @@ full_title: Home Story
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Dave Sim

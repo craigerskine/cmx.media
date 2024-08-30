@@ -6,7 +6,7 @@ full_title: Heart of the Matter
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Peter David

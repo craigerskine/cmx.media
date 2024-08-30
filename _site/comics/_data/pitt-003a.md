@@ -6,7 +6,7 @@ full_title: The Killing Gate / Crash Of Souls
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Dale Keown

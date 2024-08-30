@@ -6,7 +6,7 @@ full_title: The X-Men Vs. The X-Men! (Again)
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Scott Lobdell

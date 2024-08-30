@@ -6,7 +6,7 @@ full_title: Crossing Over
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Neil Gaiman

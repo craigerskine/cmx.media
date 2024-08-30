@@ -6,7 +6,7 @@ full_title: Tribe
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Jim Starlin

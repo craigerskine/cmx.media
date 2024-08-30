@@ -6,7 +6,7 @@ full_title: Blowback
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - John Byrne

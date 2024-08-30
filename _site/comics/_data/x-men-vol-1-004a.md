@@ -6,7 +6,7 @@ full_title: The Resurrection and the Flesh
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Chris Claremont

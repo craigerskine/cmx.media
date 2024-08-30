@@ -6,7 +6,7 @@ full_title: Inside ... Out!
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Scott Lobdell

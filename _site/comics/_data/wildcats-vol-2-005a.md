@@ -6,7 +6,7 @@ full_title: Coda-fied
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: DC Comics
 creators: 
   - Scott Lobdell

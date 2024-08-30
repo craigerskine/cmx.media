@@ -16,7 +16,8 @@ eleventyComputed:
   {%- for type, items in collections.comics | groupby('data.title') %}
     {% if type == comic %}
       {% for item in items %}
-      {{ el.listitem(title=item.data.issue,sub=item.data.release_date,signed=item.data.signed_by,image='/_assets/img/comics/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',loop=loop) }}
+      {%- set details -%}{{ item.data.issue }} {{ item.data.variant }}{%- endset -%}
+      {{ el.listitem(title=details,sub=item.data.release_date,signed=item.data.signed_by,image='/_assets/img/comics/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',loop=loop) }}
       {% endfor %}
     {% endif %}
   {%- endfor %}

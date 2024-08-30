@@ -6,7 +6,7 @@ full_title: The Blood Hunters
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators:
 release_date: "Jul 30, 1991"

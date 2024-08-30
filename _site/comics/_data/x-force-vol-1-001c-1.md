@@ -6,7 +6,7 @@ full_title: A Force To Be Reckoned With
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: C-1
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Fabian Nicieza

@@ -6,7 +6,7 @@ full_title: Under the Gun
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Rob Liefeld

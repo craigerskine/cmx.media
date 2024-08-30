@@ -6,7 +6,7 @@ full_title: Torment
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: TP-A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - David Michelinie

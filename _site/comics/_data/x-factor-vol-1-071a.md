@@ -6,7 +6,7 @@ full_title: Cutting the Mustard
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Brett Booth

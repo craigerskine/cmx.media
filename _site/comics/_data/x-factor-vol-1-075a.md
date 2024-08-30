@@ -6,7 +6,7 @@ full_title: The Nasty Boys
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Peter David

@@ -6,7 +6,7 @@ full_title: ""
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: B
+variant: ""
 publisher: Marvel Comics and Image Comics
 creators: 
   - Larry Stroman

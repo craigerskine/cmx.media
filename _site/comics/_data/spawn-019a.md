@@ -6,7 +6,7 @@ full_title: Showtime, Part 1
 subtitle: ''
 story_arc: Showtime
 crossover: ''
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Todd McFarlane

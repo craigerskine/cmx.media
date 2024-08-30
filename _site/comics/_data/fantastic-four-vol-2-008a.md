@@ -6,7 +6,7 @@ full_title: The Ties That Bind
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Brett Booth

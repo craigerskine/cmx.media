@@ -6,7 +6,7 @@ full_title: ""
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: HC
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Scott Lobdell

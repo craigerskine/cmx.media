@@ -6,7 +6,7 @@ full_title: "Blood Feud!, Part 2"
 subtitle: ""
 story_arc: Blood Feud!
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - J. Scott Campbell

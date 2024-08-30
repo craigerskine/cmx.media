@@ -6,7 +6,7 @@ full_title: With Great Responsibility -- !
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Erik Larsen

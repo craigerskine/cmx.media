@@ -6,7 +6,7 @@ full_title: A Gathering Of Eagles
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - H.K. Proger

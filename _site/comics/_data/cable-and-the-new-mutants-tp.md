@@ -6,7 +6,7 @@ full_title: "New Mutants, Vol. 1 #87-94"
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: TP
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Louise Simonson

@@ -6,7 +6,7 @@ full_title: The Not So Big Easy
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Scott Lobdell

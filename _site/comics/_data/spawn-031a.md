@@ -6,7 +6,7 @@ full_title: The Homecoming
 subtitle: ''
 story_arc: ''
 crossover: ''
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Todd McFarlane

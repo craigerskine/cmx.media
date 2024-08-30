@@ -6,7 +6,7 @@ full_title: Prophecy
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: B
+variant: ""
 publisher: Image Comics
 creators: 
   - Eric Stephenson

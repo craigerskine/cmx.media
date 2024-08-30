@@ -6,7 +6,7 @@ full_title: The Mutant Factor!
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Todd McFarlane

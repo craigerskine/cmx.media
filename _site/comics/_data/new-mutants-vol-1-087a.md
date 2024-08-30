@@ -6,7 +6,7 @@ full_title: A Show Of Power!
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Sam Kieth

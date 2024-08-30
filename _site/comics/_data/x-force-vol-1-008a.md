@@ -6,7 +6,7 @@ full_title: "X-Tenuating Circumstances, Part 1: Flashed Before My Eyes"
 subtitle: ""
 story_arc: X-Tenuating Circumstances
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Rob Liefeld

@@ -6,7 +6,7 @@ full_title: Battle Cry
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Rob Liefeld

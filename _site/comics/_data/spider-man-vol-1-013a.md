@@ -6,7 +6,7 @@ full_title: "Sub-City, Part One"
 subtitle: ""
 story_arc: Sub-City
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Todd McFarlane

@@ -6,7 +6,7 @@ full_title: Setup, Part 2
 subtitle: ''
 story_arc: Setup
 crossover: ''
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Todd McFarlane

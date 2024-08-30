@@ -6,7 +6,7 @@ full_title: "The Tin Men Of War, Part 4"
 subtitle: ""
 story_arc: The Tin Men Of War
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Marc Silvestri

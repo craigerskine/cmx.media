@@ -6,7 +6,7 @@ full_title: Just Say No
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: B
+variant: ""
 publisher: Continuity Comics
 creators: 
   - Peter Stone

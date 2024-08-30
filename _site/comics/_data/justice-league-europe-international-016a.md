@@ -6,7 +6,7 @@ full_title: "The Extremist Vector, Part 2: Conquest"
 subtitle: ""
 story_arc: The Extremist Vector
 crossover: ""
-variant: A
+variant: ""
 publisher: DC Comics
 creators: 
   - Keith Giffen

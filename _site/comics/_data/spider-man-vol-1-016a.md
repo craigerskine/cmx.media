@@ -6,7 +6,7 @@ full_title: Sabotage - Part 1
 subtitle: ""
 story_arc: ""
 crossover: Sabotage
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Erik Larsen

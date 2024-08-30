@@ -6,7 +6,7 @@ full_title: The Hunt, Part 2
 subtitle: ''
 story_arc: The Hunt
 crossover: ''
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Todd McFarlane

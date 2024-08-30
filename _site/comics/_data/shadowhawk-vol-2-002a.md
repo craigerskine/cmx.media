@@ -6,7 +6,7 @@ full_title: The Secret Revealed
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Jim Valentino

@@ -6,7 +6,7 @@ full_title: Twisted
 subtitle: ''
 story_arc: ''
 crossover: ''
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Todd McFarlane

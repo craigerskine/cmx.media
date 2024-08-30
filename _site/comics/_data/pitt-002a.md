@@ -6,7 +6,7 @@ full_title: Dead or Alive
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Brian Hotton

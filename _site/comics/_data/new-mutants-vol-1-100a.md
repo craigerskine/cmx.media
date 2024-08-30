@@ -6,7 +6,7 @@ full_title: The End Of The Beginning
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Louise Simonson

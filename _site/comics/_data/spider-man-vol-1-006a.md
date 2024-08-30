@@ -6,7 +6,7 @@ full_title: "Masques, Part 1"
 subtitle: ""
 story_arc: Masques
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Brian Holguin

@@ -6,7 +6,7 @@ full_title: Repercussions
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Jim Lee

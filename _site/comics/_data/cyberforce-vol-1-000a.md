@@ -6,7 +6,7 @@ full_title: Mindgames
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Eric Silvestri

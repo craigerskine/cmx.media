@@ -6,7 +6,7 @@ full_title: "Part 4: Vengeance. Pure and Simple."
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Howard Mackie

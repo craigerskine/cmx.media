@@ -6,7 +6,7 @@ full_title: Youngblood
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: D
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Rob Liefeld

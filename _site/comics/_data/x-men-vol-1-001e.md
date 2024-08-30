@@ -6,7 +6,7 @@ full_title: Rubicon
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: E
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Chris Claremont

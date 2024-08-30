@@ -6,7 +6,7 @@ full_title: Gen 13
 subtitle: Collected Edition
 story_arc: ""
 crossover: ""
-variant: TP
+variant: ""
 publisher: Image Comics
 creators: 
   - Brett Booth

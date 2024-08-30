@@ -6,7 +6,7 @@ full_title: Under the Knife
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Rob Liefeld

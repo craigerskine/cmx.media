@@ -6,7 +6,7 @@ full_title: A Force to be Reckoned With
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: B
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Peter David

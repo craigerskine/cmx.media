@@ -6,7 +6,7 @@ full_title: ""
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: TP
+variant: ""
 publisher: DC Comics
 creators: 
   - Brandon Choi

@@ -6,7 +6,7 @@ full_title: Last Blood
 subtitle: Bloody Trade Dress
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Rob Liefeld
 creators: 
   - Rob Liefeld

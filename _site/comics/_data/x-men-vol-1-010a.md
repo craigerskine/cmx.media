@@ -6,7 +6,7 @@ full_title: Where Happy Little Bluebirds Fly..
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Scott Lobdell

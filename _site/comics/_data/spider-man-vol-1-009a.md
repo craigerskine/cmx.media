@@ -6,7 +6,7 @@ full_title: "Perceptions, Part 2"
 subtitle: ""
 story_arc: Perceptions
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Todd McFarlane

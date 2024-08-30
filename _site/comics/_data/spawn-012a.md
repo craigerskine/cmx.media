@@ -6,7 +6,7 @@ full_title: "Flashback, Part 1"
 subtitle: ""
 story_arc: Flashback
 crossover: ""
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Frank Miller

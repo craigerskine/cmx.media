@@ -6,7 +6,7 @@ full_title: Fugitives, Part 2
 subtitle: ''
 story_arc: Fugitives
 crossover: ''
-variant: A
+variant: ""
 publisher: Image Comics
 creators: 
   - Todd McFarlane

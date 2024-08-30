@@ -6,7 +6,7 @@ full_title: Rubicon
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: D
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Jim Lee

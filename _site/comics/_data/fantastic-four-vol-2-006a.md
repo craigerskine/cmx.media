@@ -6,7 +6,7 @@ full_title: Industrial Revolution - Retribution
 subtitle: "Industrial Revolution: Prologue for Heroes Reborn"
 story_arc: ""
 crossover: Industrial Revolution
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Jim Lee

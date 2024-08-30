@@ -6,7 +6,7 @@ full_title: Farther Still
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: A
+variant: ""
 publisher: Marvel Comics
 creators: 
   - John Byrne

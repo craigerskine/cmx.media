@@ -6,7 +6,7 @@ full_title: ""
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: "White paint"
+variant: ""
 publisher: Marvel Comics
 creators: 
   - Rob Liefeld
