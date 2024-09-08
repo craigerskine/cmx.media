@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/default.njk'
+layout: layouts/default.njk
 pagination:
   data: collections.comicsByTitle
   size: 1
@@ -10,15 +10,21 @@ eleventyComputed:
   cover: '/_assets/img/comics/{{ comic | slugify }}/series.jpg'
 ---
 
-{%- import 'components/el.njk' as el -%}
+{%- from 'macro.list.njk' import list, listItem -%}
 
-{% call el.list() %}
+{%- call list() %}
   {%- for type, items in collections.comics | groupby('data.title') %}
-    {% if type == comic %}
-      {% for item in items %}
-      {%- set details -%}{{ item.data.issue }} {{ item.data.variant }}{%- endset -%}
-      {{ el.listitem(title=details,sub=item.data.release_date,signed=item.data.signed_by,image='/_assets/img/comics/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',loop=loop) }}
-      {% endfor %}
-    {% endif %}
+    {%- if type == comic %}
+      {%- for item in items %}
+        {%- set details -%}{{ item.data.issue }} {{ item.data.variant }}{%- endset -%}
+        {{ listItem({
+          title: details,
+          sub: item.data.release_date,
+          signed: item.data.signed_by,
+          image: '/_assets/img/comics/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
+          loop: loop
+        }) }}
+      {%- endfor %}
+    {%- endif %}
   {%- endfor %}
-{% endcall %}
+{%- endcall %}

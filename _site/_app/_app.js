@@ -58,11 +58,35 @@ injectGlobal`
   @layer base {
     [x-cloak] { @apply hidden; }
     .iconify { @apply block; }
+    .tippy-box[data-state="hidden"] { @apply opacity-0 translate-y-1; }
+    [data-tippy-root] { @apply max-w-[calc(100vw-10px)]; }
+    .tippy-box { @apply bg-black text-(white xs) font-semibold relative outline-0 opacity-100 rounded translate-y-0 motion-safe:(transition duration-75); }
+    .tippy-box[data-placement^="top"] > .tippy-arrow { @apply bottom-0 before:(bottom-[-7px] left-0 border-(t-[8px] r-[8px] b-0 l-[8px] t-[initial])) origin-top; }
+    .tippy-box[data-placement^="bottom"] > .tippy-arrow { @apply top-0 before:(top-[-7px] left-0 border-(t-0 r-[8px] b-[8px] l-[8px] b-[initial])) origin-bottom; }
+    .tippy-box[data-placement^="left"] > .tippy-arrow {@apply right-0 before:(right-[-7px] border-(t-[8px] r-0 b-[8px] l-[8px] l-[initial])) origin-left; }
+    .tippy-box[data-placement^="right"] > .tippy-arrow { @apply left-0 before:(left-[-7px] border-(t-[8px] r-[8px] b-[8px] l-0 r-[initial]) origin-right); }
+    .tippy-arrow { @apply w-4 h-4 text-black absolute before:(content-[''] absolute border-(transparent solid)); }
+    .tippy-content { @apply py-1 px-2 relative z-[1]; }
   }
 `
 
 // alpine
 import Alpine from 'alpinejs';
-window.Alpine = Alpine;
+import tippy from 'tippy.js';
 
+document.addEventListener('alpine:init', () => {
+  // tooltip
+  // magic: @focus="$tooltip('some tooltip')"
+  Alpine.magic('tooltip', el => message => {
+    let instance = tippy(el, { content: message })
+    instance.show()
+  });
+  // directive: x-tooltip="'some tooltip'"
+  Alpine.directive('tooltip', (el, { expression }, { evaluate }) => {
+    tippy(el, { content: evaluate(expression) })
+  });
+});
+
+//Alpine.plugin();
+window.Alpine = Alpine;
 Alpine.start();

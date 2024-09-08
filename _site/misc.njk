@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/default.njk'
+layout: layouts/default.njk
 title: Misc
 eleventyComputed:
   eleventyNavigation:
@@ -8,10 +8,15 @@ eleventyComputed:
     order: 3
 ---
 
-{%- import 'components/el.njk' as el -%}
+{%- from 'macro.list.njk' import list, listItem -%}
 
-{%- call el.list() %}
-{%- for type, items in collections.misc | groupby('data.title') %}
-  {{ el.listitem(title=type,sub=items.length,svg=type | slugify,url='/misc/'+ type | slugify +'/') }}
-{%- endfor %}
+{%- call list() %}
+  {%- for type, items in collections.misc | groupby('data.title') %}
+    {{ listItem({
+      title: type,
+      sub: items.length,
+      svg: type | slugify,
+      url: '/misc/'+ type | slugify +'/'
+    }) }}
+  {%- endfor %}
 {%- endcall %}

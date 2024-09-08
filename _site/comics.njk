@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/default.njk'
+layout: layouts/default.njk
 title: Comics
 eleventyComputed:
   eleventyNavigation:
@@ -8,10 +8,15 @@ eleventyComputed:
     order: 1
 ---
 
-{%- import 'components/el.njk' as el -%}
+{%- from 'macro.list.njk' import list, listItem -%}
 
-{%- call el.list() %}
-{%- for type, items in collections.comics | groupby('data.title') %}
-  {{ el.listitem(title=type,sub=items.length,image='/_assets/img/comics/'+ type | slugify +'/series.jpg',url='/comics/'+ type | slugify +'/') }}
-{%- endfor %}
+{%- call list() %}
+  {%- for type, items in collections.comics | groupby('data.title') %}
+    {{ listItem({
+      title: type,
+      sub: items.length,
+      image: '/_assets/img/comics/'+ type | slugify +'/series.jpg',
+      url: '/comics/'+ type | slugify +'/'
+    }) }}
+  {%- endfor %}
 {%- endcall %}

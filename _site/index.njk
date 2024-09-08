@@ -1,21 +1,21 @@
 ---
-layout: 'layouts/default.njk'
+layout: layouts/default.njk
 ---
 
-{%- set pricesComics = [] %}
-{%- for p in collections.comics %}
-  {%- set pricesComics = (pricesComics.push(p.data.price), pricesComics) %}
-{%- endfor %}
+{%- set pricesComics = [] -%}
+{%- for p in collections.comics -%}
+  {%- set pricesComics = (pricesComics.push(p.data.price), pricesComics) -%}
+{%- endfor -%}
 
-{%- set pricesZines = [] %}
-{%- for p in collections.magazines %}
-  {%- set pricesZines = (pricesZines.push(p.data.price), pricesZines) %}
-{%- endfor %}
+{%- set pricesZines = [] -%}
+{%- for p in collections.magazines -%}
+  {%- set pricesZines = (pricesZines.push(p.data.price), pricesZines) -%}
+{%- endfor -%}
 
-{%- set pricesMisc = [] %}
-{%- for p in collections.misc %}
-  {%- set pricesMisc = (pricesMisc.push(p.data.price), pricesMisc) %}
-{%- endfor %}
+{%- set pricesMisc = [] -%}
+{%- for p in collections.misc -%}
+  {%- set pricesMisc = (pricesMisc.push(p.data.price), pricesMisc) -%}
+{%- endfor -%}
 
 {%- macro data(name='name', itemsTotal='itemsTotal', seriesTotal='seriesTotal', price='price', color='pri-50', bg='/_assets/img/comics/the-creech/series.jpg') %}
   <a href="/{{ name | slugify }}/" class="group py-3 bg-{{ color }}-100/30 font-semibold flex relative overflow-hidden motion-safe:(transition) hover:(text-{{ color }}-800 opacity-100) lg:(py-32)">
@@ -37,10 +37,6 @@ layout: 'layouts/default.njk'
 {%- endmacro %}
 
 <article class="divide-(y dashed pri-500/20) w-full h-full text-pri-500 grid-(& cols-1) lg:(divide-x grid-cols-3)">
-  <h1 class="w-28 h-28 bg-gray-500/20 text-6xl leading-none font-black hidden items-center justify-center absolute top-10 left-1/2 z-20 pointer-events-none rounded-full -translate-x-1/2 dark:(shadow-2xl) lg:(flex-(& col))">
-    <b>cmx</b>
-    <small class="text-4xl leading-none tracking-wider uppercase opacity-50">media</small>
-  </h1>
   {{ data(name='Comics', itemsTotal=(collections.comics | length), seriesTotal=(collections.comicsByTitle | length), price=(pricesComics | sum | round), color='pri', bg='/_assets/img/data-comics.jpg') }}
   {{ data(name='Magazines', itemsTotal=(collections.magazines | length), seriesTotal=(collections.magazinesByTitle | length), price=(pricesZines | sum | round), color='pri', bg='/_assets/img/data-zines.jpg') }}
   {{ data(name='Misc', itemsTotal=(collections.misc | length), seriesTotal=(collections.miscByTitle | length), price=(pricesMisc | sum | round), color='pri', bg='/_assets/img/data-misc.jpg') }}
