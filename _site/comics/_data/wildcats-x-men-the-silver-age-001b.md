@@ -8,14 +8,18 @@ story_arc: ""
 crossover: ""
 variant: ""
 publisher: Marvel Comics and Image Comics
-creators: 
+creators:
   - Scott Lobdell
   - Homage Studios
   - Travis Charest
 release_date: Jun 1997
 release_year: 1997
 genre:
-  - ""
+  - Action
+  - Adventure
+  - Historic
+  - Super-Heroes
+  - War
 format: Comic
 pages: 0
 signed_by: ""

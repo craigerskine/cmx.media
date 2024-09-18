@@ -9,7 +9,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setServerOptions({
     domdiff: false,
-  });  
+  });
 
   eleventyConfig.setDataFileBaseName('_data');
 
@@ -19,10 +19,10 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addWatchTarget('./_site/_app/_app.js');
-  
+
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  
+
   //{% renderTemplate "md" %}
   //# Blah{.text-center}
   //{% endrenderTemplate %}
@@ -33,6 +33,19 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
 
   // collections
+  eleventyConfig.addCollection('comicsCurrent', (collection) => {
+    const items = collection.getFilteredByTag('comics');
+    const grouped = {};
+    items.forEach(item => {
+      if (item.data.title) {
+        if (!grouped[item.data.title]) {
+          grouped[item.data.title] = [];
+        }
+        grouped[item.data.title].push(item);
+      }
+    });
+    return grouped;
+  });
   eleventyConfig.addCollection('comicsByTitle', (collection) => {
     const items = collection.getFilteredByTag('comics');
     const series = items.map(item => item.data.title);

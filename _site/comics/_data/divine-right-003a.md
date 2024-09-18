@@ -8,14 +8,14 @@ story_arc: ""
 crossover: ""
 variant: ""
 publisher: Image Comics
-creators: 
+creators:
   - Jim Lee
   - Scott Williams
   - Sal Regla
 release_date: Nov 1997
 release_year: 1997
 genre:
-  - ""
+  - Fantasy
 format: Comic
 pages: 32
 signed_by: ""

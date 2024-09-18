@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en" class="bg-transparent antialiased" x-data>
+<html lang="en" class="bg-transparent antialiased [&:has(:is(dialog[open]))]:(overflow-hidden [scrollbar-gutter:stable])" x-data="app" @comic.window="comicData = $event.detail.data">
 
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>{%- if title -%}{{ title +' // ' }}{%- endif -%} {{ site.meta.title +' // '+ site.meta.sub }}</title>
+    <title>{%- if title -%}{{ title + site.meta.separator }}{%- endif -%} {{ site.meta.title + site.meta.separator + site.meta.sub }}</title>
     <meta name="description" content="{{ site.meta.description }}" />
     <meta name="author" content="{{ site.meta.author +' - '+ site.meta.author_url }}" />
     <meta name="generator" content="{{ eleventy.generator }}" />
@@ -111,6 +111,15 @@
       </footer>
     </div>
 
+    {%- if collections.comicsCurrent[title].length -%}{%- include 'dialog.comic.njk' -%}{%- endif -%}
+
+    <script>
+      document.addEventListener('alpine:init', () => {
+        Alpine.data('comics', () => ({
+{%- renderblock xdata -%}
+        }));
+      });
+    </script>
     <script src="/_assets/js/_app.js?v={% bust %}"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6JMS932MJ"></script>

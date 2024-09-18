@@ -75,6 +75,22 @@ import Alpine from 'alpinejs';
 import tippy from 'tippy.js';
 
 document.addEventListener('alpine:init', () => {
+  Alpine.data('app', () => ({
+    comicData: [],
+    slugify(text) {
+      return text?.toString()
+        .toLowerCase()
+        .trim()
+        .replace(/\s+/g, '-')
+        .replace('.', '-')
+        .replace('&', '-and-')
+        .normalize('NFKD')
+        .replace(/[^\w\-]+/g, '')
+        .replace(/\-\-+/g, '-')
+        .replace(/^-+/, '')
+        .replace(/-+$/, '') || ''
+    },
+  }));
   // tooltip
   // magic: @focus="$tooltip('some tooltip')"
   Alpine.magic('tooltip', el => message => {

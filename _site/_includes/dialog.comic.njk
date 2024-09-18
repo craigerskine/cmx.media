@@ -1,0 +1,82 @@
+{%- macro dt(param) -%}
+<div class="px-4 py-6 sm:(grid-(& cols-3) gap-4 px-0)">
+  <dt class="text-sm leading-6 font-semibold">{{ param.label }}</dt>
+  <dd class="mt-1 text-(pri-500 sm) leading-6 sm:(col-span-2 mt-0)">{{ caller() }}</dd>
+</div>
+{%- endmacro -%}
+
+<template x-teleport="body">
+  <dialog x-ref="details" class="
+  dialog
+  m-0
+  p-0
+  w-full
+  max-w-none
+  h-full
+  max-h-none
+  min-h-screen
+  bg-transparent
+  text-[inherit]
+  invisible
+  grid
+  items-center
+  justify-items-center
+  fixed
+  inset-0
+  pointer-events-none
+  overflow-y-hidden
+  [overscroll-behavior:contain]
+  opacity-0
+  motion-safe:(transition-all)
+  [&[open]]:(pointer-events-auto visible opacity-100)
+  [&[open]_.dialog-box]:(translate-y-0 scale-100)
+  [&::backdrop]:(bg-black/40 dark:(bg-black/70))
+  ">
+    <div class="
+      dialog-box
+      px-6
+      w-11/12
+      max-w-lg
+      max-h-[calc(100vh-5em)]
+      bg-pri-50
+      text-gray-900
+      col-start-1
+      row-start-1
+      overflow-y-auto
+      [overscroll-behavior:contain]
+      -translate-y-3
+      scale-95
+      motion-safe:(transition-all)
+    ">
+      <header class="py-4 bg-pri-50 flex-(& row-reverse none) items-center justify-between sticky top-0">
+        <form method="dialog"><button class="btn btn-ghost btn-circle"><iconify-icon icon="mdi:close" width="24px" height="24px" class="iconify"></iconify-icon></button></form>
+        <h2 class="text-xl flex items-center gap-2"><strong x-text="comicData.title"></strong> <small x-text="'#'+ comicData.issue" class="text-pri-500"></small></h2>
+      </header>
+      {# <picture>
+        <img
+          :src="'/_assets/img/comics/'+ slugify(comicData.title) +'/'+ slugify(comicData.issue) +'.jpg'"
+          :alt="comicData.title +' '+ comicData.issue +' cover art'"
+          class="mx-auto w-full max-w-[20rem]"
+        />
+      </picture> #}
+      <div class="pb-4">
+        <dl class="divide-(y gray-500/20)">
+          <template x-if="comicData.full_title" hidden>{%- call dt({label: 'Full title:'}) -%}<span x-text="comicData.full_title"></span>{%- endcall -%}</template>
+          <template x-if="comicData.subtitle" hidden>{%- call dt({label: 'Subtitle:'}) -%}<span x-text="comicData.subtitle"></span>{%- endcall -%}</template>
+          <template x-if="comicData.story_arc" hidden>{%- call dt({label: 'Arc:'}) -%}<span x-text="comicData.story_arc"></span>{%- endcall -%}</template>
+          <template x-if="comicData.crossover" hidden>{%- call dt({label: 'Crossover:'}) -%}<span x-text="comicData.crossover"></span>{%- endcall -%}</template>
+          <template x-if="comicData.variant" hidden>{%- call dt({label: 'Variant:'}) -%}<span x-text="comicData.variant"></span>{%- endcall -%}</template>
+          <template x-if="comicData.publisher" hidden>{%- call dt({label: 'Publisher:'}) -%}<span x-text="comicData.publisher"></span>{%- endcall -%}</template>
+          <template x-if="comicData.creators" hidden>{%- call dt({label: 'Creators:'}) -%}<template x-for="item in comicData.creators" hidden><span x-text="item" class="block"></span></template>{%- endcall -%}</template>
+          <template x-if="comicData.release_date" hidden>{%- call dt({label: 'Released:'}) -%}<span x-text="comicData.release_date"></span>{%- endcall -%}</template>
+          <template x-if="comicData.genre" hidden>{%- call dt({label: 'Genre:'}) -%}<template x-for="item in comicData.genre" hidden><span x-text="item" class="block"></span></template>{%- endcall -%}</template>
+          <template x-if="comicData.format" hidden>{%- call dt({label: 'Format:'}) -%}<span x-text="comicData.format"></span>{%- endcall -%}</template>
+          <template x-if="comicData.pages" hidden>{%- call dt({label: 'Pages:'}) -%}<span x-text="comicData.pages"></span>{%- endcall -%}</template>
+          <template x-if="comicData.signed_by" hidden>{%- call dt({label: 'Signed by:'}) -%}<span x-text="comicData.signed_by"></span>{%- endcall -%}</template>
+          <template x-if="comicData.price" hidden>{%- call dt({label: 'Price:'}) -%}$<span x-text="comicData.price"></span>{%- endcall -%}</template>
+        </dl>
+      </div>
+    </div>
+    <form method="dialog" class="dialog-backdrop text-transparent grid [grid-column-start:1] [grid-row-start:1] self-stretch justify-self-stretch z-[-1]"><button>close</button></form>
+  </dialog>
+</template>

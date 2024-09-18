@@ -8,14 +8,16 @@ story_arc: ""
 crossover: ""
 variant: ""
 publisher: Marvel Comics
-creators: 
+creators:
   - Shon C. Bury
   - Dan Norton
   - Sandra Hope
 release_date: "Sep 04, 1996"
 release_year: 1996
 genre:
-  - ""
+  - Action
+  - Adventure
+  - Super-Heroes
 format: Comic
 pages: 56
 signed_by: ""

@@ -1,4 +1,4 @@
-{%- macro list() -%}
+{%- macro list(param) -%}
 <ul class="mx-auto px-4 pb-12 w-full max-w-7xl grid-(& cols-2) gap-x-6 gap-y-12 md:(px-8 grid-cols-3 gap-x-12) lg:(px-12 grid-cols-4 gap-x-16)">
   {{ caller() }}
 </ul>
@@ -16,10 +16,10 @@
   -#}
   {%- set image -%}{{- param.image if param.image else '/_assets/img/_comic.jpg' -}}{%- endset -%}
   <li>
-    {%- if param.url %}<a href="{{ param.url }}" class="group block">{%- endif %}
+    {%- if param.url %}<a href="{{ param.url }}" class="group block"{{ param.props | safe }}>{%- endif %}
     <div>
       {%- if not param.svg %}
-      <picture class="border-(1 black/70) block relative after:(h-px bg-white/25 content-[''] absolute inset-x-0 top-px) transform motion-safe:(transition) group-hover:(-translate-y-2 -rotate-2)">
+      <picture class="border-(1 black/90) block relative after:(h-px bg-white/25 content-[''] absolute inset-x-0 top-px) transform motion-safe:(transition) group-hover:(-translate-y-2 -rotate-2)">
         <img src="{{ image }}" width="420" height="640" alt="{{ param.title }} comic cover art" class="w-full shadow-(lg black/25)" />
       </picture>
       {%- else %}

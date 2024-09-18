@@ -8,14 +8,14 @@ story_arc: ""
 crossover: ""
 variant: ""
 publisher: Image Comics
-creators: 
+creators:
   - Jeff Mariotte
   - David Wohl
   - Joe Benitez
 release_date: Dec 1993
 release_year: 1993
 genre:
-  - ""
+  - Art
 format: Squarebound
 pages: 48
 signed_by: ""

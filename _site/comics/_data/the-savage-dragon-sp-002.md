@@ -8,12 +8,12 @@ story_arc: ""
 crossover: ""
 variant: ""
 publisher: Image Comics
-creators: 
+creators:
   - Erik Larsen
 release_date: Jul 1993
 release_year: 1993
 genre:
-  - ""
+  - Super-Heroes
 format: Comic
 pages: 0
 signed_by: ""

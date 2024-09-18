@@ -13,18 +13,34 @@ eleventyComputed:
 {%- from 'macro.list.njk' import list, listItem -%}
 
 {%- call list() %}
-  {%- for type, items in collections.comics | groupby('data.title') %}
-    {%- if type == comic %}
-      {%- for item in items %}
-        {%- set details -%}{{ item.data.issue }} {{ item.data.variant }}{%- endset -%}
-        {{ listItem({
-          title: details,
-          sub: item.data.release_date,
-          signed: item.data.signed_by,
-          image: '/_assets/img/comics/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
-          loop: loop
-        }) }}
-      {%- endfor %}
-    {%- endif %}
+  {%- for item in collections.comicsCurrent[title] %}
+    {%- set details -%}{{ item.data.issue }} {{ item.data.variant }}{%- endset -%}
+    {%- set comic -%}
+      title: '{{ item.data.title | replace("'", "’") }}',
+      issue: '{{ item.data.issue | replace("'", "’") }}',
+      issue_nr: '{{ item.data.issue_nr | replace("'", "’") }}',
+      full_title: '{{ item.data.full_title | replace("'", "’") }}',
+      subtitle: '{{ item.data.subtitle | replace("'", "’") }}',
+      story_arc: '{{ item.data.story_arc | replace("'", "’") }}',
+      crossover: '{{ item.data.crossover | replace("'", "’") }}',
+      variant: '{{ item.data.variant | replace("'", "’") }}',
+      publisher: '{{ item.data.publisher | replace("'", "’") }}',
+      creators: [{% for person in item.data.creators %}'{{ person | replace("'", "’") }}',{% endfor %}],
+      release_date: '{{ item.data.release_date | replace("'", "’") }}',
+      release_year: {{ item.data.release_year }},
+      genre: [{% for genre in item.data.genre %}'{{ genre | replace("'", "’") }}',{% endfor %}],
+      format: '{{ item.data.format | replace("'", "’") }}',
+      pages: '{{ item.data.pages | replace("'", "’") }}',
+      signed_by: '{{ item.data.signed_by | replace("'", "’") }}',
+      price: '{{ item.data.price | replace("'", "’") }}',
+    {%- endset -%}
+    {{ listItem({
+      title: details,
+      sub: item.data.release_date,
+      signed: item.data.signed_by,
+      image: '/_assets/img/comics/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
+      url: '#'+ details,
+      props: ' @click.prevent="$refs.details.showModal(); $dispatch(\'comic\', { data: {'+ comic +'}});"'
+    }) }}
   {%- endfor %}
 {%- endcall %}
