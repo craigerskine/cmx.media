@@ -1,6 +1,6 @@
 ---
 title: "Jim Henson's Power of The Dark Crystal"
-issue: TP-2
+issue: TP Vol. 2
 issue_nr:
 full_title:
 subtitle:
