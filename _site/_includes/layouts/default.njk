@@ -111,8 +111,6 @@
       </footer>
     </div>
 
-    {%- if collections.comicsCurrent[title].length -%}{%- include 'dialog.comic.njk' -%}{%- endif -%}
-
     <script>
       document.addEventListener('alpine:init', () => {
         Alpine.data('comics', () => ({

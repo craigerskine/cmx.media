@@ -47,9 +47,12 @@
       scale-95
       motion-safe:(transition-all)
     ">
-      <header class="py-4 px-6 border-(b pri-500/20) bg-pri-50 flex-(& row-reverse none) items-center justify-between sticky top-0">
+      <header class="py-4 px-6 border-(b pri-500/20) bg-pri-50 flex-(& row-reverse none) items-center justify-between gap-4 sticky top-0">
         <form method="dialog"><button class="btn btn-ghost btn-circle"><iconify-icon icon="mdi:close" width="24px" height="24px" class="iconify"></iconify-icon></button></form>
-        <h2 class="text-2xl flex items-center gap-2"><strong x-text="comicData.title"></strong> <small x-text="'#'+ comicData.issue" class="text-pri-500"></small></h2>
+        <h2 class="min-w-0 text-2xl flex-(& 1) items-center gap-2">
+          <strong x-text="comicData.title" class="truncate flex-1"></strong>
+          <small x-text="'#'+ comicData.issue" class="text-(pri-500 base) leading-none shrink-0"></small>
+        </h2>
       </header>
       {# <picture>
         <img

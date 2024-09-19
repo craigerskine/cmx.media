@@ -44,3 +44,5 @@ eleventyComputed:
     }) }}
   {%- endfor %}
 {%- endcall %}
+
+{%- if collections.comicsCurrent[title].length -%}{%- include 'dialog.comic.njk' -%}{%- endif -%}
