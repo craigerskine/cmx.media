@@ -8,10 +8,10 @@ story_arc: ""
 crossover: ""
 variant: ""
 publisher: Boom! Studios
-creators: 
-  - Scott Lobdell
-  - Jim Lee
-  - Whilce Portacio
+creators:
+  - Simon Spurrier
+  - Kelly Mathews
+  - Nichole Mathews
 release_date: "Feb 22, 2017"
 release_year: 2017
 genre:

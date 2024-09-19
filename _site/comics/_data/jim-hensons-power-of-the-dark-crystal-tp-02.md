@@ -9,6 +9,10 @@ crossover:
 variant: ""
 publisher: Boom! Studios
 creators:
+  - Simon Spurrier
+  - Kelly Mathews
+  - Nichole Mathews
+  - Phillip Kennedy Johnson
 release_date: Oct 23, 2019
 release_year: 2019
 genre:
