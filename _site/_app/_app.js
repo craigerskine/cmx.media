@@ -61,7 +61,7 @@ install({
 injectGlobal`
   @layer base {
     [x-cloak] { @apply hidden; }
-    :focus-visible { @apply outline-(& 2 current offset-0); }
+    :focus-visible { @apply outline-(4 double current offset-4) rounded-sm; }
     .iconify { @apply block; }
     .tippy-box[data-state="hidden"] { @apply opacity-0 translate-y-1; }
     [data-tippy-root] { @apply max-w-[calc(100vw-10px)]; }
