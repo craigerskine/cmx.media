@@ -1,12 +1,12 @@
 ---
 title: "Wolverine: Revenge"
-issue: 1H
+issue: 1I
 issue_nr: 1
 full_title: ""
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: Nakayama Foil
+variant: Artgerm
 publisher: Marvel Comics
 creators:
   - Greg Capullo
@@ -17,5 +17,5 @@ genre:
 format: Comic
 pages: 32
 signed_by: ""
-price: 9.99
+price: 4.99
 ---

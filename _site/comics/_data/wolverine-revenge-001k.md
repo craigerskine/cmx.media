@@ -17,5 +17,5 @@ genre:
 format: Comic
 pages: 32
 signed_by: ""
-price: 5.50
+price: 4.99
 ---
