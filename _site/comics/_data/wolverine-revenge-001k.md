@@ -1,12 +1,12 @@
 ---
 title: "Wolverine: Revenge"
-issue: 1L
+issue: 1K
 issue_nr: 1
 full_title: ""
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: Red Band
+variant: Movie
 publisher: Marvel Comics
 creators:
   - Greg Capullo
