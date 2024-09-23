@@ -17,7 +17,7 @@
   {%- set image -%}{{- param.image if param.image else '/_assets/img/_comic.jpg' -}}{%- endset -%}
   <li {% if param.url %}class="group relative"{% endif %}>
     {%- if not param.svg %}
-    <picture class="border-(1 black/90) block relative after:(h-px bg-white/25 content-[''] absolute inset-x-0 top-px) transform motion-safe:(transition) group-hover:(-translate-y-2 -rotate-2)">
+    <picture class="border-(1 black/90) block relative after:(h-px bg-white/25 content-[''] absolute inset-x-0 top-px) transform motion-safe:(transition) group-hover:(-translate-y-3 rotate-3)">
       <img src="{{ image }}" width="420" height="640" alt="{{ param.title }} comic cover art" class="w-full shadow-(lg black/25)" />
     </picture>
     {%- else %}
