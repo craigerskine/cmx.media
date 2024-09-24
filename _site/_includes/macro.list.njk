@@ -17,13 +17,13 @@
   {%- set image -%}{{- param.image if param.image else '/_assets/img/_comic.jpg' -}}{%- endset -%}
   <li {% if param.url %}class="group relative"{% endif %}>
     {%- if not param.svg %}
-    <picture class="bg-white/80 block relative ring-(& black/100) shadow">
-      <img src="{{ image }}" width="420" height="640" alt="{{ param.title }} comic cover art" class="border-(1 black/90) w-full motion-safe:(transition) group-hover:(-translate-y-6)" />
+    <picture class="bg-white/80 block relative shadow">
+      <img src="{{ image }}" width="420" height="640" alt="{{ param.title }} comic cover art" class="w-full ring-(1 black/80) motion-safe:(transition) group-hover:(-translate-y-6)" />
       <span class="
         slip-cover
         overflow-hidden
         absolute
-        -inset-1
+        -inset-1.5
         z-10
         shadow-[0_5px_10px_rgb(0_0_0_/_.5),inset_0_0_10px_rgb(255_255_255_/_.33),inset_0_0_0_1px_rgb(255_255_255_/_.1)]
         before:(content-[''] border-(l white/30) w-4 bg-gradient-to-r from-white/20 absolute left-0 inset-y-0)
