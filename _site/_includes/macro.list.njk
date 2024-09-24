@@ -6,6 +6,7 @@
 
 {%- macro listItem(param) -%}
   {#-
+    series: string
     title: string
     sub: string
     signed: string
@@ -17,8 +18,8 @@
   {%- set image -%}{{- param.image if param.image else '/_assets/img/_comic.jpg' -}}{%- endset -%}
   <li {% if param.url %}class="group relative"{% endif %}>
     {%- if not param.svg %}
-    <picture class="bg-white/80 block relative shadow">
-      <img src="{{ image }}" width="420" height="640" alt="{{ param.title }} comic cover art" class="w-full ring-(1 black/80) motion-safe:(transition) group-hover:(-translate-y-6)" />
+    <picture class="bg-white/80 block relative shadow motion-safe:(transition) group-hover:(-rotate-2)">
+      <img src="{{ image }}" width="420" height="640" alt="{{- param.series +': '+ param.title -}} cover" class="w-full ring-(1 black/80) shadow motion-safe:(transition) group-hover:(-translate-y-6)" />
       <span class="
         slip-cover
         overflow-hidden
@@ -47,7 +48,7 @@
     </svg>
     {%- endif %}
     <div class="pt-3 flex-(& wrap) justify-between gap-2">
-      <{% if param.url %}a href="{{ param.url }}" {{ param.props | safe }}{% else %}p{% endif %} class="pt-1 min-w-0 font-medium truncate flex-1" title="{{ param.title }}...">
+      <{% if param.url %}a href="{{ param.url }}" {{ param.props | safe }}{% else %}p{% endif %} class="pt-1 min-w-0 font-medium truncate flex-1" title="{{ param.series +': '+ param.title }}...">
         {{ param.title }}
         {% if param.url %}<span class="absolute inset-0 z-10" aria-hidden="true"></span>{% endif %}
       </{% if param.url %}a{% else %}p{% endif %}>
