@@ -18,21 +18,21 @@
   {%- set image -%}{{- param.image if param.image else '/_assets/img/_comic.jpg' -}}{%- endset -%}
   <li {% if param.url %}class="group relative"{% endif %}>
     {%- if not param.svg %}
-    <picture class="bg-white/80 block relative shadow motion-safe:(transition) group-hover:(-rotate-2)">
-      <img src="{{ image }}" width="420" height="640" alt="{{- param.series +': '+ param.title -}} cover" class="w-full ring-(1 black/80) shadow motion-safe:(transition) group-hover:(-translate-y-6)" />
-      <span class="
-        slip-cover
+    <picture class="bg-white/80 block relative shadow transform-gpu motion-safe:(transition) group-hover:(-rotate-2)">
+      <img src="{{ image }}" width="420" height="640" alt="{{- param.series +': '+ param.title -}} cover" class="w-full ring-(1 black/80) shadow transform-gpu motion-safe:(transition) group-hover:(-translate-y-6)" />
+      <span class="slip-cover
         overflow-hidden
         absolute
         -inset-1.5
         z-10
         shadow-[0_5px_10px_rgb(0_0_0_/_.5),inset_0_0_10px_rgb(255_255_255_/_.33),inset_0_0_0_1px_rgb(255_255_255_/_.1)]
         before:(content-[''] border-(l white/30) w-4 bg-gradient-to-r from-white/20 absolute left-0 inset-y-0)
-        after:(content-[''] border-(t white/30) w-full bg-gradient-to-br from-white/50 via-white/5 aspect-square absolute top-0 left-0 [clip-path:polygon(100%_0,0_0,0_100%)])
-      " aria-hidden="true"></span>
+        after:(content-[''] border-(t white/30) w-full bg-gradient-to-br from-white/50 via-white/5 aspect-square absolute top-0 left-0 [clip-path:polygon(100%_0,0_0,0_100%)])"
+        aria-hidden="true">
+      </span>
     </picture>
     {%- else %}
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" class="px-2 pb-4 border-(b-2 dashed pri-500/20) text-pri-500 fill-current motion-safe:(transition) group-hover:(text-pri-700 -translate-y-2 -rotate-2)">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" class="px-2 pb-4 border-(b-2 dashed pri-500/20) text-pri-500 fill-current transform-gpu motion-safe:(transition) group-hover:(text-pri-700 -translate-y-2 -rotate-2)">
       <title>{{ param.title }}</title>
       <g fill-rule="evenodd">
       {%- if param.svg === 'jim-lee' %}
