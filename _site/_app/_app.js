@@ -62,6 +62,26 @@ injectGlobal`
   @layer base {
     [x-cloak] { @apply hidden; }
     :focus-visible { @apply outline-(4 double current offset-4) rounded-sm; }
+    .toggle {
+      @apply
+      [--handleoffset:1em]
+      [--togglehandleborder:0_0]
+      [--handleoffsetcalculator:calc(var(--handleoffset)*_-1)]
+      border-(1 current)
+      w-[2em]
+      h-[1em]
+      bg-white
+      text-pri-500
+      block
+      shrink-0
+      cursor-pointer
+      rounded-full
+      shadow-[var(--handleoffsetcalculator)_0_0_2px_currentColor_inset,0_0_0_2px_currentColor_inset,var(--togglehandleborder)]
+      [&:checked]:(text-acc-400 [--handleoffsetcalculator:var(--handleoffset)])
+      [&:disabled]:(bg-pri-500/50 cursor-not-allowed opacity-50)
+      motion-safe:(transition)
+      appearance-none;
+    }
     .iconify { @apply block; }
     .tippy-box[data-state="hidden"] { @apply opacity-0 translate-y-1; }
     [data-tippy-root] { @apply max-w-[calc(100vw-10px)]; }
@@ -77,25 +97,29 @@ injectGlobal`
 
 // alpine
 import Alpine from 'alpinejs';
+import persist from '@alpinejs/persist';
 import tippy from 'tippy.js';
 
 document.addEventListener('alpine:init', () => {
-  Alpine.data('app', () => ({
-    comicData: [],
-    slugify(text) {
-      return text?.toString()
-        .toLowerCase()
-        .trim()
-        .replace(/\s+/g, '-')
-        .replace('.', '-')
-        .replace('&', '-and-')
-        .normalize('NFKD')
-        .replace(/[^\w\-]+/g, '')
-        .replace(/\-\-+/g, '-')
-        .replace(/^-+/, '')
-        .replace(/-+$/, '') || ''
-    },
-  }));
+  Alpine.data('app', function() {
+    return {
+      comicDetails: true,
+      comicData: [],
+      slugify(text) {
+        return text?.toString()
+          .toLowerCase()
+          .trim()
+          .replace(/\s+/g, '-')
+          .replace('.', '-')
+          .replace('&', '-and-')
+          .normalize('NFKD')
+          .replace(/[^\w\-]+/g, '')
+          .replace(/\-\-+/g, '-')
+          .replace(/^-+/, '')
+          .replace(/-+$/, '') || ''
+      },
+    }
+  });
   // tooltip
   // magic: @focus="$tooltip('some tooltip')"
   Alpine.magic('tooltip', el => message => {
@@ -110,4 +134,5 @@ document.addEventListener('alpine:init', () => {
 
 //Alpine.plugin();
 window.Alpine = Alpine;
+Alpine.plugin([persist]);
 Alpine.start();

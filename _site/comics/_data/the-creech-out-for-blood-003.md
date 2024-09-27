@@ -8,7 +8,7 @@ story_arc: ""
 crossover: ""
 variant: ""
 publisher: Image Comics
-creators: 
+creators:
   - Greg Capullo
 release_date: Nov 2001
 release_year: 2001
@@ -16,6 +16,6 @@ genre:
   - Action
 format: Comic
 pages: 48
-signed_by: ""
+signed_by: Greg Capullo
 price: 4.95
 ---

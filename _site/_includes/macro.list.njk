@@ -1,5 +1,5 @@
 {%- macro list(param) -%}
-<ul class="mx-auto px-4 pb-12 w-full max-w-7xl grid-(& cols-2) gap-x-6 gap-y-12 md:(px-8 grid-cols-3 gap-x-12) lg:(px-12 grid-cols-4 gap-x-16)">
+<ul class="mx-auto px-4 pb-12 w-full max-w-7xl grid-(& cols-2) gap-x-6 gap-y-16 md:(px-8 grid-cols-3 gap-x-12) lg:(px-12 grid-cols-4 gap-x-16)">
   {{ caller() }}
 </ul>
 {%- endmacro -%}
@@ -47,8 +47,8 @@
         </g>
       </svg>
     {%- endif %}
-    <div {%- if not param.svg %} class="flex-(& col) justify-end absolute inset-1 z-20"{% endif %}>
-      <div class="p-2 flex-(& wrap) justify-between gap-2 {%- if not param.svg %} -mb-3 bg-white/[.95] pointer-events-none opacity-0 dark:(bg-pri-900/[.95]){% endif %} rounded motion-safe:(transition-all duration-300 ease-in-out) group-hover:(mb-0 pointer-events-auto opacity-100) group-focus-within:(mb-0 opacity-100)">
+    <div {%- if not param.svg %} class="flex-(& col) justify-end absolute inset-1 z-20 motion-safe:(transition)" :class="comicDetails || 'opacity-0'"{% endif %}>
+      <div class="details p-2 flex-(& wrap) justify-between gap-2 {%- if not param.svg %} mb-0 bg-white/[.95] pointer-events-none opacity-100 dark:(bg-pri-900/[.95]){% endif %} rounded motion-safe:(transition-all duration-300 ease-in-out) group-hover:(mb-6 pointer-events-auto) group-focus-within:(mb-6 pointer-events-auto)">
         <{% if param.url %}a href="{{ param.url }}" {{ param.props | safe }}{% else %}p tabindex="0"{% endif %} class="pt-1 min-w-0 font-medium truncate flex-1 focus:(outline-none)" aria-label="{{ param.series +': '+ param.title if param.series else param.title }}...">
           {{ param.title }}
           {% if param.url %}<span class="absolute inset-0 z-30" aria-hidden="true"></span>{% endif %}
