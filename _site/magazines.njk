@@ -10,13 +10,15 @@ eleventyComputed:
 
 {%- from 'macro.list.njk' import list, listItem -%}
 
-{%- call list() %}
-  {%- for type, items in collections.magazines | groupby('data.title') %}
-    {{ listItem({
-      title: type,
-      sub: items.length,
-      image: '/_assets/img/magazines/'+ type | slugify +'/series.jpg',
-      url: '/magazines/'+ type | slugify +'/'
-    }) }}
-  {%- endfor %}
-{%- endcall %}
+<div x-data="{ comicHud: true }">
+  {%- call list() %}
+    {%- for type, items in collections.magazines | groupby('data.title') %}
+      {{ listItem({
+        title: type,
+        sub: items.length,
+        image: '/_assets/img/magazines/'+ type | slugify +'/series.jpg',
+        url: '/magazines/'+ type | slugify +'/'
+      }) }}
+    {%- endfor %}
+  {%- endcall %}
+</div>

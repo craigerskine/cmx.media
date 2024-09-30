@@ -14,8 +14,8 @@ eleventyComputed:
 
 {%- setblock 'details' %}
 <label class="flex items-center gap-3 cursor-pointer">
-  <span class="text-xs select-none opacity-80" x-text="comicDetails ? 'Details' : 'Show details'"></span>
-  <input x-model="comicDetails" type="checkbox" class="toggle" />
+  <span class="text-xs select-none opacity-80" x-text="comicHud ? 'Details' : 'Show details'"></span>
+  <input x-model="comicHud" type="checkbox" class="toggle" />
 </label>
 {%- endsetblock %}
 
