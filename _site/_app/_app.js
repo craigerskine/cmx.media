@@ -103,7 +103,6 @@ import tippy from 'tippy.js';
 document.addEventListener('alpine:init', () => {
   Alpine.data('app', function() {
     return {
-      comicHud: false,
       comicData: [],
       slugify(text) {
         return text?.toString()

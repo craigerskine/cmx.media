@@ -12,13 +12,6 @@ eleventyComputed:
 
 {%- from 'macro.list.njk' import list, listItem -%}
 
-{%- setblock 'details' %}
-<label class="flex items-center gap-3 cursor-pointer">
-  <span class="text-xs select-none opacity-80" x-text="comicHud ? 'Details' : 'Show details'"></span>
-  <input x-model="comicHud" type="checkbox" class="toggle" />
-</label>
-{%- endsetblock %}
-
 {%- call list() %}
   {%- for item in collections.comicsCurrent[title] %}
     {%- set details -%}{{ item.data.issue }} {{ item.data.variant }}{%- endset -%}
@@ -43,7 +36,7 @@ eleventyComputed:
     {%- endset -%}
     {{ listItem({
       series: item.data.title,
-      title: details,
+      badge: details,
       sub: item.data.release_date,
       signed: item.data.signed_by,
       image: '/_assets/img/comics/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
