@@ -13,8 +13,9 @@ eleventyComputed:
 {%- call list() %}
   {%- for type, items in collections.magazines | groupby('data.title') %}
     {{ listItem({
+      series: type,
       title: type,
-      sub: items.length,
+      badge: items.length,
       image: '/_assets/img/magazines/'+ type | slugify +'/series.jpg',
       url: '/magazines/'+ type | slugify +'/'
     }) }}

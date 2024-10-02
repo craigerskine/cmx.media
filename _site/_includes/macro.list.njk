@@ -6,6 +6,7 @@
 
 {%- macro listItem(param) -%}
   {#-
+    issues: bool
     series: string
     title: string
     signed: string
@@ -14,10 +15,17 @@
     props: string
   -#}
   {%- set image -%}{{- param.image if param.image else '/_assets/img/_comic.jpg' -}}{%- endset -%}
+  {%- set alt -%}
+    {%- if param.series === param.title -%}
+      {{ param.series +' series ' if param.series else param.title +' series ' }}
+    {%- else -%}
+      {{ param.series }} {{ param.title }} {{- param.badge }}
+    {%- endif -%}
+  {%- endset -%}
 
   <li class="group flex relative focus-within:([&_picture_img]:(-translate-y-6))">
     <picture class="bg-white/80 flex-1 relative shadow transform-gpu motion-safe:(transition ease-in-out)">
-      <img src="{{ image }}" width="420" height="640" alt="{{- param.series +': '+ param.title -}} cover" class="w-full ring-(1 black/80) shadow transform-gpu motion-safe:(transition) group-hover:(-translate-y-6)" />
+      <img src="{{ image }}" width="420" height="640" alt="{{ alt }}cover" class="w-full shadow transform-gpu motion-safe:(transition) group-hover:(-translate-y-6)" />
       <span class="slip-cover
         overflow-hidden
         absolute
@@ -33,7 +41,12 @@
       <{% if param.url %}a href="{{ param.url }}" {{ param.props | safe }}{% else %}p tabindex="0"{% endif %} class="font-medium flex focus:(outline-none)">
         <span class="flex items-center gap-3 [writing-mode:vertical-lr]">
           {%- if param.title %}<strong class="h-0 text-pri-500 truncate grow">{{ param.title }}</strong>{%- endif %}
-          <em class="not-italic shrink-0">{{ param.badge }}</em>
+          <span class="not-italic shrink-0">
+            {%- if param.issues %}
+              <em class="text-(pri-500 xs)">#</em>
+            {%- endif %}
+            {{ param.badge }}
+          </span>
         </span>
         {% if param.url %}<span class="absolute inset-0 z-30" aria-hidden="true"></span>{% endif %}
       </{% if param.url %}a{% else %}p{% endif %}>

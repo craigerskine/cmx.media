@@ -35,6 +35,7 @@ eleventyComputed:
       price: '{{ item.data.price | replace("'", "’") }}',
     {%- endset -%}
     {{ listItem({
+      issues: true,
       series: item.data.title,
       badge: details,
       sub: item.data.release_date,

@@ -13,6 +13,7 @@ eleventyComputed:
 {%- call list() %}
   {%- for type, items in collections.comics | groupby('data.title') %}
     {{ listItem({
+      series: type,
       title: type,
       badge: items.length,
       image: '/_assets/img/comics/'+ type | slugify +'/series.jpg',

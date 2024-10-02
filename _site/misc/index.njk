@@ -17,6 +17,7 @@ eleventyComputed:
     {%- if type == misc %}
       {%- for item in items %}
         {{ listItem({
+          series: item.data.title,
           title: item.data.issue,
           sub: item.data.release_date,
           signed: item.data.signed_by,
