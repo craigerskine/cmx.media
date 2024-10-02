@@ -15,7 +15,7 @@
   -#}
   {%- set image -%}{{- param.image if param.image else '/_assets/img/_comic.jpg' -}}{%- endset -%}
 
-  <li class="[&_*]:(min-w-0 min-h-0) group flex relative focus-within:([&_picture_img]:(-translate-y-6))">
+  <li class="group flex relative focus-within:([&_picture_img]:(-translate-y-6))">
     <picture class="bg-white/80 flex-1 relative shadow transform-gpu motion-safe:(transition ease-in-out)">
       <img src="{{ image }}" width="420" height="640" alt="{{- param.series +': '+ param.title -}} cover" class="w-full ring-(1 black/80) shadow transform-gpu motion-safe:(transition) group-hover:(-translate-y-6)" />
       <span class="slip-cover
