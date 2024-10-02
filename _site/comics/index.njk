@@ -15,6 +15,7 @@ eleventyComputed:
 {%- call list() %}
   {%- for item in collections.comicsCurrent[title] %}
     {%- set details -%}{{ item.data.issue }} {{ item.data.variant }}{%- endset -%}
+
     {%- set comic -%}
       title: '{{ item.data.title | replace("'", "’") }}',
       issue: '{{ item.data.issue | replace("'", "’") }}',
