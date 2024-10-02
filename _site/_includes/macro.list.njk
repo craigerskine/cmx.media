@@ -11,6 +11,7 @@
     title: string
     signed: string
     image: string
+    svg: bool
     url: string
     props: string
   -#}
@@ -23,9 +24,16 @@
     {%- endif -%}
   {%- endset -%}
 
-  <li class="group flex relative focus-within:([&_picture_img]:(-translate-y-6))">
-    <picture class="bg-white/80 flex-1 relative shadow transform-gpu motion-safe:(transition ease-in-out)">
-      <img src="{{ image }}" width="420" height="640" alt="{{ alt }}cover" class="w-full shadow transform-gpu motion-safe:(transition) group-hover:(-translate-y-6)" />
+  <li class="group flex relative focus-within:([&_picture_.img]:(-translate-y-6))">
+    <picture class="bg-white/80 flex-1 relative shadow">
+      {%- if param.svg %}
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" class="img p-4 w-full bg-(white/90 gradient-to-b) from-white/10 text-pri-700 fill-current shadow transform-gpu motion-safe:(transition) group-hover:(-translate-y-6) dark:(bg-pri-800)">
+          <title>{{ param.title }} signature</title>
+          <use href="/_assets/creators.svg#logo-{{ param.title | slugify }}" />
+        </svg>
+      {%- else %}
+        <img src="{{ image }}" width="420" height="640" alt="{{ alt }}cover" class="img w-full shadow transform-gpu motion-safe:(transition) group-hover:(-translate-y-6)" />
+      {%- endif %}
       <span class="slip-cover
         overflow-hidden
         absolute
@@ -41,7 +49,7 @@
       <{% if param.url %}a href="{{ param.url }}" {{ param.props | safe }}{% else %}p tabindex="0"{% endif %} class="font-medium flex focus:(outline-none)">
         <span class="flex items-center gap-3 [writing-mode:vertical-lr]">
           {%- if param.title %}<strong class="h-0 text-pri-500 truncate grow">{{ param.title }}</strong>{%- endif %}
-          <span class="not-italic shrink-0">
+          <span class="shrink-0">
             {%- if param.issues %}
               <em class="text-(pri-500 xs)">#</em>
             {%- endif %}

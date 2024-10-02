@@ -8,7 +8,21 @@ eleventyComputed:
     order: 3
 ---
 
-<ul class="mx-auto px-4 pb-12 w-full max-w-7xl grid-(& cols-2) gap-x-6 gap-y-16 md:(px-8 grid-cols-3 gap-x-12) lg:(px-12 grid-cols-4 gap-x-16)">
+{%- from 'macro.list.njk' import list, listItem -%}
+
+{%- call list() %}
+  {%- for type, items in collections.misc | groupby('data.title') %}
+    {{ listItem({
+      series: type,
+      title: type,
+      badge: items.length,
+      svg: true,
+      url: '/misc/'+ type | slugify +'/'
+    }) }}
+  {%- endfor %}
+{%- endcall %}
+
+{# <ul class="mx-auto px-4 pb-12 w-full max-w-7xl grid-(& cols-2) gap-x-6 gap-y-16 md:(px-8 grid-cols-3 gap-x-12) lg:(px-12 grid-cols-4 gap-x-16)">
   {%- for type, items in collections.misc | groupby('data.title') %}
   <li class="group relative focus-within:([&_picture_img]:(-translate-y-6))">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" class="px-2 pb-4 border-(b-2 dashed pri-500/20) text-pri-500 fill-current transform-gpu motion-safe:(transition) group-hover:(text-pri-700 -translate-y-2 -rotate-2)">
@@ -34,4 +48,4 @@ eleventyComputed:
     </div>
   </li>
   {%- endfor %}
-</ul>
+</ul> #}
