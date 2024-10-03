@@ -24,32 +24,32 @@
     {%- endif -%}
   {%- endset -%}
 
-  <li class="group flex relative focus-within:([&_picture_.img]:(-translate-y-6))">
+  <li class="group flex relative focus-within:([&_picture_.list-img]:(-translate-y-6) [&_.list-title]:(text-pri-900))">
     <picture class="bg-white/80 flex-1 relative shadow">
       {%- if param.svg %}
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" class="img p-4 w-full bg-(white/90 gradient-to-b) from-white/10 text-pri-700 fill-current shadow transform-gpu motion-safe:(transition) group-hover:(-translate-y-6) dark:(bg-pri-800)">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" class="list-img p-4 w-full bg-(white/90 gradient-to-b) from-white/10 text-pri-700 fill-current shadow transform-gpu motion-safe:(transition) group-hover:(-translate-y-6) dark:(bg-pri-800)">
           <title>{{ param.title }} signature</title>
           <use href="/_assets/creators.svg#logo-{{ param.title | slugify }}" />
         </svg>
       {%- else %}
-        <img src="{{ image }}" width="420" height="640" alt="{{ alt }}cover" class="img w-full shadow transform-gpu motion-safe:(transition) group-hover:(-translate-y-6)" />
+        <img src="{{ image }}" width="420" height="640" alt="{{ alt }}cover" class="list-img w-full shadow transform-gpu motion-safe:(transition) group-hover:(-translate-y-6)" />
       {%- endif %}
       <span class="slip-cover
         overflow-hidden
         absolute
         -inset-1.5
         z-10
-        shadow-[0_5px_10px_rgb(0_0_0_/_.5),inset_0_0_10px_rgb(255_255_255_/_.33),inset_0_0_0_1px_rgb(255_255_255_/_.1)]
+        shadow-[0_5px_10px_rgb(0_0_0_/_.25),inset_0_0_10px_rgb(255_255_255_/_.33),inset_0_0_0_1px_rgb(255_255_255_/_.1)]
         before:(content-[''] border-(l white/30) w-4 bg-gradient-to-r from-white/20 absolute left-0 inset-y-0)
         after:(content-[''] border-(t white/30) w-full bg-gradient-to-br from-white/50 via-white/5 aspect-square absolute top-0 left-0 [clip-path:polygon(100%_0,0_0,0_100%)])"
         aria-hidden="true">
       </span>
     </picture>
     <div class="px-2 flex shrink-0">
-      <{% if param.url %}a href="{{ param.url }}" {{ param.props | safe }}{% else %}p tabindex="0"{% endif %} class="font-medium flex focus:(outline-none)">
-        <span class="ml-1 border-(l dashed pri-500/50) divide-(y dashed pri-500/50) flex items-center gap-3 [writing-mode:vertical-lr]">
-          {%- if param.title or param.signed %}<strong class="pb-2 h-0 text-pri-500 truncate grow">{{ param.title }}{{ 'Signed' if param.signed }}</strong>{%- endif %}
-          <span class="mt-auto pt-2 shrink-0">
+      <{% if param.url %}a href="{{ param.url }}" {{ param.props | safe }}{% else %}p tabindex="0"{% endif %} class="group font-medium flex focus:(outline-none)">
+        <span class="ml-1 border-(l dashed acc-500/50) divide-(y dashed acc-500/50) flex items-center gap-3 [writing-mode:vertical-lr]">
+          {%- if param.title or param.signed %}<strong class="list-title pb-2 h-0 text-pri-500 truncate grow motion-safe:(transition) group-hover:(text-pri-900)">{{ param.title }}{{ 'Signed' if param.signed }}</strong>{%- endif %}
+          <span class="list-badge mt-auto pt-2 shrink-0">
             {%- if param.issues %}
               <em class="text-(pri-500 xs)">#</em>
             {%- endif %}
