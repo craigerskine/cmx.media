@@ -36,7 +36,7 @@ layout: layouts/default.njk
   </a>
 {%- endmacro %}
 
-<article class="divide-(y dashed pri-500/20) w-full h-full text-pri-500 grid-(& cols-1) lg:(divide-x grid-cols-3)">
+<article class="divide-(y dashed pri-500/20) w-full h-full text-pri-500 grid-(& cols-1) lg:(divide-x divide-y-0 grid-cols-3)">
   {{ data(name='Comics', itemsTotal=(collections.comics | length), seriesTotal=(collections.comicsByTitle | length), price=(pricesComics | sum | round), color='pri', bg='/_assets/img/data-comics.jpg') }}
   {{ data(name='Magazines', itemsTotal=(collections.magazines | length), seriesTotal=(collections.magazinesByTitle | length), price=(pricesZines | sum | round), color='pri', bg='/_assets/img/data-zines.jpg') }}
   {{ data(name='Misc', itemsTotal=(collections.misc | length), seriesTotal=(collections.miscByTitle | length), price=(pricesMisc | sum | round), color='pri', bg='/_assets/img/data-misc.jpg') }}
