@@ -6,7 +6,7 @@ full_title: ""
 subtitle: ""
 story_arc: ""
 crossover: ""
-variant: 2nd printing
+variant: ""
 publisher: Marvel Comics
 creators:
   - Greg Capullo
