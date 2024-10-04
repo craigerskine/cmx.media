@@ -115,7 +115,7 @@ document.addEventListener('alpine:init', () => {
           .replace('.', '-')
           .replace('&', '-and-')
           .normalize('NFKD')
-          .replace(/[^\w\-]+/g, '')
+          .replace(/[^\w\-]+/g, '-')
           .replace(/\-\-+/g, '-')
           .replace(/^-+/, '')
           .replace(/-+$/, '') || ''

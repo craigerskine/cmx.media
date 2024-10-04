@@ -60,7 +60,7 @@
       <div class="p-6 flex gap-6">
         <picture class="w-1/3 shrink-0 md:(w-auto)">
           <img
-            :src="'/_assets/img/comics/'+ slugify(comicData.title) +'/'+ slugify(comicData.issue) +'.jpg'"
+            :src="'/_assets/img/comics/'+ slugify(comicData.title) +'/'+ comicData.issue +'.jpg'"
             :alt="comicData.title +' '+ comicData.issue +' cover art'"
             class="mx-auto w-full max-w-[20rem]"
           />
