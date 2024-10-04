@@ -8,10 +8,8 @@ story_arc: ""
 crossover: ""
 variant: ""
 publisher: Image Comics
-creators: 
-  - Jim Starlin
-  - Manuel Garcia
-  - Al Milgrom
+creators:
+  - Larry Stroman
 release_date: Mar 1993
 release_year: 1993
 genre:

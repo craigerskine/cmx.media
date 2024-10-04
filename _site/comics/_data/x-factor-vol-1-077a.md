@@ -8,7 +8,7 @@ story_arc: ""
 crossover: ""
 variant: ""
 publisher: Marvel Comics
-creators: 
+creators:
   - Peter David
   - Kevin J. West
   - Tom Raney

@@ -8,10 +8,10 @@ story_arc: ""
 crossover: ""
 variant: ""
 publisher: Marvel Comics
-creators: 
-  - Brett Booth
-  - Sean Ruffner
-  - Tom McWeeney
+creators:
+  - Peter David
+  - Larry Stroman
+  - Al Milgrom
 release_date: "Aug 20, 1991"
 release_year: 1991
 genre:
