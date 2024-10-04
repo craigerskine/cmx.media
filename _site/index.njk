@@ -1,5 +1,6 @@
 ---
 layout: layouts/default.njk
+lead: My personal collection of all things related to the world of comics
 ---
 
 {%- set pricesComics = [] -%}
@@ -17,18 +18,18 @@ layout: layouts/default.njk
   {%- set pricesMisc = (pricesMisc.push(p.data.price), pricesMisc) -%}
 {%- endfor -%}
 
-{%- macro data(name='name', itemsTotal='itemsTotal', seriesTotal='seriesTotal', price='price', color='pri-50', bg='/_assets/img/comics/the-creech/series.jpg') %}
-  <a href="/{{ name | slugify }}/" class="group py-3 bg-{{ color }}-100/30 font-semibold flex relative overflow-hidden motion-safe:(transition) hover:(text-{{ color }}-800 opacity-100) lg:(py-32)">
+{%- macro data(param) %}
+  <a href="/{{ param.name | slugify }}/" class="group py-3 bg-{{ param.color }}-100/30 font-semibold flex relative overflow-hidden motion-safe:(transition) hover:(text-{{ param.color }}-800 opacity-100) lg:(py-32)">
     <div class="m-auto w-full">
-      <img src="{{ bg }}" alt="{{ name }}" class="w-full h-full block absolute inset-0 object-cover opacity-5 transform motion-safe:(transition) group-hover:(opacity-25 scale-110)" />
-      <div class="w-full py-6 px-4 relative translate-y-4 motion-safe:(transition) group-hover:(bg-{{ color }}-50/75 translate-y-0)">
+      <img src="{{ param.bg }}" alt="{{ param.name }}" class="w-full h-full block absolute inset-0 object-cover opacity-5 motion-safe:(transition) group-hover:(opacity-25 scale-110)" />
+      <div class="w-full py-6 px-4 relative translate-y-4 motion-safe:(transition) group-hover:(bg-{{ param.color }}-50/75 translate-y-0)">
         <div class="mx-auto max-w-[250px]">
-          <p class="pb-2 flex items-end before:(mr-2 pb-1 text-(sm current) tracking-normal leading-none font-bold uppercase content-[attr(data-label)])" data-label="{{ name }}:">
-            <b class="ml-auto text-4xl lg:(text-8xl leading-none tracking-tighter)">{{ itemsTotal }}</b>
+          <p class="pb-2 flex items-end before:(mr-2 pb-1 text-(sm current) tracking-normal leading-none font-bold uppercase content-[attr(data-label)])" data-label="{{ param.name }}:">
+            <b class="ml-auto text-4xl lg:(text-8xl leading-none tracking-tight)">{{ param.itemsTotal }}</b>
           </p>
-          <small class="border-(y dashed acc-500/50) text-base flex items-center justify-between gap-2 divide-(x dashed acc-500/50)">
-            <span class="pt-1 ">{{ seriesTotal }} titles</span>
-            <span class="pt-1 pl-2 ml-auto"><sup class="mr-1">$</sup>{{ price }}</span>
+          <small class="border-(y dashed acc-500/30) text-base flex items-center justify-between gap-2 divide-(x dashed acc-500/30)">
+            <span class="pt-1 ">{{ param.seriesTotal }} titles</span>
+            <span class="pt-1 pl-2 ml-auto"><sup class="mr-1">$</sup>{{ param.price }}</span>
           </small>
         </div>
       </div>
@@ -36,8 +37,42 @@ layout: layouts/default.njk
   </a>
 {%- endmacro %}
 
-<article class="divide-(y dashed acc-500/50) w-full h-full text-pri-500 grid-(& cols-1) lg:(divide-x divide-y-0 grid-cols-3)">
-  {{ data(name='Comics', itemsTotal=(collections.comics | length), seriesTotal=(collections.comicsByTitle | length), price=(pricesComics | sum | round), color='pri', bg='/_assets/img/data-comics.jpg') }}
-  {{ data(name='Magazines', itemsTotal=(collections.magazines | length), seriesTotal=(collections.magazinesByTitle | length), price=(pricesZines | sum | round), color='pri', bg='/_assets/img/data-zines.jpg') }}
-  {{ data(name='Misc', itemsTotal=(collections.misc | length), seriesTotal=(collections.miscByTitle | length), price=(pricesMisc | sum | round), color='pri', bg='/_assets/img/data-misc.jpg') }}
+<article class="
+  h-full
+  text-pri-500
+  grid-(& rows-[auto_1fr_1fr_1fr] cols-1)
+  lg:(grid-(cols-3 rows-[auto_1fr]))
+  [&>a:nth-child(3)]:(border-(y dashed acc-500/30) lg:(border-(y-0 x)))
+">
+  <header class="border-(b dashed acc-500/30) bg-pri-50 relative lg:(col-span-3)">
+    <img src="/_assets/img/home.jpg" alt="Comic style sketch" class="w-full h-full block absolute inset-0 object-(cover) opacity-5" />
+    <hgroup class="mx-auto px-4 py-8 max-w-2xl text-(text-pri-500 lg center) space-y-2 relative lg:(py-12 text-xl space-y-5)">
+      <h2 class="text-(pri-900 2xl) font-black lg:(text-5xl leading-none)">{%- include 'logo.njk' -%}</h2>
+      <p class="mx-auto max-w-xs">{{ lead }}</p>
+    </hgroup>
+  </header>
+  {{ data({
+    name: 'Comics',
+    itemsTotal: collections.comics | length,
+    seriesTotal: collections.comicsByTitle | length,
+    price: pricesComics | sum | round,
+    color: 'pri',
+    bg: '/_assets/img/data-comics.jpg'
+  }) }}
+  {{ data({
+    name: 'Magazines',
+    itemsTotal: collections.magazines | length,
+    seriesTotal: collections.magazinesByTitle | length,
+    price: pricesZines | sum | round,
+    color: 'pri',
+    bg: '/_assets/img/data-zines.jpg'
+  }) }}
+  {{ data({
+    name: 'Misc',
+    itemsTotal: collections.misc | length,
+    seriesTotal: collections.miscByTitle | length,
+    price: pricesMisc | sum | round,
+    color: 'pri',
+    bg: '/_assets/img/data-misc.jpg'
+  }) }}
 </article>

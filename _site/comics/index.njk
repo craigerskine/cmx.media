@@ -36,10 +36,9 @@ eleventyComputed:
       price: '{{ item.data.price | replace("'", "’") }}',
     {%- endset -%}
     {{ listItem({
-      issues: true,
       series: item.data.title,
+      issues: true,
       badge: details,
-      sub: item.data.release_date,
       signed: item.data.signed_by,
       image: '/_assets/img/comics/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
       url: '#'+ details,

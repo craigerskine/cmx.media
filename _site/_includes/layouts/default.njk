@@ -12,7 +12,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link onload="this.onload=null;this.rel='stylesheet'" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100..900&family=Kalam:wght@300;400;700&display=swap" />
+    <link onload="this.onload=null;this.rel='stylesheet'" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -37,17 +37,14 @@
   <body class="bg-pri-100 text-pri-700 font-comic dark:(bg-pri-900) !block" style="display: none;" data-instant-intensity="mousedown">
     <div class="bg-grid fixed inset-0 opacity-20" aria-hidden="true"></div>
     <div class="min-h-screen flex-(& col) relative">
-      <header class="py-4 border-(b dashed pri-500/20) bg-white/50 text-sm flex-(& none) justify-center gap-2 relative z-20 lg:(py-12 border-(b-0 r) w-16 fixed inset-y-0 left-0) dark:(bg-transparent)">
+      <header class="py-4 border-(b dashed acc-500/30) bg-white/50 text-sm flex-(& none) justify-center gap-2 relative z-20 lg:(py-12 border-(b-0 r) w-16 fixed inset-y-0 left-0) dark:(bg-transparent)">
         <nav class="w-full h-full" aria-label="Main sections">
           <ul class="flex-(& row) items-center justify-center gap-1 lg:(h-full flex-col)">
             {#- home #}
             <li class="w-full flex items-center justify-start lg:(justify-center)">
               {%- if page.url === '/' %}<h1>{% endif %}
-                <a href="/" class="group ml-4 w-12 h-12 text-xl flex relative items-center justify-center motion-safe:(transition) hover:(opacity-50) lg:(ml-0)">
-                  <span class="text-lg leading-none font-black flex-(& col) items-center justify-center motion-safe:(transition) group-hover:(bg-opacity-50)">
-                    <b>cmx</b>
-                    <small class="text-xs leading-none tracking-wider uppercase opacity-50">media</small>
-                  </span>
+                <a href="/" class="group ml-4 w-12 h-12 text-lg flex relative items-center justify-center motion-safe:(transition) hover:(opacity-50) lg:(ml-0)">
+                  {%- include 'logo.njk' -%}
                 </a>
                 {%- if page.url === '/' %}</h1>{% endif %}
             </li>
@@ -92,7 +89,7 @@
           {{ content | safe }}
         </section>
       </main>
-      <footer class="mt-auto py-6 border-(t dashed pri-500/20) bg-white/50 text-sm uppercase flex-(& none) items-center justify-center gap-2 relative z-20 lg:(py-12 border-(t-0 l) w-16 [writing-mode:vertical-rl] justify-end fixed inset-y-0 right-0) dark:(bg-transparent)">
+      <footer class="mt-auto py-6 border-(t dashed acc-500/30) bg-white/50 text-sm uppercase flex-(& none) items-center justify-center gap-2 relative z-20 lg:(py-12 border-(t-0 l) w-16 [writing-mode:vertical-rl] justify-end fixed inset-y-0 right-0) dark:(bg-transparent)">
         <span class="text-pri-500">Collected by</span>
         <span class="inline-flex gap-4 font-bold">
           <a href="https://{{ site.meta.author_url }}">{{ site.meta.author }}</a>

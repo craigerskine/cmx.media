@@ -21,7 +21,6 @@ eleventyComputed:
           issues: true,
           series: item.data.title,
           badge: details,
-          sub: item.data.release_date,
           signed: item.data.signed_by,
           image: '/_assets/img/magazines/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
           loop: loop

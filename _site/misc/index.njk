@@ -20,6 +20,7 @@ eleventyComputed:
         {{ listItem({
           series: item.data.title,
           title: item.data.issue,
+          issues: true,
           badge: badge,
           signed: item.data.signed_by,
           image: '/_assets/img/misc/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg'
