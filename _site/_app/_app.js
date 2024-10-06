@@ -46,6 +46,9 @@ install({
         112: '28rem',
         120: '30rem',
       },
+      animation: {
+        'bounce-slow': 'bounce 2s ease-in-out infinite',
+      },
     },
   },
   rules: [

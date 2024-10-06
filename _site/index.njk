@@ -1,6 +1,7 @@
 ---
 layout: layouts/default.njk
-lead: ...my collection of all things related to the world of comics
+lead: |
+  # ...My **collection** of comics and other related items!
 ---
 
 {%- set pricesComics = [] -%}
@@ -44,8 +45,8 @@ lead: ...my collection of all things related to the world of comics
   lg:(grid-(cols-3)
   [&>a:nth-child(3)]:(border-(y dashed acc-500/30) lg:(border-(y-0 x)))
 ">
-  <header class="ml-8 px-3 border-(1 current) pt-0.5 pb-px bg-yellow-200 text-yellow-800 absolute top-8 right-8 z-10 animate-bounce dark:(bg-yellow-200 text-yellow-800)">
-    <h2 class="text-sm font-semibold uppercase">{{ lead }}</h2>
+  <header class="ml-8 px-3 border-(1 current) pt-0.5 pb-px bg-yellow-200 text-(yellow-800 sm) font-semibold italic uppercase absolute top-8 right-8 z-10 pointer-events-none motion-safe:(animate-bounce-slow) dark:(bg-yellow-200 text-yellow-800)">
+    {{ lead | md | safe }}
   </header>
   {{ data({
     name: 'Comics',

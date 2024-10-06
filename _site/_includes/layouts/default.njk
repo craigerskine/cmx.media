@@ -42,11 +42,9 @@
           <ul class="flex-(& row) items-center justify-center gap-1 lg:(h-full flex-col)">
             {#- home #}
             <li class="w-full flex items-center justify-start lg:(justify-center)">
-              {%- if page.url === '/' %}<h1>{% endif %}
-                <a href="/" class="group ml-4 w-12 h-12 text-lg flex relative items-center justify-center motion-safe:(transition) hover:(opacity-50) lg:(ml-0)">
-                  {%- include 'logo.njk' -%}
-                </a>
-                {%- if page.url === '/' %}</h1>{% endif %}
+              <a href="/" class="group ml-4 w-12 h-12 text-lg flex relative items-center justify-center motion-safe:(transition) hover:(opacity-50) lg:(ml-0)">
+                {%- include 'logo.njk' -%}
+              </a>
             </li>
             {%- for item in collections.all | eleventyNavigation %}
               <li class="flex items-center">
