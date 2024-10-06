@@ -40,13 +40,12 @@ lead: ...my collection of all things related to the world of comics
 <article class="
   h-full
   text-pri-500
-  grid-(& rows-[auto_1fr_1fr_1fr] cols-1)
-  lg:(grid-(cols-3 rows-[auto_1fr]))
+  grid-(& cols-1)
+  lg:(grid-(cols-3)
   [&>a:nth-child(3)]:(border-(y dashed acc-500/30) lg:(border-(y-0 x)))
 ">
-  <header class="p-4 border-(b dashed acc-500/30) bg-pri-50 relative lg:(col-span-3)">
-    <img src="/_assets/img/home.jpg" alt="Comic style sketch" class="w-full h-full block absolute inset-0 object-(cover) opacity-5" />
-    <h2 class="text-(base end) font-semibold">{{ lead }}</h2>
+  <header class="ml-8 px-3 border-(1 current) pt-0.5 pb-px bg-yellow-200 text-yellow-800 absolute top-8 right-8 z-10 animate-bounce dark:(bg-yellow-200 text-yellow-800)">
+    <h2 class="text-sm font-semibold uppercase">{{ lead }}</h2>
   </header>
   {{ data({
     name: 'Comics',
