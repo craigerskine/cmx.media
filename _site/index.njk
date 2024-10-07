@@ -1,7 +1,7 @@
 ---
 layout: layouts/default.njk
 lead: |
-  # ...My **collection** of comics and other related items!
+  # ...My **collection** of **comics** and **other** related items!
 ---
 
 {%- set pricesComics = [] -%}
@@ -25,8 +25,8 @@ lead: |
       <img src="{{ param.bg }}" alt="{{ param.name }}" class="w-full h-full block absolute inset-0 object-cover opacity-5 motion-safe:(transition) group-hover:(opacity-25 scale-110)" />
       <div class="w-full py-6 px-4 relative translate-y-4 motion-safe:(transition) group-hover:(bg-{{ param.color }}-50/75 translate-y-0)">
         <div class="mx-auto max-w-[250px]">
-          <p class="pb-2 flex items-end before:(mr-2 pb-1 text-(sm current) tracking-normal leading-none font-bold uppercase content-[attr(data-label)])" data-label="{{ param.name }}:">
-            <b class="ml-auto text-4xl lg:(text-8xl leading-none tracking-tight)">{{ param.itemsTotal }}</b>
+          <p class="pb-2 flex items-end before:(mr-2 pb-1 text-(sm current) tracking-normal leading-none uppercase content-[attr(data-label)])" data-label="{{ param.name }}:">
+            <b class="ml-auto text-4xl font-bold lg:(text-8xl leading-none tracking-tight)">{{ param.itemsTotal }}</b>
           </p>
           <small class="border-(y dashed acc-500/30) text-base flex items-center justify-between gap-2 divide-(x dashed acc-500/30)">
             <span class="pt-1 ">{{ param.seriesTotal }} titles</span>
@@ -45,7 +45,7 @@ lead: |
   lg:(grid-(cols-3)
   [&>a:nth-child(3)]:(border-(y dashed acc-500/30) lg:(border-(y-0 x)))
 ">
-  <header class="ml-8 px-3 border-(1 current) pt-0.5 pb-px bg-yellow-200 text-(yellow-800 sm) font-semibold italic uppercase absolute top-8 right-8 z-10 pointer-events-none motion-safe:(animate-bounce-slow) dark:(bg-yellow-200 text-yellow-800)">
+  <header class="ml-8 px-3 border-(1 current) pt-0.5 pb-px bg-yellow-200 text-(yellow-800 sm) font-semibold uppercase absolute top-8 right-8 z-10 pointer-events-none shadow-md motion-safe:(animate-bounce-slow) dark:(bg-yellow-200 text-yellow-800)">
     {{ lead | md | safe }}
   </header>
   {{ data({
