@@ -35,7 +35,7 @@ install({
     extend: {
       colors: ({ theme }) => ({
         pri: theme('colors.zinc'),
-        sec: theme('colors.stone'),
+        sec: theme('colors.yellow'),
         acc: theme('colors.sky'),
       }),
       fontFamily: ({ theme }) => ({
