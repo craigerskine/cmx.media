@@ -1,14 +1,14 @@
 ---
 title: "Strange Adventures, Vol. 3"
 issue: TP
-issue_nr: null
+issue_nr: ""
 full_title: ""
 subtitle: ""
 story_arc: ""
 crossover: ""
 variant: ""
 publisher: DC Comics
-creators: 
+creators:
   - Brandon Choi
   - Scott Clark
   - Trevor Scott

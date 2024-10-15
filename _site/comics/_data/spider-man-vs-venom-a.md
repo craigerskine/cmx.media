@@ -1,14 +1,14 @@
 ---
 title: Spider-Man vs. Venom
 issue: A
-issue_nr: null
+issue_nr: ""
 full_title: ""
 subtitle: ""
 story_arc: ""
 crossover: ""
 variant: ""
 publisher: Marvel Comics
-creators: 
+creators:
   - Ron Frenz
   - Tom DeFalco
   - Mark Bagley

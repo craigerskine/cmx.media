@@ -1,14 +1,14 @@
 ---
 title: "X-Men: Shattershot"
 issue: HC
-issue_nr: null
+issue_nr: ""
 full_title: ""
 subtitle: ""
 story_arc: ""
 crossover: ""
 variant: ""
 publisher: Marvel Comics
-creators: 
+creators:
   - Scott Lobdell
   - Jim Lee
   - Mark Texeira

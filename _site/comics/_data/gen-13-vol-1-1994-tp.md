@@ -1,14 +1,14 @@
 ---
 title: "Gen 13, Vol. 1 (1994)"
 issue: TP
-issue_nr: null
+issue_nr: ""
 full_title: Gen 13
 subtitle: Collected Edition
 story_arc: ""
 crossover: ""
 variant: ""
 publisher: Image Comics
-creators: 
+creators:
   - Brett Booth
   - Scott Williams
   - Mark Irwin

@@ -8,13 +8,15 @@ story_arc: ""
 crossover: ""
 variant: ""
 publisher: Marvel Comics
-creators: 
+creators:
   - Rob Liefeld
   - Jim Valentino
   - Danny Miki
 release_date: May 1992
-release_year: null
+release_year: 1992
 genre:
+  - Action
+  - Adventure
   - Super-Heroes
 format: Comic
 pages: 32

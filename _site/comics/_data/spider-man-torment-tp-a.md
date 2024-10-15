@@ -1,14 +1,14 @@
 ---
 title: "Spider-Man: Torment"
 issue: TP-A
-issue_nr: null
+issue_nr: ""
 full_title: Torment
 subtitle: ""
 story_arc: ""
 crossover: ""
 variant: ""
 publisher: Marvel Comics
-creators: 
+creators:
   - David Michelinie
   - Todd McFarlane
   - Bob McLeod

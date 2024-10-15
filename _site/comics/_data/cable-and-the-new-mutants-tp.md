@@ -1,14 +1,14 @@
 ---
 title: Cable and The New Mutants
 issue: TP
-issue_nr: null
+issue_nr: ""
 full_title: "New Mutants, Vol. 1 #87-94"
 subtitle: ""
 story_arc: ""
 crossover: ""
 variant: ""
 publisher: Marvel Comics
-creators: 
+creators:
   - Louise Simonson
   - Rob Liefeld
   - Hilary Barta
