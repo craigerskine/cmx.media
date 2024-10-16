@@ -42,7 +42,7 @@ eleventyComputed:
       signed: item.data.signed_by,
       image: '/_assets/img/comics/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
       url: '#'+ details,
-      props: ' @click.prevent="$refs.details.showModal()" @mouseover="$dispatch(\'comic\', { data: {'+ comic +'}})"'
+      props: ' @click.prevent="$refs.details.showModal(); $dispatch(\'comic\', { data: {'+ comic +'}});" @mouseover="$dispatch(\'comic\', { data: {'+ comic +'}})"'
     }) }}
   {%- endfor %}
 {%- endcall %}
