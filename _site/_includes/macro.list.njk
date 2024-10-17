@@ -44,7 +44,7 @@
     </div>
     <picture class="mb-3 bg-white/80 flex-1 relative shadow">
       {%- if param.svg %}
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" class="item-list-img p-4 w-full bg-(white/90 gradient-to-b) from-white/10 text-pri-700 fill-current shadow motion-safe:(transition) group-hover:(-translate-y-6) dark:(bg-pri-800)">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" class="item-list-img p-4 w-full bg-(white/90 cover bottom) text-pri-700 fill-current shadow motion-safe:(transition) group-hover:(-translate-y-6) dark:(bg-pri-700)" style="background-image: url(/_assets/img/misc/{{ param.title | slugify }}/series.png)">
           <title>{{ param.title }} signature</title>
           <use href="/_assets/creators.svg#logo-{{ param.title | slugify }}" />
         </svg>
