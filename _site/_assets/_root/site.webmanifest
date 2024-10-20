@@ -1,11 +1,19 @@
 {
-  "name": "cmx media",
+  "name": "cmx",
   "short_name": "cmx",
   "icons": [
-    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#18181B",
+  "theme_color": "#264A5E",
+  "background_color": "#264A5E",
   "display": "standalone"
 }
