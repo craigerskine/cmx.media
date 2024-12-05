@@ -103,7 +103,7 @@ injectGlobal`
 
 // alpine
 import Alpine from 'alpinejs';
-import persist from '@alpinejs/persist';
+//import persist from '@alpinejs/persist';
 import tippy from 'tippy.js';
 
 document.addEventListener('alpine:init', () => {
@@ -117,6 +117,7 @@ document.addEventListener('alpine:init', () => {
           .replace(/\s+/g, '-')
           .replace('.', '-')
           .replace('&', '-and-')
+          .replace('’', '')
           .normalize('NFKD')
           .replace(/[^\w\-]+/g, '-')
           .replace(/\-\-+/g, '-')
@@ -139,5 +140,5 @@ document.addEventListener('alpine:init', () => {
 
 //Alpine.plugin();
 window.Alpine = Alpine;
-Alpine.plugin([persist]);
+//Alpine.plugin([persist]);
 Alpine.start();

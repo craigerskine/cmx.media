@@ -14,6 +14,7 @@
     svg: bool
     url: string
     props: string
+    data: string
   -#}
   {%- set image -%}{{- param.image if param.image else '/_assets/img/_comic.jpg' -}}{%- endset -%}
   {%- set alt -%}
@@ -24,9 +25,9 @@
     {%- endif -%}
   {%- endset -%}
 
-  <li class="group pr-3 border-(x b dashed acc-500/30) flex relative focus-within:([&_picture_.item-list-img]:(-translate-y-6) [&_.list-title]:(text-pri-900))">
+  <li {% if param.data %}x-data='{ comicData: {{ param.data | dump | safe | replace("'", "’") }}, }' {% endif %}class="group pr-3 border-(x b dashed acc-500/30) flex relative focus-within:([&_picture_.item-list-img]:(-translate-y-6) [&_.list-title]:(text-pri-900))">
     <div class="mr-3 flex shrink-0">
-      <{% if param.url %}a href="{{ param.url }}" {{ param.props | safe }}{% else %}p tabindex="0"{% endif %} class="group flex">
+      <{% if param.url %}a href="{{ param.url }}"{% if param.data %} @click.prevent="$refs.details.showModal(); $dispatch('comic', JSON.stringify(comicData))" @mouseover="$dispatch('comic', JSON.stringify(comicData))" {% endif %}{{ param.props | safe }}{% else %}p tabindex="0"{% endif %} class="group flex">
         <span class="border-(r dashed acc-500/30) divide-(y dashed acc-500/30) flex items-center justify-end [writing-mode:vertical-lr]">
           {%- if param.title %}<strong class="item-list-title pb-2 h-0 text-pri-500 font-semibold truncate grow motion-safe:(transition) group-hover:(text-pri-900)">{{ param.title }}</strong>{%- endif %}
           {%- if param.signed %}

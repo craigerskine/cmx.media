@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="bg-transparent antialiased [&:has(:is(dialog[open]))]:(overflow-hidden [scrollbar-gutter:stable])" x-data="app" @comic.window="comicData = $event.detail.data">
+<html lang="en" class="bg-transparent antialiased [&:has(:is(dialog[open]))]:(overflow-hidden [scrollbar-gutter:stable])" x-data="app" @comic.window="comicData = JSON.parse($event.detail)">
 
   <head>
     <meta charset="utf-8" />
@@ -104,7 +104,7 @@
         }));
       });
     </script>
-    <script src="/_assets/js/_app.js?v={% bust %}"></script>
+    <script type="module" src="/_assets/js/_app.js?v={% bust %}"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6JMS932MJ"></script>
     <script>

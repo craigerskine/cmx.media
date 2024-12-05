@@ -60,26 +60,26 @@
       <div class="p-6 flex gap-6">
         <picture class="w-1/3 shrink-0 md:(w-auto)">
           <img
-            :src="comicData.title ? '/_assets/img/comics/'+ slugify(comicData.title) +'/'+ comicData.issue +'.jpg' : '/_assets/img/_comic.jpg'"
+            :src="comicData.title ? '/_assets/img/comics/'+ slugify(comicData.title) +'/'+ slugify(comicData.issue) +'.jpg' : '/_assets/img/_comic.jpg'"
             :alt="comicData.title ? comicData.title +' '+ comicData.issue +' cover art' : ''"
             class="mx-auto w-full max-w-[20rem]"
           />
         </picture>
         <div class="grow">
           <dl class="divide-(y pri-500/20)">
-            <template x-if="comicData.full_title" hidden>{%- call dt({label: 'Full title:'}) -%}<span x-text="comicData.full_title"></span>{%- endcall -%}</template>
-            <template x-if="comicData.subtitle" hidden>{%- call dt({label: 'Subtitle:'}) -%}<span x-text="comicData.subtitle"></span>{%- endcall -%}</template>
-            <template x-if="comicData.story_arc" hidden>{%- call dt({label: 'Arc:'}) -%}<span x-text="comicData.story_arc"></span>{%- endcall -%}</template>
-            <template x-if="comicData.crossover" hidden>{%- call dt({label: 'Crossover:'}) -%}<span x-text="comicData.crossover"></span>{%- endcall -%}</template>
-            <template x-if="comicData.variant" hidden>{%- call dt({label: 'Variant:'}) -%}<span x-text="comicData.variant"></span>{%- endcall -%}</template>
-            <template x-if="comicData.publisher" hidden>{%- call dt({label: 'Publisher:'}) -%}<span x-text="comicData.publisher"></span>{%- endcall -%}</template>
-            <template x-if="comicData.creators" hidden>{%- call dt({label: 'Creators:'}) -%}<ul><template x-for="item in comicData.creators" hidden><li x-text="item"></li></template></ul>{%- endcall -%}</template>
-            <template x-if="comicData.release_date" hidden>{%- call dt({label: 'Released:'}) -%}<span x-text="comicData.release_date"></span>{%- endcall -%}</template>
-            <template x-if="comicData.genre" hidden>{%- call dt({label: 'Genre:'}) -%}<ul><template x-for="item in comicData.genre" hidden><li x-text="item"></li></template></ul>{%- endcall -%}</template>
-            <template x-if="comicData.format" hidden>{%- call dt({label: 'Format:'}) -%}<span x-text="comicData.format"></span>{%- endcall -%}</template>
-            <template x-if="comicData.pages" hidden>{%- call dt({label: 'Pages:'}) -%}<span x-text="comicData.pages"></span>{%- endcall -%}</template>
-            <template x-if="comicData.signed_by" hidden>{%- call dt({label: 'Signed by:'}) -%}<span x-text="comicData.signed_by"></span>{%- endcall -%}</template>
-            <template x-if="comicData.price" hidden>{%- call dt({label: 'Price:'}) -%}$<span x-text="comicData.price"></span>{%- endcall -%}</template>
+            <template x-if="comicData.full_title !== ''" hidden>{%- call dt({label: 'Full title:'}) -%}<span x-text="comicData.full_title"></span>{%- endcall -%}</template>
+            <template x-if="comicData.subtitle !== ''" hidden>{%- call dt({label: 'Subtitle:'}) -%}<span x-text="comicData.subtitle"></span>{%- endcall -%}</template>
+            <template x-if="comicData.story_arc !== ''" hidden>{%- call dt({label: 'Arc:'}) -%}<span x-text="comicData.story_arc"></span>{%- endcall -%}</template>
+            <template x-if="comicData.crossover !== ''" hidden>{%- call dt({label: 'Crossover:'}) -%}<span x-text="comicData.crossover"></span>{%- endcall -%}</template>
+            <template x-if="comicData.variant !== ''" hidden>{%- call dt({label: 'Variant:'}) -%}<span x-text="comicData.variant"></span>{%- endcall -%}</template>
+            <template x-if="comicData.publisher !== ''" hidden>{%- call dt({label: 'Publisher:'}) -%}<span x-text="comicData.publisher"></span>{%- endcall -%}</template>
+            <template x-if="comicData.creators !== ''" hidden>{%- call dt({label: 'Creators:'}) -%}<ul><li x-text="comicData.creators"></li></ul>{%- endcall -%}</template>
+            <template x-if="comicData.release_date !== ''" hidden>{%- call dt({label: 'Released:'}) -%}<span x-text="comicData.release_date"></span>{%- endcall -%}</template>
+            <template x-if="comicData.genre !== ''" hidden>{%- call dt({label: 'Genre:'}) -%}<ul><li x-text="comicData.genre"></li></ul>{%- endcall -%}</template>
+            <template x-if="comicData.format !== ''" hidden>{%- call dt({label: 'Format:'}) -%}<span x-text="comicData.format"></span>{%- endcall -%}</template>
+            <template x-if="comicData.pages !== ''" hidden>{%- call dt({label: 'Pages:'}) -%}<span x-text="comicData.pages"></span>{%- endcall -%}</template>
+            <template x-if="comicData.signed_by !== ''" hidden>{%- call dt({label: 'Signed by:'}) -%}<span x-text="comicData.signed_by"></span>{%- endcall -%}</template>
+            <template x-if="comicData.price !== ''" hidden>{%- call dt({label: 'Price:'}) -%}$<span x-text="comicData.price"></span>{%- endcall -%}</template>
           </dl>
         </div>
       </div>

@@ -95,6 +95,10 @@ export default function (eleventyConfig) {
     return '';
   });
 
+  eleventyConfig.addFilter('JSON', function(str) {
+    return JSON.parse(str);
+  });
+
   // md {{ some.content | md | safe }}
   eleventyConfig.addFilter('md', function(content) {
     return markdownLibrary.render(content);
