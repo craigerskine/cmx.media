@@ -3,12 +3,12 @@ title: The Creech
 issue: "3"
 issue_nr: 3
 full_title: The Resurrection
-subtitle: ""
+subtitle: Rage Against Death
 story_arc: ""
 crossover: ""
 variant: ""
 publisher: Image Comics
-creators: 
+creators:
   - Greg Capullo
   - Danny Miki
 release_date: Dec 1997

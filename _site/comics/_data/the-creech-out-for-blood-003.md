@@ -2,8 +2,8 @@
 title: "The Creech: Out For Blood"
 issue: 3
 issue_nr: 3
-full_title: Out For Blood
-subtitle: ""
+full_title: An Eye For An Eye
+subtitle: Out For Blood
 story_arc: ""
 crossover: ""
 variant: ""

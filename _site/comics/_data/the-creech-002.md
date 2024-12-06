@@ -2,13 +2,13 @@
 title: The Creech
 issue: "2"
 issue_nr: 2
-full_title: ""
-subtitle: ""
+full_title: Awakenings
+subtitle: Rage Against Death
 story_arc: ""
 crossover: ""
 variant: ""
 publisher: Image Comics
-creators: 
+creators:
   - Greg Capullo
   - Danny Miki
 release_date: Nov 1997

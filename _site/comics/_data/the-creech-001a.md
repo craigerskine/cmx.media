@@ -3,12 +3,12 @@ title: The Creech
 issue: 1A
 issue_nr: 1
 full_title: A Vision Of Death
-subtitle: ""
+subtitle: Rage Against Death
 story_arc: ""
 crossover: ""
 variant: ""
 publisher: Image Comics
-creators: 
+creators:
   - Greg Capullo
   - Danny Miki
 release_date: Oct 1997
