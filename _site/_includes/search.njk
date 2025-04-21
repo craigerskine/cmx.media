@@ -99,7 +99,7 @@ x-init="commandItemsReorganize();
       <iconify-icon icon="mdi:magnify" inline class="iconify text-[24px]"></iconify-icon>
     </span>
   </label>
-  <div x-ref="commandItemsList" x-show="commandItemsFiltered.length" :class="commandItemsFiltered.length ? 'translate-y-3' : 'translate-y-0'" class="p-2 w-96 max-w-[280px] bg-yellow-200 text-yellow-800 backdrop-blur-sm absolute top-full right-0 shadow-xl motion-safe:(transition) md:(max-w-xs) dark:(bg-yellow-200 text-yellow-800)"
+  <ul x-ref="commandItemsList" x-show="commandItemsFiltered.length" :class="commandItemsFiltered.length ? 'translate-y-3' : 'translate-y-0'" class="p-2 w-96 max-w-[280px] bg-yellow-200 text-yellow-800 space-y-1 absolute top-full right-0 shadow-xl motion-safe:(transition) md:(max-w-xs) dark:(bg-yellow-200 text-yellow-800)"
     x-transition:enter="transition ease-out duration-300"
     x-transition:enter-start="opacity-0 scale-110 blur-lg"
     x-transition:enter-end="opacity-100 scale-100"
@@ -108,16 +108,14 @@ x-init="commandItemsReorganize();
     x-transition:leave-end="opacity-0 scale-110 blur-lg"
   >
     <template x-for="(item, index) in commandItemsFiltered" :key="'item-' + index" hidden>
-      <ul class="space-y-1">
+      <li>
         <template x-if="(item.default && commandSearchIsEmpty()) || !commandSearchIsEmpty()" hidden>
-          <li>
-            <a :href="'/comics/'+ slugify(item.title) +'/'" :id="item.value + '-' + commandId" @mousemove="commandItemActive=item" :class="{ 'bg-yellow-800 text-yellow-200 dark:bg-yellow-800 dark:text-yellow-200' : commandItemIsActive(item) }" class="py-1.5 px-2 text-sm not-italic flex items-center -skew-x-3 motion-safe:transition">
-              <span x-text="item.title"></span>
-              <span class="ml-auto text-xs tracking-widest text-muted-foreground" x-text="item.total"></span>
-            </a>
-          </li>
+          <a :href="'/comics/'+ slugify(item.title) +'/'" :id="item.value + '-' + commandId" @mousemove="commandItemActive=item" :class="{ 'bg-yellow-800 text-yellow-200 dark:bg-yellow-800 dark:text-yellow-200' : commandItemIsActive(item) }" class="py-1.5 px-2 text-sm not-italic flex items-center -skew-x-3 motion-safe:transition">
+            <span x-text="item.title"></span>
+            <span class="ml-auto text-xs tracking-widest text-muted-foreground" x-text="item.total"></span>
+          </a>
         </template>
-      </ul>
+      </li>
     </template>
-  </div>
+  </ul>
 </div>
