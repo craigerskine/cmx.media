@@ -77,7 +77,7 @@
                 </svg>
               </h1>
             {%- elseif title %}
-              <h1 class="min-w-0 text-2xl leading-none font-black flex-1 truncate lg:(text-[calc(2.5vw)] leading-none tracking-tight)">{{ title }}</h1>
+              <h1 class="px-3 border-(1 current) pt-0.5 pb-px bg-sec-200 text-(sec-800 sm center) font-bold uppercase z-10 pointer-events-none shadow-md lg:(pt-1 text-base motion-safe:(animate-bounce-slow)) dark:(bg-sec-200 text-sec-800)">{{ title }}</h1>
               {%- if page.filePathStem === '/comics' %}
                 {%- include 'search.njk' -%}
               {%- endif %}
