@@ -8,15 +8,7 @@
 {%- macro row(param) -%}
   <template x-if="comicData.{{ param.field }}" hidden>
     {%- call dt({label: param.label}) -%}
-      {%-if param.field in ['creators', 'genre'] %}
-        <ul>
-          <template x-for="item in comicData.{{ param.field }}" hidden>
-            <li x-text="item"></li>
-          </template>
-        </ul>
-      {%- else %}
-        <span x-text="comicData.{{ param.field }}"></span>
-      {%- endif %}
+      <span x-text="{% if param.field === 'price' %}'$'+ {% endif %}comicData.{{ param.field }}"></span>
     {%- endcall -%}
   </template>
 {%- endmacro -%}
@@ -25,7 +17,8 @@
   <dialog x-ref="details" class="
     dialog
     m-0
-    p-0
+    px-6
+    pb-6
     w-full
     max-w-none
     h-full
@@ -35,7 +28,7 @@
     text-[inherit]
     invisible
     grid
-    items-center
+    items-end
     justify-items-center
     fixed
     inset-0
@@ -44,14 +37,15 @@
     [overscroll-behavior:contain]
     opacity-0
     motion-safe:(transition-all)
+    md:(items-center)
     [&[open]]:(pointer-events-auto visible opacity-100)
     [&[open]_.dialog-box]:(translate-y-0 scale-100)
     [&::backdrop]:(bg-black/50 dark:(bg-black/80))
   ">
     <div class="
       dialog-box
-      w-11/12
-      max-w-2xl
+      w-full
+      max-w-fit
       max-h-[calc(100vh-5em)]
       bg-pri-50/75
       text-pri-900
@@ -66,30 +60,28 @@
       motion-safe:(transition-all)
       dark:(bg-gradient-to-b from-white/5 to-transparent
     ">
-      <header class="py-4 px-6 border-(b t pri-500/20) flex-(& row-reverse none) items-center justify-between gap-4">
-        <form method="dialog"><button class="btn btn-ghost btn-circle"><iconify-icon icon="mdi:close" width="24px" height="24px" class="iconify"></iconify-icon></button></form>
+      <header class="py-4 pl-6 pr-3 border-(t b pri-500/20) flex-(& row-reverse none) items-center justify-between gap-4">
+        <form method="dialog"><button class="btn btn-ghost btn-circle" aria-label="Close"><iconify-icon icon="mdi:close" width="24px" height="24px" class="iconify"></iconify-icon></button></form>
         <h2 class="min-w-0 text-2xl flex-(& 1) items-center gap-2">
-          <strong x-text="comicData.title" class="truncate flex-1"></strong>
-          <small x-text="'#'+ comicData.issue" class="text-(pri-500 base) leading-none shrink-0"></small>
+          <strong x-text="comicData.title ? comicData.title : 'Title'" class="truncate flex-1"></strong>
+          <small x-text="comicData.issue ? ('#'+ comicData.issue) : '#[###]'" class="text-(pri-500 base) leading-none shrink-0"></small>
         </h2>
       </header>
       <div class="p-6 flex gap-6">
-        <picture class="w-1/3 shrink-0 md:(w-auto)">
+        <picture class="md:(w-full max-w-[26.25rem])">
           <img
             :src="comicData.title ? '/_assets/img/comics/'+ slugify(comicData.title) +'/'+ slugify(comicData.issue) +'.jpg' : '/_assets/img/_comic.jpg'"
             :alt="comicData.title ? comicData.title +' '+ comicData.issue +' cover art' : ''"
-            class="mx-auto w-full max-w-[20rem]"
+            class="mx-auto"
           />
         </picture>
-        <div class="grow">
+        <div class="shrink-0 grow">
           <dl class="divide-(y pri-500/20)">
             {{ row({ label: 'Variant:', field: 'variant' }) }}
             {{ row({ label: 'Publisher:', field: 'publisher' }) }}
             {{ row({ label: 'Released:', field: 'release_date' }) }}
             {{ row({ label: 'Signed by:', field: 'signed_by' }) }}
-            <template x-if="comicData.price" hidden>
-              {%- call dt({label: 'Price:'}) %}$<span x-text="comicData.price"></span>{%- endcall %}
-            </template>
+            {{ row({ label: 'Price:', field: 'price' }) }}
           </dl>
         </div>
       </div>
