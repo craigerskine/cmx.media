@@ -72,6 +72,8 @@
           <img
             :src="comicData.title ? '/_assets/img/comics/'+ slugify(comicData.title) +'/'+ slugify(comicData.issue) +'.jpg' : '/_assets/img/_comic.jpg'"
             :alt="comicData.title ? comicData.title +' '+ comicData.issue +' cover art' : ''"
+            width="420"
+            height="640"
             class="mx-auto"
           />
         </picture>
