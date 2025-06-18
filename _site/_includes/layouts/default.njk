@@ -43,7 +43,7 @@
             {#- home #}
             <li class="w-full flex items-center justify-start lg:(justify-center)">
               <a href="/" class="group ml-4 w-12 h-12 text-lg flex relative items-center justify-center motion-safe:(transition) hover:(opacity-50) lg:(ml-0)">
-                {%- include 'logo.njk' -%}
+                {%- include '_inc.logo.njk' -%}
               </a>
             </li>
             {%- for item in collections.all | eleventyNavigation %}
@@ -79,7 +79,7 @@
             {%- elseif title %}
               <h1 class="px-3 border-(1 current) pt-0.5 pb-px bg-sec-200 text-(sec-800 sm center) font-bold uppercase z-10 pointer-events-none shadow-md lg:(pt-1 text-base motion-safe:(animate-bounce-slow)) dark:(bg-sec-200 text-sec-800)">{{ title }}</h1>
               {%- if page.filePathStem === '/comics' %}
-                {%- include 'search.njk' -%}
+                {%- include '_inc.search.njk' -%}
               {%- endif %}
             {%- endif %}
           </div>
