@@ -19,14 +19,9 @@ eleventyComputed:
     {%- set comic -%}
     {
       {%- set stringFields = ['title', 'issue', 'issue_nr', 'full_title', 'subtitle', 'story_arc', 'crossover', 'variant', 'publisher', 'release_date', 'format', 'pages', 'signed_by', 'price'] -%}
-      {%- set arrayFields = ['creators', 'genre'] -%}
       {%- for field in stringFields -%}
-        "{{ field }}": "{{ item.data[field] | replace('"', '\\"') | safe }}",
+        "{{ field }}": "{{ item.data[field] | replace('"', '\\"') | safe }}"{% if not loop.last %},{% endif %}
       {%- endfor -%}
-      {%- for field in arrayFields -%}
-        "{{ field }}": [{% for value in item.data[field] %}"{{ value | replace('"', '\\"') | safe }}"{% if not loop.last %},{% endif %}{% endfor %}],
-      {%- endfor -%}
-      "release_year": {{ item.data.release_year }}
     }
     {%- endset -%}
     {%- set parsedComic = comic | safe | JSON -%}

@@ -83,17 +83,9 @@
         </picture>
         <div class="grow">
           <dl class="divide-(y pri-500/20)">
-            {{ row({ label: 'Full title:', field: 'full_title' }) }}
-            {{ row({ label: 'Subtitle:', field: 'subtitle' }) }}
-            {{ row({ label: 'Arc:', field: 'story_arc' }) }}
-            {{ row({ label: 'Crossover:', field: 'crossover' }) }}
             {{ row({ label: 'Variant:', field: 'variant' }) }}
             {{ row({ label: 'Publisher:', field: 'publisher' }) }}
-            {{ row({ label: 'Creators:', field: 'creators' }) }}
             {{ row({ label: 'Released:', field: 'release_date' }) }}
-            {{ row({ label: 'Genre:', field: 'genre' }) }}
-            {{ row({ label: 'Format:', field: 'format' }) }}
-            {{ row({ label: 'Pages:', field: 'pages' }) }}
             {{ row({ label: 'Signed by:', field: 'signed_by' }) }}
             <template x-if="comicData.price" hidden>
               {%- call dt({label: 'Price:'}) %}$<span x-text="comicData.price"></span>{%- endcall %}
