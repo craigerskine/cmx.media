@@ -1,7 +1,7 @@
 {%- macro dt(param) -%}
-<div class="py-2 px-4 md:(px-4 py-6 grid-(& cols-3) gap-4 px-0)">
-  <dt class="text-sm font-semibold md:(leading-6)">{{ param.label }}</dt>
-  <dd class="mt-1 text-(pri-500 sm) md:(mt-0 leading-6 col-span-2)">{{ caller() }}</dd>
+<div class="py-2 px-4">
+  <dt class="text-sm font-semibold">{{ param.label }}</dt>
+  <dd class="text-(pri-500 sm)">{{ caller() }}</dd>
 </div>
 {%- endmacro -%}
 
@@ -68,7 +68,7 @@
         </h2>
       </header>
       <div class="p-6 flex gap-6 relative">
-        <picture class="md:(w-full max-w-[26.25rem])">
+        <picture class="peer md:(w-full max-w-[26.25rem])">
           <img
             :src="comicData.title ? '/_assets/img/comics/'+ slugify(comicData.title) +'/'+ slugify(comicData.issue) +'.jpg' : '/_assets/img/_comic.jpg'"
             :alt="comicData.title ? comicData.title +' '+ comicData.issue +' cover art' : ''"
@@ -77,7 +77,7 @@
             class="mx-auto"
           />
         </picture>
-        <div class="mx-auto max-w-fit bg-black/90 text-white absolute bottom-7 right-7 rounded shadow-xl md:(max-w-none bg-transparent text-current relative bottom-auto right-auto shrink-0 grow rounded-none shadow-none)">
+        <div class="mx-auto max-w-fit bg-black/90 text-white absolute bottom-7 right-7 rounded shadow-xl transition peer-hover:opacity-0">
           <dl class="divide-(y pri-500/20)">
             {{ row({ label: 'Variant:', field: 'variant' }) }}
             {{ row({ label: 'Publisher:', field: 'publisher' }) }}
