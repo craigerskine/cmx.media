@@ -67,7 +67,7 @@
           <small x-text="comicData.issue ? ('#'+ comicData.issue) : '#[###]'" class="text-(pri-500 base) leading-none shrink-0"></small>
         </h2>
       </header>
-      <div class="p-6 flex gap-6 relative">
+      <div class="relative">
         <picture class="peer md:(w-full max-w-[26.25rem])">
           <img
             :src="comicData.title ? '/_assets/img/comics/'+ slugify(comicData.title) +'/'+ slugify(comicData.issue) +'.jpg' : '/_assets/img/_comic.jpg'"
