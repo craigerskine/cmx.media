@@ -1,9 +1,7 @@
 ---
-title: Cable and The New Mutants
 issue: TP
-variant: ""
-publisher: Marvel Comics
+variant: ''
 release_date: Jun 1992
-signed_by: ""
+signed_by: ''
 price: 15.95
 ---
