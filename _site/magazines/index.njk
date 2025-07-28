@@ -17,15 +17,28 @@ eleventyComputed:
     {%- if type == magazine %}
       {%- for item in items %}
         {%- set details -%}{{ item.data.issue }} {{ item.data.variant }}{%- endset -%}
+        {%- set mag -%}
+        {
+          "category": "magazines",
+          {%- set stringFields = ['title', 'issue', 'variant', 'publisher', 'release_date', 'signed_by', 'price'] -%}
+          {%- for field in stringFields -%}
+            "{{ field }}": "{{ item.data[field] | replace('"', '\\"') | safe }}"{% if not loop.last %},{% endif %}
+          {%- endfor -%}
+        }
+        {%- endset -%}
+        {%- set parsedMag = mag | safe | JSON -%}
         {{ listItem({
-          issues: true,
           series: item.data.title,
+          issues: true,
           badge: details,
           signed: item.data.signed_by,
           image: '/_assets/img/magazines/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
-          loop: loop
+          url: '#'+ details,
+          data: parsedMag
         }) }}
       {%- endfor %}
     {%- endif %}
   {%- endfor %}
 {%- endcall %}
+
+{%- if collections.magazines.length -%}{%- include '_inc.dialog.njk' -%}{%- endif -%}

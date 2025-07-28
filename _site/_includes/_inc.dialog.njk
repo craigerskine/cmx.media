@@ -6,9 +6,9 @@
 {%- endmacro -%}
 
 {%- macro row(param) -%}
-  <template x-if="comicData.{{ param.field }}" hidden>
+  <template x-if="listData.{{ param.field }}" hidden>
     {%- call dt({label: param.label}) -%}
-      <span x-text="{% if param.field === 'price' %}'$'+ {% endif %}comicData.{{ param.field }}"></span>
+      <span x-text="{% if param.field === 'price' %}'$'+ {% endif %}listData.{{ param.field }}"></span>
     {%- endcall -%}
   </template>
 {%- endmacro -%}
@@ -63,15 +63,15 @@
       <header class="py-4 pl-6 pr-3 border-(t b pri-500/20) flex-(& row-reverse none) items-center justify-between gap-4">
         <form method="dialog"><button class="btn btn-ghost btn-circle" aria-label="Close"><iconify-icon icon="mdi:close" width="24px" height="24px" class="iconify"></iconify-icon></button></form>
         <h2 class="min-w-0 text-2xl flex-(& 1) items-center gap-2">
-          <strong x-text="comicData.title ? comicData.title : 'Title'" class="truncate flex-1"></strong>
-          <small x-text="comicData.issue ? ('#'+ comicData.issue) : '#[###]'" class="text-(pri-500 base) leading-none shrink-0"></small>
+          <strong x-text="listData.title ? listData.title : 'Title'" class="truncate flex-1"></strong>
+          <small x-text="listData.issue ? ('#'+ listData.issue) : '#[###]'" class="text-(pri-500 base) leading-none shrink-0"></small>
         </h2>
       </header>
       <div class="relative">
         <picture class="peer md:(w-full max-w-[26.25rem])">
           <img
-            :src="comicData.title ? '/_assets/img/comics/'+ slugify(comicData.title) +'/'+ slugify(comicData.issue) +'.jpg' : '/_assets/img/_comic.jpg'"
-            :alt="comicData.title ? comicData.title +' '+ comicData.issue +' cover art' : ''"
+            :src="listData.title ? '/_assets/img/'+ listData.category +'/'+ slugify(listData.title) +'/'+ slugify(listData.issue) +'.jpg' : '/_assets/img/_comic.jpg'"
+            :alt="listData.title ? listData.title +' '+ listData.issue +' cover art' : ''"
             width="420"
             height="640"
             class="mx-auto"

@@ -109,7 +109,7 @@ import tippy from 'tippy.js';
 document.addEventListener('alpine:init', () => {
   Alpine.data('app', function() {
     return {
-      comicData: [],
+      listData: [],
       slugify(text) {
         return text?.toString()
           .toLowerCase()

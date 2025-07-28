@@ -17,15 +17,29 @@ eleventyComputed:
     {%- if type == misc %}
       {%- for item in items %}
         {%- set badge -%}{% if item.data.title | slugify === 'j-scott-campbell' %}{{ loop.index }}{% endif %}{%- endset -%}
+        {%- set collectable -%}
+        {
+          "category": "misc",
+          {%- set stringFields = ['title', 'issue', 'variant', 'publisher', 'signed_by', 'price'] -%}
+          {%- for field in stringFields -%}
+            "{{ field }}": "{{ item.data[field] | replace('"', '\\"') | safe }}"{% if not loop.last %},{% endif %}
+          {%- endfor -%}
+        }
+        {%- endset -%}
+        {%- set parsedCollectable = collectable | safe | JSON -%}
         {{ listItem({
           series: item.data.title,
           title: item.data.issue,
           issues: true,
           badge: badge,
           signed: item.data.signed_by,
-          image: '/_assets/img/misc/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg'
+          image: '/_assets/img/misc/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
+          url: '#'+ details,
+          data: parsedCollectable
         }) }}
       {%- endfor %}
     {%- endif %}
   {%- endfor %}
 {%- endcall %}
+
+{%- if collections.misc.length -%}{%- include '_inc.dialog.njk' -%}{%- endif -%}

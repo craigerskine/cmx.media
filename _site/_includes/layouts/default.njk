@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="bg-transparent antialiased [&:has(:is(dialog[open]))]:(overflow-hidden [scrollbar-gutter:stable])" x-data="app" @comic.window="comicData = JSON.parse($event.detail)">
+<html lang="en" class="bg-transparent antialiased [&:has(:is(dialog[open]))]:(overflow-hidden [scrollbar-gutter:stable])" x-data="app" @dialog.window="listData = JSON.parse($event.detail)">
 
   <head>
     <meta charset="utf-8" />

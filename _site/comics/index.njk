@@ -18,7 +18,8 @@ eleventyComputed:
 
     {%- set comic -%}
     {
-      {%- set stringFields = ['title', 'issue', 'issue_nr', 'full_title', 'subtitle', 'story_arc', 'crossover', 'variant', 'publisher', 'release_date', 'format', 'pages', 'signed_by', 'price'] -%}
+      "category": "comics",
+      {%- set stringFields = ['title', 'issue', 'variant', 'publisher', 'release_date', 'signed_by', 'price'] -%}
       {%- for field in stringFields -%}
         "{{ field }}": "{{ item.data[field] | replace('"', '\\"') | safe }}"{% if not loop.last %},{% endif %}
       {%- endfor -%}
