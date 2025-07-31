@@ -49,7 +49,7 @@
             {%- for item in collections.all | eleventyNavigation %}
               <li class="flex items-center">
                 <a href="{{ item.url }}" x-tooltip="'{{ item.key }}'" data-tippy-placement="bottom" class="group w-12 h-12 text-2xl flex items-center justify-center relative motion-safe:(transition) hover:(opacity-50)">
-                  <iconify-icon icon="{{ item.ico }}" class="iconify"></iconify-icon>
+                  <iconify-icon icon="{{ item.ico }}" class="iconify" noobserver></iconify-icon>
                   {%- if item.url == page.url or item.url in page.url %}<b class="h-1 bg-acc-500 absolute bottom-0 inset-x-0 lg:(w-1 h-auto inset-x-auto inset-y-0 -right-2)" aria-hidden="true"></b>{%- endif %}
                 </a>
               </li>
@@ -57,8 +57,8 @@
             {#- color mode #}
             <li class="w-full flex items-center justify-end lg:(mt-auto justify-center)">
               <button class="color-mode mr-4 w-12 h-12 text-2xl flex relative items-center justify-center motion-safe:(transition) hover:(opacity-50) lg:(mr-0)">
-                <span class="block dark:(hidden)"><iconify-icon icon="mdi:brightness-5" class="iconify"></iconify-icon> <span class="sr-only">Switch to dark mode</span></span>
-                <span class="hidden dark:(block)"><iconify-icon icon="mdi:brightness-4" class="iconify"></iconify-icon> <span class="sr-only">Switch to light mode</span></span>
+                <span class="block dark:(hidden)"><iconify-icon icon="mdi:brightness-5" class="iconify" noobserver></iconify-icon> <span class="sr-only">Switch to dark mode</span></span>
+                <span class="hidden dark:(block)"><iconify-icon icon="mdi:brightness-4" class="iconify" noobserver></iconify-icon> <span class="sr-only">Switch to light mode</span></span>
               </button>
             </li>
           </ul>
