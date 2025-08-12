@@ -52,9 +52,9 @@ install({
     },
   },
   rules: [
-    ['text-wrap-(unset|wrap|nowrap|balance|pretty)', 'textWrap'],
-    ['bg-gradient-radial', 'bg-[radial-gradient(closest-side,var(--tw-gradient-stops))]'],
-    ['bg-gradient-conic', 'bg-[conic-gradient(from_180deg,var(--tw-gradient-stops))]'],
+    [ 'text-wrap-(unset|wrap|nowrap|balance|pretty)', 'textWrap' ],
+    [ 'bg-gradient-radial', 'bg-[radial-gradient(closest-side,var(--tw-gradient-stops))]' ],
+    [ 'bg-gradient-conic', 'bg-[conic-gradient(from_180deg,var(--tw-gradient-stops))]' ],
     [ 'btn', 'py-[.75em] px-[1em] max-w-[18rem] leading-tight truncate inline-flex items-center justify-center gap-2.5 rounded-[.3em] motion-safe:(transition)' ],
     [ 'btn-ghost', 'bg-transparent hover:(bg-pri-500/20)' ],
     [ 'btn-square', 'p-0 w-[2.75em] h-[2.75em]' ],
