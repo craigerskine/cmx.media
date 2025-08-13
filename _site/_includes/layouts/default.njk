@@ -67,7 +67,7 @@
       <main class="flex-(& 1) relative z-10 lg:(mx-16)">
         <section class="w-full">
           {%- if page.url !== '/' %}
-          <div class="mx-auto px-4 py-12 max-w-5xl flex items-center justify-between gap-3 md:(px-8) lg:(px-16)">
+          <div class="mx-auto px-4 py-12 max-w-5xl flex-(& col) items-center justify-center gap-3 md:(px-8 flex-row justify-between) lg:(px-16)">
             {%- if page.filePathStem === '/misc/index' %}
               {%- set svg -%}{{ title | slugify }}{%- endset -%}
               <h1 aria-label="{{ title }}">
@@ -78,6 +78,11 @@
               </h1>
             {%- elseif title %}
               <h1 class="px-3 border-(1 current) pt-0.5 pb-px bg-sec-200 text-(sec-800 sm center) font-bold uppercase z-10 pointer-events-none shadow-md lg:(pt-1 text-base motion-safe:(animate-bounce-slow)) dark:(bg-sec-200 text-sec-800)">{{ title }}</h1>
+              {%- if page.filePathStem === '/comics' or page.filePathStem === '/comics/recent' %}
+                <a href="{{ './recent/' if page.filePathStem === '/comics' else '../' }}" class="py-[.125em] px-[1em] border-(& transparent) text-sm font-bold inline-flex bg-gray-500/10 rounded-full transition hover:(border-gray-500/40 bg-gray-500/25) md:(mr-auto ml-4)">
+                  {{ 'Recent Pulls' if page.filePathStem === '/comics' else '« All Comics' }}
+                </a>
+              {%- endif %}
               {%- if page.filePathStem === '/comics' %}
                 {%- include '_inc.search.njk' -%}
               {%- endif %}

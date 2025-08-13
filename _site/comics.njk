@@ -11,7 +11,7 @@ eleventyComputed:
 {%- from 'macro.list.njk' import list, listItem -%}
 
 {%- call list() %}
-  {%- for type, items in collections.comics | groupby('data.title') %}
+  {%- for type, items in collections.comics | sort(false, false, 'data.title') | groupby('data.title') %}
     {{ listItem({
       series: type,
       title: type,

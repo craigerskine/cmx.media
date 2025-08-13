@@ -1,9 +1,9 @@
-import { EleventyRenderPlugin } from "@11ty/eleventy";
-import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
-import esbuild from "esbuild";
-import markdownIt from "markdown-it";
-import markdownItAttrs from "markdown-it-attrs";
-import yaml from "js-yaml";
+import { EleventyRenderPlugin } from '@11ty/eleventy';
+import eleventyNavigationPlugin from '@11ty/eleventy-navigation';
+import esbuild from 'esbuild';
+import markdownIt from 'markdown-it';
+import markdownItAttrs from 'markdown-it-attrs';
+import yaml from 'js-yaml';
 
 export default function (eleventyConfig) {
 
@@ -23,7 +23,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-  //{% renderTemplate "md" %}
+  //{% renderTemplate 'md' %}
   //# Blah{.text-center}
   //{% endrenderTemplate %}
   let markdownLibrary = markdownIt().disable('code').use(markdownItAttrs);
@@ -114,7 +114,7 @@ export default function (eleventyConfig) {
   });
 
   // pluck
-  eleventyConfig.addFilter("pluck", function (arr, selections, attr) {
+  eleventyConfig.addFilter('pluck', function (arr, selections, attr) {
     return arr.filter((item) => selections.includes(item.data[attr]));
   });
 
