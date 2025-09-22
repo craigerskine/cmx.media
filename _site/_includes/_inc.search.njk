@@ -110,9 +110,9 @@ x-init="commandItemsReorganize();
     <template x-for="(item, index) in commandItemsFiltered" :key="'item-' + index" hidden>
       <li>
         <template x-if="(item.default && commandSearchIsEmpty()) || !commandSearchIsEmpty()" hidden>
-          <a :href="'/comics/'+ slugify(item.title) +'/'" :id="item.value + '-' + commandId" @mousemove="commandItemActive=item" :class="{ 'bg-yellow-800 text-yellow-200 dark:bg-yellow-800 dark:text-yellow-200' : commandItemIsActive(item) }" class="py-1.5 px-2 text-sm not-italic flex items-center -skew-x-3 motion-safe:transition">
-            <span x-text="item.title"></span>
-            <span class="ml-auto text-xs tracking-widest text-muted-foreground" x-text="item.total"></span>
+          <a :href="'/comics/'+ slugify(item.title) +'/'" :id="item.value + '-' + commandId" @mousemove="commandItemActive=item" :class="{ 'bg-yellow-800 text-yellow-200 dark:bg-yellow-800 dark:text-yellow-200' : commandItemIsActive(item) }" class="py-1.5 px-2 text-sm not-italic flex items-center gap-1 -skew-x-3 transition">
+            <span x-text="item.title" class="grow truncate"></span>
+            <span class="ml-auto text-xs shrink-0" x-text="item.total"></span>
           </a>
         </template>
       </li>
