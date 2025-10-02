@@ -33,6 +33,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
 
   // collections
+  // CURRENT
   eleventyConfig.addCollection('comicsCurrent', (collection) => {
     const items = collection.getFilteredByTag('comics');
     const grouped = {};
@@ -46,6 +47,7 @@ export default function (eleventyConfig) {
     });
     return grouped;
   });
+  // COMICS
   eleventyConfig.addCollection('comicsByTitle', (collection) => {
     const items = collection.getFilteredByTag('comics');
     const series = items.map(item => item.data.title);
@@ -58,6 +60,7 @@ export default function (eleventyConfig) {
     }, []);
     return itemsByTitle;
   });
+  // MAGS
   eleventyConfig.addCollection('magazinesByTitle', (collection) => {
     const items = collection.getFilteredByTag('magazines');
     const series = items.map(item => item.data.title);
@@ -70,6 +73,7 @@ export default function (eleventyConfig) {
     }, []);
     return itemsByTitle;
   });
+  // MISC
   eleventyConfig.addCollection('miscByTitle', (collection) => {
     const items = collection.getFilteredByTag('misc');
     const series = items.map(item => item.data.title);
