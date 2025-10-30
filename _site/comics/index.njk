@@ -14,7 +14,7 @@ eleventyComputed:
 
 {%- call list() %}
   {%- for item in collections.comicsCurrent[title] %}
-    {%- set details -%}{{ item.data.issue }} {{ item.data.variant }}{%- endset -%}
+    {%- set details -%}{{ item.data.issue }}{{ ' '+ item.data.variant if item.data.variant }}{%- endset -%}
 
     {%- set comic -%}
     {
@@ -33,7 +33,7 @@ eleventyComputed:
       badge: details,
       signed: item.data.signed_by,
       image: '/_assets/img/comics/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
-      url: '#'+ details,
+      url: '#'+ details | replace(' ', '-'),
       data: parsedComic
     }) }}
   {%- endfor %}
