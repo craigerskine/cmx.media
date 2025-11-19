@@ -5,21 +5,21 @@ import 'instant.page';
 import 'iconify-icon';
 
 // color mode
-const toggleColorMode = function() {
-  // light
-  if (document.documentElement.classList.contains('dark')) {
-    document.documentElement.classList.remove('dark');
-    localStorage.setItem('color-mode', 'light')
-    return;
-  }
-  // dark
-  document.documentElement.classList.add('dark');
-  localStorage.setItem('color-mode', 'dark');
-};
+// const toggleColorMode = function() {
+//   // light
+//   if (document.documentElement.classList.contains('dark')) {
+//     document.documentElement.classList.remove('dark');
+//     localStorage.setItem('color-mode', 'light')
+//     return;
+//   }
+//   // dark
+//   document.documentElement.classList.add('dark');
+//   localStorage.setItem('color-mode', 'dark');
+// };
 
-document.querySelectorAll('.color-mode').forEach(btn => {
-  btn.addEventListener('click', toggleColorMode);
-});
+// document.querySelectorAll('.color-mode').forEach(btn => {
+//   btn.addEventListener('click', toggleColorMode);
+// });
 
 // twind
 import { install, injectGlobal, autoDarkColor } from '@twind/core';
