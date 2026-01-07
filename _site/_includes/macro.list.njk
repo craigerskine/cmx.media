@@ -25,7 +25,7 @@
     {%- endif -%}
   {%- endset -%}
 
-  <li {% if param.data %}x-data='{ listData: {{ param.data | dump | safe | replace("'", "’") }}, }' {% endif %}class="group pr-3 border-(x b dashed acc-500/30) flex relative focus-within:([&_picture_.item-list-img]:(-translate-y-6) [&_.list-title]:(text-pri-900))">
+  <li {% if param.data %}x-data='{ listData: {{ param.data | dump | safe | replace("'", "’") }}, }' {% endif %}class="group pr-3 border-(x b dashed acc-500/30) flex relative [&:has(:hover)_.slip-cover>span]:(h-6) focus-within:([&_picture_.item-list-img]:(-translate-y-6) [&_.list-title]:(text-pri-900))">
     <div class="mr-3 flex shrink-0">
       <{% if param.url %}a href="{{ param.url }}"{% if param.data %} @click.prevent="$refs.details.showModal(); $dispatch('dialog', JSON.stringify(listData))" @mouseover="$dispatch('dialog', JSON.stringify(listData))" {% endif %}{{ param.props | safe }}{% else %}p tabindex="0"{% endif %} class="group flex">
         <span class="border-(r dashed acc-500/30) divide-(y dashed acc-500/30) flex items-center justify-end [writing-mode:vertical-lr]">
@@ -50,10 +50,9 @@
           <use href="/_assets/creators.svg#logo-{{ param.title | slugify }}" />
         </svg>
       {%- else %}
-        <img src="{{ image }}" width="420" height="640" alt="{{ alt }} cover" class="item-list-img w-full shadow motion-safe:(transition) group-hover:(-translate-y-6)" />
+        <img src="{{ image }}" width="420" height="640" alt="{{ alt }} cover" class="item-list-img w-full shadow motion-safe:(transition delay-75) group-hover:(-translate-y-6)" />
       {%- endif %}
       <span class="slip-cover
-        overflow-hidden
         absolute
         -inset-1.5
         z-10
@@ -61,6 +60,7 @@
         before:(content-[''] border-(l white/30) w-4 bg-gradient-to-r from-white/20 absolute left-0 inset-y-0)
         after:(content-[''] border-(t white/30) w-full bg-gradient-to-br from-white/50 via-white/5 aspect-square absolute top-0 left-0 [clip-path:polygon(100%_0,0_0,0_100%)])"
         aria-hidden="true">
+        <span class="h-0 bg-(white/25 gradient-to-t) from-white/30 via-transparent ring-(1 inset white/10) opacity-50 absolute top-0 inset-x-0 -translate-y-full before:(border-(t white/25) absolute inset-x-0 top-0) motion-safe:(transition-all)"></span>
       </span>
     </picture>
   </li>
