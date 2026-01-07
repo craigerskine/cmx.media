@@ -1,13 +1,12 @@
 ---
-layout: '' # layouts/default.njk
+layout: 'layouts/default.njk'
 title: Recent Pulls
-permalink: false
 ---
 
 {%- from 'macro.list.njk' import list, listItem -%}
 
 {%- call list() %}
-  {%- for item in collections.comics | reverse %}
+  {%- for item in collections.recentPulls %}
     {%- if loop.index < 7 %}
       {%- set details -%}{{ item.data.issue }} {{ item.data.variant }}{%- endset -%}
 

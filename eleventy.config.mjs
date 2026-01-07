@@ -86,6 +86,21 @@ export default function (eleventyConfig) {
     }, []);
     return itemsByTitle;
   });
+  // RECENT PULLS
+  eleventyConfig.addCollection('recentPulls', (collection) => {
+    const itemsByRecent = collection
+      .getFilteredByTag('comics')
+      .map((item) => {
+        const raw = item.data.release_date;
+        const parsedDate = raw ? new Date(`${raw} 1`) : new Date(0);
+
+        item.data.releaseDateParsed = parsedDate;
+        return item;
+      })
+      .sort((a, b) => b.data.releaseDateParsed - a.data.releaseDateParsed)
+      .slice(0, 6);
+    return itemsByRecent;
+  });
 
   // shortcodes
   eleventyConfig.addShortcode('bust', () => `${new Date().getFullYear()}${new Date().getMonth()}${new Date().getDate()}${new Date().getHours()}`);
