@@ -7,30 +7,29 @@ title: Recent Pulls
 
 {%- call list() %}
   {%- for item in collections.recentPulls %}
-    {%- if loop.index < 7 %}
-      {%- set details -%}{{ item.data.issue }} {{ item.data.variant }}{%- endset -%}
+    {%- set details -%}{{ item.data.issue }} {{ item.data.variant }}{%- endset -%}
 
-      {%- set comic -%}
-      {
-        "category": "comics",
-        {%- set stringFields = ['title', 'issue', 'variant', 'publisher', 'release_date', 'signed_by', 'price'] -%}
-        {%- for field in stringFields -%}
-          "{{ field }}": "{{ item.data[field] | replace('"', '\\"') | safe }}"{% if not loop.last %},{% endif %}
-        {%- endfor -%}
-      }
-      {%- endset -%}
-      {%- set parsedComic = comic | safe | JSON -%}
+    {%- set comic -%}
+    {
+      "category": "comics",
+      {%- set stringFields = ['title', 'issue', 'variant', 'publisher', 'release_date', 'signed_by', 'price'] -%}
+      {%- for field in stringFields -%}
+        "{{ field }}": "{{ item.data[field] | replace('"', '\\"') | safe }}"{% if not loop.last %},{% endif %}
+      {%- endfor -%}
+    }
+    {%- endset -%}
 
-      {{ listItem({
-        series: item.data.title,
-        issues: true,
-        badge: details,
-        signed: item.data.signed_by,
-        image: '/_assets/img/comics/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
-        url: '#'+ details,
-        data: parsedComic
-      }) }}
-    {%- endif %}
+    {%- set parsedComic = comic | safe | JSON -%}
+
+    {{ listItem({
+      series: item.data.title,
+      issues: true,
+      badge: details,
+      signed: item.data.signed_by,
+      image: '/_assets/img/comics/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
+      url: '#'+ details,
+      data: parsedComic
+    }) }}
   {%- endfor %}
 {%- endcall %}
 

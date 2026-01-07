@@ -88,18 +88,17 @@ export default function (eleventyConfig) {
   });
   // RECENT PULLS
   eleventyConfig.addCollection('recentPulls', (collection) => {
-    const itemsByRecent = collection
+    return collection
       .getFilteredByTag('comics')
       .map((item) => {
         const raw = item.data.release_date;
-        const parsedDate = raw ? new Date(`${raw} 1`) : new Date(0);
-
+        let parsedDate = raw ? new Date(`${raw} 1`) : new Date(0);
+        if (Number.isNaN(parsedDate.getTime())) parsedDate = new Date(0);
         item.data.releaseDateParsed = parsedDate;
         return item;
       })
       .sort((a, b) => b.data.releaseDateParsed - a.data.releaseDateParsed)
       .slice(0, 6);
-    return itemsByRecent;
   });
 
   // shortcodes
