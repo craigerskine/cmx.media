@@ -2,6 +2,7 @@
   "name": "cmx.media",
   "version": "2.0.0",
   "private": false,
+  "author": "craigerskine",
   "scripts": {
     "start": "eleventy --serve --quiet",
     "build": "eleventy"
@@ -11,15 +12,14 @@
     "Alpine.js",
     "Twind"
   ],
-  "author": "craigerskine",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
-    "@11ty/eleventy-navigation": "^1.0.4",
-    "@alpinejs/persist": "^3.15.1",
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@alpinejs/persist": "^3.15.3",
     "@twind/core": "^1.1.3",
     "@twind/preset-autoprefix": "^1.0.7",
     "@twind/preset-tailwind": "^1.1.4",
-    "alpinejs": "^3.15.1",
+    "alpinejs": "^3.15.3",
     "esbuild": "^0.25.12",
     "iconify-icon": "^3.0.2",
     "instant.page": "^5.2.0",
