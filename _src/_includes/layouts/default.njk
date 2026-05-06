@@ -14,10 +14,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link onload="this.onload=null;this.rel='stylesheet'" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/' | url }}apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/' | url }}favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/' | url }}favicon-16x16.png" />
+    <link rel="manifest" href="{{ '/' | url }}site.webmanifest" />
 
     <meta property="og:title" content="{{ site.meta.title }}" />
     <meta property="og:description" content="{{ site.meta.description }}" />
@@ -37,13 +37,13 @@
           <ul class="flex-(& row) items-center justify-center gap-2 lg:(h-full flex-col)">
             {#- home #}
             <li class="w-full flex items-center justify-start lg:(justify-center)">
-              <a href="/" class="group ml-4 w-12 h-12 text-lg flex relative items-center justify-center motion-safe:(transition) hover:(opacity-50) lg:(ml-0)">
+              <a href="{{ '/' | url }}" class="group ml-4 w-12 h-12 text-lg flex relative items-center justify-center motion-safe:(transition) hover:(opacity-50) lg:(ml-0)">
                 {%- include '_inc.logo.njk' -%}
               </a>
             </li>
             {%- for item in collections.all | eleventyNavigation %}
               <li class="flex items-center">
-                <a href="{{ item.url }}" x-tooltip="'{{ item.key }}'" data-tippy-placement="bottom" class="group w-12 h-12 text-2xl flex items-center justify-center relative motion-safe:(transition) hover:(opacity-50)">
+                <a href="{{ item.url | url }}" x-tooltip="'{{ item.key }}'" data-tippy-placement="bottom" class="group w-12 h-12 text-2xl flex items-center justify-center relative motion-safe:(transition) hover:(opacity-50)">
                   <iconify-icon icon="{{ item.ico }}" class="iconify" noobserver></iconify-icon>
                   {%- if item.url == page.url or item.url in page.url %}<b class="h-1 bg-acc-500 absolute bottom-0 inset-x-0 lg:(w-1 h-auto inset-x-auto inset-y-0 -right-2)" aria-hidden="true"></b>{%- endif %}
                 </a>
@@ -70,7 +70,7 @@
               <h1 aria-label="{{ title }}">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" class="w-full max-w-[200px] fill-current">
                   <title>{{ title }} signature</title>
-                  <use href="/_assets/creators.svg#logo-{{ svg }}" />
+                  <use href="{{ '/' | url }}_assets/creators.svg#logo-{{ svg }}" />
                 </svg>
               </h1>
             {%- elseif title %}
@@ -106,7 +106,7 @@
         }));
       });
     </script>
-    <script type="module" src="/_assets/js/_app.js?v={% bust %}"></script>
+    <script type="module" src="{{ '/' | url }}_assets/js/_app.js?v={% bust %}"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6JMS932MJ"></script>
     <script>

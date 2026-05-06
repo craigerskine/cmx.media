@@ -70,7 +70,7 @@
       <div class="relative">
         <picture class="peer md:(w-full max-w-[26.25rem])">
           <img
-            :src="listData.title ? '/_assets/img/'+ listData.category +'/'+ slugify(listData.title) +'/'+ slugify(listData.issue) +'.jpg' : '/_assets/img/_comic.jpg'"
+            :src="listData.title ? '{{ '/' | url }}_assets/img/'+ listData.category +'/'+ slugify(listData.title) +'/'+ slugify(listData.issue) +'.jpg' : '{{ '/' | url }}_assets/img/_comic.jpg'"
             :alt="listData.title ? listData.title +' '+ listData.issue +' cover art' : ''"
             width="420"
             height="640"
