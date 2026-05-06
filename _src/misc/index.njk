@@ -7,7 +7,7 @@ pagination:
 permalink: 'misc/{{ misc | slugify }}/'
 eleventyComputed:
   title: '{{ misc | safe }}'
-  cover: '/_assets/img/misc/{{ misc | slugify }}/series.jpg'
+  cover: '{{ "/" | url }}_assets/img/misc/{{ misc | slugify }}/series.jpg'
 ---
 
 {%- from 'macro.list.njk' import list, listItem -%}
@@ -33,7 +33,7 @@ eleventyComputed:
           issues: true,
           badge: badge,
           signed: item.data.signed_by,
-          image: '/_assets/img/misc/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
+          image: '/' | url +'_assets/img/misc/'+ item.data.title | slugify +'/'+ item.data.issue | slugify +'.jpg',
           url: '#'+ details,
           data: parsedCollectable
         }) }}
